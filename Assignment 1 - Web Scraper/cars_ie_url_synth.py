@@ -50,8 +50,8 @@ for i in range(2):
     car_info_list_all.extend(car_info_list_per_page)
     #webpages[i] = requests.get(page_url).text
 
-# df = pd.DataFrame.from_records(car_info_list_all)
-# df.to_csv("DoneDeal.csv")
-# print(df)
+df = pd.DataFrame.from_records(car_info_list_all)
+df.to_csv("DoneDeal.csv")
+print(df)
 
 a = 1
