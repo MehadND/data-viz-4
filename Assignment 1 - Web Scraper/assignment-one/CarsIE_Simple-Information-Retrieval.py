@@ -13,6 +13,14 @@ car_price_list = []
 car_info_list = []
 car_fuel_type_list = []
 car_colour_list = []
+car_engine_size_list = []
+car_transmission_list = []
+car_body_type_list = []
+car_prev_owners_list = []
+car_total_doors_list = []
+car_tax_expiry_list = []
+car_nct_expiry_list = []
+car_year_list = []
 
 
 def download_url():
@@ -29,11 +37,21 @@ def url_to_object(pageURL):
     soup = BeautifulSoup(webpage_content, "html.parser")
     tables = soup.find_all("div", class_="car-listing-inner")
     objects_list.insert(len(objects_list), tables)
+
     get_car_link(tables)
     get_car_name(tables)
     get_car_price(tables)
     get_fuel_type(car_url_list)
     get_colour(car_url_list)
+    get_engine_size(car_url_list)
+    get_transmission(car_url_list)
+    get_body_type(car_url_list)
+    get_number_of_prev_owners(car_url_list)
+    get_doors(car_url_list)
+    get_tax_expiry(car_url_list)
+    get_nct_expiry(car_url_list)
+    get_manufacturing_year(tables)
+    save_to_csv()
 
 
 def get_car_link(tables):
@@ -80,9 +98,6 @@ def get_car_model():
     pass
 
 
-key_info_list = []
-
-
 def get_fuel_type(carURLList):
     for car_url in carURLList:
         page = requests.get(car_url)
@@ -123,39 +138,166 @@ def get_colour(carURLList):
         car_colour_list.append(str(info_block.text).split()[1])
 
 
-def get_engine_size():
-    pass
+def get_engine_size(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[3]
+
+        car_engine_size_list.append(str(info_block.text).split()[2])
 
 
-def get_transmission():
-    pass
+def get_transmission(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[4]
+
+        car_transmission_list.append(str(info_block.text).split()[1])
 
 
-def get_body_type():
-    pass
+def get_body_type(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[5]
+
+        car_body_type_list.append(str(info_block.text).split()[2])
 
 
-def get_number_of_prev_owners():
-    pass
+def get_number_of_prev_owners(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[6]
+
+        car_prev_owners_list.append(str(info_block.text).split()[1])
 
 
-def get_doors():
-    pass
+def get_doors(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[7]
+
+        car_total_doors_list.append(str(info_block.text).split()[1])
 
 
-def get_tax_expiry():
-    pass
+def get_tax_expiry(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[8]
+
+        car_tax_expiry_list.append(str(info_block.text).split()[2])
 
 
-def get_nct_expiry():
-    pass
+def get_nct_expiry(carURLList):
+    for car_url in carURLList:
+        page = requests.get(car_url)
+
+        page_content = page.text
+
+        s = BeautifulSoup(page_content, "html.parser")
+
+        car_tables = s.find_all("div", class_="stripped-table")
+
+        car_table = car_tables[0]
+        car_info_list.append(car_table)
+
+        info_blocks = car_table.find_all("div", class_="row")
+
+        info_block = info_blocks[9]
+
+        car_nct_expiry_list.append(str(info_block.text).split()[2])
 
 
-def get_manufacturing_year():
-    pass
+def get_manufacturing_year(tables):
+    for element in tables:
+        if element.name == '\n':
+            continue
+
+        info_blocks = element.find_all("div", class_="col-xs-10")
+
+        info_block = info_blocks[0]
+
+        car_year_list.append(str(info_block.text).split()[0])
 
 
-# def save_to_csv():
+def save_to_csv():
+    a = {'Name': car_name_list, 'Price': car_price_list, 'Make': '', 'Model': '', 'Manufacturing Year': '',  'Country': '', 'Fuel Type': car_fuel_type_list, 'Colour': car_colour_list, 'Engine Size': car_engine_size_list, 'Transmission': car_transmission_list, 'Body Type': car_body_type_list, 'Owners': car_prev_owners_list, 'Doors': car_total_doors_list, 'Tax Expiry': car_tax_expiry_list, 'NCT Expiry': car_nct_expiry_list, 'Link': car_url_list}
+    df = pd.DataFrame.from_dict(a, orient='index')
+    df = pd.DataFrame.transpose(df)
+    df.to_csv("CarsIE-Simple_Information_Retrieval.csv")
+    # print(df)
+
+
 
 
 # for pageNumber in range(TOTAL_PAGES_TO_DOWNLOAD + 1):
