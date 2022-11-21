@@ -1,10 +1,12 @@
+import time
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 basic_page_url = "https://www.cars.ie/used-cars?page="
 
-TOTAL_PAGES_TO_DOWNLOAD = 1
+TOTAL_PAGES_TO_DOWNLOAD = 10
 
 objects_list = []
 car_url_list = []
@@ -29,29 +31,32 @@ def download_url():
             continue
         else:
             url = basic_page_url + str(page)
-            url_to_object(url)
+            url_to_object(url, str(page))
 
 
-def url_to_object(pageURL):
+def url_to_object(pageURL, pageNumber):
+    print("Page Number = " + pageNumber)
     webpage_content = requests.get(pageURL).text
     soup = BeautifulSoup(webpage_content, "html.parser")
     tables = soup.find_all("div", class_="car-listing-inner")
     objects_list.insert(len(objects_list), tables)
 
+    print("Starting to getting data from page #" + pageNumber)
     get_car_link(tables)
     get_car_name(tables)
     get_car_price(tables)
     get_fuel_type(car_url_list)
-    get_colour(car_url_list)
-    get_engine_size(car_url_list)
-    get_transmission(car_url_list)
-    get_body_type(car_url_list)
-    get_number_of_prev_owners(car_url_list)
-    get_doors(car_url_list)
-    get_tax_expiry(car_url_list)
-    get_nct_expiry(car_url_list)
+    # get_colour(car_url_list)
+    # get_engine_size(car_url_list)
+    # get_transmission(car_url_list)
+    # get_body_type(car_url_list)
+    # get_number_of_prev_owners(car_url_list)
+    # get_doors(car_url_list)
+    # get_tax_expiry(car_url_list)
+    # get_nct_expiry(car_url_list)
     get_manufacturing_year(tables)
-    save_to_csv()
+
+    print("Finished getting data from page #" + pageNumber)
 
 
 def get_car_link(tables):
@@ -99,23 +104,23 @@ def get_car_model():
 
 
 def get_fuel_type(carURLList):
-    for car_url in carURLList:
-        page = requests.get(car_url)
+    print(carURLList[0])
+    page = requests.get(carURLList[0])
 
-        page_content = page.text
+    page_content = page.text
 
-        s = BeautifulSoup(page_content, "html.parser")
+    s = BeautifulSoup(page_content, "html.parser")
 
-        car_tables = s.find_all("div", class_="stripped-table")
+    car_tables = s.find_all("div", class_="stripped-table")
 
-        car_table = car_tables[0]
-        car_info_list.append(car_table)
+    car_table = car_tables[0]
+    car_info_list.append(car_table)
 
-        info_blocks = car_table.find_all("div", class_="row")
+    info_blocks = car_table.find_all("div", class_="row")
 
-        info_block = info_blocks[1]
+    info_block = info_blocks[1]
 
-        car_fuel_type_list.append(str(info_block.text).split()[2])
+    car_fuel_type_list.append(str(info_block.text).split()[2])
 
 
 def get_colour(carURLList):
@@ -291,13 +296,17 @@ def get_manufacturing_year(tables):
 
 
 def save_to_csv():
-    a = {'Name': car_name_list, 'Price': car_price_list, 'Make': '', 'Model': '', 'Manufacturing Year': '',  'Country': '', 'Fuel Type': car_fuel_type_list, 'Colour': car_colour_list, 'Engine Size': car_engine_size_list, 'Transmission': car_transmission_list, 'Body Type': car_body_type_list, 'Owners': car_prev_owners_list, 'Doors': car_total_doors_list, 'Tax Expiry': car_tax_expiry_list, 'NCT Expiry': car_nct_expiry_list, 'Link': car_url_list}
+    print("Starting writing to csv file...")
+    a = {'Name': car_name_list, 'Price': car_price_list, 'Make': '', 'Model': '', 'Fuel Type': car_fuel_type_list,
+         'Colour': car_colour_list, 'Engine Size': car_engine_size_list, 'Transmission': car_transmission_list,
+         'Body Type': car_body_type_list, 'Manufacturing Year': car_year_list, 'Country': '',
+         'Owners': car_prev_owners_list, 'Doors': car_total_doors_list, 'Tax Expiry': car_tax_expiry_list,
+         'NCT Expiry': car_nct_expiry_list, 'Link': car_url_list}
     df = pd.DataFrame.from_dict(a, orient='index')
     df = pd.DataFrame.transpose(df)
     df.to_csv("CarsIE-Simple_Information_Retrieval.csv")
+    print("Finished writing to csv file")
     # print(df)
-
-
 
 
 # for pageNumber in range(TOTAL_PAGES_TO_DOWNLOAD + 1):
@@ -385,5 +394,9 @@ def save_to_csv():
 # #     counter+=1
 
 download_url()
+print("Suspending program for 5 secs....")
+time.sleep(5)
+save_to_csv()
+
 # get_car_information_simple()
 a = 1
