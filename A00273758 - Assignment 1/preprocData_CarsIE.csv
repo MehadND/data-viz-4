@@ -1,37 +1,901 @@
 ,Name,Price,Make,Model,Engine,Fuel,Odometer,Transmission,Body,Year,County,Doors,Color,Owners,Tax-Expiry,NCT-Expiry
-0,Ford focus,4600,Ford,Focus,1.6,Diesel,143487,Manual,Hatchback,2010,Cork,5,SILVER,3,Feb-2023,Jan-2023
-1,Nissan juke,8500,Nissan,Juke,1.5,Diesel,138960,Manual,Saloon,2013,Galway,5,Brown,3,Dec-2022,Sep-2024
-2,Nissan micra,21750,Nissan,Micra,1.0,Petrol,200,Manual,Hatchback,2022,Waterford,4,Other,0,Sep-2022,Mar-2026
-3,Hyundai ix35,8949,Hyundai,Ix35,2.0,Diesel,319028,Manual,Van,2013,Meath,4,Black,2,Apr-2023,Dec-2023
-4,Opel astra,800,Opel,Astra,1.4,Petrol,230005,Manual,Hatchback,2005,Meath,5,Black,2,Dec-2022,Jan-2022
-5,Ford focus,5449,Ford,Focus,1.6,Diesel,177027,Manual,Hatchback,2011,Meath,5,Silver,2,Oct-2022,May-2023
-6,Bmw 5 series,34949,Bmw,5,3.0,Diesel,154770,Other,Saloon,2017,Meath,4,Grey,1,Feb-2023,Sep-2023
-7,Ford focus,5749,Ford,Focus,1.6,Diesel,146004,Manual,Hatchback,2011,Meath,5,Black,2,Dec-2022,Jul-2023
-8,Renault koleos,24949,Renault,Koleos,1.6,Diesel,129491,Manual,Hatchback,2017,Meath,5,Blue,1,-,Nov-2024
-9,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,168121,Manual,Estate,2013,Cork,5,Silver,2,Sep-2022,Jun-2023
-10,Skoda octavia,23950,Skoda,Octavia,1.0,Petrol,34229,Manual,Saloon,2020,Cork,4,Grey,1,Jan-2023,Jan-2024
-11,Skoda superb,28950,Skoda,Superb,2.0,Diesel,106018,Manual,Saloon,2019,Cork,4,Grey,1,Sep-2022,Jan-2023
-12,Skoda superb,34500,Skoda,Superb,1.6,Diesel,11579,Automatic,Saloon,2020,Cork,4,Grey,1,Jun-2022,Jul-2024
-13,Audi a4,0,Audi,A4,2.0,Diesel,101388,Automatic,Saloon,2019,Limerick,4,Black,1,-,Nov-2023
-14,Skoda octavia,12650,Skoda,Octavia,2.0,Diesel,202777,Manual,Hatchback,2014,Longford,5,Silver,1,Feb-2023,Feb-2023
-15,Honda civic,5750,Honda,Civic,2.0,Petrol,191511,Manual,Hatchback,2005,Longford,3,Black,3,-,-
-16,Opel astra,7950,Opel,Astra,1.2,Diesel,121001,Manual,Saloon,2014,Dublin,4,Silver,3,Sep-2022,May-2024
-17,Volkswagen passat,8450,Volkswagen,Passat,2.0,Diesel,239127,Manual,Coupe,2011,Kerry,4,Black,1,Jun-2023,Sep-2023
-18,Nissan qashqai,24950,Nissan,Qashqai,1.5,Diesel,90604,Manual,Hatchback,2019,Kerry,5,Grey,1,Dec-2022,Apr-2023
-19,Mazda mazda6,11950,Mazda,Mazda6,2.2,Diesel,142589,Manual,Saloon,2016,Kerry,4,Brown,3,Sep-2023,Mar-2024
-20,Volkswagen golf,2450,Volkswagen,Golf,1.4,Petrol,167954,Manual,Hatchback,2005,Dublin,5,Grey,5,Apr-2023,Feb-2023
-21,Toyota yaris,5950,Toyota,Yaris,1.0,Petrol,103255,Manual,Hatchback,2010,Kerry,5,Silver,3,Feb-2023,Jun-2023
-22,Ford kuga,17450,Ford,Kuga,1.5,Diesel,184261,Manual,Hatchback,2017,Kerry,5,Grey,1,Nov-2022,Jan-2023
-23,Volkswagen golf,0,Volkswagen,Golf,1.4,Petrol,117564,Automatic,Hatchback,2014,Dublin,5,Grey,1,-,Dec-2024
-24,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,109541,Automatic,Hatchback,2014,Dublin,5,Blue,1,-,Dec-2024
-25,Volkswagen beetle,0,Volkswagen,Beetle,1.2,Petrol,106826,Automatic,Hatchback,2014,Dublin,2,Black,1,-,Dec-2024
-26,Toyota aqua,0,Toyota,Aqua,1.5,Petrol,108478,Automatic,Hatchback,2014,Dublin,5,White,1,-,Dec-2024
-27,Ford fiesta,0,Ford,Fiesta,1.0,Petrol,131731,Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024
-28,Audi a3 saloon,0,Audi,A3,1.4,Petrol,82369,Automatic,Saloon,2014,Dublin,4,Black,1,-,Dec-2024
-29,Volkswagen jetta,8950,Volkswagen,Jetta,1.6,Diesel,223005,Manual,Saloon,2014,Tipperary,4,Grey,3,Oct-2022,Nov-2022
-30,Audi a3,0,Audi,A3,1.4,Petrol,140465,Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024
-31,Audi a6,19950,Audi,A6,2.0,Diesel,0,Manual,Saloon,2015,Kerry,4,Grey,3,Aug-2023,Jul-2023
-32,Audi a3,4450,Audi,A3,1.6,Petrol,238005,Automatic,Hatchback,2008,Dublin,3,Black,3,Mar-2022,Sep-2022
-33,Isuzu d-max,15900,Isuzu,D-max,2.5,Diesel,318649,Manual,Pickup,2015,Dublin,4,Grey,3,Dec-2022,-
-34,Ford mondeo,6750,Ford,Mondeo,1.6,Diesel,193121,Manual,Hatchback,2012,Cork,4,Black,3,Sep-2022,Feb-2024
-35,Volkswagen polo,0,Volkswagen,Polo,1.2,Petrol,65983,Automatic,Hatchback,2013,Cork,5,Blue,0,-,-
+0,Volkswagen polo,14900,Volkswagen,Polo,1.0,Petrol,110000,Manual,Hatchback,2019,Louth,5,Red,2,Jan-2023,Feb-2023
+1,Porsche taycan,0,Porsche,Taycan,1.0,Other,30505,Automatic,Saloon,2021,Antrim,4,Red,1,-,-
+2,Renault megane,0,Renault,Megane,1.6,Diesel,52246,Manual,Hatchback,2017,Antrim,5,Black,0,-,-
+3,Ford fiesta,24600,Ford,Fiesta,1.0,Petrol,999,Manual,Hatchback,2022,Cork,5,Other,0,-,-
+4,Ford fiesta,24600,Ford,Fiesta,1.0,Petrol,999,Manual,Hatchback,2022,Cork,5,Other,0,-,-
+5,Ford ecosport,14900,Ford,Ecosport,1.5,Diesel,104499,Manual,Suv,2017,Cork,0,White,1,Dec-2022,Aug-2023
+6,Volkswagen caddy,0,Volkswagen,Caddy,2.0,Diesel,14,Automatic,Van,2022,Donegal,0,Grey,0,-,-
+7,Volkswagen t-roc,0,Volkswagen,T-roc,2.0,Diesel,14,Manual,Suv,2022,Donegal,0,Grey,0,-,-
+8,Volkswagen t-roc,0,Volkswagen,T-roc,2.0,Diesel,14,Manual,Suv,2022,Donegal,0,Grey,0,-,-
+9,Volkswagen t-roc,0,Volkswagen,T-roc,2.0,Diesel,14,Manual,Suv,2022,Donegal,0,Grey,0,-,-
+10,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,69713,Manual,Hatchback,2017,Cork,5,White,2,Jan-2023,Feb-2023
+11,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,134204,Manual,Hatchback,2016,Cork,5,Silver,1,Mar-2023,Jul-2024
+12,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,59483,Manual,Saloon,2020,Laois,4,Red,1,Sep-2022,Sep-2024
+13,Seat leon,14950,Seat,Leon,1.6,Diesel,0,Manual,Estate,2017,Cork,5,White,1,Sep-2022,Jul-2023
+14,Audi a4,19950,Audi,A4,2.0,Diesel,83375,Manual,Estate,2015,Dublin,5,Silver,3,Jan-2023,Mar-2023
+15,Ford kuga,25950,Ford,Kuga,1.5,Diesel,59097,Manual,Suv,2019,Laois,5,Gold,3,Feb-2023,Mar-2023
+16,Kia sorento,34950,Kia,Sorento,2.2,Diesel,96927,Manual,Suv,2018,Laois,5,White,1,Mar-2023,Jan-2022
+17,Ford fiesta,18950,Ford,Fiesta,1.0,Petrol,37399,Manual,Hatchback,2019,Laois,5,Red,1,Dec-2022,Jan-2023
+18,Hyundai i30,9950,Hyundai,I30,1.4,Diesel,111390,Manual,Van,2014,Laois,3,Red,2,Feb-2023,-
+19,Kia sportage,24900,Kia,Sportage,1.7,Diesel,94396,Manual,Suv,2018,Cork,5,White,2,Jul-2023,Jul-2022
+20,Mercedes-benz cla class,51928,Mercedes-benz,Cla,1.3,Petrol,0,Automatic,Coupe,2023,Limerick,4,Black,0,-,-
+21,Volkswagen polo,0,Volkswagen,Polo,1.2,Petrol,17139,Automatic,Hatchback,2017,Dublin,5,Red,1,-,-
+22,Nissan qashqai,0,Nissan,Qashqai,1.5,Diesel,51715,Manual,Hatchback,2016,Dublin,5,White,4,Apr-2022,May-2022
+23,Maxus deliver 9,26450,Maxus,Deliver,2.0,Diesel,12439,Manual,Van,2022,Dublin,4,White,1,Feb-2023,-
+24,Citroen relay,35475,Citroen,Relay,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+25,Opel movano,27995,Opel,Movano,2.2,Diesel,0,Manual,Van,2022,Dublin,2,Grey,1,-,-
+26,Opel movano,44640,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+27,Maxus deliver 9,37070,Maxus,Deliver,2.0,Diesel,0,Manual,Van,2023,Dublin,0,Other,0,-,-
+28,Volkswagen polo,11950,Volkswagen,Polo,1.2,Diesel,108124,Manual,Hatchback,2014,Mayo,5,Grey,5,Apr-2023,Oct-2024
+29,Mercedes-benz e class,87900,Mercedes-benz,E,2.0,Diesel,0,Automatic,Saloon,2023,Galway,0,Black,0,-,-
+30,Mercedes-benz cla class,53900,Mercedes-benz,Cla,2.0,Diesel,0,Automatic,Saloon,2023,Galway,0,Black,0,-,-
+31,Volkswagen golf,28495,Volkswagen,Golf,1.5,Petrol,31437,Manual,Hatchback,2020,Dublin,5,White,2,Jan-2023,Jan-2024
+32,Volkswagen crafter,34919,Volkswagen,Crafter,2.0,Diesel,20400,Manual,Van,2022,Dublin,5,White,1,Dec-2022,-
+33,Volkswagen crafter,34919,Volkswagen,Crafter,2.0,Diesel,16892,Automatic,Van,2022,Dublin,5,White,1,Dec-2022,-
+34,Volkswagen caddy,42950,Volkswagen,Caddy,2.0,Diesel,14799,Automatic,Mpv,2021,Dublin,5,Grey,1,Jan-2023,Jul-2025
+35,Volkswagen crafter,27638,Volkswagen,Crafter,2.0,Diesel,12703,Manual,Van,2022,Dublin,5,White,1,Jan-2023,-
+36,Volkswagen crafter,36545,Volkswagen,Crafter,2.0,Diesel,1291,Manual,Van,2022,Dublin,5,White,1,Dec-2022,-
+37,Hyundai santa fe,38995,Hyundai,Santa,2.2,Diesel,113859,Manual,Suv,2019,Cork,5,Black,1,Dec-2021,Jan-2023
+38,Volkswagen up!,0,Volkswagen,Up!,1.0,Petrol,68036,Automatic,Hatchback,2013,Cork,3,White,1,-,-
+39,Renault clio,17700,Renault,Clio,1.0,Petrol,24887,Manual,Hatchback,2020,Dublin,5,Orange,1,Sep-2022,Jun-2024
+40,Renault captur,18400,Renault,Captur,0.0,Petrol,69169,Manual,Suv,2019,Dublin,4,Grey,2,Jan-2023,Oct-2023
+41,Renault kadjar,29900,Renault,Kadjar,1.5,Diesel,30386,Manual,Suv,2020,Dublin,5,Black,1,Apr-2022,Jan-2024
+42,Dacia duster,17900,Dacia,Duster,1.5,Diesel,92299,Manual,Suv,2019,Dublin,4,Brown,2,Nov-2022,Jul-2023
+43,Dacia duster,21490,Dacia,Duster,1.5,Diesel,8212,Manual,Suv,2020,Dublin,5,Black,1,Oct-2022,Jan-2024
+44,Renault grand scenic,31900,Renault,Grand,1.8,Diesel,14709,Manual,Mpv,2021,Dublin,4,Red,2,Nov-2022,Jan-2025
+45,Renault grand scenic,31900,Renault,Grand,1.8,Diesel,26461,Manual,Mpv,2021,Dublin,5,Red,2,Nov-2022,Feb-2025
+46,Renault megane,26900,Renault,Megane,1.5,Diesel,28538,Manual,Estate,2021,Dublin,4,Red,1,Oct-2022,Mar-2025
+47,Renault megane,27900,Renault,Megane,1.5,Diesel,23356,Manual,Hatchback,2021,Dublin,4,Blue,1,Jan-2023,Mar-2025
+48,Renault captur,24900,Renault,Captur,1.5,Diesel,21504,Manual,Suv,2021,Dublin,5,Blue,1,Oct-2022,Feb-2025
+49,Renault captur,17990,Renault,Captur,1.5,Diesel,55807,Manual,Suv,2019,Dublin,5,Blue,2,Jun-2023,Jan-2023
+50,Renault megane,26490,Renault,Megane,1.5,Diesel,17349,Manual,Estate,2021,Dublin,4,Grey,1,Sep-2022,Feb-2025
+51,Dacia duster,23490,Dacia,Duster,1.5,Diesel,22276,Manual,Suv,2021,Dublin,5,Black,1,Nov-2022,Jan-2025
+52,Renault clio,15400,Renault,Clio,0.0,Petrol,62100,Manual,Hatchback,2019,Dublin,4,Blue,1,Sep-2022,Jan-2023
+53,Renault megane,26490,Renault,Megane,1.5,Diesel,16159,Manual,Estate,2021,Dublin,4,Grey,1,Aug-2022,Jan-2025
+54,Skoda karoq,38995,Skoda,Karoq,1.5,Petrol,30849,Automatic,Estate,2021,Waterford,4,Grey,1,-,Jan-2025
+55,Renault megane,25490,Renault,Megane,1.3,Petrol,5443,Manual,Estate,2021,Dublin,5,Black,1,May-2022,Feb-2025
+56,Cupra formentor,0,Cupra,Formentor,1.5,Petrol,0,Manual,Estate,2023,Waterford,0,White,0,-,-
+57,Seat arona,18995,Seat,Arona,1.0,Petrol,0,Manual,Suv,2019,Waterford,5,Blue,1,-,Jan-2023
+58,Cupra formentor,38995,Cupra,Formentor,2.0,Diesel,5419,Manual,Estate,2022,Waterford,5,Blue,1,-,-
+59,Cupra ateca,45000,Cupra,Ateca,2.0,Petrol,31249,Automatic,Suv,2019,Dublin,5,Black,1,Mar-2023,Apr-2023
+60,Renault megane,24995,Renault,Megane,1.5,Diesel,30161,Manual,Saloon,2020,Wexford,4,White,1,Jul-2023,Jul-2024
+61,Volkswagen t-roc,28945,Volkswagen,T-roc,1.6,Diesel,59652,Manual,Suv,2020,Sligo,5,White,2,Jun-2023,Jan-2024
+62,Volkswagen caddy,18950,Volkswagen,Caddy,2.0,Diesel,53849,Manual,Van,2020,Sligo,5,White,4,Apr-2023,-
+63,Peugeot 2008,25995,Peugeot,2008,1.5,Diesel,61198,Manual,Mpv,2020,Mayo,4,Grey,2,Jan-2023,Feb-2024
+64,Volkswagen tiguan,38945,Volkswagen,Tiguan,1.5,Petrol,28125,Automatic,Suv,2020,Sligo,5,Grey,1,Jun-2023,Jul-2024
+65,Volkswagen tiguan,0,Volkswagen,Tiguan,2.0,Diesel,33550,Manual,Suv,2021,Waterford,5,Grey,1,Dec-2022,Jun-2025
+66,Volkswagen tiguan,33435,Volkswagen,Tiguan,2.0,Diesel,33498,Manual,Suv,2021,Waterford,5,Grey,1,Dec-2022,Jun-2025
+67,Skoda octavia,28495,Skoda,Octavia,2.0,Diesel,44899,Manual,Saloon,2021,Waterford,5,Grey,1,Dec-2022,Jul-2025
+68,Skoda octavia,0,Skoda,Octavia,2.0,Diesel,44905,Manual,Saloon,2021,Waterford,5,Grey,1,Jun-2022,Jul-2025
+69,Audi a4,0,Audi,A4,2.0,Diesel,155715,Manual,Saloon,2018,Longford,4,Grey,2,-,-
+70,Nissan micra,0,Nissan,Micra,1.2,Petrol,104253,Manual,Hatchback,2015,Longford,5,White,2,-,-
+71,Skoda superb,0,Skoda,Superb,1.6,Diesel,152870,Manual,Saloon,2016,Longford,4,Grey,2,Mar-2023,May-2024
+72,Volkswagen golf,20750,Volkswagen,Golf,1.6,Diesel,128478,Manual,Hatchback,2017,Longford,5,Grey,3,Jul-2023,Oct-2023
+73,Nissan qashqai,20495,Nissan,Qashqai,1.6,Diesel,84999,Manual,Hatchback,2016,Dublin,0,Black,2,Jun-2023,Nov-2022
+74,Skoda karoq,27995,Skoda,Karoq,1.6,Diesel,46544,Manual,Suv,2019,Limerick,5,Beige,2,Jan-2023,Jan-2023
+75,Ford focus,26950,Ford,Focus,1.5,Diesel,32010,Manual,Hatchback,2020,Kildare,4,Blue,2,Feb-2023,Jan-2024
+76,Audi a6,49950,Audi,A6,2.0,Diesel,35117,Automatic,Saloon,2020,Kildare,4,Grey,1,-,-
+77,Suzuki swift,0,Suzuki,Swift,1.0,Petrol,51925,Manual,Hatchback,2018,Tipperary,5,Red,1,Mar-2023,Jan-2024
+78,Skoda octavia,12950,Skoda,Octavia,1.6,Diesel,183999,Manual,Estate,2015,Cork,5,Silver,2,Nov-2022,Nov-2023
+79,Skoda kodiaq,48950,Skoda,Kodiaq,2.0,Diesel,19800,Automatic,Suv,2020,Cork,5,Grey,1,Oct-2022,Nov-2024
+80,Nissan micra,17950,Nissan,Micra,1.0,Petrol,77268,Manual,Hatchback,2020,Wexford,4,Grey,1,Oct-2023,Oct-2024
+81,Kia stonic,21895,Kia,Stonic,1.0,Petrol,58229,Manual,Estate,2021,Wexford,5,Red,1,Jan-2023,May-2025
+82,Renault clio,11495,Renault,Clio,1.1,Petrol,67764,Manual,Hatchback,2015,Dublin,4,Silver,3,Sep-2022,Sep-2023
+83,Peugeot 3008,32950,Peugeot,3008,1.5,Diesel,79849,Automatic,Mpv,2019,Galway,4,White,2,Nov-2022,Mar-2023
+84,Ford mondeo,13495,Ford,Mondeo,1.6,Diesel,135999,Manual,Hatchback,2015,Galway,4,Silver,3,Mar-2023,Jul-2023
+85,Nissan leaf,27495,Nissan,Leaf,0.0,Electric,47999,Automatic,Hatchback,2019,Dublin,5,Grey,2,Jun-2023,Feb-2023
+86,Nissan leaf,24495,Nissan,Leaf,0.0,Electric,55999,Automatic,Hatchback,2018,Dublin,5,Grey,2,Sep-2022,Jul-2022
+87,Honda hr-v,0,Honda,Hr-v,1.5,Petrol,10300,Manual,Suv,2021,Limerick,5,Black,1,Jul-2022,Aug-2025
+88,Renault captur,12495,Renault,Captur,1.5,Diesel,117998,Manual,Hatchback,2015,Tipperary,4,Black,3,Dec-2022,Dec-2023
+89,Nissan micra,21995,Nissan,Micra,1.0,Petrol,26779,Manual,Hatchback,2022,Westmeath,4,Grey,1,Feb-2023,Mar-2026
+90,Maxus deliver 9,36950,Maxus,Deliver,2.0,Diesel,7540,Manual,Van,2022,Dublin,0,White,1,Jun-2023,-
+91,Mercedes-benz e class,32900,Mercedes-benz,E,2.0,Diesel,111307,Automatic,Saloon,2017,Galway,4,Black,2,Dec-2022,Jan-2023
+92,Kia picanto,13900,Kia,Picanto,1.2,Petrol,59169,Automatic,Hatchback,2020,Kilkenny,5,White,1,Feb-2023,Feb-2024
+93,Mercedes-benz cla class,57950,Mercedes-benz,Cla,1.3,Petrol,24942,Automatic,Saloon,2021,Sligo,4,Black,1,Sep-2022,Oct-2025
+94,Mercedes-benz eqs,153950,Mercedes-benz,Eqs,0.0,Electric,14,Automatic,Saloon,2023,Sligo,4,Blue,0,-,-
+95,Mercedes-benz e class,83950,Mercedes-benz,E,2.0,Diesel,14,Automatic,Saloon,2023,Sligo,4,Blue,0,-,-
+96,Renault megane,19990,Renault,Megane,1.5,Diesel,45651,Automatic,Estate,2018,Dublin,5,Grey,2,Jun-2023,Apr-2024
+97,Audi a6,67950,Audi,A6,2.0,Diesel,7500,Automatic,Saloon,2022,Sligo,5,White,1,Jan-2023,Jul-2026
+98,Dacia duster,23995,Dacia,Duster,1.5,Diesel,42545,Manual,Suv,2021,Limerick,5,Grey,1,Dec-2022,Jan-2025
+99,Audi a6,54850,Audi,A6,2.0,Diesel,15409,Automatic,Saloon,2022,Mayo,4,Blue,1,-,-
+100,Audi q3,27950,Audi,Q3,2.0,Diesel,133120,Automatic,Suv,2017,Kildare,5,Black,1,Jan-2023,Feb-2023
+101,Audi q2,31950,Audi,Q2,1.6,Diesel,70310,Manual,Suv,2019,Kildare,5,Black,2,Feb-2023,Jan-2023
+102,Mini hatch,15950,Mini,Hatch,1.5,Diesel,73000,Manual,Hatchback,2016,Cork,2,Blue,2,Jan-2023,May-2024
+103,Volkswagen jetta,0,Volkswagen,Jetta,2.0,Diesel,99901,Manual,Saloon,2016,Dublin,4,Grey,2,Dec-2022,May-2024
+104,Hyundai santa fe,8950,Hyundai,Santa,2.0,Diesel,108001,Manual,Suv,2010,Meath,5,Silver,1,Sep-2022,Jan-2023
+105,Nissan qashqai,6495,Nissan,Qashqai,1.5,Diesel,216004,Manual,Hatchback,2011,Meath,5,Black,4,Nov-2022,-
+106,Suzuki swift,4495,Suzuki,Swift,1.3,Petrol,180246,Manual,Hatchback,2009,Meath,5,Red,3,Nov-2022,Apr-2022
+107,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,68394,Manual,Van,2019,Dublin,2,White,3,-,-
+108,Ford transit,0,Ford,Transit,2.2,Diesel,145982,Manual,Van,2015,Dublin,4,White,4,-,Jun-2023
+109,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,245624,Manual,Van,2015,Dublin,3,Black,2,-,Jul-2023
+110,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,153624,Automatic,Hatchback,2014,Dublin,5,Grey,2,-,Aug-2024
+111,Ford fiesta,0,Ford,Fiesta,1.2,Petrol,159206,Manual,Hatchback,2012,Dublin,5,Red,1,-,Jul-2023
+112,Vauxhall astra,0,Vauxhall,Astra,1.6,Petrol,79031,Automatic,Hatchback,2012,Dublin,5,Black,2,-,Oct-2023
+113,Nissan note,0,Nissan,Note,1.4,Petrol,33667,Manual,Mpv,2012,Dublin,4,Brown,2,-,Aug-2023
+114,Volkswagen polo,0,Volkswagen,Polo,1.2,Petrol,195063,Manual,Hatchback,2011,Dublin,5,Grey,3,-,-
+115,Lexus is 220 d,0,Lexus,Is,2.2,Diesel,158394,Manual,Saloon,2008,Dublin,4,Black,2,-,Mar-2023
+116,Audi a5,0,Audi,A5,1.8,Petrol,196420,Manual,Coupe,2008,Dublin,2,Black,3,-,Mar-2023
+117,Volkswagen golf,0,Volkswagen,Golf,1.9,Diesel,283569,Manual,Hatchback,2007,Dublin,5,Black,2,-,Mar-2023
+118,Land rover discovery,0,Land,Rover,2.7,Diesel,287084,Manual,Estate,2007,Dublin,5,Other,3,-,-
+119,Ford focus,0,Ford,Focus,1.6,Diesel,0,Manual,Estate,2007,Dublin,5,Blue,4,-,-
+120,Ford fiesta,0,Ford,Fiesta,1.2,Petrol,158309,Manual,Hatchback,2006,Dublin,5,Purple,3,-,May-2023
+121,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,158258,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
+122,Mercedes-benz a class,0,Mercedes-benz,A,1.6,Petrol,85203,Automatic,Hatchback,2015,Dublin,5,White,2,-,Aug-2023
+123,Bmw 5 series,0,Bmw,5,2.0,Diesel,20012,Automatic,Estate,2018,Dublin,4,White,2,-,Jan-2022
+124,Hyundai tucson,22995,Hyundai,Tucson,1.7,Diesel,91499,Manual,Suv,2017,Cork,5,Grey,1,Oct-2023,Jan-2023
+125,Hyundai tucson,27995,Hyundai,Tucson,1.6,Diesel,54425,Manual,Suv,2019,Cork,5,Brown,2,Jun-2023,Jan-2023
+126,Toyota yaris,16495,Toyota,Yaris,1.0,Petrol,24267,Manual,Hatchback,2017,Meath,5,Grey,3,Feb-2023,Jul-2021
+127,Volkswagen passat,11950,Volkswagen,Passat,2.0,Diesel,178637,Automatic,Saloon,2014,Limerick,4,Black,3,Nov-2022,May-2024
+128,Seat arona,20495,Seat,Arona,1.0,Petrol,48386,Manual,Suv,2021,Limerick,5,Grey,1,Jan-2023,Jul-2025
+129,Renault clio,16945,Renault,Clio,1.0,Petrol,55611,Manual,Hatchback,2021,Limerick,5,Blue,1,Dec-2022,Mar-2025
+130,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,73545,Manual,Saloon,2020,Laois,4,Red,1,Sep-2022,Sep-2024
+131,Bmw 4 series,29995,Bmw,4,2.0,Diesel,47059,Automatic,Convertible,2014,Westmeath,2,Black,2,Feb-2023,Mar-2024
+132,Mercedes-benz e class,29995,Mercedes-benz,E,2.0,Diesel,111456,Automatic,Saloon,2017,Dublin,4,Silver,2,Jul-2023,Jan-2023
+133,Mercedes-benz c class,22995,Mercedes-benz,C,1.6,Diesel,85849,Automatic,Saloon,2016,Dublin,4,Silver,2,Mar-2023,Aug-2022
+134,Nissan qashqai,19995,Nissan,Qashqai,1.2,Petrol,102531,Manual,Suv,2017,Dublin,4,Grey,1,Feb-2023,Feb-2023
+135,Nissan nv300,17069,Nissan,Nv300,1.6,Diesel,84082,Manual,Van,2018,Dublin,4,White,1,Mar-2022,-
+136,Nissan x-trail,0,Nissan,X-trail,1.6,Diesel,135468,Manual,Suv,2017,Dublin,4,Grey,2,Feb-2023,Mar-2023
+137,Nissan navara,25199,Nissan,Navara,2.3,Diesel,104644,Manual,Van,2018,Dublin,4,Grey,1,Aug-2022,-
+138,Mercedes-benz gle class,46995,Mercedes-benz,Gle,2.1,Diesel,120353,Automatic,Suv,2017,Dublin,5,Black,2,Dec-2021,Jul-2021
+139,Ford ecosport,15950,Ford,Ecosport,1.5,Diesel,109747,Manual,Suv,2017,Kilkenny,5,White,2,May-2023,Feb-2023
+140,Ford mondeo,16950,Ford,Mondeo,2.0,Diesel,145412,Manual,Hatchback,2017,Kilkenny,5,Blue,2,Jan-2022,Apr-2023
+141,Ford focus,24950,Ford,Focus,1.0,Petrol,27000,Manual,Hatchback,2020,Kilkenny,5,Red,2,Apr-2023,Oct-2024
+142,Seat ibiza,5950,Seat,Ibiza,1.2,Petrol,177950,Manual,Hatchback,2011,Cork,3,Grey,3,Jan-2023,May-2023
+143,Seat arona,20495,Seat,Arona,1.0,Petrol,53197,Manual,Suv,2021,Dublin,5,Grey,1,Jan-2023,Jul-2025
+144,Kia ceed,23450,Kia,Ceed,1.0,Petrol,41069,Manual,Hatchback,2021,Laois,5,Red,2,Oct-2022,Jan-2025
+145,Mg zs,29450,Mg,Zs,0.0,Electric,27922,Automatic,Suv,2021,Dublin,5,White,1,-,-
+146,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+147,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+148,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+149,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+150,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+151,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+152,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+153,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+154,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+155,Opel combo,0,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+156,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+157,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+158,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+159,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+160,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+161,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+162,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+163,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+164,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+165,Opel combo,21170,Opel,Combo,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+166,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+167,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+168,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+169,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+170,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+171,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+172,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+173,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+174,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+175,Opel vivaro,28975,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+176,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+177,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+178,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+179,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+180,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+181,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+182,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+183,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+184,Ford focus,4600,Ford,Focus,1.6,Diesel,143487,Manual,Hatchback,2010,Cork,5,SILVER,3,Feb-2023,Jan-2023
+185,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+186,Opel vivaro,117,Opel,Vivaro,1.5,Diesel,0,Manual,Van,2023,Dublin,0,White,1,-,-
+187,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+188,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+189,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+190,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+191,Opel movano,32350,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+192,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+193,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+194,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+195,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+196,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+197,Opel movano,32390,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+198,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+199,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+200,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+201,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+202,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+203,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+204,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+205,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+206,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+207,Opel movano,136,Opel,Movano,2.2,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+208,Dacia duster,24340,Dacia,Duster,1.5,Diesel,0,Manual,Suv,2023,Mayo,0,Other,0,-,-
+209,Mercedes-benz glc class,59995,Mercedes-benz,Glc,2.0,Diesel,53799,Automatic,Suv,2021,Waterford,5,Grey,1,Jan-2023,Aug-2025
+210,Volkswagen transporter,34142,Volkswagen,Transporter,2.0,Diesel,3195,Manual,Van,2022,Dublin,5,Grey,1,Jan-2023,-
+211,Volkswagen caddy,18695,Volkswagen,Caddy,2.0,Diesel,37499,Manual,Mpv,2022,Dublin,5,White,1,Sep-2023,-
+212,Volkswagen transporter,31703,Volkswagen,Transporter,2.0,Diesel,27999,Manual,Van,2021,Dublin,5,White,1,Dec-2022,-
+213,Renault clio,0,Renault,Clio,0.0,Petrol,89539,Manual,Hatchback,2019,Cork,4,Red,1,Oct-2022,Jun-2023
+214,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,83547,Automatic,Estate,2014,Cork,5,Black,1,-,-
+215,Mercedes-benz glb,55950,Mercedes-benz,Glb,2.0,Diesel,48797,Automatic,Estate,2021,Sligo,5,Black,1,Aug-2022,Jul-2025
+216,Mercedes-benz eqe,89950,Mercedes-benz,Eqe,0.0,Electric,1999,Automatic,Saloon,2022,Sligo,4,Grey,1,Mar-2023,Oct-2026
+217,Mercedes-benz c class,37950,Mercedes-benz,C,1.6,Diesel,77242,Automatic,Saloon,2019,Sligo,4,Black,1,Oct-2022,Sep-2023
+218,Mercedes-benz e class,64950,Mercedes-benz,E,2.0,Diesel,35438,Automatic,Coupe,2021,Sligo,2,Black,2,Jul-2022,Aug-2025
+219,Mercedes-benz a class,36950,Mercedes-benz,A,1.5,Diesel,55081,Automatic,Hatchback,2020,Sligo,5,Silver,1,Oct-2022,Aug-2024
+220,Mercedes-benz cla class,28950,Mercedes-benz,Cla,1.6,Petrol,66501,Manual,Saloon,2018,Sligo,4,Blue,2,Oct-2022,Feb-2024
+221,Mercedes-benz a class,56950,Mercedes-benz,A,2.0,Petrol,9999,Automatic,Saloon,2022,Sligo,4,Blue,1,Jan-2023,Aug-2026
+222,Mercedes-benz c class,39950,Mercedes-benz,C,2.1,Diesel,75246,Automatic,Coupe,2018,Sligo,2,Black,1,Jun-2022,Mar-2022
+223,Mercedes-benz e class,36950,Mercedes-benz,E,2.0,Diesel,74314,Automatic,Saloon,2018,Sligo,5,Blue,2,Mar-2023,Jul-2024
+224,Mercedes-benz b class,27950,Mercedes-benz,B,1.5,Diesel,56197,Automatic,Mpv,2018,Sligo,5,Black,2,Sep-2022,May-2024
+225,Dacia sandero stepway,9900,Dacia,Sandero,0.0,Petrol,56816,Manual,Suv,2015,Dublin,4,Black,4,Sep-2022,Jul-2023
+226,Renault captur,13900,Renault,Captur,1.5,Diesel,94782,Automatic,Suv,2015,Dublin,4,Black,2,Sep-2023,Jun-2023
+227,Renault captur,12900,Renault,Captur,1.5,Diesel,77652,Manual,Suv,2015,Dublin,4,Black,3,Jan-2023,May-2023
+228,Renault megane,17900,Renault,Megane,1.5,Diesel,44600,Manual,Hatchback,2018,Dublin,4,Blue,2,Jun-2023,Jan-2024
+229,Volkswagen transporter,0,Volkswagen,Transporter,2.0,Diesel,21280,Manual,Van,2021,Galway,5,Red,1,Jul-2023,-
+230,Ford s-max,0,Ford,S-max,2.0,Diesel,147433,Manual,Mpv,2014,Kildare,4,Black,1,-,Jan-2024
+231,Bmw x5,0,Bmw,X5,3.0,Diesel,170487,Automatic,Suv,2017,Kildare,4,Grey,4,-,Jan-2023
+232,Ford transit custom,0,Ford,Transit,2.2,Diesel,247262,Manual,Van,2014,Kildare,4,Blue,1,-,Feb-2023
+233,Renault captur,27490,Renault,Captur,1.0,Petrol,5620,Manual,Suv,2022,Dublin,5,Orange,1,Dec-2022,Jan-2026
+234,Renault megane,23900,Renault,Megane,1.6,Petrol,59999,Automatic,Hatchback,2018,Dublin,4,Red,5,Dec-2022,Jul-2022
+235,Renault clio,15400,Renault,Clio,0.0,Petrol,47070,Manual,Hatchback,2019,Dublin,4,Blue,2,Feb-2023,Jan-2023
+236,Ford transit,19595,Ford,Transit,2.0,Diesel,86142,Manual,Van,2018,Wexford,3,White,1,Dec-2022,-
+237,Land rover discovery,0,Land,Rover,2.0,Diesel,150015,Automatic,Suv,2017,Kildare,5,Red,3,-,Jan-2023
+238,Dacia sandero stepway,12900,Dacia,Sandero,1.5,Diesel,44600,Manual,Suv,2018,Dublin,4,Blue,2,Mar-2023,Jan-2024
+239,Renault megane,22800,Renault,Megane,1.5,Diesel,18694,Manual,Hatchback,2021,Dublin,4,Blue,1,Nov-2022,Mar-2025
+240,Renault megane,26490,Renault,Megane,1.5,Diesel,20220,Manual,Estate,2021,Dublin,4,Brown,2,Dec-2022,Jan-2025
+241,Seat tarraco,0,Seat,Tarraco,2.0,Diesel,0,Automatic,Suv,2023,Waterford,0,Black,0,-,-
+242,Seat tarraco,0,Seat,Tarraco,2.0,Diesel,0,Automatic,Suv,2023,Waterford,5,White,0,-,-
+243,Seat tarraco,0,Seat,Tarraco,2.0,Diesel,0,Automatic,Suv,2023,Waterford,0,Blue,0,-,-
+244,Seat ateca,0,Seat,Ateca,2.0,Diesel,0,Manual,Suv,2023,Waterford,0,White,0,-,-
+245,Seat ateca,0,Seat,Ateca,2.0,Diesel,0,Manual,Suv,2023,Waterford,0,Silver,0,-,-
+246,Mazda cx-5,29995,Mazda,Cx-5,2.2,Diesel,43393,Manual,Suv,2019,Kildare,0,White,1,Dec-2022,Jan-2025
+247,Mercedes-benz gle class,58950,Mercedes-benz,Gle,2.1,Diesel,67718,Automatic,Suv,2018,Dublin,0,Silver,2,Sep-2023,Jun-2024
+248,Kia ceed,12995,Kia,Ceed,1.4,Diesel,0,Manual,Hatchback,2015,Wexford,4,Silver,5,Aug-2023,Nov-2023
+249,Dacia logan,9595,Dacia,Logan,1.2,Petrol,68788,Manual,Estate,2017,Wexford,4,White,1,Oct-2022,Jul-2023
+250,Seat arona,26975,Seat,Arona,1.0,Petrol,31699,Manual,Suv,2022,Wexford,5,White,1,Mar-2023,Apr-2026
+251,Seat tarraco,46475,Seat,Tarraco,2.0,Diesel,27299,Automatic,Suv,2022,Wexford,5,Grey,1,Mar-2023,Apr-2026
+252,Audi q3,27475,Audi,Q3,2.0,Diesel,124999,Manual,Suv,2018,Wexford,4,Black,2,Apr-2023,Feb-2024
+253,Bmw x5,0,Bmw,X5,3.0,Diesel,127609,Automatic,Suv,2016,Kildare,4,Blue,2,-,Jan-2024
+254,Citroen grand c4 picasso,0,Citroen,Grand,1.6,Diesel,261209,Manual,Mpv,2009,Kildare,5,Purple,9,-,Apr-2020
+255,Audi a6,64950,Audi,A6,3.0,Diesel,32222,Automatic,Saloon,2020,Sligo,4,Grey,3,Apr-2023,Jan-2024
+256,Bmw x5,0,Bmw,X5,2.0,Diesel,159519,Automatic,Estate,2016,Kildare,5,Blue,3,-,Jan-2024
+257,Audi q5,57450,Audi,Q5,2.0,Petrol,41468,Automatic,Suv,2020,Sligo,4,Grey,1,Dec-2022,Jul-2024
+258,Audi q7,65950,Audi,Q7,3.0,Diesel,75517,Automatic,Suv,2018,Waterford,4,Grey,2,Dec-2022,Jun-2024
+259,Ford galaxy,0,Ford,Galaxy,1.6,Petrol,167629,Manual,Mpv,2012,Kildare,5,Grey,6,-,Aug-2023
+260,Audi a5,55450,Audi,A5,2.0,Diesel,24674,Automatic,Hatchback,2021,Sligo,2,Black,1,-,-
+261,Mercedes-benz c class,24900,Mercedes-benz,C,2.1,Diesel,217261,Automatic,Saloon,2018,Dublin,4,Silver,3,Mar-2023,Feb-2024
+262,Peugeot 5008,35450,Peugeot,5008,1.5,Diesel,77327,Manual,Suv,2019,Dublin,5,White,1,-,-
+263,Volkswagen id.4,59945,Volkswagen,Id.4,0.0,Electric,9279,Automatic,Suv,2022,Sligo,5,Grey,1,-,-
+264,Land rover discovery,0,Land,Rover,3.0,Diesel,232229,Automatic,Van,2011,Kildare,4,Silver,4,-,Nov-2022
+265,Skoda octavia,15295,Skoda,Octavia,1.2,Petrol,124453,Manual,Saloon,2017,Mayo,4,White,2,Nov-2022,Jan-2023
+266,Volkswagen transporter,0,Volkswagen,Transporter,2.0,Diesel,129018,Manual,Van,2018,Galway,5,White,1,Oct-2022,-
+267,Ford galaxy,0,Ford,Galaxy,2.0,Diesel,282246,Automatic,Mpv,2010,Kildare,5,Grey,4,-,-
+268,Bmw 5 series,35950,Bmw,5,2.0,Diesel,118999,Automatic,Saloon,2018,Dublin,4,Black,1,Dec-2022,Apr-2024
+269,Kia sportage,21900,Kia,Sportage,1.7,Diesel,92796,Manual,Suv,2017,Sligo,5,Red,1,-,Apr-2023
+270,Mitsubishi pajero,0,Mitsubishi,Pajero,3.2,Diesel,120755,Automatic,Suv,2015,Tipperary,4,Silver,2,Aug-2023,-
+271,Volkswagen golf,15950,Volkswagen,Golf,1.2,Petrol,72744,Automatic,Hatchback,2015,Dublin,5,Blue,0,-,-
+272,Land rover discovery sport,0,Land,Rover,2.0,Diesel,168229,Manual,Suv,2016,Kildare,5,Blue,3,-,Oct-2024
+273,Skoda superb,0,Skoda,Superb,2.0,Diesel,187301,Manual,Estate,2020,Kildare,4,Blue,1,-,Mar-2024
+274,Seat tarraco,0,Seat,Tarraco,2.0,Diesel,61766,Manual,Suv,2019,Kildare,5,Blue,3,-,May-2023
+275,Ford c-max,0,Ford,C-max,1.5,Diesel,268486,Manual,Mpv,2016,Kildare,4,Grey,1,-,Aug-2024
+276,Bmw x4,19900,Bmw,X4,2.0,Diesel,27198,Automatic,Coupe,2015,Dublin,5,Blue,1,Feb-2022,Dec-2023
+277,Nissan qashqai,0,Nissan,Qashqai,1.5,Diesel,120507,Manual,Mpv,2016,Kildare,4,White,3,-,Feb-2024
+278,Nissan x-trail,0,Nissan,X-trail,1.6,Diesel,187937,Manual,Suv,2015,Kildare,5,White,3,-,Dec-2023
+279,Skoda superb,0,Skoda,Superb,1.6,Diesel,217721,Manual,Estate,2015,Kildare,4,Black,1,-,Jul-2023
+280,Toyota landcruiser,18500,Toyota,Landcruiser,3.0,Diesel,300007,Automatic,Van,2013,Meath,2,Black,2,Nov-2022,-
+281,Bmw 3 series,0,Bmw,3,0.0,Diesel,182103,Automatic,Saloon,2014,Kildare,4,Grey,1,-,Nov-2022
+282,Nissan march,0,Nissan,March,1.2,Petrol,113182,Automatic,Hatchback,2014,Kildare,44,Green,4,-,Nov-2023
+283,Volkswagen passat,0,Volkswagen,Passat,1.6,Diesel,293893,Manual,Saloon,2014,Kildare,4,Black,3,-,Jan-2024
+284,Audi a3,0,Audi,A3,1.6,Diesel,168353,Manual,Hatchback,2013,Kildare,3,Grey,6,-,Feb-2024
+285,Vauxhall insignia,0,Vauxhall,Insignia,2.0,Diesel,348989,Manual,Estate,2012,Kildare,5,White,5,-,Feb-2023
+286,Renault fluence,0,Renault,Fluence,1.5,Diesel,141012,Manual,Saloon,2012,Kildare,4,Gold,3,-,Aug-2023
+287,Land rover freelander,0,Land,Rover,2.2,Diesel,177296,Manual,Suv,2011,Kildare,5,Grey,2,-,-
+288,Volkswagen golf,0,Volkswagen,Golf,1.4,Petrol,94002,Manual,Hatchback,2009,Kildare,5,Silver,2,-,Feb-2023
+289,Toyota hilux,0,Toyota,Hilux,3.0,Diesel,260439,Manual,Van,2008,Kildare,4,Black,2,-,-
+290,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,281981,Manual,Saloon,2008,Kildare,4,Silver,3,-,Feb-2023
+291,Volkswagen golf,0,Volkswagen,Golf,1.4,Petrol,173168,Manual,Hatchback,2005,Kildare,5,Silver,5,-,-
+292,Bmw 5 series,0,Bmw,5,2.0,Diesel,225251,Automatic,Saloon,2017,Kildare,4,Grey,3,-,Feb-2023
+293,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,150843,Manual,Hatchback,2015,Kildare,5,Black,3,-,Jul-2023
+294,Ford kuga,0,Ford,Kuga,2.0,Diesel,75270,Manual,Van,2015,Kildare,4,Black,2,-,Jul-2023
+295,Ford kuga,0,Ford,Kuga,2.0,Diesel,164821,Manual,Van,2015,Kildare,4,Blue,1,-,May-2023
+296,Ford ranger,0,Ford,Ranger,3.2,Diesel,166436,Automatic,Van,2018,Kildare,4,Black,1,-,Mar-2023
+297,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,312624,Manual,Saloon,2009,Kildare,4,Black,2,-,-
+298,Opel insignia,0,Opel,Insignia,2.0,Diesel,242557,Manual,Hatchback,2009,Kildare,5,Silver,8,-,-
+299,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,154538,Manual,Hatchback,2018,Kildare,5,Black,1,-,Jun-2024
+300,Nissan navara,0,Nissan,Navara,2.5,Diesel,292935,Manual,Van,2014,Kildare,4,Silver,1,-,Dec-2022
+301,Audi a4,10900,Audi,A4,2.0,Diesel,229004,Manual,Saloon,2013,Dublin,4,Grey,2,Oct-2022,Aug-2023
+302,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,160475,Manual,Hatchback,2014,Kildare,5,Silver,10,-,Feb-2024
+303,Mazda mazda6,0,Mazda,Mazda6,2.2,Diesel,278453,Manual,Hatchback,2012,Kildare,5,Blue,3,-,Mar-2023
+304,Audi a4,0,Audi,A4,2.0,Diesel,160472,Manual,Saloon,2015,Kildare,4,Black,2,-,Oct-2023
+305,Audi a4,0,Audi,A4,2.0,Diesel,181291,Manual,Saloon,2014,Kildare,4,Black,3,-,Feb-2023
+306,Toyota yaris,0,Toyota,Yaris,1.3,Petrol,233216,Automatic,Mpv,2015,Kildare,4,Red,4,-,Jul-2023
+307,Nissan note,0,Nissan,Note,1.2,Petrol,125034,Automatic,Hatchback,2014,Kildare,5,Grey,1,-,Sep-2024
+308,Bmw 5 series,0,Bmw,5,2.0,Diesel,123543,Automatic,Saloon,2017,Kildare,4,Black,4,-,Jan-2023
+309,Vauxhall astra,0,Vauxhall,Astra,1.7,Diesel,298261,Manual,Hatchback,2012,Kildare,5,Black,5,-,-
+310,Dacia sandero,0,Dacia,Sandero,1.5,Diesel,85235,Manual,Hatchback,2015,Kildare,4,Silver,2,-,Jul-2023
+311,Skoda octavia,0,Skoda,Octavia,2.0,Diesel,207244,Manual,Estate,2016,Kildare,4,Black,2,-,-
+312,Volvo v40,0,Volvo,V40,2.0,Diesel,72127,Manual,Hatchback,2016,Kildare,5,Blue,2,-,Oct-2024
+313,Volvo xc60,0,Volvo,Xc60,2.0,Diesel,158658,Automatic,Suv,2018,Kildare,5,Grey,2,-,-
+314,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,126233,Manual,Hatchback,2016,Kildare,5,Black,2,-,Jan-2024
+315,Ford mondeo,0,Ford,Mondeo,1.5,Diesel,123808,Manual,Hatchback,2018,Kildare,4,White,2,-,-
+316,Nissan qashqai,0,Nissan,Qashqai,1.5,Diesel,158382,Manual,Suv,2018,Kildare,4,Grey,2,-,Mar-2024
+317,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,102550,Manual,Saloon,2015,Kildare,4,Grey,2,-,Jul-2023
+318,Mini hatch,0,Mini,Hatch,1.6,Diesel,155401,Manual,Hatchback,2013,Kildare,2,White,2,-,Jan-2024
+319,Volvo v70,0,Volvo,V70,1.6,Petrol,125960,Automatic,Estate,2013,Kildare,5,Black,1,-,Nov-2023
+320,Nissan leaf,0,Nissan,Leaf,0.0,Electric,120519,Automatic,Hatchback,2012,Kildare,5,Black,6,-,Jun-2023
+321,Citroen c4,0,Citroen,C4,1.5,Diesel,34718,Manual,Mpv,2018,Kildare,5,Grey,4,-,Mar-2024
+322,Bmw 5 series,8900,Bmw,5,2.0,Diesel,225005,Automatic,Saloon,2010,Dublin,4,Grey,3,Apr-2023,Sep-2023
+323,Bmw 5 series,0,Bmw,5,2.0,Diesel,127312,Automatic,Saloon,2019,Kildare,4,Black,1,-,Jan-2023
+324,Lexus rx 450 h,0,Lexus,Rx,3.5,Petrol,131111,Automatic,Suv,2013,Kildare,4,White,3,-,Jun-2023
+325,Audi q2,41450,Audi,Q2,2.0,Diesel,29832,Automatic,Suv,2022,Waterford,4,White,1,Mar-2023,Apr-2026
+326,Skoda kodiaq,30450,Skoda,Kodiaq,2.0,Diesel,117500,Automatic,Suv,2017,Kildare,4,Grey,3,Aug-2022,Mar-2023
+327,Hyundai i20,22950,Hyundai,I20,1.2,Petrol,0,Manual,Hatchback,2021,Kildare,5,Blue,1,Dec-2021,Jul-2025
+328,Hyundai i20,24150,Hyundai,I20,1.2,Petrol,0,Manual,Hatchback,2022,Kildare,5,Black,1,Nov-2022,Aug-2026
+329,Hyundai tucson,23950,Hyundai,Tucson,1.7,Diesel,63999,Manual,Suv,2017,Kildare,5,Grey,1,Dec-2022,Jan-2023
+330,Hyundai tucson,26950,Hyundai,Tucson,1.7,Diesel,72729,Manual,Suv,2018,Kildare,5,Black,2,May-2022,Jan-2024
+331,Mercedes-benz glc class,59950,Mercedes-benz,Glc,2.0,Diesel,30140,Automatic,Suv,2020,Cork,5,Black,1,Aug-2023,Jul-2024
+332,Volkswagen t-roc,0,Volkswagen,T-roc,2.0,Diesel,11,Manual,Suv,2022,Roscommon,5,Black,1,-,Jul-2026
+333,Skoda kamiq,22950,Skoda,Kamiq,1.0,Petrol,30000,Manual,Hatchback,2021,Cork,5,Red,2,Apr-2023,Jul-2025
+334,Ford focus,18995,Ford,Focus,1.5,Diesel,76836,Manual,Saloon,2018,Cork,4,Grey,1,Jun-2023,Jul-2024
+335,Volkswagen golf,0,Volkswagen,Golf,1.6,Diesel,67753,Manual,Estate,2019,Donegal,5,Grey,2,Jun-2023,Jun-2023
+336,Bmw x5,0,Bmw,X5,3.0,Petrol,3999,Automatic,Estate,2022,Wexford,4,Black,1,Jan-2023,Apr-2026
+337,Bmw x1,15900,Bmw,X1,2.0,Diesel,111044,Manual,Estate,2014,Dublin,4,Orange,3,Apr-2022,Aug-2024
+338,Kia sportage,29950,Kia,Sportage,1.6,Diesel,75002,Manual,Mpv,2020,Westmeath,5,Red,0,Apr-2023,Jan-2024
+339,Audi a6,16900,Audi,A6,2.0,Diesel,169003,Automatic,Saloon,2014,Dublin,4,Black,2,Sep-2022,Nov-2024
+340,Nissan x-trail,16950,Nissan,X-trail,1.6,Diesel,141622,Manual,Mpv,2015,Dublin,4,Grey,2,May-2023,May-2023
+341,Volvo xc60,21900,Volvo,Xc60,2.0,Diesel,169003,Automatic,Estate,2016,Dublin,5,Silver,1,Nov-2022,Aug-2024
+342,Bmw 3 series,12900,Bmw,3,2.0,Diesel,112654,Manual,Saloon,2012,Dublin,4,Black,3,Dec-2022,Jan-2024
+343,Audi a8,36900,Audi,A8,3.0,Diesel,138403,Automatic,Saloon,2017,Dublin,4,Black,2,Nov-2022,Jan-2025
+344,Volkswagen polo,11750,Volkswagen,Polo,1.0,Petrol,96560,Manual,Hatchback,2015,Cork,5,White,1,-,Dec-2024
+345,Opel corsa,8750,Opel,Corsa,1.2,Petrol,80467,Manual,Hatchback,2014,Dublin,4,Red,2,Feb-2023,Jul-2024
+346,Lexus is 300 h,25950,Lexus,Is,2.5,Hybrid,91176,Automatic,Saloon,2016,Dublin,4,White,3,Jul-2022,Mar-2024
+347,Toyota landcruiser,13900,Toyota,Landcruiser,3.0,Diesel,419009,Manual,Van,2011,Dublin,4,Silver,2,Apr-2023,Apr-2023
+348,Volkswagen cc,9995,Volkswagen,Cc,2.0,Diesel,325087,Manual,Coupe,2012,Galway,4,Grey,1,-,Feb-2024
+349,Audi a4,16900,Audi,A4,2.0,Diesel,136794,Manual,Saloon,2015,Dublin,4,Black,1,Jan-2023,Aug-2023
+350,Opel astra,0,Opel,Astra,1.0,Petrol,97409,Manual,Hatchback,2019,Dublin,5,White,2,Nov-2022,May-2023
+351,Nissan micra,0,Nissan,Micra,1.2,Petrol,87373,Automatic,Hatchback,2019,Dublin,5,Silver,1,Oct-2022,Feb-2023
+352,Nissan serena,0,Nissan,Serena,2.0,Petrol,87884,Automatic,Mpv,2017,Dublin,5,Silver,1,-,-
+353,Maxus deliver 9,31405,Maxus,Deliver,2.0,Diesel,0,Manual,Van,2023,Dublin,0,White,0,-,-
+354,Toyota yaris,10395,Toyota,Yaris,1.0,Petrol,73000,Manual,Hatchback,2013,Cork,4,Green,2,Dec-2022,Feb-2024
+355,Toyota yaris,0,Toyota,Yaris,1.5,Petrol,68527,Manual,Hatchback,2018,Donegal,5,Red,1,-,-
+356,Mazda cx-30,36175,Mazda,Cx-30,2.0,Petrol,0,Manual,Suv,2023,Dublin,5,Red,0,-,-
+357,Peugeot boxer,0,Peugeot,Boxer,3.0,Diesel,109363,Manual,Van,2015,Tipperary,2,White,1,Jul-2022,-
+358,Opel corsa,10950,Opel,Corsa,1.4,Petrol,42442,Manual,Hatchback,2015,Cork,5,White,2,Jun-2023,May-2023
+359,Volkswagen golf,22995,Volkswagen,Golf,2.0,Diesel,89000,Manual,Hatchback,2015,Meath,5,Grey,1,Dec-2022,May-2023
+360,Volkswagen passat,14950,Volkswagen,Passat,1.6,Diesel,301751,Manual,Estate,2017,Kerry,5,Silver,1,Apr-2023,Apr-2023
+361,Seat ibiza,10950,Seat,Ibiza,1.2,Petrol,101702,Manual,Hatchback,2015,Mayo,4,Grey,3,Apr-2023,Jul-2023
+362,Dacia sandero,0,Dacia,Sandero,1.5,Diesel,86962,Manual,Suv,2020,Mayo,4,White,1,Jan-2023,Jan-2024
+363,Renault clio,0,Renault,Clio,1.1,Petrol,111498,Manual,Hatchback,2016,Dublin,5,Black,2,Aug-2020,Nov-2020
+364,Fiat tipo,11900,Fiat,Tipo,1.6,Diesel,181999,Manual,Estate,2018,Limerick,5,Grey,2,Nov-2022,Jan-2024
+365,Volkswagen t-roc,27495,Volkswagen,T-roc,2.0,Diesel,43389,Manual,Suv,2021,Dublin,5,Grey,1,Jun-2022,Jun-2025
+366,Mini hatch,15995,Mini,Hatch,1.5,Diesel,180133,Manual,Hatchback,2018,Westmeath,3,Grey,2,Jan-2022,Feb-2022
+367,Mini hatch,16995,Mini,Hatch,1.5,Diesel,59734,Manual,Estate,2016,Westmeath,5,Black,3,Aug-2022,Mar-2024
+368,Volkswagen golf,23975,Volkswagen,Golf,1.6,Diesel,58858,Manual,Hatchback,2021,Wexford,0,Black,1,Feb-2023,Jan-2025
+369,Volkswagen golf,23975,Volkswagen,Golf,1.6,Diesel,62318,Manual,Hatchback,2021,Wexford,0,Grey,1,Feb-2023,Jan-2025
+370,Mercedes-benz cls class,74995,Mercedes-benz,Cls,2.0,Diesel,15063,Automatic,Coupe,2021,Dublin,4,Silver,1,-,-
+371,Ford kuga,0,Ford,Kuga,2.5,Petrol,10,Automatic,Suv,2023,Cork,0,Red,0,-,-
+372,Skoda enyaq iv,65995,Skoda,Enyaq,0.0,Electric,0,Automatic,Suv,2023,Carlow,5,Black,0,-,-
+373,Nissan juke,20950,Nissan,Juke,1.6,Petrol,39879,Automatic,Suv,2018,Cork,5,Grey,1,-,Apr-2024
+374,Volvo xc60,0,Volvo,Xc60,2.0,Diesel,6869,Automatic,Suv,2022,Mayo,5,Blue,1,May-2023,May-2026
+375,Kia niro,42999,Kia,Niro,0.0,Electric,18668,Automatic,Suv,2021,Dublin,5,Grey,1,-,-
+376,Honda jazz,0,Honda,Jazz,1.5,Petrol,36461,Automatic,Hatchback,2018,Dublin,5,Silver,1,-,-
+377,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,75394,Automatic,Estate,2017,Dublin,5,Red,1,-,-
+378,Honda hr-v,0,Honda,Hr-v,1.5,Petrol,31150,Automatic,Suv,2020,Dublin,0,Grey,0,-,-
+379,Seat ibiza,17950,Seat,Ibiza,1.0,Petrol,34998,Manual,Hatchback,2020,Limerick,5,Blue,1,Dec-2022,Jan-2024
+380,Renault clio,0,Renault,Clio,1.1,Petrol,137689,Manual,Hatchback,2010,Kildare,3,Grey,3,-,-
+381,Vauxhall insignia,0,Vauxhall,Insignia,2.0,Diesel,274011,Manual,Hatchback,2014,Kildare,5,Green,3,-,Feb-2023
+382,Audi a5,0,Audi,A5,2.0,Diesel,202323,Manual,Hatchback,2014,Kildare,4,Black,2,-,Dec-2022
+383,Renault trafic,0,Renault,Trafic,1.6,Diesel,0,Manual,Van,2019,Mayo,3,White,1,May-2023,-
+384,Mini hatch,0,Mini,Hatch,1.6,Diesel,119999,Manual,Hatchback,2013,Westmeath,3,Blue,1,Aug-2022,Aug-2023
+385,Nissan serena,0,Nissan,Serena,2.0,Petrol,99755,Automatic,Mpv,2013,Limerick,5,White,1,-,-
+386,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,191167,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
+387,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,152767,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
+388,Seat ibiza,0,Seat,Ibiza,1.4,Diesel,144216,Manual,Hatchback,2010,Dublin,5,Black,1,-,Dec-2022
+389,Toyota aqua,0,Toyota,Aqua,1.5,Petrol,136211,Automatic,Hatchback,2017,Limerick,5,White,1,-,-
+390,Toyota c-hr,0,Toyota,C-hr,1.8,Petrol,51446,Automatic,Hatchback,2019,Limerick,5,White,1,-,Feb-2023
+391,Bmw 2 series,15890,Bmw,2,2.0,Diesel,0,Automatic,Estate,2015,Limerick,4,Silver,2,Aug-2022,Nov-2023
+392,Nissan note,11890,Nissan,Note,1.2,Petrol,0,Automatic,Mpv,2017,Limerick,0,White,1,-,-
+393,Audi a6,0,Audi,A6,2.0,Diesel,285685,Automatic,Saloon,2014,Kildare,4,Grey,3,-,May-2023
+394,Audi a6,0,Audi,A6,2.0,Diesel,116431,Automatic,Saloon,2016,Kildare,4,Silver,2,-,Nov-2024
+395,Audi a4,0,Audi,A4,2.0,Diesel,141580,Automatic,Saloon,2017,Kildare,4,Grey,2,-,Mar-2023
+396,Nissan serena,0,Nissan,Serena,2.0,Petrol,105251,Automatic,Mpv,2017,Dublin,5,Blue,1,-,-
+397,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,60069,Automatic,Hatchback,2017,Dublin,3,White,1,-,-
+398,Volkswagen up!,0,Volkswagen,Up!,1.0,Petrol,47986,Automatic,Hatchback,2013,Dublin,5,Grey,1,-,-
+399,Volkswagen transporter,24950,Volkswagen,Transporter,2.0,Diesel,144841,Manual,Van,2020,Galway,0,White,2,-,-
+400,Nissan juke,8500,Nissan,Juke,1.5,Diesel,138960,Manual,Saloon,2013,Galway,5,Brown,3,Dec-2022,Sep-2024
+401,Volkswagen golf,21900,Volkswagen,Golf,1.6,Diesel,127138,Automatic,Hatchback,2019,Limerick,5,Blue,1,Oct-2022,Mar-2023
+402,Jaguar xf,12950,Jaguar,Xf,2.2,Diesel,128601,Automatic,Saloon,2012,Dublin,4,Grey,2,Jan-2023,Jun-2023
+403,Lexus is 300 h,0,Lexus,Is,2.5,Petrol,137644,Automatic,Saloon,2016,Dublin,4,Red,2,Jul-2022,Oct-2024
+404,Toyota yaris,3250,Toyota,Yaris,1.0,Petrol,157715,Manual,Hatchback,2007,Dublin,4,Silver,2,Oct-2022,Jan-2022
+405,Skoda roomster,3450,Skoda,Roomster,1.4,Diesel,209090,Manual,Mpv,2007,Dublin,5,Beige,3,Aug-2022,Mar-2023
+406,Hyundai i40,0,Hyundai,I40,1.7,Diesel,223698,Manual,Estate,2013,Galway,5,Silver,1,Jan-2023,Feb-2024
+407,Suzuki swift,8950,Suzuki,Swift,1.2,Petrol,129003,Automatic,Hatchback,2014,Dublin,5,Silver,1,Nov-2022,Nov-2024
+408,Volkswagen golf,9950,Volkswagen,Golf,1.2,Petrol,103001,Automatic,Hatchback,2011,Dublin,5,Silver,1,Nov-2022,Sep-2024
+409,Honda accord,7950,Honda,Accord,2.2,Diesel,62442,Manual,Saloon,2011,Dublin,4,Grey,2,Mar-2023,Jun-2023
+410,Ford fiesta,9950,Ford,Fiesta,1.2,Petrol,81001,Manual,Hatchback,2014,Dublin,4,Grey,1,Aug-2022,Oct-2024
+411,Audi a3 saloon,16950,Audi,A3,2.0,Diesel,183465,Manual,Saloon,2016,Dublin,4,Red,1,-,Oct-2024
+412,Opel corsa,9995,Opel,Corsa,1.4,Petrol,84001,Manual,Hatchback,2016,Dublin,5,Blue,2,-,Aug-2024
+413,Skoda kodiaq,34995,Skoda,Kodiaq,2.0,Diesel,118388,Automatic,Estate,2019,Galway,4,Grey,2,Dec-2022,Feb-2023
+414,Renault trafic,12495,Renault,Trafic,1.6,Diesel,148051,Manual,Van,2018,Dublin,3,White,1,Mar-2022,Aug-2023
+415,Skoda superb,0,Skoda,Superb,2.0,Diesel,263645,Manual,Hatchback,2013,Tipperary,4,Beige,3,Nov-2022,Jun-2023
+416,Nissan qashqai,21875,Nissan,Qashqai,1.5,Diesel,95477,Manual,Suv,2019,Dublin,5,Black,1,-,Nov-2024
+417,Peugeot 2008,10949,Peugeot,2008,1.2,Petrol,74364,Manual,Estate,2016,Dublin,4,Red,2,Oct-2022,Aug-2024
+418,Audi a6,22950,Audi,A6,2.0,Diesel,162543,Automatic,Saloon,2015,Wexford,4,Black,1,Apr-2023,Sep-2023
+419,Audi a6,23950,Audi,A6,2.0,Diesel,155913,Automatic,Saloon,2015,Kildare,4,Grey,3,Nov-2022,Jul-2023
+420,Bmw 5 series,19950,Bmw,5,2.0,Diesel,181004,Automatic,Saloon,2014,Cork,4,Blue,2,Apr-2022,May-2024
+421,Nissan qashqai,12950,Nissan,Qashqai,1.5,Diesel,148059,Manual,Mpv,2015,Limerick,4,Silver,3,Jan-2023,Jun-2023
+422,Toyota corolla,17500,Toyota,Corolla,1.4,Diesel,73001,Manual,Saloon,2017,Cork,4,Grey,2,Nov-2022,Jan-2023
+423,Land rover range rover,82949,Land,Rover,3.0,Diesel,99953,Automatic,Suv,2017,Dublin,5,Grey,2,Mar-2023,Nov-2021
+424,Toyota auris,0,Toyota,Auris,1.3,Petrol,120004,Manual,Hatchback,2015,Cork,4,White,2,Jun-2023,May-2023
+425,Toyota rav4,24000,Toyota,Rav4,2.0,Diesel,136004,Manual,Suv,2017,Cork,4,Silver,2,Jul-2023,Jan-2023
+426,Toyota corolla,28500,Toyota,Corolla,1.8,Hybrid,22400,Automatic,Hatchback,2021,Cork,4,Blue,1,Mar-2023,Mar-2025
+427,Toyota corolla,17000,Toyota,Corolla,1.3,Petrol,95894,Manual,Saloon,2016,Cork,4,Grey,2,Feb-2023,May-2024
+428,Toyota yaris,12000,Toyota,Yaris,1.0,Petrol,45760,Manual,Hatchback,2014,Cork,4,Silver,3,Mar-2023,Oct-2024
+429,Peugeot partner,5950,Peugeot,Partner,1.6,Diesel,240508,Manual,Van,2013,Westmeath,5,White,3,Mar-2023,-
+430,Toyota corolla,25000,Toyota,Corolla,1.8,Hybrid,26878,Automatic,Saloon,2019,Westmeath,4,Other,2,Jun-2023,Jul-2023
+431,Toyota corolla,23749,Toyota,Corolla,1.8,Hybrid,94953,Automatic,Hatchback,2019,Dublin,5,Silver,1,Dec-2022,Apr-2023
+432,Mazda mazda6,6700,Mazda,Mazda6,2.2,Diesel,198325,Manual,Hatchback,2012,Roscommon,5,White,2,May-2023,Jun-2023
+433,Peugeot partner,17030,Peugeot,Partner,1.5,Diesel,71002,Manual,Van,2020,Dublin,3,White,1,Mar-2023,-
+434,Toyota aygo x,22450,Toyota,Aygo,1.0,Petrol,1650,Manual,Hatchback,2022,Dublin,4,Green,1,Jun-2023,Jun-2026
+435,Toyota corolla,29450,Toyota,Corolla,1.8,Hybrid,21884,Automatic,Saloon,2020,Cavan,4,Other,1,Dec-2022,Sep-2024
+436,Toyota corolla,23950,Toyota,Corolla,1.8,Hybrid,94224,Automatic,Saloon,2019,Cavan,4,Other,1,Nov-2022,Apr-2023
+437,Mazda cx-5,33950,Mazda,Cx-5,2.2,Diesel,36001,Automatic,Suv,2019,Dublin,4,Blue,1,Feb-2022,Feb-2023
+438,Volvo v40,13950,Volvo,V40,1.6,Diesel,87003,Manual,Hatchback,2014,Dublin,5,Black,1,Jan-2023,Nov-2022
+439,Bmw 1 series,16950,Bmw,1,1.5,Diesel,159004,Automatic,Hatchback,2016,Dublin,5,Black,2,Oct-2022,Jul-2022
+440,Audi allroad,42950,Audi,Allroad,3.0,Diesel,93464,Automatic,Estate,2017,Dublin,5,Black,1,May-2022,Mar-2023
+441,Mercedes-benz s class,7995,Mercedes-benz,S,3.0,Diesel,320008,Automatic,Saloon,2009,Dublin,4,Silver,3,Nov-2022,Aug-2023
+442,Audi a8,79950,Audi,A8,3.0,Petrol,21000,Automatic,Saloon,2021,Dublin,4,Grey,0,-,-
+443,Mercedes-benz gla class,29950,Mercedes-benz,Gla,1.6,Petrol,64002,Automatic,Estate,2018,Dublin,5,Black,2,Jul-2023,Feb-2024
+444,Toyota hilux,3950,Toyota,Hilux,2.5,Diesel,289681,Manual,Pickup,2007,Dublin,4,White,2,Dec-2022,Dec-2022
+445,Mercedes-benz cl class,24950,Mercedes-benz,Cl,1.5,Diesel,149002,Automatic,Saloon,2017,Kerry,4,Grey,2,Dec-2022,Jan-2023
+446,Hyundai tucson,19950,Hyundai,Tucson,1.7,Diesel,172003,Manual,Suv,2016,Kerry,5,White,2,Dec-2022,Oct-2024
+447,Bmw 3 series,0,Bmw,3,2.0,Diesel,175003,Manual,Saloon,2012,Dublin,4,Blue,3,Mar-2023,Oct-2023
+448,Audi a4,12250,Audi,A4,2.0,Diesel,165762,Manual,Saloon,2013,Limerick,4,Grey,2,Nov-2022,Aug-2023
+449,Opel insignia,0,Opel,Insignia,2.0,Diesel,259104,Manual,Hatchback,2014,Laois,4,Blue,2,Oct-2022,Feb-2023
+450,Nissan micra,2222,Nissan,Micra,1.2,Petrol,0,Automatic,Hatchback,2006,Louth,5,Blue,2,Jan-2023,Jan-2022
+451,Hyundai ix35,11995,Hyundai,Ix35,1.7,Diesel,144358,Manual,Suv,2014,Galway,5,Black,1,-,Jan-2025
+452,Toyota dyna,10500,Toyota,Dyna,3.0,Diesel,232355,Manual,Other,2008,Cork,2,Silver,5,May-2023,Oct-2023
+453,Mazda mazda2,2999,Mazda,Mazda2,1.3,Petrol,0,Manual,Hatchback,2008,Louth,5,Green,3,Jan-2023,Apr-2023
+454,Nissan qashqai,18500,Nissan,Qashqai,1.5,Diesel,108273,Manual,Mpv,2016,Mayo,4,Grey,2,Aug-2022,Mar-2024
+455,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,16077,Automatic,Hatchback,2011,Louth,5,Black,2,Jan-2023,Mar-2023
+456,Volkswagen golf,11900,Volkswagen,Golf,1.6,Diesel,0,Manual,Hatchback,2015,Louth,5,Grey,4,Oct-2022,Jun-2023
+457,Ford transit,4795,Ford,Transit,2.2,Diesel,190004,Manual,Van,2009,Dublin,5,White,5,Nov-2022,Feb-2023
+458,Ford mondeo,12950,Ford,Mondeo,1.5,Diesel,240532,Manual,Hatchback,2016,Cork,5,Grey,3,Aug-2022,Feb-2024
+459,Audi a1,18950,Audi,A1,1.0,Petrol,101699,Manual,Hatchback,2017,Dublin,5,Grey,3,Apr-2023,Jan-2023
+460,Mercedes-benz a class,24950,Mercedes-benz,A,1.5,Diesel,57960,Manual,Hatchback,2018,Dublin,5,Blue,1,Jun-2023,Jan-2024
+461,Citroen berlingo,3999,Citroen,Berlingo,1.6,Diesel,244620,Manual,Van,2012,Dublin,0,White,4,Oct-2022,Mar-2023
+462,Nissan qashqai +2,10995,Nissan,Qashqai,1.5,Diesel,53284,Manual,Mpv,2013,Cork,4,Grey,3,Mar-2023,Jan-2024
+463,Nissan qashqai,28950,Nissan,Qashqai,1.2,Petrol,207005,Manual,Estate,2020,Mayo,4,Beige,2,Nov-2022,Dec-2024
+464,Skoda fabia,7500,Skoda,Fabia,2.5,Hybrid,21715,Automatic,Saloon,2014,Cork,4,Blue,1,Dec-2022,Mar-2025
+465,Lexus es 300 h,49950,Lexus,Es,1.0,Petrol,28376,Automatic,Hatchback,2021,Dublin,4,Blue,2,Jan-2023,Mar-2023
+466,Nissan micra,17750,Nissan,Micra,2.0,Diesel,144841,Automatic,Saloon,2019,Mayo,4,White,1,-,-
+467,Audi a4,21950,Audi,A4,2.0,Diesel,141622,Automatic,Estate,2018,Galway,4,Black,1,Sep-2022,Jan-2025
+468,Audi a4,29950,Audi,A4,2.0,Diesel,239792,Automatic,Saloon,2019,Sligo,4,Black,3,Oct-2022,Mar-2024
+469,Bmw 3 series,15950,Bmw,3,1.5,Diesel,191511,Manual,Mpv,2016,Wexford,5,Grey,1,-,-
+470,Peugeot 3008,21950,Peugeot,3008,1.6,Petrol,163004,Manual,Coupe,2018,Galway,2,Black,4,Nov-2022,Oct-2023
+471,Hyundai coupe,2995,Hyundai,Coupe,0.0,Electric,47175,Automatic,Hatchback,2007,Dublin,4,Red,2,Sep-2023,Oct-2023
+472,Nissan leaf,27500,Nissan,Leaf,1.7,Diesel,133199,Manual,Suv,2019,Mayo,5,Beige,1,-,Nov-2024
+473,Hyundai tucson,16950,Hyundai,Tucson,1.0,Petrol,31891,Manual,Mpv,2016,Dublin,4,White,1,Jul-2022,Feb-2024
+474,Nissan juke,24500,Nissan,Juke,1.5,Diesel,154497,Automatic,Mpv,2020,Mayo,5,Red,1,Nov-2022,Nov-2024
+475,Bmw 2 series gran tourer,26950,Bmw,2,1.6,Diesel,203506,Automatic,Hatchback,2019,Dublin,4,Red,2,Dec-2022,May-2024
+476,Skoda octavia,12975,Skoda,Octavia,2.0,Diesel,159325,Manual,Mpv,2016,Wexford,5,Grey,1,Jul-2023,Aug-2024
+477,Ford kuga,16750,Ford,Kuga,1.0,Petrol,26985,Manual,Mpv,2016,Cork,4,White,1,Jun-2023,Jul-2024
+478,Nissan juke,23500,Nissan,Juke,3.0,Diesel,140367,Automatic,Estate,2020,Mayo,4,Black,2,Jan-2022,Feb-2024
+479,Bmw x5,46950,Bmw,X5,1.5,Petrol,138003,Automatic,Hatchback,2016,Galway,5,White,0,-,-
+480,Toyota aqua,11950,Toyota,Aqua,2.0,Diesel,174003,Manual,Estate,2017,Dublin,5,Grey,1,-,Feb-2025
+481,Volkswagen tiguan,24995,Volkswagen,Tiguan,2.0,Diesel,131924,Automatic,Hatchback,2017,Galway,5,Black,1,Jan-2023,Jan-2023
+482,Skoda superb,29495,Skoda,Superb,1.4,Diesel,230136,Manual,Saloon,2019,Donegal,4,White,2,Nov-2022,May-2023
+483,Toyota corolla,12950,Toyota,Corolla,2.0,Diesel,142719,Manual,Saloon,2015,Galway,4,Black,3,Feb-2023,Oct-2023
+484,Bmw 3 series,9950,Bmw,3,1.6,Diesel,138003,Manual,Hatchback,2012,Dublin,4,Grey,1,Sep-2022,Mar-2024
+485,Skoda octavia,16950,Skoda,Octavia,1.0,Petrol,45000,Manual,Hatchback,2018,Dublin,4,Blue,1,May-2023,Jan-2025
+486,Skoda fabia,16995,Skoda,Fabia,1.0,Petrol,59000,Manual,Hatchback,2021,Dublin,5,White,1,Jun-2023,Jun-2025
+487,Volkswagen polo,18450,Volkswagen,Polo,2.0,Diesel,52498,Automatic,Saloon,2021,Dublin,4,White,3,Feb-2023,Mar-2023
+488,Skoda superb,32950,Skoda,Superb,2.0,Diesel,160004,Manual,Mpv,2019,Dublin,4,Grey,2,Jul-2023,Feb-2024
+489,Ford kuga,15900,Ford,Kuga,2.0,Petrol,0,Automatic,Saloon,2016,Cork,4,Grey,1,-,-
+490,Mercedes-benz e class,67946,Mercedes-benz,E,2.0,Diesel,6,Automatic,Saloon,2021,Dublin,5,Black,0,-,-
+491,Mercedes-benz cl class,0,Mercedes-benz,Cl,1.5,Petrol,129003,Automatic,Hatchback,2023,Cork,5,Silver,2,Jan-2023,Apr-2024
+492,Honda fit,10950,Honda,Fit,2.0,Diesel,218935,Manual,Mpv,2014,Dublin,5,Black,2,-,-
+493,Ford kuga,15995,Ford,Kuga,1.6,Diesel,155004,Manual,Estate,2015,Donegal,5,Grey,2,May-2023,Mar-2023
+494,Volkswagen passat,16499,Volkswagen,Passat,1.9,Diesel,313425,Automatic,Van,2017,Meath,5,White,2,Jan-2023,-
+495,Volkswagen caddy,3999,Volkswagen,Caddy,3.0,Diesel,83394,Automatic,Saloon,2008,Meath,4,Black,1,-,Dec-2023
+496,Bmw 5 series,33450,Bmw,5,1.2,Petrol,78001,Automatic,Hatchback,2017,Dublin,5,Blue,1,Jan-2023,Nov-2023
+497,Volkswagen polo,9995,Volkswagen,Polo,1.3,Petrol,127286,Automatic,Hatchback,2012,Dublin,5,White,0,-,-
+498,Mazda demio,11950,Mazda,Demio,2.0,Diesel,170003,Manual,Mpv,2017,Dublin,5,Silver,2,Sep-2022,May-2024
+499,Seat alhambra,17900,Seat,Alhambra,1.5,Diesel,88514,Automatic,Saloon,2014,Dublin,4,Black,0,Sep-2022,Jun-2022
+500,Mercedes-benz cl class,23950,Mercedes-benz,Cl,2.0,Petrol,73622,Manual,Hatchback,2016,Laois,5,White,2,Sep-2022,Feb-2024
+501,Ford focus,20999,Ford,Focus,1.7,Diesel,122310,Manual,Estate,2015,Meath,5,Black,2,Oct-2022,Jun-2023
+502,Hyundai tucson,18450,Hyundai,Tucson,1.6,Diesel,191005,Manual,Saloon,2017,Dublin,4,Black,3,Dec-2022,Jan-2024
+503,Volkswagen passat,8250,Volkswagen,Passat,1.3,Petrol,122965,Automatic,Hatchback,2012,Tipperary,5,Grey,0,-,-
+504,Mazda demio,11950,Mazda,Demio,1.5,Diesel,56327,Manual,Mpv,2017,Dublin,5,Grey,1,-,Nov-2024
+505,Peugeot 5008,30895,Peugeot,5008,1.3,Hybrid,101388,Automatic,Hatchback,2018,Dublin,5,White,1,-,Dec-2024
+506,Honda jazz,9450,Honda,Jazz,1.6,Petrol,86002,Automatic,Hatchback,2013,Dublin,5,Black,0,-,Jan-2025
+507,Volvo v40,13990,Volvo,V40,1.6,Diesel,100001,Automatic,Mpv,2013,Dublin,5,Red,1,Oct-2022,Oct-2024
+508,Citroen grand c4 picasso,14900,Citroen,Grand,2.1,Diesel,144841,Automatic,Estate,2014,Dublin,5,Silver,2,Oct-2022,Dec-2023
+509,Mercedes-benz cls class,20900,Mercedes-benz,Cls,2.4,Petrol,46671,Automatic,Suv,2013,Dublin,5,Black,1,Dec-2022,Apr-2023
+510,Mitsubishi outlander,33450,Mitsubishi,Outlander,1.5,Diesel,52308,Manual,Coupe,2019,Galway,3,Black,1,Feb-2023,Nov-2023
+511,Renault megane,0,Renault,Megane,1.3,Petrol,75002,Automatic,Hatchback,2010,Waterford,5,White,1,Jan-2023,Nov-2024
+512,Toyota vitz,9895,Toyota,Vitz,1.5,Diesel,175418,Manual,Mpv,2013,Dublin,5,Grey,1,Nov-2022,Sep-2023
+513,Nissan qashqai,9250,Nissan,Qashqai,1.6,Petrol,85765,Automatic,Hatchback,2013,Offaly,5,White,0,-,-
+514,Bmw 1 series,15450,Bmw,1,0.0,Electric,47315,Automatic,Estate,2014,Dublin,5,Silver,1,Dec-2023,Dec-2023
+515,Audi e-tron,55900,Audi,E-tron,1.6,Petrol,62798,Automatic,Hatchback,2020,Kildare,5,White,0,-,-
+516,Bmw 1 series,15950,Bmw,1,2.0,Diesel,130002,Manual,Van,2014,Dublin,5,Red,1,-,-
+517,Volkswagen caddy,12975,Volkswagen,Caddy,1.0,Petrol,158761,Manual,Hatchback,2016,Wexford,5,Red,2,Nov-2022,Jul-2023
+518,Opel corsa,5950,Opel,Corsa,2.0,Petrol,132619,Manual,Hatchback,2012,Dublin,3,White,2,Feb-2023,Jan-2024
+519,Volkswagen golf,26999,Volkswagen,Golf,1.6,Petrol,86002,Automatic,Hatchback,2014,Meath,5,White,1,-,Jan-2025
+520,Volvo v40,13950,Volvo,V40,1.4,Petrol,68661,Automatic,Hatchback,2013,Dublin,5,Silver,0,-,-
+521,Audi a3,16950,Audi,A3,3.0,Diesel,387009,Automatic,Pickup,2014,Dublin,5,Silver,3,Nov-2022,-
+522,Mercedes-benz vito,10950,Mercedes-benz,Vito,2.0,Petrol,120701,Automatic,Suv,2008,Dublin,5,Grey,1,-,Jun-2024
+523,Mitsubishi outlander,26995,Mitsubishi,Outlander,1.6,Diesel,218870,Manual,Mpv,2018,Dublin,5,Grey,2,-,May-2023
+524,Ford c-max,5950,Ford,C-max,1.4,Diesel,138403,Manual,Hatchback,2011,Wicklow,5,Black,3,Jul-2023,May-2023
+525,Peugeot 208,7950,Peugeot,208,2.0,Diesel,59546,Automatic,Estate,2013,Wicklow,5,White,2,Feb-2023,Jul-2024
+526,Volkswagen tiguan,43950,Volkswagen,Tiguan,2.0,Petrol,140013,Automatic,Suv,2020,Louth,5,Grey,1,-,Jun-2024
+527,Mitsubishi outlander,25995,Mitsubishi,Outlander,2.0,Petrol,0,Automatic,Suv,2018,Dublin,5,Red,0,-,-
+528,Mazda cx-5,52195,Mazda,Cx-5,2.2,Diesel,0,Automatic,Suv,2023,Dublin,5,Red,0,-,-
+529,Mazda cx-5,56075,Mazda,Cx-5,0.0,Electric,7998,Automatic,Estate,2023,Dublin,5,Grey,1,Jan-2023,Mar-2026
+530,Volkswagen id.4,51950,Volkswagen,Id.4,0.0,Electric,9999,Automatic,Estate,2022,Tipperary,5,Black,1,Jan-2023,May-2026
+531,Volkswagen id.4,61950,Volkswagen,Id.4,1.5,Petrol,66998,Manual,Estate,2022,Tipperary,4,Red,1,Apr-2022,May-2023
+532,Mitsubishi eclipse cross,22950,Mitsubishi,Eclipse,1.6,Diesel,201168,Manual,Hatchback,2019,Dublin,0,White,1,Nov-2022,Aug-2023
+533,Ford focus,0,Ford,Focus,2.5,Diesel,215999,Manual,Van,2014,Donegal,4,White,2,Feb-2023,-
+534,Toyota hilux,23950,Toyota,Hilux,1.6,Diesel,43488,Manual,Suv,2016,Cork,5,Grey,1,Dec-2022,Jan-2025
+535,Hyundai tucson,34975,Hyundai,Tucson,3.0,Diesel,260713,Automatic,Coupe,2021,Wexford,2,Grey,3,Oct-2022,Jan-2024
+536,Bmw 6 series,18999,Bmw,6,1.4,Petrol,77071,Automatic,Saloon,2011,Limerick,4,White,0,-,-
+537,Audi a3 saloon,17950,Audi,A3,2.0,Diesel,313453,Manual,Coupe,2014,Dublin,2,Black,3,Sep-2022,Nov-2023
+538,Volkswagen passat,1,Volkswagen,Passat,1.5,Hybrid,17318,Automatic,Suv,2011,Dublin,5,White,1,-,Apr-2026
+539,Mg hs plug-in phev,37995,Mg,Hs,2.1,Diesel,97365,Manual,Estate,2022,Dublin,5,Grey,1,-,Nov-2024
+540,Mercedes-benz cla class,24950,Mercedes-benz,Cla,1.8,Petrol,83198,Automatic,Hatchback,2016,Dublin,5,Black,0,Dec-2022,-
+541,Toyota prius,15950,Toyota,Prius,2.0,Diesel,125503,Manual,Saloon,2014,Dublin,4,Blue,2,Nov-2022,May-2024
+542,Toyota avensis,16950,Toyota,Avensis,2.0,Petrol,27000,Manual,Saloon,2016,Cork,4,Grey,2,Dec-2022,-
+543,Mazda mazda6,25950,Mazda,Mazda6,1.4,Petrol,59000,Manual,Hatchback,2019,Dublin,5,Red,2,Jul-2023,May-2023
+544,Opel corsa,9750,Opel,Corsa,2.0,Diesel,112654,Manual,Hatchback,2015,Cork,0,Black,1,Dec-2022,Nov-2023
+545,Opel adam,10950,Opel,Adam,2.5,Diesel,135003,Manual,Estate,2015,Tipperary,5,Silver,4,Apr-2022,May-2022
+546,Nissan pathfinder,10950,Nissan,Pathfinder,2.0,Diesel,37015,Manual,Hatchback,2007,Galway,4,Silver,2,-,Jan-2024
+547,Suzuki sx4,7950,Suzuki,Sx4,2.0,Diesel,0,Manual,Van,2012,Dublin,5,White,0,-,-
+548,Volkswagen transporter,36378,Volkswagen,Transporter,1.5,Diesel,69202,Manual,Mpv,2023,Tipperary,5,Black,1,-,Dec-2024
+549,Peugeot 5008,31895,Peugeot,5008,1.6,Diesel,111044,Manual,Hatchback,2018,Dublin,5,White,1,-,-
+550,Seat ateca,21950,Seat,Ateca,2.0,Diesel,77248,Automatic,Saloon,2018,Galway,4,Black,1,Oct-2023,Sep-2022
+551,Bmw 5 series,35950,Bmw,5,1.2,Petrol,31001,Automatic,Hatchback,2018,Galway,5,Silver,1,Nov-2022,Sep-2024
+552,Volkswagen polo,13395,Volkswagen,Polo,2.0,Diesel,220277,Manual,Saloon,2015,Dublin,4,Blue,1,-,-
+553,Audi a6,29900,Audi,A6,2.0,Petrol,194730,Manual,Saloon,2018,Galway,4,Beige,9,-,-
+554,Bmw 5 series,5950,Bmw,5,1.5,Diesel,157715,Manual,Mpv,1987,Donegal,5,Blue,1,-,-
+555,Peugeot 5008,33995,Peugeot,5008,1.7,Diesel,79662,Manual,Saloon,2019,Galway,4,Silver,1,Aug-2023,Jul-2023
+556,Hyundai i40,17950,Hyundai,I40,3.2,Diesel,163004,Manual,Van,2017,Galway,3,Silver,2,Oct-2022,Apr-2023
+557,Mitsubishi pajero,13995,Mitsubishi,Pajero,1.5,Diesel,74030,Manual,Mpv,2007,Dublin,5,Grey,1,-,-
+558,Peugeot 5008,44995,Peugeot,5008,2.4,Petrol,141622,Automatic,Suv,2021,Galway,5,White,1,-,-
+559,Mitsubishi outlander,28995,Mitsubishi,Outlander,1.6,Diesel,238182,Manual,Saloon,2019,Dublin,4,Silver,1,-,Mar-2024
+560,Volkswagen passat,11950,Volkswagen,Passat,2.1,Diesel,226917,Automatic,Saloon,2014,Galway,4,Black,4,Aug-2023,Nov-2023
+561,Mercedes-benz e class,18950,Mercedes-benz,E,2.0,Diesel,188293,Automatic,Saloon,2015,Tipperary,4,Black,1,May-2023,Feb-2024
+562,Audi a6,22950,Audi,A6,2.3,Diesel,222005,Manual,Van,2016,Sligo,4,Black,1,Nov-2022,Jun-2023
+563,Mitsubishi outlander,9995,Mitsubishi,Outlander,1.2,Petrol,145584,Manual,Hatchback,2016,Dublin,5,Black,1,Jan-2023,Feb-2023
+564,Nissan micra,9450,Nissan,Micra,2.7,Diesel,315007,Automatic,Estate,2017,Westmeath,5,Black,6,Nov-2022,Jul-2023
+565,Audi a6,4950,Audi,A6,1.2,Petrol,80002,Automatic,Hatchback,2006,Kildare,5,Silver,1,Oct-2022,Aug-2024
+566,Nissan note,11995,Nissan,Note,1.0,Petrol,154286,Manual,Hatchback,2017,Dublin,5,Blue,1,Apr-2023,Oct-2023
+567,Ford focus,0,Ford,Focus,1.2,Petrol,106216,Manual,Hatchback,2015,Galway,5,White,2,Sep-2023,Jan-2023
+568,Chevrolet spark,0,Chevrolet,Spark,1.6,Diesel,185074,Manual,Van,2010,Laois,4,Red,2,Aug-2023,-
+569,Volkswagen caddy,0,Volkswagen,Caddy,1.6,Diesel,173403,Manual,Saloon,2014,Laois,4,White,2,Dec-2022,May-2023
+570,Peugeot 508,10950,Peugeot,508,1.5,Diesel,162543,Manual,Hatchback,2015,Dublin,5,Blue,1,-,-
+571,Ford mondeo,18750,Ford,Mondeo,1.6,Diesel,168981,Automatic,Mpv,2018,Galway,5,Blue,2,Mar-2023,Mar-2024
+572,Nissan qashqai,19950,Nissan,Qashqai,1.4,Diesel,126013,Manual,Hatchback,2016,Kerry,4,Black,3,Jul-2022,May-2024
+573,Peugeot 208,8949,Peugeot,208,3.0,Diesel,225308,Automatic,Saloon,2014,Meath,4,Grey,3,Apr-2023,Jun-2023
+574,Audi a6,14950,Audi,A6,1.4,Petrol,63001,Automatic,Hatchback,2012,Sligo,5,White,0,-,-
+575,Audi a3,17950,Audi,A3,1.0,Petrol,98110,Automatic,Hatchback,2015,Dublin,4,Black,1,Nov-2022,Jun-2023
+576,Nissan micra,16950,Nissan,Micra,2.1,Diesel,65001,Automatic,Estate,2019,Dublin,5,Blue,2,Dec-2022,Jan-2023
+577,Mercedes-benz gla class,27950,Mercedes-benz,Gla,1.6,Diesel,210004,Manual,Hatchback,2017,Dublin,4,Grey,1,Dec-2022,Apr-2024
+578,Skoda octavia,14995,Skoda,Octavia,1.5,Diesel,77474,Manual,Hatchback,2018,Tipperary,4,Red,2,Feb-2023,Feb-2023
+579,Dacia sandero,10950,Dacia,Sandero,1.4,Petrol,90802,Automatic,Hatchback,2017,Dublin,5,White,0,-,-
+580,Audi a3,16450,Audi,A3,1.0,Petrol,93023,Automatic,Hatchback,2014,Dublin,4,Grey,1,Jan-2023,Apr-2023
+581,Nissan micra,16950,Nissan,Micra,1.5,Diesel,120002,Manual,Mpv,2019,Dublin,4,Silver,2,Jan-2023,Jun-2023
+582,Nissan note,8750,Nissan,Note,2.1,Diesel,218870,Automatic,Saloon,2013,Cork,4,Silver,1,Aug-2023,Dec-2024
+583,Mercedes-benz e class,16500,Mercedes-benz,E,2.0,Diesel,69221,Manual,Saloon,2014,Kildare,4,Red,1,-,-
+584,Audi a6,35900,Audi,A6,2.0,Electric,0,Automatic,Hatchback,2018,Galway,5,White,0,Apr-2024,Dec-2026
+585,Nissan leaf,37850,Nissan,Leaf,1.6,Diesel,250006,Manual,Hatchback,2023,Cork,5,White,7,Dec-2022,Dec-2022
+586,Seat leon,0,Seat,Leon,1.7,Diesel,157715,Manual,Estate,2011,Limerick,5,Black,1,May-2022,Sep-2023
+587,Hyundai i40,0,Hyundai,I40,3.0,Diesel,156106,Automatic,Hatchback,2015,Cork,4,Black,1,Feb-2023,Mar-2024
+588,Infiniti qx70,22995,Infiniti,Qx70,1.2,Petrol,122284,Manual,Hatchback,2016,Tipperary,5,Silver,3,Mar-2023,May-2023
+589,Hyundai i20,6250,Hyundai,I20,1.6,Diesel,182003,Manual,Saloon,2011,Dublin,4,Silver,1,Jan-2023,May-2024
+590,Toyota avensis,13850,Toyota,Avensis,1.3,Petrol,89502,Automatic,Hatchback,2016,Kildare,5,Purple,0,-,Nov-2024
+591,Mazda demio,7750,Mazda,Demio,2.0,Diesel,65001,Manual,Estate,2013,Dublin,5,Grey,1,-,-
+592,Skoda superb,33950,Skoda,Superb,1.5,Petrol,63744,Automatic,Saloon,2019,Dublin,4,Silver,1,Nov-2022,Dec-2024
+593,Toyota corolla,11950,Toyota,Corolla,0.0,Petrol,69202,Manual,Hatchback,2014,Louth,4,Blue,3,Sep-2022,Aug-2024
+594,Dacia sandero,9950,Dacia,Sandero,1.5,Petrol,63744,Automatic,Saloon,2016,Cork,4,Silver,1,Nov-2022,Dec-2024
+595,Toyota corolla,11950,Toyota,Corolla,2.0,Diesel,51000,Automatic,Saloon,2014,Meath,4,Black,1,Feb-2023,Mar-2024
+596,Audi a6,34750,Audi,A6,2.0,Diesel,300258,Manual,Saloon,2018,Dublin,4,Silver,4,-,Jul-2023
+597,Toyota avensis,5850,Toyota,Avensis,1.5,Hybrid,113003,Automatic,Hatchback,2011,Sligo,0,White,1,-,-
+598,Toyota aqua,12450,Toyota,Aqua,2.0,Diesel,0,Manual,Van,2017,Dublin,5,Blue,0,-,-
+599,Volkswagen transporter,34663,Volkswagen,Transporter,2.0,Petrol,28234,Automatic,Suv,2023,Tipperary,5,Red,1,-,Aug-2024
+600,Mitsubishi outlander,29950,Mitsubishi,Outlander,1.0,Petrol,72420,Manual,Hatchback,2018,Dublin,5,Silver,2,Jan-2023,Mar-2024
+601,Ford fiesta,0,Ford,Fiesta,1.6,Diesel,112607,Manual,Hatchback,2016,Cork,4,Grey,2,Jan-2023,Sep-2023
+602,Citroen c4 cactus,11995,Citroen,C4,1.2,Petrol,50994,Automatic,Hatchback,2015,Wexford,5,Black,0,-,-
+603,Volkswagen golf,14950,Volkswagen,Golf,1.5,Diesel,94761,Manual,Hatchback,2014,Dublin,5,White,1,Nov-2022,Jul-2023
+604,Renault captur,16450,Renault,Captur,1.2,Petrol,85001,Automatic,Hatchback,2019,Dublin,5,Silver,1,Oct-2022,Aug-2024
+605,Nissan note,11995,Nissan,Note,1.6,Diesel,225308,Manual,Van,2017,Dublin,4,White,2,Oct-2022,-
+606,Citroen berlingo,8950,Citroen,Berlingo,1.5,Diesel,92302,Manual,Estate,2017,Dublin,5,Black,1,Jan-2023,Feb-2024
+607,Ford focus,14850,Ford,Focus,2.0,Diesel,232006,Manual,Van,2018,Kildare,3,White,1,Nov-2022,-
+608,Ford transit custom,12950,Ford,Transit,1.0,Petrol,22040,Manual,Hatchback,2018,Dublin,5,White,1,Mar-2023,Feb-2024
+609,Hyundai i10,14950,Hyundai,I10,1.5,Diesel,156870,Manual,Hatchback,2020,Dublin,4,White,1,Feb-2023,Nov-2024
+610,Ford mondeo,17995,Ford,Mondeo,2.0,Petrol,114762,Automatic,Saloon,2017,Wexford,4,Blue,2,Jan-2023,Jan-2024
+611,Bmw 5 series,32950,Bmw,5,1.2,Petrol,68308,Automatic,Hatchback,2018,Dublin,5,Black,1,-,Oct-2024
+612,Suzuki swift,10950,Suzuki,Swift,1.2,Petrol,26499,Manual,Hatchback,2014,Dublin,5,Silver,1,Jul-2023,Nov-2024
+613,Volkswagen golf,16450,Volkswagen,Golf,1.5,Diesel,167600,Manual,Hatchback,2016,Dublin,5,Black,1,Feb-2023,May-2024
+614,Peugeot 308,13995,Peugeot,308,1.2,Petrol,25363,Manual,Mpv,2018,Wexford,4,White,1,Dec-2022,Jan-2024
+615,Peugeot 5008,41950,Peugeot,5008,1.0,Petrol,154897,Manual,Hatchback,2020,Louth,5,Blue,3,-,Nov-2024
+616,Ford fiesta,10995,Ford,Fiesta,2.4,Petrol,112654,Automatic,Suv,2016,Dublin,5,Silver,1,Dec-2022,Apr-2023
+617,Mitsubishi outlander,30495,Mitsubishi,Outlander,1.6,Diesel,108651,Manual,Hatchback,2019,Dublin,5,Grey,1,Sep-2023,Jul-2023
+618,Opel astra,16995,Opel,Astra,1.4,Petrol,33613,Manual,Estate,2019,Waterford,5,Grey,1,Jun-2023,Jul-2023
+619,Kia stonic,17950,Kia,Stonic,1.2,Petrol,73001,Automatic,Hatchback,2019,Cork,5,Grey,1,Dec-2022,Mar-2023
+620,Nissan note,13995,Nissan,Note,2.0,Diesel,0,Manual,Van,2019,Dublin,4,White,0,-,-
+621,Volkswagen transporter,33939,Volkswagen,Transporter,1.2,Petrol,119857,Automatic,Hatchback,2023,Tipperary,5,Black,1,Aug-2022,May-2024
+622,Nissan note,14395,Nissan,Note,1.4,Diesel,189958,Manual,Hatchback,2017,Dublin,4,Silver,2,Oct-2022,May-2023
+623,Toyota auris,0,Toyota,Auris,2.0,Diesel,0,Automatic,Van,2015,Dublin,5,Grey,0,-,-
+624,Volkswagen transporter,36744,Volkswagen,Transporter,1.2,Petrol,85001,Manual,Hatchback,2023,Tipperary,5,White,1,Dec-2022,Nov-2024
+625,Nissan note,16395,Nissan,Note,1.7,Diesel,136767,Manual,Estate,2018,Dublin,5,Bronze,2,Apr-2023,Jan-2024
+626,Hyundai tucson,18995,Hyundai,Tucson,1.0,Petrol,106970,Manual,Hatchback,2016,Dublin,4,Red,1,Nov-2022,Jun-2023
+627,Toyota yaris,15950,Toyota,Yaris,1.8,Hybrid,105772,Automatic,Saloon,2019,Dublin,4,Silver,1,Nov-2022,Mar-2023
+628,Toyota corolla,22450,Toyota,Corolla,1.4,Petrol,71247,Manual,Mpv,2019,Dublin,4,Blue,2,Oct-2022,Oct-2023
+629,Nissan note,7950,Nissan,Note,1.6,Diesel,87033,Manual,Saloon,2013,Dublin,4,Grey,2,Sep-2018,Jan-2020
+630,Toyota avensis,15950,Toyota,Avensis,1.4,Diesel,182018,Manual,Hatchback,2016,Dublin,4,Blue,3,Nov-2022,Jun-2023
+631,Toyota auris,12000,Toyota,Auris,1.5,Diesel,74200,Manual,Suv,2015,Kilkenny,4,Grey,2,Feb-2023,Jul-2022
+632,Renault kadjar,24000,Renault,Kadjar,1.8,Hybrid,99953,Automatic,Suv,2018,Kilkenny,5,Silver,1,Nov-2022,Mar-2023
+633,Toyota c-hr,25949,Toyota,C-hr,1.6,Petrol,18800,Automatic,Saloon,2019,Dublin,4,Brown,1,Jan-2023,Jun-2022
+634,Toyota corolla,18950,Toyota,Corolla,1.6,Diesel,272896,Manual,Van,2016,Dublin,5,Grey,2,Jul-2022,Dec-2023
+635,Opel vivaro,0,Opel,Vivaro,1.6,Diesel,178494,Manual,Van,2016,Dublin,5,White,1,Feb-2023,-
+636,Opel vivaro,0,Opel,Vivaro,1.3,Petrol,0,Manual,Suv,2019,Dublin,5,Wine,0,Dec-2024,Apr-2026
+637,Nissan qashqai,42500,Nissan,Qashqai,1.6,Diesel,197004,Manual,Hatchback,2023,Cork,5,Grey,3,Jan-2023,Aug-2024
+638,Vauxhall insignia,9950,Vauxhall,Insignia,1.0,Petrol,38011,Manual,Hatchback,2016,Galway,4,White,1,-,Nov-2024
+639,Nissan micra,13995,Nissan,Micra,1.3,Petrol,70421,Automatic,Hatchback,2018,Dublin,5,White,0,-,Nov-2024
+640,Mazda demio,8950,Mazda,Demio,1.2,Petrol,130014,Manual,Hatchback,2014,Dublin,4,Silver,1,Sep-2022,Nov-2024
+641,Ford fiesta,10995,Ford,Fiesta,2.0,Diesel,91732,Automatic,Saloon,2015,Dublin,4,Black,2,Jan-2023,Oct-2023
+642,Audi a6,28900,Audi,A6,1.0,Petrol,94301,Manual,Hatchback,2017,Dublin,5,Black,3,Feb-2023,May-2023
+643,Volkswagen polo,0,Volkswagen,Polo,1.0,Petrol,197967,Manual,Hatchback,2017,Dublin,5,Blue,1,Sep-2022,Sep-2024
+644,Ford focus,10995,Ford,Focus,1.0,Petrol,52141,Automatic,Hatchback,2014,Dublin,5,Blue,0,-,Nov-2024
+645,Mitsubishi mirage,7450,Mitsubishi,Mirage,1.0,Petrol,64374,Automatic,Hatchback,2013,Dublin,5,White,1,-,Dec-2024
+646,Toyota yaris,11950,Toyota,Yaris,1.5,Diesel,198004,Manual,Hatchback,2017,Dublin,5,Silver,1,Nov-2022,Oct-2022
+647,Renault megane,3500,Renault,Megane,1.5,Diesel,199005,Manual,Mpv,2009,Cork,5,White,1,Feb-2023,May-2024
+648,Nissan qashqai,11950,Nissan,Qashqai,2.0,Diesel,183016,Automatic,Saloon,2015,Dublin,4,Silver,1,Jan-2023,Jul-2023
+649,Volvo s80,13950,Volvo,S80,1.3,Petrol,20469,Manual,Mpv,2015,Leitrim,4,Grey,1,Jun-2022,Jan-2024
+650,Nissan qashqai,27950,Nissan,Qashqai,1.5,Diesel,10,Manual,Hatchback,2020,Mayo,5,Grey,1,Feb-2023,Mar-2023
+651,Ford focus,0,Ford,Focus,1.5,Diesel,144683,Manual,Saloon,2019,Kerry,4,Blue,3,Dec-2022,Jul-2023
+652,Renault megane,14850,Renault,Megane,1.5,Hybrid,139377,Automatic,Hatchback,2017,Limerick,5,White,1,-,Sep-2024
+653,Toyota aqua,9495,Toyota,Aqua,1.5,Petrol,139277,Automatic,Hatchback,2015,Dublin,5,White,1,-,Sep-2024
+654,Toyota prius,9495,Toyota,Prius,1.8,Petrol,111341,Automatic,Hatchback,2015,Dublin,4,Grey,1,Sep-2023,Jul-2023
+655,Toyota c-hr,24950,Toyota,C-hr,1.8,Petrol,89001,Automatic,Hatchback,2019,Dublin,5,White,1,Jun-2022,Oct-2024
+656,Toyota prius,13995,Toyota,Prius,1.2,Petrol,12350,Automatic,Suv,2014,Dublin,5,White,1,Dec-2022,Jan-2026
+657,Opel crossland x,31500,Opel,Crossland,2.0,Diesel,198520,Manual,Estate,2022,Cork,5,Black,1,Oct-2023,Apr-2023
+658,Audi a4,9949,Audi,A4,1.6,Diesel,40135,Manual,Mpv,2010,Dublin,5,Black,1,Nov-2022,Feb-2023
+659,Kia sportage,28800,Kia,Sportage,2.1,Diesel,128659,Automatic,Coupe,2019,Cork,4,Grey,2,Oct-2022,Dec-2022
+660,Mercedes-benz cls class,25950,Mercedes-benz,Cls,2.0,Diesel,115679,Automatic,Mpv,2015,Dublin,5,Blue,1,Feb-2023,Feb-2023
+661,Volkswagen caddy,29950,Volkswagen,Caddy,2.0,Diesel,137059,Automatic,Mpv,2019,Dublin,5,Blue,1,Feb-2023,Feb-2023
+662,Volkswagen caddy,28950,Volkswagen,Caddy,1.3,Petrol,38520,Automatic,Suv,2019,Dublin,5,Blue,1,-,-
+663,Nissan qashqai,28995,Nissan,Qashqai,1.1,Diesel,178637,Manual,Hatchback,2020,Dublin,3,White,2,-,-
+664,Kia rio,6950,Kia,Rio,1.2,Petrol,114263,Manual,Hatchback,2012,Dublin,5,Silver,2,-,-
+665,Skoda fabia,9950,Skoda,Fabia,1.2,Diesel,179853,Manual,Van,2014,Clare,3,White,2,Jul-2022,-
+666,Fiat fiorino,0,Fiat,Fiorino,2.0,Diesel,129230,Automatic,Estate,2013,Kerry,5,Gold,1,Dec-2022,Jan-2024
+667,Volvo v70,21950,Volvo,V70,1.6,Diesel,122302,Manual,Mpv,2016,Dublin,4,Black,3,Feb-2023,Mar-2024
+668,Ford c-max,11450,Ford,C-max,1.2,Petrol,94951,Manual,Hatchback,2014,Clare,5,Blue,2,-,-
+669,Ford fiesta,10950,Ford,Fiesta,1.6,Diesel,159453,Manual,Hatchback,2015,Dublin,4,Red,4,-,Jul-2024
+670,Ford focus,9975,Ford,Focus,1.2,Petrol,136132,Manual,Hatchback,2014,Wicklow,5,Grey,2,Sep-2022,Aug-2022
+671,Skoda fabia,4250,Skoda,Fabia,2.0,Diesel,162450,Manual,Estate,2010,Wexford,4,White,2,Apr-2023,Jul-2024
+672,Audi a4,15975,Audi,A4,1.3,Petrol,67592,Automatic,Hatchback,2014,Wexford,5,Black,0,-,-
+673,Toyota yaris,9500,Toyota,Yaris,1.8,Petrol,29750,Automatic,Hatchback,2013,Laois,5,Grey,1,Sep-2023,Jul-2024
+674,Toyota c-hr,27500,Toyota,C-hr,1.0,Petrol,19750,Automatic,Hatchback,2018,Dublin,5,Silver,3,Nov-2022,-
+675,Toyota yaris,12999,Toyota,Yaris,2.3,Diesel,122786,Manual,Van,2016,Dublin,5,White,2,Feb-2023,-
+676,Fiat ducato,0,Fiat,Ducato,2.0,Diesel,208875,Automatic,Saloon,2014,Kerry,4,Grey,1,Sep-2022,Mar-2024
+677,Audi a6,22950,Audi,A6,1.0,Petrol,3214,Manual,Mpv,2016,Galway,4,Grey,1,May-2023,May-2026
+678,Nissan micra,22000,Nissan,Micra,1.6,Diesel,195274,Manual,Hatchback,2022,Mayo,4,Grey,4,Jun-2022,Sep-2023
+679,Skoda octavia,4450,Skoda,Octavia,1.6,Diesel,125529,Manual,Hatchback,2012,Dublin,5,Brown,1,Nov-2022,Apr-2023
+680,Hyundai i30,11950,Hyundai,I30,1.4,Diesel,96213,Automatic,Hatchback,2014,Galway,5,Grey,3,Sep-2023,Nov-2024
+681,Volkswagen polo,15950,Volkswagen,Polo,0.0,Electric,44761,Automatic,Hatchback,2016,Leitrim,4,Grey,1,Aug-2022,Mar-2024
+682,Nissan leaf,30500,Nissan,Leaf,1.2,Petrol,69000,Manual,Hatchback,2020,Mayo,3,Grey,3,Jan-2022,Nov-2024
+683,Opel corsa,7750,Opel,Corsa,2.0,Petrol,110884,Automatic,Saloon,2013,Dublin,4,Blue,2,-,Jul-2023
+684,Bmw 3 series,0,Bmw,3,2.0,Diesel,101388,Automatic,Saloon,2017,Limerick,4,Black,1,-,Sep-2023
+685,Audi a4,0,Audi,A4,1.8,Petrol,38355,Automatic,Hatchback,2019,Limerick,5,Silver,0,Oct-2022,Feb-2023
+686,Toyota corolla,22999,Toyota,Corolla,1.8,Petrol,38355,Automatic,Hatchback,2019,Galway,5,Silver,0,Oct-2022,Feb-2023
+687,Toyota corolla,22999,Toyota,Corolla,1.5,Diesel,160004,Manual,Mpv,2019,Galway,4,Silver,3,Dec-2022,Nov-2024
+688,Ford b-max,8250,Ford,B-max,1.3,Petrol,19632,Automatic,Saloon,2014,Dublin,4,White,2,Sep-2023,Feb-2024
+689,Mercedes-benz cl class,38950,Mercedes-benz,Cl,1.5,Diesel,99779,Manual,Mpv,2020,Louth,4,Silver,2,May-2023,Jun-2023
+690,Nissan juke,0,Nissan,Juke,1.0,Petrol,134053,Automatic,Hatchback,2015,Laois,5,Black,1,Nov-2022,Nov-2024
+691,Volkswagen golf,19950,Volkswagen,Golf,2.3,Diesel,147671,Automatic,Pickup,2019,Dublin,4,Black,1,Dec-2022,-
+692,Nissan navara,0,Nissan,Navara,2.0,Diesel,13,Automatic,Suv,2017,Kerry,5,Black,1,-,-
+693,Volvo xc60,0,Volvo,Xc60,1.3,Petrol,70811,Automatic,Hatchback,2022,Galway,5,Silver,0,-,-
+694,Toyota yaris,9500,Toyota,Yaris,1.5,Diesel,87973,Manual,Hatchback,2013,Laois,4,Silver,2,Oct-2022,Apr-2023
+695,Nissan pulsar,9000,Nissan,Pulsar,1.8,Hybrid,0,Automatic,Hatchback,2014,Mayo,4,Black,1,Dec-2022,Apr-2023
+696,Toyota corolla,21950,Toyota,Corolla,1.8,Hybrid,96755,Automatic,Hatchback,2019,Dublin,4,Blue,2,Dec-2022,Apr-2023
+697,Toyota corolla,21950,Toyota,Corolla,2.0,Diesel,219879,Automatic,Saloon,2019,Dublin,4,Black,4,Dec-2022,Mar-2024
+698,Audi a6,15900,Audi,A6,1.6,Diesel,89001,Manual,Mpv,2014,Galway,5,Red,2,Jul-2023,Nov-2022
+699,Citroen grand c4 picasso,10950,Citroen,Grand,1.5,Diesel,26419,Automatic,Suv,2013,Dublin,5,Grey,1,-,-
+700,Peugeot 3008,39650,Peugeot,3008,1.5,Diesel,89930,Automatic,Suv,2021,Dublin,5,Bronze,1,-,-
+701,Peugeot 3008,28250,Peugeot,3008,1.6,Diesel,78534,Manual,Suv,2019,Dublin,5,Grey,1,-,-
+702,Peugeot 3008,24250,Peugeot,3008,1.6,Diesel,85161,Manual,Suv,2017,Dublin,5,White,1,-,-
+703,Peugeot 3008,28250,Peugeot,3008,1.5,Diesel,158880,Manual,Hatchback,2018,Dublin,5,Grey,1,Aug-2022,Mar-2024
+704,Ford focus,17950,Ford,Focus,1.5,Diesel,21528,Manual,Suv,2018,Limerick,5,White,1,-,-
+705,Peugeot 3008,29450,Peugeot,3008,1.5,Diesel,9959,Manual,Suv,2019,Dublin,5,Red,1,-,-
+706,Peugeot 3008,29650,Peugeot,3008,1.5,Diesel,74998,Manual,Suv,2019,Dublin,5,White,1,-,-
+707,Peugeot 3008,28950,Peugeot,3008,1.6,Diesel,72000,Manual,Hatchback,2018,Dublin,5,Grey,3,Oct-2022,Mar-2024
+708,Honda civic,20950,Honda,Civic,1.4,Petrol,21000,Manual,Hatchback,2018,Cork,5,Silver,1,-,May-2022
+709,Hyundai i30,13250,Hyundai,I30,1.7,Diesel,278416,Manual,Suv,2016,Kildare,5,Black,2,Nov-2022,May-2023
+710,Hyundai ix35,0,Hyundai,Ix35,2.0,Diesel,121001,Manual,Saloon,2012,Cork,4,Silver,3,Dec-2022,Mar-2024
+711,Opel insignia,0,Opel,Insignia,1.6,Diesel,160004,Manual,Hatchback,2014,Cork,5,Silver,2,Jan-2023,Nov-2023
+712,Opel astra,0,Opel,Astra,1.6,Diesel,190004,Manual,Hatchback,2015,Cork,5,Gold,2,Oct-2022,Jun-2023
+713,Ford focus,5500,Ford,Focus,2.0,Diesel,150003,Automatic,Saloon,2010,Cork,4,Black,2,Aug-2022,May-2022
+714,Volvo s60,0,Volvo,S60,1.7,Diesel,299007,Manual,Suv,2016,Cork,4,Silver,3,Apr-2023,Jun-2023
+715,Kia sportage,0,Kia,Sportage,1.6,Diesel,207005,Manual,Van,2011,Cork,5,Grey,2,Aug-2022,-
+716,Citroen berlingo,10950,Citroen,Berlingo,2.0,Diesel,31176,Manual,Hatchback,2016,Galway,5,White,1,Sep-2022,Mar-2026
+717,Volkswagen golf,0,Volkswagen,Golf,2.0,Diesel,41001,Manual,Suv,2022,Galway,5,Grey,1,Dec-2022,Jul-2023
+718,Volkswagen tiguan,0,Volkswagen,Tiguan,2.0,Diesel,7165,Manual,Mpv,2019,Galway,5,Grey,1,Sep-2022,-
+719,Volkswagen caddy,0,Volkswagen,Caddy,2.0,Diesel,16435,Manual,Saloon,2021,Galway,4,White,1,Sep-2022,Oct-2023
+720,Volkswagen passat,0,Volkswagen,Passat,1.6,Diesel,211561,Manual,Hatchback,2019,Galway,5,Blue,3,Jan-2023,Jul-2023
+721,Volkswagen golf,0,Volkswagen,Golf,2.0,Diesel,107589,Manual,Saloon,2015,Galway,4,Grey,2,Jul-2023,Jan-2023
+722,Volkswagen passat,0,Volkswagen,Passat,1.0,Petrol,22922,Manual,Hatchback,2019,Galway,5,White,1,Oct-2022,May-2026
+723,Volkswagen golf,0,Volkswagen,Golf,2.0,Diesel,89864,Manual,Saloon,2022,Galway,4,Grey,1,Aug-2022,Aug-2024
+724,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,39030,Manual,Suv,2018,Galway,5,Gold,1,Dec-2019,Jan-2024
+725,Volkswagen tiguan,34000,Volkswagen,Tiguan,1.6,Diesel,86734,Manual,Suv,2018,Galway,4,Black,1,Jul-2023,Jan-2024
+726,Skoda karoq,30950,Skoda,Karoq,1.6,Diesel,8249,Manual,Suv,2020,Clare,4,Grey,1,Sep-2022,Aug-2024
+727,Skoda karoq,33500,Skoda,Karoq,2.0,Diesel,30091,Manual,Saloon,2020,Clare,4,White,1,Sep-2022,Jan-2026
+728,Skoda octavia,33000,Skoda,Octavia,2.0,Diesel,199737,Manual,Saloon,2022,Clare,4,Black,0,Jan-2023,Jan-2023
+729,Volkswagen jetta,16950,Volkswagen,Jetta,2.0,Diesel,219950,Automatic,Estate,2017,Clare,4,Beige,0,Jan-2023,Jun-2023
+730,Skoda superb,14500,Skoda,Superb,1.2,Petrol,65896,Manual,Hatchback,2015,Clare,4,Silver,0,Jan-2023,May-2023
+731,Ford fiesta,10950,Ford,Fiesta,1.3,Petrol,40542,Manual,Hatchback,2013,Wicklow,4,Silver,0,Mar-2023,Nov-2022
+732,Ford fiesta,13950,Ford,Fiesta,1.6,Diesel,180005,Manual,Van,2016,Wicklow,4,Silver,2,Apr-2022,-
+733,Volkswagen caddy,0,Volkswagen,Caddy,1.0,Petrol,200,Manual,Hatchback,2015,Galway,4,Other,0,Sep-2022,Mar-2026
+734,Nissan micra,21750,Nissan,Micra,2.0,Diesel,319028,Manual,Van,2022,Waterford,4,Black,2,Apr-2023,Dec-2023
+735,Hyundai ix35,8949,Hyundai,Ix35,1.4,Petrol,230005,Manual,Hatchback,2013,Meath,5,Black,2,Dec-2022,Jan-2022
+736,Opel astra,800,Opel,Astra,1.6,Diesel,177027,Manual,Hatchback,2005,Meath,5,Silver,2,Oct-2022,May-2023
+737,Ford focus,5449,Ford,Focus,1.6,Diesel,129491,Manual,Hatchback,2011,Meath,5,Blue,1,-,Nov-2024
+738,Renault koleos,24949,Renault,Koleos,1.6,Diesel,146004,Manual,Hatchback,2017,Meath,5,Black,2,Dec-2022,Jul-2023
+739,Ford focus,5949,Ford,Focus,3.0,Diesel,154770,Other,Saloon,2011,Meath,4,Grey,1,Feb-2023,Sep-2023
+740,Bmw 5 series,34949,Bmw,5,1.6,Diesel,168121,Manual,Estate,2017,Meath,5,Silver,2,Sep-2022,Jun-2023
+741,Volkswagen golf,0,Volkswagen,Golf,1.0,Petrol,34229,Manual,Saloon,2013,Cork,4,Grey,1,Jan-2023,Jan-2024
+742,Skoda octavia,23950,Skoda,Octavia,2.0,Diesel,106018,Manual,Saloon,2020,Cork,4,Grey,1,Sep-2022,Jan-2023
+743,Skoda superb,28950,Skoda,Superb,1.6,Diesel,11579,Automatic,Saloon,2019,Cork,4,Grey,1,Jun-2022,Jul-2024
+744,Skoda superb,34500,Skoda,Superb,2.0,Diesel,101388,Automatic,Saloon,2020,Cork,4,Black,1,-,Nov-2023
+745,Audi a4,0,Audi,A4,2.0,Diesel,202777,Manual,Hatchback,2019,Limerick,5,Silver,1,Feb-2023,Feb-2023
+746,Skoda octavia,12650,Skoda,Octavia,2.0,Petrol,191511,Manual,Hatchback,2014,Longford,3,Black,3,-,-
+747,Honda civic,5750,Honda,Civic,1.2,Diesel,121001,Manual,Saloon,2005,Longford,4,Silver,3,Sep-2022,May-2024
+748,Opel astra,7950,Opel,Astra,2.0,Diesel,239127,Manual,Coupe,2014,Dublin,4,Black,1,Jun-2023,Sep-2023
+749,Volkswagen passat cc,8450,Volkswagen,Passat,1.5,Diesel,90604,Manual,Hatchback,2011,Kerry,5,Grey,1,Dec-2022,Apr-2023
+750,Nissan qashqai,24950,Nissan,Qashqai,2.2,Diesel,142589,Manual,Saloon,2019,Kerry,4,Brown,3,Sep-2023,Mar-2024
+751,Mazda mazda6,11950,Mazda,Mazda6,1.4,Petrol,167954,Manual,Hatchback,2016,Kerry,5,Grey,5,Apr-2023,Feb-2023
+752,Volkswagen golf,2450,Volkswagen,Golf,1.0,Petrol,103255,Manual,Hatchback,2005,Dublin,5,Silver,3,Feb-2023,Jun-2023
+753,Toyota yaris,5950,Toyota,Yaris,1.5,Diesel,184261,Manual,Hatchback,2010,Kerry,5,Grey,1,Nov-2022,Jan-2023
+754,Ford kuga,17450,Ford,Kuga,1.4,Petrol,117564,Automatic,Hatchback,2017,Kerry,5,Grey,1,-,Dec-2024
+755,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,109541,Automatic,Hatchback,2014,Dublin,5,Blue,1,-,Dec-2024
+756,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,106826,Automatic,Hatchback,2014,Dublin,2,Black,1,-,Dec-2024
+757,Volkswagen beetle,0,Volkswagen,Beetle,1.5,Petrol,108478,Automatic,Hatchback,2014,Dublin,5,White,1,-,Dec-2024
+758,Toyota aqua,0,Toyota,Aqua,1.0,Petrol,131731,Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024
+759,Ford fiesta,0,Ford,Fiesta,1.4,Petrol,82369,Automatic,Saloon,2014,Dublin,4,Black,1,-,Dec-2024
+760,Audi a3 saloon,0,Audi,A3,1.4,Petrol,140465,Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024
+761,Audi a3,0,Audi,A3,2.0,Diesel,0,Manual,Saloon,2014,Dublin,4,Grey,3,Aug-2023,Jul-2023
+762,Audi a6,19950,Audi,A6,1.6,Petrol,238005,Automatic,Hatchback,2015,Kerry,3,Black,3,Mar-2022,Sep-2022
+763,Audi a3,4450,Audi,A3,2.5,Diesel,318649,Manual,Pickup,2008,Dublin,4,Grey,3,Dec-2022,-
+764,Isuzu d-max,15900,Isuzu,D-max,1.6,Diesel,193121,Manual,Hatchback,2015,Dublin,4,Black,3,Sep-2022,Feb-2024
+765,Ford mondeo,6750,Ford,Mondeo,1.2,Petrol,65983,Automatic,Hatchback,2012,Cork,5,Blue,0,-,-
+766,Volkswagen polo,0,Volkswagen,Polo,1.2,Petrol,43452,Automatic,Hatchback,2013,Cork,5,Red,0,-,-
+767,Volkswagen polo,0,Volkswagen,Polo,1.4,Petrol,72420,Automatic,Hatchback,2015,Cork,3,White,0,-,Dec-2024
+768,Audi a1,0,Audi,A1,1.4,Petrol,127138,Automatic,Hatchback,2014,Cork,5,White,0,-,Dec-2024
+769,Audi a3,0,Audi,A3,2.0,Diesel,169504,Manual,Estate,2014,Cork,5,Red,2,Dec-2022,Jun-2023
+770,Skoda yeti,8950,Skoda,Yeti,2.0,Diesel,61499,Automatic,Estate,2011,Dublin,5,Black,1,Aug-2023,Aug-2023
+771,Volvo xc60,44950,Volvo,Xc60,2.0,Petrol,144680,Manual,Coupe,2019,Dublin,2,Silver,4,Mar-2023,May-2023
+772,Bmw 3 series,5950,Bmw,3,2.0,Diesel,215652,Manual,Mpv,2007,Dublin,5,White,2,Oct-2022,Jan-2024
+773,Seat alhambra,29950,Seat,Alhambra,1.2,Petrol,110002,Automatic,Hatchback,2018,Dublin,5,Blue,1,-,Nov-2024
+774,Volkswagen polo,10950,Volkswagen,Polo,1.4,Diesel,91002,Manual,Hatchback,2013,Dublin,4,White,1,Dec-2022,May-2024
+775,Toyota auris,13950,Toyota,Auris,1.5,Diesel,181004,Manual,Suv,2016,Dublin,4,Black,3,Nov-2022,Feb-2024
+776,Dacia duster,9950,Dacia,Duster,1.2,Petrol,107002,Automatic,Hatchback,2016,Dublin,5,Black,1,-,Nov-2024
+777,Volkswagen polo,10950,Volkswagen,Polo,1.5,Diesel,212005,Manual,Hatchback,2013,Dublin,5,Black,4,Aug-2023,Sep-2023
+778,Nissan qashqai,6950,Nissan,Qashqai,1.4,Petrol,102002,Automatic,Hatchback,2011,Limerick,5,White,1,Oct-2022,Nov-2023
+779,Audi a3,9950,Audi,A3,1.6,Diesel,84000,Manual,Mpv,2010,Dublin,4,Grey,2,Jul-2023,Mar-2023
+780,Peugeot 3008,32950,Peugeot,3008,1.3,Petrol,128747,Automatic,Hatchback,2019,Donegal,0,Black,1,Nov-2022,Dec-2024
+781,Honda fit,7950,Honda,Fit,1.6,Petrol,106216,Automatic,Mpv,2013,Louth,5,Black,3,Nov-2022,Oct-2023
+782,Skoda roomster,4490,Skoda,Roomster,2.1,Diesel,131966,Automatic,Saloon,2008,Louth,4,Black,0,Dec-2022,Jan-2023
+783,Mercedes-benz c class,25495,Mercedes-benz,C,2.0,Petrol,206998,Automatic,Hatchback,2017,Tipperary,5,Black,2,Oct-2022,May-2022
+784,Nissan qashqai,2999,Nissan,Qashqai,1.5,Diesel,143999,Manual,Saloon,2008,Dublin,4,Grey,1,Oct-2022,Nov-2023
+785,Ford focus,12950,Ford,Focus,1.6,Diesel,186999,Manual,Hatchback,2015,Cork,4,White,2,Jan-2023,Nov-2023
+786,Honda civic,8950,Honda,Civic,1.3,Petrol,145999,Automatic,Hatchback,2013,Wexford,5,Red,1,Dec-2022,Nov-2023
+787,Honda fit,4950,Honda,Fit,2.1,Diesel,60001,Automatic,Estate,2009,Wexford,5,Silver,1,Jun-2023,Mar-2024
+788,Mercedes-benz glc class,0,Mercedes-benz,Glc,3.0,Diesel,225127,Automatic,Van,2018,Wexford,4,Black,3,Dec-2022,-
+789,Land rover discovery,24995,Land,Rover,1.6,Diesel,135003,Manual,Mpv,2014,Kerry,4,Grey,2,Mar-2022,Jan-2025
+790,Nissan x-trail,19995,Nissan,X-trail,2.0,Diesel,102002,Manual,Van,2017,Wexford,5,White,1,Feb-2023,Jan-2024
+791,Volkswagen caddy,13375,Volkswagen,Caddy,2.0,Diesel,192004,Automatic,Saloon,2019,Kildare,4,Grey,1,Dec-2022,Jun-2024
+792,Volkswagen passat,18450,Volkswagen,Passat,1.7,Diesel,188013,Manual,Saloon,2018,Kildare,4,Black,1,Jul-2023,Jul-2024
+793,Hyundai i40,13950,Hyundai,I40,2.0,Diesel,199503,Manual,Van,2018,Kildare,5,Black,1,Dec-2022,-
+794,Volkswagen caddy,9715,Volkswagen,Caddy,0.0,Petrol,74030,Manual,Hatchback,2017,Kildare,5,Wine,1,-,Nov-2024
+795,Renault clio,12950,Renault,Clio,3.0,Diesel,49001,Automatic,Estate,2018,Dublin,5,Blue,1,Jul-2023,Jul-2024
+796,Land rover discovery,0,Land,Rover,2.0,Diesel,179004,Manual,Hatchback,2020,Dublin,5,Grey,2,Nov-2022,Jan-2025
+797,Volvo v40,14950,Volvo,V40,2.4,Diesel,104002,Automatic,Suv,2017,Dublin,5,Silver,3,Sep-2022,Nov-2023
+798,Volvo xc60,15950,Volvo,Xc60,1.6,Petrol,14000,Manual,Saloon,2013,Dublin,4,White,2,Apr-2023,Aug-2024
+799,Mercedes-benz cla class,24999,Mercedes-benz,Cla,1.6,Diesel,240983,Manual,Hatchback,2016,Dublin,4,Blue,0,Sep-2022,May-2023
+800,Ford focus,10995,Ford,Focus,1.8,Petrol,119011,Automatic,Hatchback,2015,Donegal,5,Silver,1,-,-
+801,Toyota prius,19490,Toyota,Prius,2.2,Diesel,55255,Manual,Suv,2017,Dublin,4,Brown,1,Dec-2022,Jan-2023
+802,Mitsubishi outlander,34950,Mitsubishi,Outlander,2.0,Petrol,85295,Automatic,Suv,2019,Kildare,5,Black,1,Jun-2023,Jun-2024
+803,Bmw x5,52995,Bmw,X5,2.0,Diesel,77998,Manual,Van,2018,Mayo,3,White,1,Jul-2023,-
+804,Ford transit,20500,Ford,Transit,2.2,Diesel,209346,Manual,Van,2018,Dublin,3,White,1,-,Jan-2023
+805,Ford transit,0,Ford,Transit,2.8,Diesel,117079,Automatic,Suv,2015,Dublin,4,Red,1,Feb-2022,Mar-2022
+806,Toyota landcruiser,53895,Toyota,Landcruiser,1.8,Petrol,118288,Automatic,Mpv,2017,Mayo,5,Brown,1,-,-
+807,Toyota prius,0,Toyota,Prius,1.8,Petrol,126600,Automatic,Hatchback,2016,Dublin,5,Silver,1,-,-
+808,Toyota prius,0,Toyota,Prius,1.6,Diesel,118995,Manual,Mpv,2017,Dublin,4,Grey,2,Feb-2023,Feb-2024
+809,Peugeot 5008,11950,Peugeot,5008,2.2,Diesel,210999,Manual,Van,2014,Kildare,3,White,1,Dec-2022,-
+810,Ford transit,4877,Ford,Transit,1.5,Petrol,0,Automatic,Saloon,2013,Dublin,4,Other,1,Dec-2022,Jan-2026
+811,Bmw 2 series,44995,Bmw,2,2.2,Diesel,193291,Manual,Van,2022,Westmeath,3,Yellow,1,-,Mar-2023
+812,Ford transit,0,Ford,Transit,2.3,Diesel,172199,Manual,Van,2011,Dublin,5,White,1,-,-
+813,Mitsubishi outlander,0,Mitsubishi,Outlander,1.5,Diesel,65090,Manual,Van,2017,Longford,3,White,2,May-2023,Sep-2022
+814,Ford transit,12998,Ford,Transit,1.6,Diesel,113124,Automatic,Mpv,2018,Laois,4,White,2,Jan-2023,Apr-2024
+815,Peugeot 5008,0,Peugeot,5008,1.6,Petrol,88659,Automatic,Suv,2018,Wexford,5,Grey,1,-,-
+816,Mercedes-benz gl class,0,Mercedes-benz,Gl,1.6,Diesel,108003,Automatic,Hatchback,2015,Dublin,5,Black,1,Oct-2022,Jan-2024
+817,Volkswagen golf,13995,Volkswagen,Golf,1.6,Diesel,272873,Automatic,Mpv,2015,Galway,5,Blue,6,-,Feb-2023
+818,Citroen c4,0,Citroen,C4,3.0,Diesel,313152,Automatic,Estate,2008,Kildare,5,Black,12,Dec-2022,Aug-2023
+819,Audi q7,11450,Audi,Q7,1.0,Petrol,67290,Manual,Hatchback,2008,Dublin,5,White,2,Nov-2022,Jun-2023
+820,Toyota aygo,9650,Toyota,Aygo,1.5,Petrol,6999,Automatic,Suv,2015,Kildare,5,White,1,-,-
+821,Land rover range rover evoque,65945,Land,Rover,1.5,Petrol,23998,Automatic,Suv,2021,Limerick,5,Silver,1,-,-
+822,Land rover discovery sport,74950,Land,Rover,1.6,Diesel,0,Manual,Hatchback,2021,Limerick,5,White,2,Oct-2022,Apr-2023
+823,Volkswagen golf,26950,Volkswagen,Golf,2.0,Diesel,0,Manual,Coupe,2019,Wicklow,0,Silver,1,Dec-2022,Sep-2022
+824,Volkswagen cc,0,Volkswagen,Cc,1.0,Petrol,10,Manual,Hatchback,2016,Wicklow,5,Blue,0,-,-
+825,Ford focus,31450,Ford,Focus,2.0,Diesel,90999,Automatic,Suv,2023,Dublin,4,Black,1,Jun-2023,Jan-2022
+826,Bmw x3,49995,Bmw,X3,1.5,Diesel,0,Manual,Hatchback,2018,Galway,2,Grey,2,Nov-2022,Mar-2024
+827,Mini hatch,16995,Mini,Hatch,2.0,Diesel,167970,Automatic,Saloon,2016,Westmeath,4,Silver,3,Aug-2022,Feb-2024
+828,Bmw 5 series,24995,Bmw,5,1.6,Diesel,81886,Automatic,Saloon,2016,Galway,4,Red,2,Oct-2022,Feb-2023
+829,Audi a3,21950,Audi,A3,0.0,Electric,27199,Automatic,Hatchback,2017,Limerick,5,Blue,1,-,-
+830,Hyundai ioniq,32895,Hyundai,Ioniq,0.0,Electric,37860,Automatic,Hatchback,2020,Dublin,5,Grey,1,-,-
+831,Bmw i3,33895,Bmw,I3,1.2,Petrol,41999,Automatic,Hatchback,2020,Dublin,5,Red,1,Sep-2023,May-2024
+832,Volkswagen polo,11950,Volkswagen,Polo,2.0,Diesel,91599,Manual,Saloon,2014,Dublin,4,Black,3,Feb-2023,May-2024
+833,Audi a4,22875,Audi,A4,2.2,Diesel,149455,Manual,Suv,2016,Dublin,5,Blue,2,Oct-2022,Jan-2024
+834,Mazda cx-5,0,Mazda,Cx-5,2.0,Diesel,146518,Manual,Estate,2015,Wexford,4,Red,5,Mar-2023,Sep-2024
+835,Bmw 1 series,12950,Bmw,1,1.4,Petrol,61692,Automatic,Hatchback,2013,Dublin,5,Black,1,-,-
+836,Audi a3,17890,Audi,A3,1.5,Petrol,73061,Automatic,Hatchback,2015,Dublin,5,White,1,-,-
+837,Honda jazz,12490,Honda,Jazz,1.6,Petrol,62999,Automatic,Hatchback,2015,Dublin,5,White,1,-,-
+838,Bmw 1 series,0,Bmw,1,1.2,Petrol,61639,Manual,Hatchback,2016,Dublin,5,White,2,Jan-2023,Jun-2024
+839,Nissan note,11995,Nissan,Note,1.6,Diesel,69993,Manual,Hatchback,2016,Dublin,5,White,1,Feb-2023,Jan-2025
+840,Volkswagen golf,22900,Volkswagen,Golf,1.6,Diesel,95234,Manual,Suv,2021,Kilkenny,4,Blue,1,Dec-2021,Feb-2023
+841,Nissan x-trail,35900,Nissan,X-trail,1.7,Diesel,50384,Manual,Suv,2019,Cork,0,Grey,1,Dec-2022,Nov-2023
+842,Hyundai tucson,20900,Hyundai,Tucson,1.5,Petrol,60086,Automatic,Hatchback,2017,Cork,5,Black,1,-,-
+843,Toyota aqua,10990,Toyota,Aqua,1.6,Diesel,144899,Manual,Hatchback,2015,Cork,3,Red,2,Feb-2023,Aug-2022
+844,Kia ceed,14995,Kia,Ceed,2.0,Diesel,90150,Automatic,Saloon,2016,Wexford,4,Grey,0,Jul-2023,Feb-2022
+845,Bmw 5 series,23950,Bmw,5,1.0,Petrol,0,Manual,Hatchback,2016,Dublin,5,Black,0,-,-
+846,Seat ibiza,28915,Seat,Ibiza,1.0,Petrol,60196,Manual,Hatchback,2023,Wexford,5,White,2,Jan-2023,Jul-2023
+847,Seat ibiza,13950,Seat,Ibiza,1.0,Petrol,73027,Manual,Hatchback,2017,Dublin,4,Blue,2,Feb-2023,Mar-2023
+848,Skoda fabia,0,Skoda,Fabia,2.0,Diesel,95999,Automatic,Saloon,2019,Longford,4,Grey,1,Oct-2022,May-2023
+849,Audi a4,0,Audi,A4,1.6,Diesel,93849,Manual,Saloon,2019,Longford,4,Red,1,Oct-2022,Jun-2023
+850,Skoda octavia,0,Skoda,Octavia,1.0,Petrol,73869,Manual,Mpv,2019,Longford,4,Grey,1,Mar-2023,Jun-2023
+851,Toyota yaris,15900,Toyota,Yaris,1.6,Diesel,97000,Automatic,Hatchback,2019,Longford,5,Black,1,Aug-2022,Jun-2023
+852,Volkswagen golf,23450,Volkswagen,Golf,1.2,Petrol,0,Automatic,Suv,2019,Longford,5,White,0,-,-
+853,Opel grandland x,0,Opel,Grandland,1.0,Petrol,0,Manual,Hatchback,2023,Dublin,5,Red,0,-,-
+854,Volkswagen polo,0,Volkswagen,Polo,2.0,Diesel,0,Manual,Suv,2023,Longford,5,Grey,0,-,-
+855,Volkswagen tiguan allspace,49215,Volkswagen,Tiguan,2.0,Diesel,0,Manual,Suv,2023,Longford,5,Grey,0,-,-
+856,Volkswagen t-roc,37075,Volkswagen,T-roc,1.2,Petrol,61321,Manual,Suv,2023,Longford,5,Grey,3,Dec-2022,Feb-2024
+857,Nissan juke,18495,Nissan,Juke,0.0,Electric,33197,Automatic,Mpv,2018,Dublin,5,White,2,Mar-2023,Jul-2025
+858,Hyundai kona,38995,Hyundai,Kona,0.0,Electric,28004,Automatic,Hatchback,2021,Dublin,4,Grey,2,Feb-2023,Feb-2025
+859,Peugeot 208,32995,Peugeot,208,1.8,Petrol,38750,Automatic,Hatchback,2021,Dublin,5,Black,2,-,-
+860,Toyota c-hr,25495,Toyota,C-hr,1.0,Petrol,0,Manual,Suv,2017,Limerick,5,Blue,0,-,-
+861,Volkswagen taigo,0,Volkswagen,Taigo,1.4,Petrol,30898,Manual,Hatchback,2023,Westmeath,5,White,3,Aug-2022,Feb-2023
+862,Kia ceed,0,Kia,Ceed,1.0,Petrol,4999,Manual,Suv,2019,Kildare,5,Grey,1,Nov-2022,Jan-2026
+863,Skoda kamiq,27950,Skoda,Kamiq,1.0,Petrol,4999,Manual,Estate,2022,Kerry,5,White,1,Nov-2022,Jan-2026
+864,Skoda fabia,22950,Skoda,Fabia,1.0,Petrol,3000,Manual,Suv,2022,Kerry,5,Grey,1,Nov-2022,Jan-2026
+865,Skoda kamiq,27500,Skoda,Kamiq,1.0,Petrol,3800,Manual,Suv,2022,Kerry,5,Grey,1,Nov-2022,Jan-2026
+866,Skoda kamiq,26950,Skoda,Kamiq,2.0,Diesel,62000,Manual,Suv,2022,Kerry,5,Black,1,Oct-2022,Apr-2023
+867,Seat tarraco,37950,Seat,Tarraco,1.0,Petrol,65333,Manual,Hatchback,2019,Cork,4,Grey,1,Dec-2022,Apr-2024
+868,Skoda fabia,14995,Skoda,Fabia,1.5,Diesel,59850,Automatic,Suv,2018,Dublin,5,Black,2,Jun-2023,Jul-2023
+869,Renault kadjar,27495,Renault,Kadjar,1.2,Petrol,24200,Manual,Hatchback,2019,Dublin,5,Grey,3,Dec-2022,Jan-2023
+870,Nissan pulsar,15995,Nissan,Pulsar,2.0,Diesel,67999,Automatic,Suv,2017,Dublin,5,Silver,1,Mar-2022,Apr-2024
+871,Land rover range rover velar,64950,Land,Rover,2.0,Diesel,0,Manual,Suv,2018,Limerick,0,Beige,4,Nov-2022,Dec-2023
+872,Volkswagen tiguan,0,Volkswagen,Tiguan,2.0,Diesel,0,Automatic,Suv,2013,Wicklow,4,Grey,1,Oct-2022,Mar-2026
+873,Bmw x3,0,Bmw,X3,3.0,Diesel,41999,Automatic,Saloon,2022,Westmeath,4,Black,0,Jun-2023,Jun-2025
+874,Mercedes-benz s class,119950,Mercedes-benz,S,2.2,Diesel,85657,Manual,Suv,2021,Limerick,5,Grey,1,Dec-2022,May-2022
+875,Mazda cx-5,19900,Mazda,Cx-5,0.0,Electric,0,Automatic,Saloon,2016,Cork,0,Blue,0,-,-
+876,Mercedes-benz eqe,101900,Mercedes-benz,Eqe,1.7,Diesel,83153,Manual,Suv,2023,Galway,0,White,2,Jan-2023,Jan-2024
+877,Hyundai tucson,22990,Hyundai,Tucson,1.6,Diesel,44999,Automatic,Saloon,2018,Cork,4,Black,1,Oct-2023,Jul-2023
+878,Mercedes-benz c class,29950,Mercedes-benz,C,2.3,Diesel,127386,Manual,Van,2017,Dublin,5,White,1,Aug-2022,-
+879,Opel movano,0,Opel,Movano,1.0,Petrol,62277,Manual,Hatchback,2018,Wexford,5,Black,3,Dec-2022,Feb-2024
+880,Nissan micra,15495,Nissan,Micra,2.0,Diesel,257494,Manual,Saloon,2018,Dublin,4,Black,3,Sep-2021,Aug-2023
+881,Volkswagen passat,6490,Volkswagen,Passat,1.4,Diesel,54718,Manual,Van,2011,Louth,4,White,1,May-2023,-
+882,Toyota auris,17750,Toyota,Auris,2.0,Diesel,207373,Automatic,Saloon,2018,Dublin,4,Black,4,-,-
+883,Bmw 5 series,11950,Bmw,5,1.6,Diesel,270269,Manual,Hatchback,2011,Meath,5,Red,3,Nov-2022,Feb-2024
+884,Vauxhall astra,9950,Vauxhall,Astra,1.0,Petrol,7545,Manual,Hatchback,2016,Dublin,5,White,2,Dec-2022,Jul-2025
+885,Volkswagen polo,22500,Volkswagen,Polo,2.5,Petrol,151320,Automatic,Saloon,2021,Limerick,0,Silver,1,Dec-2022,Oct-2023
+886,Lexus is 300 h,23995,Lexus,Is,1.2,Petrol,80594,Manual,Hatchback,2015,Westmeath,4,Grey,1,Jan-2023,Jul-2023
+887,Toyota corolla,0,Toyota,Corolla,1.3,Petrol,232297,Manual,Hatchback,2019,Longford,3,Black,2,-,-
+888,Toyota yaris,8450,Toyota,Yaris,1.0,Petrol,69998,Manual,Hatchback,2012,Longford,4,Grey,1,Dec-2022,Jan-2023
+889,Ford fiesta,12500,Ford,Fiesta,2.2,Diesel,128491,Manual,Saloon,2017,Cork,4,Blue,3,-,Jul-2023
+890,Mazda mazda3,0,Mazda,Mazda3,1.6,Diesel,156933,Manual,Hatchback,2015,Kildare,3,Black,2,-,-
+891,Audi a3,0,Audi,A3,1.6,Diesel,251107,Manual,Saloon,2014,Kildare,4,Brown,5,-,-
+892,Volkswagen passat,0,Volkswagen,Passat,2.0,Diesel,135733,Manual,Saloon,2014,Kildare,4,Grey,3,-,-
+893,Bmw 3 series,0,Bmw,3,1.8,Petrol,209633,Manual,Mpv,2012,Kildare,5,Red,7,-,Jul-2023
+894,Toyota corolla,0,Toyota,Corolla,1.4,Petrol,371503,Manual,Hatchback,2007,Kildare,5,Grey,2,-,Feb-2023
+895,Toyota corolla,0,Toyota,Corolla,1.0,Petrol,114194,Manual,Hatchback,2004,Kildare,5,Grey,2,-,-
+896,Ford focus,0,Ford,Focus,2.3,Diesel,286463,Manual,Van,2017,Kildare,0,White,2,Dec-2022,Apr-2023
+897,Renault master,11450,Renault,Master,1.6,Diesel,163876,Manual,Saloon,2016,Galway,4,Blue,1,-,Nov-2023
+898,Volkswagen passat,0,Volkswagen,Passat,1.7,Diesel,186934,Manual,Suv,2015,Kildare,4,Silver,1,-,Oct-2023
+899,Kia sportage,0,Kia,Sportage,,Nan,nan,Nan,Nan,2015,Kildare,0,,0,,

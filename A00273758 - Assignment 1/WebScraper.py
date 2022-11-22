@@ -3,11 +3,11 @@ import time
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-# import plotly.express as px
+import plotly.express as px
 
 basic_url = "https://www.cars.ie/used-cars?page="
 
-PAGES_TO_DOWNLOAD = 2
+PAGES_TO_DOWNLOAD = 50
 
 car_url = []
 car_name = []
@@ -34,6 +34,7 @@ car_dealer_name = []
 car_dealer_address = []
 car_dealer_phone_num = []
 car_dealer_franchise = []
+dealer=[]
 
 index = 1
 
@@ -91,63 +92,79 @@ finally:
 try:
     # loops through all the car urls and stores information in relevant lists for later use
     for url in car_url:
+        try:
+            # The following url have to be skipped, as car info is not available on website but it is still shown in car listing            
+            print("Processing...Car #"+str(index))
+            page = requests.get(url)
+            page_content = page.text
+            s = BeautifulSoup(page_content, "html.parser")
 
-        # The following url have to be skipped, as car info is not available on website but it is still shown in car listing
-        if(url == 'http://www.cars.ie/used-cars/NISSAN-QASHQAI-+2-2013-Clare-1735583'):
-            continue
+            car_tables = s.find_all("div", class_="stripped-table")
+
+            car_table = car_tables[0]
+
+            info_blocks = car_table.find_all("div", class_="row")
+
+            info_block = info_blocks[0]
+
+            car_odometer.append(str(info_block.text).split()[3])
+
+            info_block = info_blocks[1]
+
+            car_fuel_type.append(str(info_block.text).split()[2])
+
+            info_block = info_blocks[2]
+
+            car_color.append(str(info_block.text).split()[1])
+
+            info_block = info_blocks[3]
+
+            car_engine_size.append(str(info_block.text).split()[2])
+
+            info_block = info_blocks[4]
+
+            car_transmission.append(str(info_block.text).split()[1])
+
+            info_block = info_blocks[5]
+
+            car_body_type.append(str(info_block.text).split()[2])
+
+            info_block = info_blocks[6]
+
+            car_total_prev_owner.append(str(info_block.text).split()[1])
+
+            info_block = info_blocks[7]
+
+            car_total_doors.append(str(info_block.text).split()[1])
+
+            info_block = info_blocks[8]
+
+            car_tax_expiry.append(str(info_block.text).split()[2])
+
+            info_block = info_blocks[9]
+
+            car_nct_expiry.append(str(info_block.text).split()[2])
+
+            # tables = s.find_all("div", class_="col-sm-12 col-md-5")
         
-        print("Processing...Car #"+str(index))
-        page = requests.get(url)
-        page_content = page.text
-        s = BeautifulSoup(page_content, "html.parser")
+            # for element in tables:
+            #     if element == '\n':
+            #         continue
 
-        car_tables = s.find_all("div", class_="stripped-table")
+            #     info_blocks = element.find_all("div", class_="stripped-table")
+            #     info_block = info_blocks[0]
 
-        car_table = car_tables[0]
+            #     dealer.append(str(info_block.text).split())
+            #     if 'Dealer:' in dealer:
+            #         car_dealer_name.append(dealer.index('Dealer:')+1)
+            #     else:
+            #         print("not exist")            
+                
 
-        info_blocks = car_table.find_all("div", class_="row")
-
-        info_block = info_blocks[0]
-
-        car_odometer.append(str(info_block.text).split()[3])
-
-        info_block = info_blocks[1]
-
-        car_fuel_type.append(str(info_block.text).split()[2])
-
-        info_block = info_blocks[2]
-
-        car_color.append(str(info_block.text).split()[1])
-
-        info_block = info_blocks[3]
-
-        car_engine_size.append(str(info_block.text).split()[2])
-
-        info_block = info_blocks[4]
-
-        car_transmission.append(str(info_block.text).split()[1])
-
-        info_block = info_blocks[5]
-
-        car_body_type.append(str(info_block.text).split()[2])
-
-        info_block = info_blocks[6]
-
-        car_total_prev_owner.append(str(info_block.text).split()[1])
-
-        info_block = info_blocks[7]
-
-        car_total_doors.append(str(info_block.text).split()[1])
-
-        info_block = info_blocks[8]
-
-        car_tax_expiry.append(str(info_block.text).split()[2])
-
-        info_block = info_blocks[9]
-
-        car_nct_expiry.append(str(info_block.text).split()[2])
-
-        index += 1
+            index += 1
+        except Exception:
+            print("Could not process the data of following car --> "+str(url))
+            continue
         
 except IndexError:
     print("Error: Index is out of range!")   
@@ -327,5 +344,49 @@ df = pd.DataFrame({"Name": name, "Price": price, "Make": make, "Model": model,
 
 df.to_csv("preprocData_CarsIE.csv")
 
+
+df = pd.read_csv("preprocData_CarsIE.csv", usecols=['Year', 'Price'])
+
+# Draw a Scatter Chart for Year verses Price
+fig = px.scatter(df, x='Year', y='Price', title='Prices of Cars Per Year')
+fig.update_xaxes(range=[1990, 2024])
+fig.update_yaxes(range=[-5000, 50000])
+fig.show()
+
+        
+avg_car_price_df = df.groupby("Year")["Price"].mean()
+
+# Draw a Bar Chart to show the relationship between Year and Average Price
+fig = px.bar(avg_car_price_df, title='Average Car Prices Per Year', labels=dict(index="Year", value="Average Price €"))
+fig.update_xaxes(range=[1990, 2024])
+fig.update_yaxes(range=[-5000, 50000])
+fig.show()
+
+# Draw a box chart for for Year verses Price
+fig = px.box(df, x='Year', y='Price', title='Prices of Cars Per Year')
+fig.update_xaxes(range=[1900, 2024])
+fig.update_yaxes(range=[-5000, 50000])
+fig.show()
+
+# Create a Scatter Facet to show the relationship between Year verse Average Price for different auto/manual gearbox, different Manufacturers , different Door Numbers and use mileage to change the scatter marker size
+newDF = pd.read_csv("preprocData_CarsIE.csv", usecols=['Year', 'Price', 'Odometer', 'Make', 'Fuel', 'Doors', 'County'])
+
+
+fig = px.scatter(newDF, x="Year", y="Price", color="Doors", facet_col="Make", facet_row="Fuel", size="Odometer", template="plotly_dark", title="Relationship between Year verse Average Price for different gearbox, different manufacturers, different Door Numbers", width=6000, height=1000)
+fig.update_xaxes(range=[1990, 2024])
+fig.update_yaxes(range=[-5000, 50000])
+fig.show()
+
+# Use df.pivot_table function to aggregate the average price for the cars of different Engine Types, different Manufacturers, different Door Numbers, and different Year info
+dfp = newDF.pivot_table(values="Price", index=["Year", "Fuel", "Make", "Doors"], aggfunc="mean").reset_index()
+dfp.sort_values(["Year", ], inplace=True)
+
+# Calculate the average price for each group and then draw a Line Facet plot
+fig = px.line(dfp, x="Year", y="Price", color="Fuel", facet_col="Make", facet_row="Doors", template="plotly_dark")
+
+fig.update_xaxes(range=[1990, 2024], showticklabels=True)
+fig.update_yaxes(range=[-5000, 50000])
+fig.update_layout(width=6000, height=1000)
+fig.show()
 
 a = 1

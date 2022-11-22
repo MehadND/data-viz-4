@@ -1,37 +1,901 @@
 ,Name,Price,Make,Model,Engine Size,Fuel Type,Odometer,Transmission,Body Type,Manufacturing Year,County,Doors,Color,Owners,Tax Expiry,NCT Expiry,URL
-0,FORD FOCUS,"€4,600",FORD,FOCUS,1.6,DIESEL,"143,487",Manual,HATCHBACK,2010,Cork,5,SILVER,3,Feb-2023,Jan-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2010-Cork-1735859
-1,NISSAN JUKE,"€8,500",NISSAN,JUKE,1.5,Diesel,"138,960",Manual,Saloon,2013,Galway,5,Brown,3,Dec-2022,Sep-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-0-Galway-1735398
-2,NISSAN MICRA,"€21,750",NISSAN,MICRA,1.0,Petrol,200,Manual,Hatchback,2022,Waterford,4,-,-,Sep-2022,Mar-2026,http://www.cars.ie/used-cars/NISSAN-MICRA-2022-Waterford-1735826
-3,HYUNDAI IX35,"€8,949",HYUNDAI,IX35,2.0,Diesel,"319,028",Manual,Van,2013,Meath,4,Black,2,Apr-2023,Dec-2023,http://www.cars.ie/used-cars/HYUNDAI-IX35-2013-Meath-1735797
-4,OPEL ASTRA,€800,OPEL,ASTRA,1.4,Petrol,"230,005",Manual,Hatchback,2005,Meath,5,Black,2,Dec-2022,Jan-2022,http://www.cars.ie/used-cars/OPEL-ASTRA-2005-Meath-1735798
-5,FORD FOCUS,"€5,449",FORD,FOCUS,1.6,Diesel,"177,027",Manual,Hatchback,2011,Meath,5,Silver,2,Oct-2022,May-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2011-Meath-1735795
-6,BMW 5 SERIES,"€34,949",BMW,5,3.0,Diesel,"154,770",Other,Saloon,2017,Meath,4,Grey,1,Feb-2023,Sep-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2017-Meath-1735840
-7,FORD FOCUS,"€5,749",FORD,FOCUS,1.6,Diesel,"146,004",Manual,Hatchback,2011,Meath,5,Black,2,Dec-2022,Jul-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2011-Meath-1735796
-8,RENAULT KOLEOS,"€24,949",RENAULT,KOLEOS,1.6,Diesel,"129,491",Manual,Hatchback,2017,Meath,5,Blue,1,-,Nov-2024,http://www.cars.ie/used-cars/RENAULT-KOLEOS-2017-Meath-1735794
-9,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"168,121",Manual,Estate,2013,Cork,5,Silver,2,Sep-2022,Jun-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2013-Cork-1735814
-10,SKODA OCTAVIA,"€23,950",SKODA,OCTAVIA,1.0,Petrol,"34,229",Manual,Saloon,2020,Cork,4,Grey,1,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2020-Cork-1735813
-11,SKODA SUPERB,"€28,950",SKODA,SUPERB,2.0,Diesel,"106,018",Manual,Saloon,2019,Cork,4,Grey,1,Sep-2022,Jan-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2019-Cork-1735812
-12,SKODA SUPERB,"€34,500",SKODA,SUPERB,1.6,Diesel,"11,579",Automatic,Saloon,2020,Cork,4,Grey,1,Jun-2022,Jul-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2020-Cork-1735852
-13,AUDI A4,POA,AUDI,A4,2.0,Diesel,"101,388",Automatic,Saloon,2019,Limerick,4,Black,1,-,Nov-2023,http://www.cars.ie/used-cars/AUDI-A4-2019-Limerick-1735857
-14,SKODA OCTAVIA,"€12,650",SKODA,OCTAVIA,2.0,Diesel,"202,777",Manual,Hatchback,2014,Longford,5,Silver,1,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2014-Longford-1735811
-15,HONDA CIVIC,"€5,750",HONDA,CIVIC,2.0,Petrol,"191,511",Manual,Hatchback,2005,Longford,3,Black,3,-,-,http://www.cars.ie/used-cars/HONDA-CIVIC-2005-Longford-1735810
-16,OPEL ASTRA,"€7,950",OPEL,ASTRA,1.2,Diesel,"121,001",Manual,Saloon,2014,Dublin,4,Silver,3,Sep-2022,May-2024,http://www.cars.ie/used-cars/OPEL-ASTRA-2014-Dublin-1735807
-17,VOLKSWAGEN PASSAT,"€8,450",VOLKSWAGEN,PASSAT,2.0,Diesel,"239,127",Manual,Coupe,2011,Kerry,4,Black,1,Jun-2023,Sep-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2011-Kerry-1735829
-18,NISSAN QASHQAI,"€24,950",NISSAN,QASHQAI,1.5,Diesel,"90,604",Manual,Hatchback,2019,Kerry,5,Grey,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2019-Kerry-1735830
-19,MAZDA MAZDA6,"€11,950",MAZDA,MAZDA6,2.2,Diesel,"142,589",Manual,Saloon,2016,Kerry,4,Brown,3,Sep-2023,Mar-2024,http://www.cars.ie/used-cars/MAZDA-MAZDA6-2016-Kerry-1735831
-20,VOLKSWAGEN GOLF,"€2,450",VOLKSWAGEN,GOLF,1.4,Petrol,"167,954",Manual,Hatchback,2005,Dublin,5,Grey,5,Apr-2023,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2005-Dublin-1735791
-21,TOYOTA YARIS,"€5,950",TOYOTA,YARIS,1.0,Petrol,"103,255",Manual,Hatchback,2010,Kerry,5,Silver,3,Feb-2023,Jun-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2010-Kerry-1735828
-22,FORD KUGA,"€17,450",FORD,KUGA,1.5,Diesel,"184,261",Manual,Hatchback,2017,Kerry,5,Grey,1,Nov-2022,Jan-2023,http://www.cars.ie/used-cars/FORD-KUGA-2017-Kerry-1735827
-23,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.4,Petrol,"117,564",Automatic,Hatchback,2014,Dublin,5,Grey,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1735849
-24,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"109,541",Automatic,Hatchback,2014,Dublin,5,Blue,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1735851
-25,VOLKSWAGEN BEETLE,POA,VOLKSWAGEN,BEETLE,1.2,Petrol,"106,826",Automatic,Hatchback,2014,Dublin,2,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-BEETLE-2014-Dublin-1735847
-26,TOYOTA AQUA,POA,TOYOTA,AQUA,1.5,Petrol,"108,478",Automatic,Hatchback,2014,Dublin,5,White,1,-,Dec-2024,http://www.cars.ie/used-cars/TOYOTA-AQUA-2014-Dublin-1735846
-27,FORD FIESTA,POA,FORD,FIESTA,1.0,Petrol,"131,731",Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/FORD-FIESTA-2014-Dublin-1735850
-28,AUDI A3 SALOON,POA,AUDI,A3,1.4,Petrol,"82,369",Automatic,Saloon,2014,Dublin,4,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/AUDI-A3-SALOON-2014-Dublin-1735845
-29,VOLKSWAGEN JETTA,"€8,950",VOLKSWAGEN,JETTA,1.6,Diesel,"223,005",Manual,Saloon,2014,Tipperary,4,Grey,3,Oct-2022,Nov-2022,http://www.cars.ie/used-cars/VOLKSWAGEN-JETTA-2014-Tipperary-1735834
-30,AUDI A3,POA,AUDI,A3,1.4,Petrol,"140,465",Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/AUDI-A3-2014-Dublin-1735848
-31,AUDI A6,"€19,950",AUDI,A6,2.0,Diesel,0,Manual,Saloon,2015,Kerry,4,Grey,3,Aug-2023,Jul-2023,http://www.cars.ie/used-cars/AUDI-A6-2015-Kerry-1735821
-32,AUDI A3,"€4,450",AUDI,A3,1.6,Petrol,"238,005",Automatic,Hatchback,2008,Dublin,3,Black,3,Mar-2022,Sep-2022,http://www.cars.ie/used-cars/AUDI-A3-2008-Dublin-1735853
-33,ISUZU D-MAX,"€15,900",ISUZU,D-MAX,2.5,Diesel,"318,649",Manual,Pickup,2015,Dublin,4,Grey,3,Dec-2022,-,http://www.cars.ie/used-cars/ISUZU-D-MAX-2015-Dublin-1735820
-34,FORD MONDEO,"€6,750",FORD,MONDEO,1.6,Diesel,"193,121",Manual,Hatchback,2012,Cork,4,Black,3,Sep-2022,Feb-2024,http://www.cars.ie/used-cars/FORD-MONDEO-2012-Cork-1735833
-35,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.2,Petrol,"65,983",Automatic,Hatchback,2013,Cork,5,Blue,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2013-Cork-1735844
+0,VOLKSWAGEN POLO,"€14,900",VOLKSWAGEN,POLO,1.0,Petrol,"110,000",Manual,Hatchback,2019,Louth,5,Red,2,Jan-2023,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2019-Louth-1736593
+1,PORSCHE TAYCAN,POA,PORSCHE,TAYCAN,1.0,Other,"30,505",Automatic,Saloon,2021,Antrim,4,Red,1,-,-,http://www.cars.ie/used-cars/PORSCHE-TAYCAN-2021-Antrim-1736591
+2,RENAULT MEGANE,POA,RENAULT,MEGANE,1.6,Diesel,"52,246",Manual,Hatchback,2017,Antrim,5,Black,-,-,-,http://www.cars.ie/used-cars/RENAULT-MEGANE-2017-Antrim-1736547
+3,FORD FIESTA,"€24,600",FORD,FIESTA,1.0,Petrol,999,Manual,Hatchback,2022,Cork,5,-,-,-,-,http://www.cars.ie/used-cars/FORD-FIESTA-2022-Cork-1736281
+4,FORD FIESTA,"€24,600",FORD,FIESTA,1.0,Petrol,999,Manual,Hatchback,2022,Cork,5,-,-,-,-,http://www.cars.ie/used-cars/FORD-FIESTA-2022-Cork-1736280
+5,FORD ECOSPORT,"€14,900",FORD,ECOSPORT,1.5,Diesel,"104,499",Manual,SUV,2017,Cork,-,White,1,Dec-2022,Aug-2023,http://www.cars.ie/used-cars/FORD-ECOSPORT-2017-Cork-1736279
+6,VOLKSWAGEN CADDY,POA,VOLKSWAGEN,CADDY,2.0,Diesel,14,Automatic,Van,2022,Donegal,-,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2022-Donegal-1736356
+7,VOLKSWAGEN T-ROC,POA,VOLKSWAGEN,T-ROC,2.0,Diesel,14,Manual,SUV,2022,Donegal,-,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2022-Donegal-1736278
+8,VOLKSWAGEN T-ROC,POA,VOLKSWAGEN,T-ROC,2.0,Diesel,14,Manual,SUV,2022,Donegal,-,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2022-Donegal-1736277
+9,VOLKSWAGEN T-ROC,POA,VOLKSWAGEN,T-ROC,2.0,Diesel,14,Manual,SUV,2022,Donegal,-,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2022-Donegal-1736276
+10,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"69,713",Manual,Hatchback,2017,Cork,5,White,2,Jan-2023,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2017-Cork-1736274
+11,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"134,204",Manual,Hatchback,2016,Cork,5,Silver,1,Mar-2023,Jul-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2016-Cork-1736275
+12,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"59,483",Manual,Saloon,2020,Laois,4,Red,1,Sep-2022,Sep-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2020-Laois-1736272
+13,SEAT LEON,"€14,950",SEAT,LEON,1.6,Diesel,0,Manual,Estate,2017,Cork,5,White,1,Sep-2022,Jul-2023,http://www.cars.ie/used-cars/SEAT-LEON-2017-Cork-1736273
+14,AUDI A4,"€19,950",AUDI,A4,2.0,Diesel,"83,375",Manual,Estate,2015,Dublin,5,Silver,3,Jan-2023,Mar-2023,http://www.cars.ie/used-cars/AUDI-A4-2015-Dublin-1736204
+15,FORD KUGA,"€25,950",FORD,KUGA,1.5,Diesel,"59,097",Manual,SUV,2019,Laois,5,Gold,3,Feb-2023,Mar-2023,http://www.cars.ie/used-cars/FORD-KUGA-2019-Laois-1736268
+16,KIA SORENTO,"€34,950",KIA,SORENTO,2.2,Diesel,"96,927",Manual,SUV,2018,Laois,5,White,1,Mar-2023,Jan-2022,http://www.cars.ie/used-cars/KIA-SORENTO-2018-Laois-1736267
+17,FORD FIESTA,"€18,950",FORD,FIESTA,1.0,Petrol,"37,399",Manual,Hatchback,2019,Laois,5,Red,1,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2019-Laois-1736265
+18,HYUNDAI I30,"€9,950",HYUNDAI,I30,1.4,Diesel,"111,390",Manual,Van,2014,Laois,3,Red,2,Feb-2023,-,http://www.cars.ie/used-cars/HYUNDAI-I30-2014-Laois-1736266
+19,KIA SPORTAGE,"€24,900",KIA,SPORTAGE,1.7,Diesel,"94,396",Manual,SUV,2018,Cork,5,White,2,Jul-2023,Jul-2022,http://www.cars.ie/used-cars/KIA-SPORTAGE-2018-Cork-1736264
+20,MERCEDES-BENZ CLA CLASS,"€51,928",MERCEDES-BENZ,CLA,1.3,Petrol,0,Automatic,Coupe,2023,Limerick,4,Black,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2023-Limerick-1736353
+21,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.2,Petrol,"17,139",Automatic,Hatchback,2017,Dublin,5,Red,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2017-Dublin-1736352
+22,NISSAN QASHQAI,POA,NISSAN,QASHQAI,1.5,Diesel,"51,715",Manual,Hatchback,2016,Dublin,5,White,4,Apr-2022,May-2022,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2016-Dublin-1736262
+23,MAXUS DELIVER 9,"€26,450",MAXUS,DELIVER,2.0,Diesel,"12,439",Manual,Van,2022,Dublin,4,White,1,Feb-2023,-,http://www.cars.ie/used-cars/MAXUS-DELIVER-9-2022-Dublin-1736180
+24,CITROEN RELAY,"€35,475",CITROEN,RELAY,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/CITROEN-RELAY-2023-Dublin-1736179
+25,OPEL MOVANO,"€27,995",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2022,Dublin,2,Grey,1,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2022-Dublin-1736177
+26,OPEL MOVANO,"€44,640",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736178
+27,MAXUS DELIVER 9,"€37,070",MAXUS,DELIVER,2.0,Diesel,0,Manual,Van,2023,Dublin,-,-,-,-,-,http://www.cars.ie/used-cars/MAXUS-DELIVER-9-2023-Dublin-1736175
+28,VOLKSWAGEN POLO,"€11,950",VOLKSWAGEN,POLO,1.2,Diesel,"108,124",Manual,Hatchback,2014,Mayo,5,Grey,5,Apr-2023,Oct-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2014-Mayo-1736257
+29,MERCEDES-BENZ E CLASS,"€87,900",MERCEDES-BENZ,E,2.0,Diesel,0,Automatic,Saloon,2023,Galway,-,Black,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2023-Galway-1736345
+30,MERCEDES-BENZ CLA CLASS,"€53,900",MERCEDES-BENZ,CLA,2.0,Diesel,0,Automatic,Saloon,2023,Galway,-,Black,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2023-Galway-1736346
+31,VOLKSWAGEN GOLF,"€28,495",VOLKSWAGEN,GOLF,1.5,Petrol,"31,437",Manual,Hatchback,2020,Dublin,5,White,2,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2020-Dublin-1736256
+32,VOLKSWAGEN CRAFTER,"€34,919",VOLKSWAGEN,CRAFTER,2.0,Diesel,"20,400",Manual,Van,2022,Dublin,5,White,1,Dec-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CRAFTER-2022-Dublin-1736255
+33,VOLKSWAGEN CRAFTER,"€34,919",VOLKSWAGEN,CRAFTER,2.0,Diesel,"16,892",Automatic,Van,2022,Dublin,5,White,1,Dec-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CRAFTER-2022-Dublin-1736344
+34,VOLKSWAGEN CADDY,"€42,950",VOLKSWAGEN,CADDY,2.0,Diesel,"14,799",Automatic,MPV,2021,Dublin,5,Grey,1,Jan-2023,Jul-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2021-Dublin-1736343
+35,VOLKSWAGEN CRAFTER,"€27,638",VOLKSWAGEN,CRAFTER,2.0,Diesel,"12,703",Manual,Van,2022,Dublin,5,White,1,Jan-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CRAFTER-2022-Dublin-1736254
+36,VOLKSWAGEN CRAFTER,"€36,545",VOLKSWAGEN,CRAFTER,2.0,Diesel,"1,291",Manual,Van,2022,Dublin,5,White,1,Dec-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CRAFTER-2022-Dublin-1736253
+37,HYUNDAI SANTA FE,"€38,995",HYUNDAI,SANTA,2.2,Diesel,"113,859",Manual,SUV,2019,Cork,5,Black,1,Dec-2021,Jan-2023,http://www.cars.ie/used-cars/HYUNDAI-SANTA-FE-2019-Cork-1736250
+38,VOLKSWAGEN UP!,POA,VOLKSWAGEN,UP!,1.0,Petrol,"68,036",Automatic,Hatchback,2013,Cork,3,White,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-UP!-2013-Cork-1736342
+39,RENAULT CLIO,"€17,700",RENAULT,CLIO,1.0,Petrol,"24,887",Manual,Hatchback,2020,Dublin,5,Orange,1,Sep-2022,Jun-2024,http://www.cars.ie/used-cars/RENAULT-CLIO-2020-Dublin-1736249
+40,RENAULT CAPTUR,"€18,400",RENAULT,CAPTUR,0.0,Petrol,"69,169",Manual,SUV,2019,Dublin,4,Grey,2,Jan-2023,Oct-2023,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2019-Dublin-1736248
+41,RENAULT KADJAR,"€29,900",RENAULT,KADJAR,1.5,Diesel,"30,386",Manual,SUV,2020,Dublin,5,Black,1,Apr-2022,Jan-2024,http://www.cars.ie/used-cars/RENAULT-KADJAR-2020-Dublin-1736247
+42,DACIA DUSTER,"€17,900",DACIA,DUSTER,1.5,Diesel,"92,299",Manual,SUV,2019,Dublin,4,Brown,2,Nov-2022,Jul-2023,http://www.cars.ie/used-cars/DACIA-DUSTER-2019-Dublin-1736246
+43,DACIA DUSTER,"€21,490",DACIA,DUSTER,1.5,Diesel,"8,212",Manual,SUV,2020,Dublin,5,Black,1,Oct-2022,Jan-2024,http://www.cars.ie/used-cars/DACIA-DUSTER-2020-Dublin-1736244
+44,RENAULT GRAND SCENIC,"€31,900",RENAULT,GRAND,1.8,Diesel,"14,709",Manual,MPV,2021,Dublin,4,Red,2,Nov-2022,Jan-2025,http://www.cars.ie/used-cars/RENAULT-GRAND-SCENIC-2021-Dublin-1736245
+45,RENAULT GRAND SCENIC,"€31,900",RENAULT,GRAND,1.8,Diesel,"26,461",Manual,MPV,2021,Dublin,5,Red,2,Nov-2022,Feb-2025,http://www.cars.ie/used-cars/RENAULT-GRAND-SCENIC-2021-Dublin-1736242
+46,RENAULT MEGANE,"€26,900",RENAULT,MEGANE,1.5,Diesel,"28,538",Manual,Estate,2021,Dublin,4,Red,1,Oct-2022,Mar-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736243
+47,RENAULT MEGANE,"€27,900",RENAULT,MEGANE,1.5,Diesel,"23,356",Manual,Hatchback,2021,Dublin,4,Blue,1,Jan-2023,Mar-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736240
+48,RENAULT CAPTUR,"€24,900",RENAULT,CAPTUR,1.5,Diesel,"21,504",Manual,SUV,2021,Dublin,5,Blue,1,Oct-2022,Feb-2025,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2021-Dublin-1736241
+49,RENAULT CAPTUR,"€17,990",RENAULT,CAPTUR,1.5,Diesel,"55,807",Manual,SUV,2019,Dublin,5,Blue,2,Jun-2023,Jan-2023,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2019-Dublin-1736239
+50,RENAULT MEGANE,"€26,490",RENAULT,MEGANE,1.5,Diesel,"17,349",Manual,Estate,2021,Dublin,4,Grey,1,Sep-2022,Feb-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736238
+51,DACIA DUSTER,"€23,490",DACIA,DUSTER,1.5,Diesel,"22,276",Manual,SUV,2021,Dublin,5,Black,1,Nov-2022,Jan-2025,http://www.cars.ie/used-cars/DACIA-DUSTER-2021-Dublin-1736237
+52,RENAULT CLIO,"€15,400",RENAULT,CLIO,0.0,Petrol,"62,100",Manual,Hatchback,2019,Dublin,4,Blue,1,Sep-2022,Jan-2023,http://www.cars.ie/used-cars/RENAULT-CLIO-2019-Dublin-1736236
+53,RENAULT MEGANE,"€26,490",RENAULT,MEGANE,1.5,Diesel,"16,159",Manual,Estate,2021,Dublin,4,Grey,1,Aug-2022,Jan-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736235
+54,SKODA KAROQ,"€38,995",SKODA,KAROQ,1.5,Petrol,"30,849",Automatic,Estate,2021,Waterford,4,Grey,1,-,Jan-2025,http://www.cars.ie/used-cars/SKODA-KAROQ-2021-Waterford-1736158
+55,RENAULT MEGANE,"€25,490",RENAULT,MEGANE,1.3,Petrol,"5,443",Manual,Estate,2021,Dublin,5,Black,1,May-2022,Feb-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736234
+56,CUPRA FORMENTOR,POA,CUPRA,FORMENTOR,1.5,Petrol,0,Manual,Estate,2023,Waterford,-,White,-,-,-,http://www.cars.ie/used-cars/CUPRA-FORMENTOR-2023-Waterford-1736156
+57,SEAT ARONA,"€18,995",SEAT,ARONA,1.0,Petrol,0,Manual,SUV,2019,Waterford,5,Blue,1,-,Jan-2023,http://www.cars.ie/used-cars/SEAT-ARONA-2019-Waterford-1736157
+58,CUPRA FORMENTOR,"€38,995",CUPRA,FORMENTOR,2.0,Diesel,"5,419",Manual,Estate,2022,Waterford,5,Blue,1,-,-,http://www.cars.ie/used-cars/CUPRA-FORMENTOR-2022-Waterford-1736155
+59,CUPRA ATECA,"€45,000",CUPRA,ATECA,2.0,Petrol,"31,249",Automatic,SUV,2019,Dublin,5,Black,1,Mar-2023,Apr-2023,http://www.cars.ie/used-cars/CUPRA-ATECA-2019-Dublin-1736136
+60,RENAULT MEGANE,"€24,995",RENAULT,MEGANE,1.5,Diesel,"30,161",Manual,Saloon,2020,Wexford,4,White,1,Jul-2023,Jul-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2020-Wexford-1736186
+61,VOLKSWAGEN T-ROC,"€28,945",VOLKSWAGEN,T-ROC,1.6,Diesel,"59,652",Manual,SUV,2020,Sligo,5,White,2,Jun-2023,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2020-Sligo-1736232
+62,VOLKSWAGEN CADDY,"€18,950",VOLKSWAGEN,CADDY,2.0,Diesel,"53,849",Manual,Van,2020,Sligo,5,White,4,Apr-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2020-Sligo-1736231
+63,PEUGEOT 2008,"€25,995",PEUGEOT,2008,1.5,Diesel,"61,198",Manual,MPV,2020,Mayo,4,Grey,2,Jan-2023,Feb-2024,http://www.cars.ie/used-cars/PEUGEOT-2008-2020-Mayo-1736230
+64,VOLKSWAGEN TIGUAN,"€38,945",VOLKSWAGEN,TIGUAN,1.5,Petrol,"28,125",Automatic,SUV,2020,Sligo,5,Grey,1,Jun-2023,Jul-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2020-Sligo-1736340
+65,VOLKSWAGEN TIGUAN,POA,VOLKSWAGEN,TIGUAN,2.0,Diesel,"33,550",Manual,SUV,2021,Waterford,5,Grey,1,Dec-2022,Jun-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2021-Waterford-1736162
+66,VOLKSWAGEN TIGUAN,"€33,435",VOLKSWAGEN,TIGUAN,2.0,Diesel,"33,498",Manual,SUV,2021,Waterford,5,Grey,1,Dec-2022,Jun-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2021-Waterford-1736161
+67,SKODA OCTAVIA,"€28,495",SKODA,OCTAVIA,2.0,Diesel,"44,899",Manual,Saloon,2021,Waterford,5,Grey,1,Dec-2022,Jul-2025,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2021-Waterford-1736159
+68,SKODA OCTAVIA,POA,SKODA,OCTAVIA,2.0,Diesel,"44,905",Manual,Saloon,2021,Waterford,5,Grey,1,Jun-2022,Jul-2025,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2021-Waterford-1736160
+69,AUDI A4,POA,AUDI,A4,2.0,Diesel,"155,715",Manual,Saloon,2018,Longford,4,Grey,2,-,-,http://www.cars.ie/used-cars/AUDI-A4-2018-Longford-1736229
+70,NISSAN MICRA,POA,NISSAN,MICRA,1.2,Petrol,"104,253",Manual,Hatchback,2015,Longford,5,White,2,-,-,http://www.cars.ie/used-cars/NISSAN-MICRA-2015-Longford-1736226
+71,SKODA SUPERB,POA,SKODA,SUPERB,1.6,Diesel,"152,870",Manual,Saloon,2016,Longford,4,Grey,2,Mar-2023,May-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2016-Longford-1736228
+72,VOLKSWAGEN GOLF,"€20,750",VOLKSWAGEN,GOLF,1.6,Diesel,"128,478",Manual,Hatchback,2017,Longford,5,Grey,3,Jul-2023,Oct-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2017-Longford-1736198
+73,NISSAN QASHQAI,"€20,495",NISSAN,QASHQAI,1.6,Diesel,"84,999",Manual,Hatchback,2016,Dublin,-,Black,2,Jun-2023,Nov-2022,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2016-Dublin-1736203
+74,SKODA KAROQ,"€27,995",SKODA,KAROQ,1.6,Diesel,"46,544",Manual,SUV,2019,Limerick,5,Beige,2,Jan-2023,Jan-2023,http://www.cars.ie/used-cars/SKODA-KAROQ-2019-Limerick-1736148
+75,FORD FOCUS,"€26,950",FORD,FOCUS,1.5,Diesel,"32,010",Manual,Hatchback,2020,Kildare,4,Blue,2,Feb-2023,Jan-2024,http://www.cars.ie/used-cars/FORD-FOCUS-2020-Kildare-1736223
+76,AUDI A6,"€49,950",AUDI,A6,2.0,Diesel,"35,117",Automatic,Saloon,2020,Kildare,4,Grey,1,-,-,http://www.cars.ie/used-cars/AUDI-A6-2020-Kildare-1736336
+77,SUZUKI SWIFT,POA,SUZUKI,SWIFT,1.0,Petrol,"51,925",Manual,Hatchback,2018,Tipperary,5,Red,1,Mar-2023,Jan-2024,http://www.cars.ie/used-cars/SUZUKI-SWIFT-2018-Tipperary-1736222
+78,SKODA OCTAVIA,"€12,950",SKODA,OCTAVIA,1.6,Diesel,"183,999",Manual,Estate,2015,Cork,5,Silver,2,Nov-2022,Nov-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2015-Cork-1736220
+79,SKODA KODIAQ,"€48,950",SKODA,KODIAQ,2.0,Diesel,"19,800",Automatic,SUV,2020,Cork,5,Grey,1,Oct-2022,Nov-2024,http://www.cars.ie/used-cars/SKODA-KODIAQ-2020-Cork-1736331
+80,NISSAN MICRA,"€17,950",NISSAN,MICRA,1.0,Petrol,"77,268",Manual,Hatchback,2020,Wexford,4,Grey,1,Oct-2023,Oct-2024,http://www.cars.ie/used-cars/NISSAN-MICRA-2020-Wexford-1736151
+81,KIA STONIC,"€21,895",KIA,STONIC,1.0,Petrol,"58,229",Manual,Estate,2021,Wexford,5,Red,1,Jan-2023,May-2025,http://www.cars.ie/used-cars/KIA-STONIC-2021-Wexford-1736215
+82,RENAULT CLIO,"€11,495",RENAULT,CLIO,1.1,Petrol,"67,764",Manual,Hatchback,2015,Dublin,4,Silver,3,Sep-2022,Sep-2023,http://www.cars.ie/used-cars/RENAULT-CLIO-2015-Dublin-1736219
+83,PEUGEOT 3008,"€32,950",PEUGEOT,3008,1.5,Diesel,"79,849",Automatic,MPV,2019,Galway,4,White,2,Nov-2022,Mar-2023,http://www.cars.ie/used-cars/PEUGEOT-3008-2019-Galway-1736217
+84,FORD MONDEO,"€13,495",FORD,MONDEO,1.6,Diesel,"135,999",Manual,Hatchback,2015,Galway,4,Silver,3,Mar-2023,Jul-2023,http://www.cars.ie/used-cars/FORD-MONDEO-2015-Galway-1736216
+85,NISSAN LEAF,"€27,495",NISSAN,LEAF,0.0,Electric,"47,999",Automatic,Hatchback,2019,Dublin,5,Grey,2,Jun-2023,Feb-2023,http://www.cars.ie/used-cars/NISSAN-LEAF-2019-Dublin-1736330
+86,NISSAN LEAF,"€24,495",NISSAN,LEAF,0.0,Electric,"55,999",Automatic,Hatchback,2018,Dublin,5,Grey,2,Sep-2022,Jul-2022,http://www.cars.ie/used-cars/NISSAN-LEAF-2018-Dublin-1736329
+87,HONDA HR-V,POA,HONDA,HR-V,1.5,Petrol,"10,300",Manual,SUV,2021,Limerick,5,Black,1,Jul-2022,Aug-2025,http://www.cars.ie/used-cars/HONDA-HR-V-2021-Limerick-1736054
+88,RENAULT CAPTUR,"€12,495",RENAULT,CAPTUR,1.5,Diesel,"117,998",Manual,Hatchback,2015,Tipperary,4,Black,3,Dec-2022,Dec-2023,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2015-Tipperary-1736015
+89,NISSAN MICRA,"€21,995",NISSAN,MICRA,1.0,Petrol,"26,779",Manual,Hatchback,2022,Westmeath,4,Grey,1,Feb-2023,Mar-2026,http://www.cars.ie/used-cars/NISSAN-MICRA-2022-Westmeath-1735971
+90,MAXUS DELIVER 9,"€36,950",MAXUS,DELIVER,2.0,Diesel,"7,540",Manual,Van,2022,Dublin,-,White,1,Jun-2023,-,http://www.cars.ie/used-cars/MAXUS-DELIVER-9-2022-Dublin-1735964
+91,MERCEDES-BENZ E CLASS,"€32,900",MERCEDES-BENZ,E,2.0,Diesel,"111,307",Automatic,Saloon,2017,Galway,4,Black,2,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2017-Galway-1736098
+92,KIA PICANTO,"€13,900",KIA,PICANTO,1.2,Petrol,"59,169",Automatic,Hatchback,2020,Kilkenny,5,White,1,Feb-2023,Feb-2024,http://www.cars.ie/used-cars/KIA-PICANTO-2020-Kilkenny-1736095
+93,MERCEDES-BENZ CLA CLASS,"€57,950",MERCEDES-BENZ,CLA,1.3,Petrol,"24,942",Automatic,Saloon,2021,Sligo,4,Black,1,Sep-2022,Oct-2025,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2021-Sligo-1736093
+94,MERCEDES-BENZ EQS,"€153,950",MERCEDES-BENZ,EQS,0.0,Electric,14,Automatic,Saloon,2023,Sligo,4,Blue,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-EQS-2023-Sligo-1736094
+95,MERCEDES-BENZ E CLASS,"€83,950",MERCEDES-BENZ,E,2.0,Diesel,14,Automatic,Saloon,2023,Sligo,4,Blue,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2023-Sligo-1736092
+96,RENAULT MEGANE,"€19,990",RENAULT,MEGANE,1.5,Diesel,"45,651",Automatic,Estate,2018,Dublin,5,Grey,2,Jun-2023,Apr-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2018-Dublin-1736091
+97,AUDI A6,"€67,950",AUDI,A6,2.0,Diesel,"7,500",Automatic,Saloon,2022,Sligo,5,White,1,Jan-2023,Jul-2026,http://www.cars.ie/used-cars/AUDI-A6-2022-Sligo-1735894
+98,DACIA DUSTER,"€23,995",DACIA,DUSTER,1.5,Diesel,"42,545",Manual,SUV,2021,Limerick,5,Grey,1,Dec-2022,Jan-2025,http://www.cars.ie/used-cars/DACIA-DUSTER-2021-Limerick-1735932
+99,AUDI A6,"€54,850",AUDI,A6,2.0,Diesel,"15,409",Automatic,Saloon,2022,Mayo,4,Blue,1,-,-,http://www.cars.ie/used-cars/AUDI-A6-2022-Mayo-1736090
+100,AUDI Q3,"€27,950",AUDI,Q3,2.0,Diesel,"133,120",Automatic,SUV,2017,Kildare,5,Black,1,Jan-2023,Feb-2023,http://www.cars.ie/used-cars/AUDI-Q3-2017-Kildare-1736089
+101,AUDI Q2,"€31,950",AUDI,Q2,1.6,Diesel,"70,310",Manual,SUV,2019,Kildare,5,Black,2,Feb-2023,Jan-2023,http://www.cars.ie/used-cars/AUDI-Q2-2019-Kildare-1736051
+102,MINI HATCH,"€15,950",MINI,HATCH,1.5,Diesel,"73,000",Manual,Hatchback,2016,Cork,2,Blue,2,Jan-2023,May-2024,http://www.cars.ie/used-cars/MINI-HATCH-2016-Cork-1736050
+103,VOLKSWAGEN JETTA,POA,VOLKSWAGEN,JETTA,2.0,Diesel,"99,901",Manual,Saloon,2016,Dublin,4,Grey,2,Dec-2022,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-JETTA-2016-Dublin-1736048
+104,HYUNDAI SANTA FE,"€8,950",HYUNDAI,SANTA,2.0,Diesel,"108,001",Manual,SUV,2010,Meath,5,Silver,1,Sep-2022,Jan-2023,http://www.cars.ie/used-cars/HYUNDAI-SANTA-FE-2010-Meath-1736371
+105,NISSAN QASHQAI,"€6,495",NISSAN,QASHQAI,1.5,Diesel,"216,004",Manual,Hatchback,2011,Meath,5,Black,4,Nov-2022,-,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2011-Meath-1736370
+106,SUZUKI SWIFT,"€4,495",SUZUKI,SWIFT,1.3,Petrol,"180,246",Manual,Hatchback,2009,Meath,5,Red,3,Nov-2022,Apr-2022,http://www.cars.ie/used-cars/SUZUKI-SWIFT-2009-Meath-1736369
+107,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"68,394",Manual,Van,2019,Dublin,2,White,3,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Dublin-1736546
+108,FORD TRANSIT,POA,FORD,TRANSIT,2.2,Diesel,"145,982",Manual,Van,2015,Dublin,4,White,4,-,Jun-2023,http://www.cars.ie/used-cars/FORD-TRANSIT-2015-Dublin-1736545
+109,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"245,624",Manual,Van,2015,Dublin,3,Black,2,-,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Dublin-1736544
+110,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"153,624",Automatic,Hatchback,2014,Dublin,5,Grey,2,-,Aug-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1736590
+111,FORD FIESTA,POA,FORD,FIESTA,1.2,Petrol,"159,206",Manual,Hatchback,2012,Dublin,5,Red,1,-,Jul-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2012-Dublin-1736543
+112,VAUXHALL ASTRA,POA,VAUXHALL,ASTRA,1.6,Petrol,"79,031",Automatic,Hatchback,2012,Dublin,5,Black,2,-,Oct-2023,http://www.cars.ie/used-cars/VAUXHALL-ASTRA-2012-Dublin-1736589
+113,NISSAN NOTE,POA,NISSAN,NOTE,1.4,Petrol,"33,667",Manual,MPV,2012,Dublin,4,Brown,2,-,Aug-2023,http://www.cars.ie/used-cars/NISSAN-NOTE-2012-Dublin-1736542
+114,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.2,Petrol,"195,063",Manual,Hatchback,2011,Dublin,5,Grey,3,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2011-Dublin-1736541
+115,LEXUS IS 220 D,POA,LEXUS,IS,2.2,Diesel,"158,394",Manual,Saloon,2008,Dublin,4,Black,2,-,Mar-2023,http://www.cars.ie/used-cars/LEXUS-IS-220-D-2008-Dublin-1736539
+116,AUDI A5,POA,AUDI,A5,1.8,Petrol,"196,420",Manual,Coupe,2008,Dublin,2,Black,3,-,Mar-2023,http://www.cars.ie/used-cars/AUDI-A5-2008-Dublin-1736538
+117,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.9,Diesel,"283,569",Manual,Hatchback,2007,Dublin,5,Black,2,-,Mar-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2007-Dublin-1736537
+118,LAND ROVER DISCOVERY,POA,LAND,ROVER,2.7,Diesel,"287,084",Manual,Estate,2007,Dublin,5,-,3,-,-,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-2007-Dublin-1736536
+119,FORD FOCUS,POA,FORD,FOCUS,1.6,Diesel,0,Manual,Estate,2007,Dublin,5,Blue,4,-,-,http://www.cars.ie/used-cars/FORD-FOCUS-2007-Dublin-1736535
+120,FORD FIESTA,POA,FORD,FIESTA,1.2,Petrol,"158,309",Manual,Hatchback,2006,Dublin,5,Purple,3,-,May-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2006-Dublin-1736534
+121,SEAT IBIZA,POA,SEAT,IBIZA,1.6,Diesel,"158,258",Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022,http://www.cars.ie/used-cars/SEAT-IBIZA-2018-Dublin-1736532
+122,MERCEDES-BENZ A CLASS,POA,MERCEDES-BENZ,A,1.6,Petrol,"85,203",Automatic,Hatchback,2015,Dublin,5,White,2,-,Aug-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-A-CLASS-2015-Dublin-1736588
+123,BMW 5 SERIES,POA,BMW,5,2.0,Diesel,"20,012",Automatic,Estate,2018,Dublin,4,White,2,-,Jan-2022,http://www.cars.ie/used-cars/BMW-5-SERIES-2018-Dublin-1736587
+124,HYUNDAI TUCSON,"€22,995",HYUNDAI,TUCSON,1.7,Diesel,"91,499",Manual,SUV,2017,Cork,5,Grey,1,Oct-2023,Jan-2023,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2017-Cork-1736530
+125,HYUNDAI TUCSON,"€27,995",HYUNDAI,TUCSON,1.6,Diesel,"54,425",Manual,SUV,2019,Cork,5,Brown,2,Jun-2023,Jan-2023,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2019-Cork-1736529
+126,TOYOTA YARIS,"€16,495",TOYOTA,YARIS,1.0,Petrol,"24,267",Manual,Hatchback,2017,Meath,5,Grey,3,Feb-2023,Jul-2021,http://www.cars.ie/used-cars/TOYOTA-YARIS-2017-Meath-1736528
+127,VOLKSWAGEN PASSAT,"€11,950",VOLKSWAGEN,PASSAT,2.0,Diesel,"178,637",Automatic,Saloon,2014,Limerick,4,Black,3,Nov-2022,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2014-Limerick-1736581
+128,SEAT ARONA,"€20,495",SEAT,ARONA,1.0,Petrol,"48,386",Manual,SUV,2021,Limerick,5,Grey,1,Jan-2023,Jul-2025,http://www.cars.ie/used-cars/SEAT-ARONA-2021-Limerick-1736527
+129,RENAULT CLIO,"€16,945",RENAULT,CLIO,1.0,Petrol,"55,611",Manual,Hatchback,2021,Limerick,5,Blue,1,Dec-2022,Mar-2025,http://www.cars.ie/used-cars/RENAULT-CLIO-2021-Limerick-1736526
+130,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"73,545",Manual,Saloon,2020,Laois,4,Red,1,Sep-2022,Sep-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2020-Laois-1736525
+131,BMW 4 SERIES,"€29,995",BMW,4,2.0,Diesel,"47,059",Automatic,Convertible,2014,Westmeath,2,Black,2,Feb-2023,Mar-2024,http://www.cars.ie/used-cars/BMW-4-SERIES-2014-Westmeath-1736580
+132,MERCEDES-BENZ E CLASS,"€29,995",MERCEDES-BENZ,E,2.0,Diesel,"111,456",Automatic,Saloon,2017,Dublin,4,Silver,2,Jul-2023,Jan-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2017-Dublin-1736579
+133,MERCEDES-BENZ C CLASS,"€22,995",MERCEDES-BENZ,C,1.6,Diesel,"85,849",Automatic,Saloon,2016,Dublin,4,Silver,2,Mar-2023,Aug-2022,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2016-Dublin-1736578
+134,NISSAN QASHQAI,"€19,995",NISSAN,QASHQAI,1.2,Petrol,"102,531",Manual,SUV,2017,Dublin,4,Grey,1,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2017-Dublin-1736523
+135,NISSAN NV300,"€17,069",NISSAN,NV300,1.6,Diesel,"84,082",Manual,Van,2018,Dublin,4,White,1,Mar-2022,-,http://www.cars.ie/used-cars/NISSAN-NV300-2018-Dublin-1736522
+136,NISSAN X-TRAIL,POA,NISSAN,X-TRAIL,1.6,Diesel,"135,468",Manual,SUV,2017,Dublin,4,Grey,2,Feb-2023,Mar-2023,http://www.cars.ie/used-cars/NISSAN-X-TRAIL-2017-Dublin-1736521
+137,NISSAN NAVARA,"€25,199",NISSAN,NAVARA,2.3,Diesel,"104,644",Manual,Van,2018,Dublin,4,Grey,1,Aug-2022,-,http://www.cars.ie/used-cars/NISSAN-NAVARA-2018-Dublin-1736520
+138,MERCEDES-BENZ GLE CLASS,"€46,995",MERCEDES-BENZ,GLE,2.1,Diesel,"120,353",Automatic,SUV,2017,Dublin,5,Black,2,Dec-2021,Jul-2021,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLE-CLASS-2017-Dublin-1736577
+139,FORD ECOSPORT,"€15,950",FORD,ECOSPORT,1.5,Diesel,"109,747",Manual,SUV,2017,Kilkenny,5,White,2,May-2023,Feb-2023,http://www.cars.ie/used-cars/FORD-ECOSPORT-2017-Kilkenny-1736449
+140,FORD MONDEO,"€16,950",FORD,MONDEO,2.0,Diesel,"145,412",Manual,Hatchback,2017,Kilkenny,5,Blue,2,Jan-2022,Apr-2023,http://www.cars.ie/used-cars/FORD-MONDEO-2017-Kilkenny-1736448
+141,FORD FOCUS,"€24,950",FORD,FOCUS,1.0,Petrol,"27,000",Manual,Hatchback,2020,Kilkenny,5,Red,2,Apr-2023,Oct-2024,http://www.cars.ie/used-cars/FORD-FOCUS-2020-Kilkenny-1736447
+142,SEAT IBIZA,"€5,950",SEAT,IBIZA,1.2,Petrol,"177,950",Manual,Hatchback,2011,Cork,3,Grey,3,Jan-2023,May-2023,http://www.cars.ie/used-cars/SEAT-IBIZA-2011-Cork-1736519
+143,SEAT ARONA,"€20,495",SEAT,ARONA,1.0,Petrol,"53,197",Manual,SUV,2021,Dublin,5,Grey,1,Jan-2023,Jul-2025,http://www.cars.ie/used-cars/SEAT-ARONA-2021-Dublin-1736518
+144,KIA CEED,"€23,450",KIA,CEED,1.0,Petrol,"41,069",Manual,Hatchback,2021,Laois,5,Red,2,Oct-2022,Jan-2025,http://www.cars.ie/used-cars/KIA-CEED-2021-Laois-1736517
+145,MG ZS,"€29,450",MG,ZS,0.0,Electric,"27,922",Automatic,SUV,2021,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/MG-ZS-2021-Dublin-1736446
+146,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736445
+147,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736444
+148,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736443
+149,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736442
+150,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736441
+151,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736440
+152,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736439
+153,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736438
+154,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736437
+155,OPEL COMBO,POA,OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736436
+156,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736435
+157,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736434
+158,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736433
+159,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736432
+160,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736431
+161,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736430
+162,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736429
+163,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736428
+164,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736427
+165,OPEL COMBO,"€21,170",OPEL,COMBO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-COMBO-2023-Dublin-1736426
+166,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736425
+167,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736424
+168,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736423
+169,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736422
+170,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736421
+171,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736420
+172,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736419
+173,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736418
+174,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736417
+175,OPEL VIVARO,"€28,975",OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736416
+176,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736415
+177,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736414
+178,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736413
+179,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736412
+180,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736411
+181,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736410
+182,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736409
+183,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736408
+184,FORD FOCUS,"€4,600",FORD,FOCUS,1.6,DIESEL,"143,487",Manual,HATCHBACK,2010,Cork,5,SILVER,3,Feb-2023,Jan-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2010-Cork-1735859
+185,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736407
+186,OPEL VIVARO,€117,OPEL,VIVARO,1.5,Diesel,0,Manual,Van,2023,Dublin,-,White,1,-,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2023-Dublin-1736406
+187,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736405
+188,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736404
+189,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736403
+190,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736402
+191,OPEL MOVANO,"€32,350",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736401
+192,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736400
+193,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736399
+194,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736398
+195,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736397
+196,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736396
+197,OPEL MOVANO,"€32,390",OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736395
+198,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736394
+199,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736393
+200,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736392
+201,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736391
+202,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736390
+203,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736389
+204,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736388
+205,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736387
+206,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736386
+207,OPEL MOVANO,€136,OPEL,MOVANO,2.2,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/OPEL-MOVANO-2023-Dublin-1736385
+208,DACIA DUSTER,"€24,340",DACIA,DUSTER,1.5,Diesel,0,Manual,SUV,2023,Mayo,-,-,-,-,-,http://www.cars.ie/used-cars/DACIA-DUSTER-2023-Mayo-1736516
+209,MERCEDES-BENZ GLC CLASS,"€59,995",MERCEDES-BENZ,GLC,2.0,Diesel,"53,799",Automatic,SUV,2021,Waterford,5,Grey,1,Jan-2023,Aug-2025,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLC-CLASS-2021-Waterford-1736573
+210,VOLKSWAGEN TRANSPORTER,"€34,142",VOLKSWAGEN,TRANSPORTER,2.0,Diesel,"3,195",Manual,Van,2022,Dublin,5,Grey,1,Jan-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2022-Dublin-1736514
+211,VOLKSWAGEN CADDY,"€18,695",VOLKSWAGEN,CADDY,2.0,Diesel,"37,499",Manual,MPV,2022,Dublin,5,White,1,Sep-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2022-Dublin-1736513
+212,VOLKSWAGEN TRANSPORTER,"€31,703",VOLKSWAGEN,TRANSPORTER,2.0,Diesel,"27,999",Manual,Van,2021,Dublin,5,White,1,Dec-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2021-Dublin-1736512
+213,RENAULT CLIO,POA,RENAULT,CLIO,0.0,Petrol,"89,539",Manual,Hatchback,2019,Cork,4,Red,1,Oct-2022,Jun-2023,http://www.cars.ie/used-cars/RENAULT-CLIO-2019-Cork-1736511
+214,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"83,547",Automatic,Estate,2014,Cork,5,Black,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Cork-1736572
+215,MERCEDES-BENZ GLB,"€55,950",MERCEDES-BENZ,GLB,2.0,Diesel,"48,797",Automatic,Estate,2021,Sligo,5,Black,1,Aug-2022,Jul-2025,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLB-2021-Sligo-1736571
+216,MERCEDES-BENZ EQE,"€89,950",MERCEDES-BENZ,EQE,0.0,Electric,"1,999",Automatic,Saloon,2022,Sligo,4,Grey,1,Mar-2023,Oct-2026,http://www.cars.ie/used-cars/MERCEDES-BENZ-EQE-2022-Sligo-1736570
+217,MERCEDES-BENZ C CLASS,"€37,950",MERCEDES-BENZ,C,1.6,Diesel,"77,242",Automatic,Saloon,2019,Sligo,4,Black,1,Oct-2022,Sep-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2019-Sligo-1736569
+218,MERCEDES-BENZ E CLASS,"€64,950",MERCEDES-BENZ,E,2.0,Diesel,"35,438",Automatic,Coupe,2021,Sligo,2,Black,2,Jul-2022,Aug-2025,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2021-Sligo-1736568
+219,MERCEDES-BENZ A CLASS,"€36,950",MERCEDES-BENZ,A,1.5,Diesel,"55,081",Automatic,Hatchback,2020,Sligo,5,Silver,1,Oct-2022,Aug-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-A-CLASS-2020-Sligo-1736567
+220,MERCEDES-BENZ CLA CLASS,"€28,950",MERCEDES-BENZ,CLA,1.6,Petrol,"66,501",Manual,Saloon,2018,Sligo,4,Blue,2,Oct-2022,Feb-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2018-Sligo-1736510
+221,MERCEDES-BENZ A CLASS,"€56,950",MERCEDES-BENZ,A,2.0,Petrol,"9,999",Automatic,Saloon,2022,Sligo,4,Blue,1,Jan-2023,Aug-2026,http://www.cars.ie/used-cars/MERCEDES-BENZ-A-CLASS-2022-Sligo-1736566
+222,MERCEDES-BENZ C CLASS,"€39,950",MERCEDES-BENZ,C,2.1,Diesel,"75,246",Automatic,Coupe,2018,Sligo,2,Black,1,Jun-2022,Mar-2022,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2018-Sligo-1736565
+223,MERCEDES-BENZ E CLASS,"€36,950",MERCEDES-BENZ,E,2.0,Diesel,"74,314",Automatic,Saloon,2018,Sligo,5,Blue,2,Mar-2023,Jul-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2018-Sligo-1736564
+224,MERCEDES-BENZ B CLASS,"€27,950",MERCEDES-BENZ,B,1.5,Diesel,"56,197",Automatic,MPV,2018,Sligo,5,Black,2,Sep-2022,May-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-B-CLASS-2018-Sligo-1736563
+225,DACIA SANDERO STEPWAY,"€9,900",DACIA,SANDERO,0.0,Petrol,"56,816",Manual,SUV,2015,Dublin,4,Black,4,Sep-2022,Jul-2023,http://www.cars.ie/used-cars/DACIA-SANDERO-STEPWAY-2015-Dublin-1736509
+226,RENAULT CAPTUR,"€13,900",RENAULT,CAPTUR,1.5,Diesel,"94,782",Automatic,SUV,2015,Dublin,4,Black,2,Sep-2023,Jun-2023,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2015-Dublin-1736562
+227,RENAULT CAPTUR,"€12,900",RENAULT,CAPTUR,1.5,Diesel,"77,652",Manual,SUV,2015,Dublin,4,Black,3,Jan-2023,May-2023,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2015-Dublin-1736508
+228,RENAULT MEGANE,"€17,900",RENAULT,MEGANE,1.5,Diesel,"44,600",Manual,Hatchback,2018,Dublin,4,Blue,2,Jun-2023,Jan-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2018-Dublin-1736507
+229,VOLKSWAGEN TRANSPORTER,POA,VOLKSWAGEN,TRANSPORTER,2.0,Diesel,"21,280",Manual,Van,2021,Galway,5,Red,1,Jul-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2021-Galway-1735868
+230,FORD S-MAX,POA,FORD,S-MAX,2.0,Diesel,"147,433",Manual,MPV,2014,Kildare,4,Black,1,-,Jan-2024,http://www.cars.ie/used-cars/FORD-S-MAX-2014-Kildare-1736313
+231,BMW X5,POA,BMW,X5,3.0,Diesel,"170,487",Automatic,SUV,2017,Kildare,4,Grey,4,-,Jan-2023,http://www.cars.ie/used-cars/BMW-X5-2017-Kildare-1736474
+232,FORD TRANSIT CUSTOM,POA,FORD,TRANSIT,2.2,Diesel,"247,262",Manual,Van,2014,Kildare,4,Blue,1,-,Feb-2023,http://www.cars.ie/used-cars/FORD-TRANSIT-CUSTOM-2014-Kildare-1736325
+233,RENAULT CAPTUR,"€27,490",RENAULT,CAPTUR,1.0,Petrol,"5,620",Manual,SUV,2022,Dublin,5,Orange,1,Dec-2022,Jan-2026,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2022-Dublin-1736506
+234,RENAULT MEGANE,"€23,900",RENAULT,MEGANE,1.6,Petrol,"59,999",Automatic,Hatchback,2018,Dublin,4,Red,5,Dec-2022,Jul-2022,http://www.cars.ie/used-cars/RENAULT-MEGANE-2018-Dublin-1736561
+235,RENAULT CLIO,"€15,400",RENAULT,CLIO,0.0,Petrol,"47,070",Manual,Hatchback,2019,Dublin,4,Blue,2,Feb-2023,Jan-2023,http://www.cars.ie/used-cars/RENAULT-CLIO-2019-Dublin-1736505
+236,FORD TRANSIT,"€19,595",FORD,TRANSIT,2.0,Diesel,"86,142",Manual,Van,2018,Wexford,3,White,1,Dec-2022,-,http://www.cars.ie/used-cars/FORD-TRANSIT-2018-Wexford-1736452
+237,LAND ROVER DISCOVERY,POA,LAND,ROVER,2.0,Diesel,"150,015",Automatic,SUV,2017,Kildare,5,Red,3,-,Jan-2023,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-2017-Kildare-1736555
+238,DACIA SANDERO STEPWAY,"€12,900",DACIA,SANDERO,1.5,Diesel,"44,600",Manual,SUV,2018,Dublin,4,Blue,2,Mar-2023,Jan-2024,http://www.cars.ie/used-cars/DACIA-SANDERO-STEPWAY-2018-Dublin-1736504
+239,RENAULT MEGANE,"€22,800",RENAULT,MEGANE,1.5,Diesel,"18,694",Manual,Hatchback,2021,Dublin,4,Blue,1,Nov-2022,Mar-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736503
+240,RENAULT MEGANE,"€26,490",RENAULT,MEGANE,1.5,Diesel,"20,220",Manual,Estate,2021,Dublin,4,Brown,2,Dec-2022,Jan-2025,http://www.cars.ie/used-cars/RENAULT-MEGANE-2021-Dublin-1736502
+241,SEAT TARRACO,POA,SEAT,TARRACO,2.0,Diesel,0,Automatic,SUV,2023,Waterford,-,Black,-,-,-,http://www.cars.ie/used-cars/SEAT-TARRACO-2023-Waterford-1736381
+242,SEAT TARRACO,POA,SEAT,TARRACO,2.0,Diesel,0,Automatic,SUV,2023,Waterford,5,White,-,-,-,http://www.cars.ie/used-cars/SEAT-TARRACO-2023-Waterford-1736380
+243,SEAT TARRACO,POA,SEAT,TARRACO,2.0,Diesel,0,Automatic,SUV,2023,Waterford,-,Blue,-,-,-,http://www.cars.ie/used-cars/SEAT-TARRACO-2023-Waterford-1736379
+244,SEAT ATECA,POA,SEAT,ATECA,2.0,Diesel,0,Manual,SUV,2023,Waterford,-,White,-,-,-,http://www.cars.ie/used-cars/SEAT-ATECA-2023-Waterford-1736378
+245,SEAT ATECA,POA,SEAT,ATECA,2.0,Diesel,0,Manual,SUV,2023,Waterford,-,Silver,-,-,-,http://www.cars.ie/used-cars/SEAT-ATECA-2023-Waterford-1736377
+246,MAZDA CX-5,"€29,995",MAZDA,CX-5,2.2,Diesel,"43,393",Manual,SUV,2019,Kildare,-,White,1,Dec-2022,Jan-2025,http://www.cars.ie/used-cars/MAZDA-CX-5-2019-Kildare-1736372
+247,MERCEDES-BENZ GLE CLASS,"€58,950",MERCEDES-BENZ,GLE,2.1,Diesel,"67,718",Automatic,SUV,2018,Dublin,-,Silver,2,Sep-2023,Jun-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLE-CLASS-2018-Dublin-1736560
+248,KIA CEED,"€12,995",KIA,CEED,1.4,Diesel,0,Manual,Hatchback,2015,Wexford,4,Silver,5,Aug-2023,Nov-2023,http://www.cars.ie/used-cars/KIA-CEED-2015-Wexford-1736451
+249,DACIA LOGAN,"€9,595",DACIA,LOGAN,1.2,Petrol,"68,788",Manual,Estate,2017,Wexford,4,White,1,Oct-2022,Jul-2023,http://www.cars.ie/used-cars/DACIA-LOGAN-2017-Wexford-1736450
+250,SEAT ARONA,"€26,975",SEAT,ARONA,1.0,Petrol,"31,699",Manual,SUV,2022,Wexford,5,White,1,Mar-2023,Apr-2026,http://www.cars.ie/used-cars/SEAT-ARONA-2022-Wexford-1736374
+251,SEAT TARRACO,"€46,475",SEAT,TARRACO,2.0,Diesel,"27,299",Automatic,SUV,2022,Wexford,5,Grey,1,Mar-2023,Apr-2026,http://www.cars.ie/used-cars/SEAT-TARRACO-2022-Wexford-1736375
+252,AUDI Q3,"€27,475",AUDI,Q3,2.0,Diesel,"124,999",Manual,SUV,2018,Wexford,4,Black,2,Apr-2023,Feb-2024,http://www.cars.ie/used-cars/AUDI-Q3-2018-Wexford-1736373
+253,BMW X5,POA,BMW,X5,3.0,Diesel,"127,609",Automatic,SUV,2016,Kildare,4,Blue,2,-,Jan-2024,http://www.cars.ie/used-cars/BMW-X5-2016-Kildare-1736471
+254,CITROEN GRAND C4 PICASSO,POA,CITROEN,GRAND,1.6,Diesel,"261,209",Manual,MPV,2009,Kildare,5,Purple,9,-,Apr-2020,http://www.cars.ie/used-cars/CITROEN-GRAND-C4-PICASSO-2009-Kildare-1736306
+255,AUDI A6,"€64,950",AUDI,A6,3.0,Diesel,"32,222",Automatic,Saloon,2020,Sligo,4,Grey,3,Apr-2023,Jan-2024,http://www.cars.ie/used-cars/AUDI-A6-2020-Sligo-1736362
+256,BMW X5,POA,BMW,X5,2.0,Diesel,"159,519",Automatic,Estate,2016,Kildare,5,Blue,3,-,Jan-2024,http://www.cars.ie/used-cars/BMW-X5-2016-Kildare-1736478
+257,AUDI Q5,"€57,450",AUDI,Q5,2.0,Petrol,"41,468",Automatic,SUV,2020,Sligo,4,Grey,1,Dec-2022,Jul-2024,http://www.cars.ie/used-cars/AUDI-Q5-2020-Sligo-1736361
+258,AUDI Q7,"€65,950",AUDI,Q7,3.0,Diesel,"75,517",Automatic,SUV,2018,Waterford,4,Grey,2,Dec-2022,Jun-2024,http://www.cars.ie/used-cars/AUDI-Q7-2018-Waterford-1736465
+259,FORD GALAXY,POA,FORD,GALAXY,1.6,Petrol,"167,629",Manual,MPV,2012,Kildare,5,Grey,6,-,Aug-2023,http://www.cars.ie/used-cars/FORD-GALAXY-2012-Kildare-1736317
+260,AUDI A5,"€55,450",AUDI,A5,2.0,Diesel,"24,674",Automatic,Hatchback,2021,Sligo,2,Black,1,-,-,http://www.cars.ie/used-cars/AUDI-A5-2021-Sligo-1736360
+261,MERCEDES-BENZ C CLASS,"€24,900",MERCEDES-BENZ,C,2.1,Diesel,"217,261",Automatic,Saloon,2018,Dublin,4,Silver,3,Mar-2023,Feb-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2018-Dublin-1735898
+262,PEUGEOT 5008,"€35,450",PEUGEOT,5008,1.5,Diesel,"77,327",Manual,SUV,2019,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-5008-2019-Dublin-1736046
+263,VOLKSWAGEN ID.4,"€59,945",VOLKSWAGEN,ID.4,0.0,Electric,"9,279",Automatic,SUV,2022,Sligo,5,Grey,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-ID.4-2022-Sligo-1736559
+264,LAND ROVER DISCOVERY,POA,LAND,ROVER,3.0,Diesel,"232,229",Automatic,Van,2011,Kildare,4,Silver,4,-,Nov-2022,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-2011-Kildare-1736472
+265,SKODA OCTAVIA,"€15,295",SKODA,OCTAVIA,1.2,Petrol,"124,453",Manual,Saloon,2017,Mayo,4,White,2,Nov-2022,Jan-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2017-Mayo-1736501
+266,VOLKSWAGEN TRANSPORTER,POA,VOLKSWAGEN,TRANSPORTER,2.0,Diesel,"129,018",Manual,Van,2018,Galway,5,White,1,Oct-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2018-Galway-1735870
+267,FORD GALAXY,POA,FORD,GALAXY,2.0,Diesel,"282,246",Automatic,MPV,2010,Kildare,5,Grey,4,-,-,http://www.cars.ie/used-cars/FORD-GALAXY-2010-Kildare-1736550
+268,BMW 5 SERIES,"€35,950",BMW,5,2.0,Diesel,"118,999",Automatic,Saloon,2018,Dublin,4,Black,1,Dec-2022,Apr-2024,http://www.cars.ie/used-cars/BMW-5-SERIES-2018-Dublin-1736558
+269,KIA SPORTAGE,"€21,900",KIA,SPORTAGE,1.7,Diesel,"92,796",Manual,SUV,2017,Sligo,5,Red,1,-,Apr-2023,http://www.cars.ie/used-cars/KIA-SPORTAGE-2017-Sligo-1736500
+270,MITSUBISHI PAJERO,POA,MITSUBISHI,PAJERO,3.2,Diesel,"120,755",Automatic,SUV,2015,Tipperary,4,Silver,2,Aug-2023,-,http://www.cars.ie/used-cars/MITSUBISHI-PAJERO-2015-Tipperary-1736557
+271,VOLKSWAGEN GOLF,"€15,950",VOLKSWAGEN,GOLF,1.2,Petrol,"72,744",Automatic,Hatchback,2015,Dublin,5,Blue,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Dublin-1736114
+272,LAND ROVER DISCOVERY SPORT,POA,LAND,ROVER,2.0,Diesel,"168,229",Manual,SUV,2016,Kildare,5,Blue,3,-,Oct-2024,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-SPORT-2016-Kildare-1736307
+273,SKODA SUPERB,POA,SKODA,SUPERB,2.0,Diesel,"187,301",Manual,Estate,2020,Kildare,4,Blue,1,-,Mar-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2020-Kildare-1736496
+274,SEAT TARRACO,POA,SEAT,TARRACO,2.0,Diesel,"61,766",Manual,SUV,2019,Kildare,5,Blue,3,-,May-2023,http://www.cars.ie/used-cars/SEAT-TARRACO-2019-Kildare-1736495
+275,FORD C-MAX,POA,FORD,C-MAX,1.5,Diesel,"268,486",Manual,MPV,2016,Kildare,4,Grey,1,-,Aug-2024,http://www.cars.ie/used-cars/FORD-C-MAX-2016-Kildare-1736494
+276,BMW X4,"€19,900",BMW,X4,2.0,Diesel,"27,198",Automatic,Coupe,2015,Dublin,5,Blue,1,Feb-2022,Dec-2023,http://www.cars.ie/used-cars/BMW-X4-2015-Dublin-1736367
+277,NISSAN QASHQAI,POA,NISSAN,QASHQAI,1.5,Diesel,"120,507",Manual,MPV,2016,Kildare,4,White,3,-,Feb-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2016-Kildare-1736493
+278,NISSAN X-TRAIL,POA,NISSAN,X-TRAIL,1.6,Diesel,"187,937",Manual,SUV,2015,Kildare,5,White,3,-,Dec-2023,http://www.cars.ie/used-cars/NISSAN-X-TRAIL-2015-Kildare-1736492
+279,SKODA SUPERB,POA,SKODA,SUPERB,1.6,Diesel,"217,721",Manual,Estate,2015,Kildare,4,Black,1,-,Jul-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2015-Kildare-1736491
+280,TOYOTA LANDCRUISER,"€18,500",TOYOTA,LANDCRUISER,3.0,Diesel,"300,007",Automatic,Van,2013,Meath,2,Black,2,Nov-2022,-,http://www.cars.ie/used-cars/TOYOTA-LANDCRUISER-2013-Meath-1736382
+281,BMW 3 SERIES,POA,BMW,3,0.0,Diesel,"182,103",Automatic,Saloon,2014,Kildare,4,Grey,1,-,Nov-2022,http://www.cars.ie/used-cars/BMW-3-SERIES-2014-Kildare-1736552
+282,NISSAN MARCH,POA,NISSAN,MARCH,1.2,Petrol,"113,182",Automatic,Hatchback,2014,Kildare,44,Green,4,-,Nov-2023,http://www.cars.ie/used-cars/NISSAN-MARCH-2014-Kildare-1736551
+283,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,1.6,Diesel,"293,893",Manual,Saloon,2014,Kildare,4,Black,3,-,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2014-Kildare-1736490
+284,AUDI A3,POA,AUDI,A3,1.6,Diesel,"168,353",Manual,Hatchback,2013,Kildare,3,Grey,6,-,Feb-2024,http://www.cars.ie/used-cars/AUDI-A3-2013-Kildare-1736489
+285,VAUXHALL INSIGNIA,POA,VAUXHALL,INSIGNIA,2.0,Diesel,"348,989",Manual,Estate,2012,Kildare,5,White,5,-,Feb-2023,http://www.cars.ie/used-cars/VAUXHALL-INSIGNIA-2012-Kildare-1736488
+286,RENAULT FLUENCE,POA,RENAULT,FLUENCE,1.5,Diesel,"141,012",Manual,Saloon,2012,Kildare,4,Gold,3,-,Aug-2023,http://www.cars.ie/used-cars/RENAULT-FLUENCE-2012-Kildare-1736487
+287,LAND ROVER FREELANDER,POA,LAND,ROVER,2.2,Diesel,"177,296",Manual,SUV,2011,Kildare,5,Grey,2,-,-,http://www.cars.ie/used-cars/LAND-ROVER-FREELANDER-2011-Kildare-1736486
+288,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.4,Petrol,"94,002",Manual,Hatchback,2009,Kildare,5,Silver,2,-,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2009-Kildare-1736485
+289,TOYOTA HILUX,POA,TOYOTA,HILUX,3.0,Diesel,"260,439",Manual,Van,2008,Kildare,4,Black,2,-,-,http://www.cars.ie/used-cars/TOYOTA-HILUX-2008-Kildare-1736484
+290,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"281,981",Manual,Saloon,2008,Kildare,4,Silver,3,-,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2008-Kildare-1736483
+291,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.4,Petrol,"173,168",Manual,Hatchback,2005,Kildare,5,Silver,5,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2005-Kildare-1736482
+292,BMW 5 SERIES,POA,BMW,5,2.0,Diesel,"225,251",Automatic,Saloon,2017,Kildare,4,Grey,3,-,Feb-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2017-Kildare-1736549
+293,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"150,843",Manual,Hatchback,2015,Kildare,5,Black,3,-,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Kildare-1736481
+294,FORD KUGA,POA,FORD,KUGA,2.0,Diesel,"75,270",Manual,Van,2015,Kildare,4,Black,2,-,Jul-2023,http://www.cars.ie/used-cars/FORD-KUGA-2015-Kildare-1736480
+295,FORD KUGA,POA,FORD,KUGA,2.0,Diesel,"164,821",Manual,Van,2015,Kildare,4,Blue,1,-,May-2023,http://www.cars.ie/used-cars/FORD-KUGA-2015-Kildare-1736479
+296,FORD RANGER,POA,FORD,RANGER,3.2,Diesel,"166,436",Automatic,Van,2018,Kildare,4,Black,1,-,Mar-2023,http://www.cars.ie/used-cars/FORD-RANGER-2018-Kildare-1736548
+297,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"312,624",Manual,Saloon,2009,Kildare,4,Black,2,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2009-Kildare-1736328
+298,OPEL INSIGNIA,POA,OPEL,INSIGNIA,2.0,Diesel,"242,557",Manual,Hatchback,2009,Kildare,5,Silver,8,-,-,http://www.cars.ie/used-cars/OPEL-INSIGNIA-2009-Kildare-1736327
+299,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"154,538",Manual,Hatchback,2018,Kildare,5,Black,1,-,Jun-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2018-Kildare-1736326
+300,NISSAN NAVARA,POA,NISSAN,NAVARA,2.5,Diesel,"292,935",Manual,Van,2014,Kildare,4,Silver,1,-,Dec-2022,http://www.cars.ie/used-cars/NISSAN-NAVARA-2014-Kildare-1736324
+301,AUDI A4,"€10,900",AUDI,A4,2.0,Diesel,"229,004",Manual,Saloon,2013,Dublin,4,Grey,2,Oct-2022,Aug-2023,http://www.cars.ie/used-cars/AUDI-A4-2013-Dublin-1736128
+302,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"160,475",Manual,Hatchback,2014,Kildare,5,Silver,10,-,Feb-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Kildare-1736323
+303,MAZDA MAZDA6,POA,MAZDA,MAZDA6,2.2,Diesel,"278,453",Manual,Hatchback,2012,Kildare,5,Blue,3,-,Mar-2023,http://www.cars.ie/used-cars/MAZDA-MAZDA6-2012-Kildare-1736322
+304,AUDI A4,POA,AUDI,A4,2.0,Diesel,"160,472",Manual,Saloon,2015,Kildare,4,Black,2,-,Oct-2023,http://www.cars.ie/used-cars/AUDI-A4-2015-Kildare-1736321
+305,AUDI A4,POA,AUDI,A4,2.0,Diesel,"181,291",Manual,Saloon,2014,Kildare,4,Black,3,-,Feb-2023,http://www.cars.ie/used-cars/AUDI-A4-2014-Kildare-1736320
+306,TOYOTA YARIS,POA,TOYOTA,YARIS,1.3,Petrol,"233,216",Automatic,MPV,2015,Kildare,4,Red,4,-,Jul-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2015-Kildare-1736477
+307,NISSAN NOTE,POA,NISSAN,NOTE,1.2,Petrol,"125,034",Automatic,Hatchback,2014,Kildare,5,Grey,1,-,Sep-2024,http://www.cars.ie/used-cars/NISSAN-NOTE-2014-Kildare-1736476
+308,BMW 5 SERIES,POA,BMW,5,2.0,Diesel,"123,543",Automatic,Saloon,2017,Kildare,4,Black,4,-,Jan-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2017-Kildare-1736475
+309,VAUXHALL ASTRA,POA,VAUXHALL,ASTRA,1.7,Diesel,"298,261",Manual,Hatchback,2012,Kildare,5,Black,5,-,-,http://www.cars.ie/used-cars/VAUXHALL-ASTRA-2012-Kildare-1736319
+310,DACIA SANDERO,POA,DACIA,SANDERO,1.5,Diesel,"85,235",Manual,Hatchback,2015,Kildare,4,Silver,2,-,Jul-2023,http://www.cars.ie/used-cars/DACIA-SANDERO-2015-Kildare-1736318
+311,SKODA OCTAVIA,POA,SKODA,OCTAVIA,2.0,Diesel,"207,244",Manual,Estate,2016,Kildare,4,Black,2,-,-,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2016-Kildare-1736316
+312,VOLVO V40,POA,VOLVO,V40,2.0,Diesel,"72,127",Manual,Hatchback,2016,Kildare,5,Blue,2,-,Oct-2024,http://www.cars.ie/used-cars/VOLVO-V40-2016-Kildare-1736315
+313,VOLVO XC60,POA,VOLVO,XC60,2.0,Diesel,"158,658",Automatic,SUV,2018,Kildare,5,Grey,2,-,-,http://www.cars.ie/used-cars/VOLVO-XC60-2018-Kildare-1736473
+314,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"126,233",Manual,Hatchback,2016,Kildare,5,Black,2,-,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2016-Kildare-1736314
+315,FORD MONDEO,POA,FORD,MONDEO,1.5,Diesel,"123,808",Manual,Hatchback,2018,Kildare,4,White,2,-,-,http://www.cars.ie/used-cars/FORD-MONDEO-2018-Kildare-1736312
+316,NISSAN QASHQAI,POA,NISSAN,QASHQAI,1.5,Diesel,"158,382",Manual,SUV,2018,Kildare,4,Grey,2,-,Mar-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2018-Kildare-1736311
+317,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"102,550",Manual,Saloon,2015,Kildare,4,Grey,2,-,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2015-Kildare-1736310
+318,MINI HATCH,POA,MINI,HATCH,1.6,Diesel,"155,401",Manual,Hatchback,2013,Kildare,2,White,2,-,Jan-2024,http://www.cars.ie/used-cars/MINI-HATCH-2013-Kildare-1736309
+319,VOLVO V70,POA,VOLVO,V70,1.6,Petrol,"125,960",Automatic,Estate,2013,Kildare,5,Black,1,-,Nov-2023,http://www.cars.ie/used-cars/VOLVO-V70-2013-Kildare-1736470
+320,NISSAN LEAF,POA,NISSAN,LEAF,0.0,Electric,"120,519",Automatic,Hatchback,2012,Kildare,5,Black,6,-,Jun-2023,http://www.cars.ie/used-cars/NISSAN-LEAF-2012-Kildare-1736469
+321,CITROEN C4,POA,CITROEN,C4,1.5,Diesel,"34,718",Manual,MPV,2018,Kildare,5,Grey,4,-,Mar-2024,http://www.cars.ie/used-cars/CITROEN-C4-2018-Kildare-1736308
+322,BMW 5 SERIES,"€8,900",BMW,5,2.0,Diesel,"225,005",Automatic,Saloon,2010,Dublin,4,Grey,3,Apr-2023,Sep-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2010-Dublin-1736366
+323,BMW 5 SERIES,POA,BMW,5,2.0,Diesel,"127,312",Automatic,Saloon,2019,Kildare,4,Black,1,-,Jan-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2019-Kildare-1736468
+324,LEXUS RX 450 H,POA,LEXUS,RX,3.5,Petrol,"131,111",Automatic,SUV,2013,Kildare,4,White,3,-,Jun-2023,http://www.cars.ie/used-cars/LEXUS-RX-450-H-2013-Kildare-1736467
+325,AUDI Q2,"€41,450",AUDI,Q2,2.0,Diesel,"29,832",Automatic,SUV,2022,Waterford,4,White,1,Mar-2023,Apr-2026,http://www.cars.ie/used-cars/AUDI-Q2-2022-Waterford-1736466
+326,SKODA KODIAQ,"€30,450",SKODA,KODIAQ,2.0,Diesel,"117,500",Automatic,SUV,2017,Kildare,4,Grey,3,Aug-2022,Mar-2023,http://www.cars.ie/used-cars/SKODA-KODIAQ-2017-Kildare-1736464
+327,HYUNDAI I20,"€22,950",HYUNDAI,I20,1.2,Petrol,0,Manual,Hatchback,2021,Kildare,5,Blue,1,Dec-2021,Jul-2025,http://www.cars.ie/used-cars/HYUNDAI-I20-2021-Kildare-1736305
+328,HYUNDAI I20,"€24,150",HYUNDAI,I20,1.2,Petrol,0,Manual,Hatchback,2022,Kildare,5,Black,1,Nov-2022,Aug-2026,http://www.cars.ie/used-cars/HYUNDAI-I20-2022-Kildare-1736304
+329,HYUNDAI TUCSON,"€23,950",HYUNDAI,TUCSON,1.7,Diesel,"63,999",Manual,SUV,2017,Kildare,5,Grey,1,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2017-Kildare-1736303
+330,HYUNDAI TUCSON,"€26,950",HYUNDAI,TUCSON,1.7,Diesel,"72,729",Manual,SUV,2018,Kildare,5,Black,2,May-2022,Jan-2024,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2018-Kildare-1736302
+331,MERCEDES-BENZ GLC CLASS,"€59,950",MERCEDES-BENZ,GLC,2.0,Diesel,"30,140",Automatic,SUV,2020,Cork,5,Black,1,Aug-2023,Jul-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLC-CLASS-2020-Cork-1736463
+332,VOLKSWAGEN T-ROC,POA,VOLKSWAGEN,T-ROC,2.0,Diesel,11,Manual,SUV,2022,Roscommon,5,Black,1,-,Jul-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2022-Roscommon-1736301
+333,SKODA KAMIQ,"€22,950",SKODA,KAMIQ,1.0,Petrol,"30,000",Manual,Hatchback,2021,Cork,5,Red,2,Apr-2023,Jul-2025,http://www.cars.ie/used-cars/SKODA-KAMIQ-2021-Cork-1736300
+334,FORD FOCUS,"€18,995",FORD,FOCUS,1.5,Diesel,"76,836",Manual,Saloon,2018,Cork,4,Grey,1,Jun-2023,Jul-2024,http://www.cars.ie/used-cars/FORD-FOCUS-2018-Cork-1736299
+335,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.6,Diesel,"67,753",Manual,Estate,2019,Donegal,5,Grey,2,Jun-2023,Jun-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Donegal-1736298
+336,BMW X5,POA,BMW,X5,3.0,Petrol,"3,999",Automatic,Estate,2022,Wexford,4,Black,1,Jan-2023,Apr-2026,http://www.cars.ie/used-cars/BMW-X5-2022-Wexford-1736376
+337,BMW X1,"€15,900",BMW,X1,2.0,Diesel,"111,044",Manual,Estate,2014,Dublin,4,Orange,3,Apr-2022,Aug-2024,http://www.cars.ie/used-cars/BMW-X1-2014-Dublin-1736127
+338,KIA SPORTAGE,"€29,950",KIA,SPORTAGE,1.6,Diesel,"75,002",Manual,MPV,2020,Westmeath,5,Red,-,Apr-2023,Jan-2024,http://www.cars.ie/used-cars/KIA-SPORTAGE-2020-Westmeath-1736142
+339,AUDI A6,"€16,900",AUDI,A6,2.0,Diesel,"169,003",Automatic,Saloon,2014,Dublin,4,Black,2,Sep-2022,Nov-2024,http://www.cars.ie/used-cars/AUDI-A6-2014-Dublin-1736365
+340,NISSAN X-TRAIL,"€16,950",NISSAN,X-TRAIL,1.6,Diesel,"141,622",Manual,MPV,2015,Dublin,4,Grey,2,May-2023,May-2023,http://www.cars.ie/used-cars/NISSAN-X-TRAIL-2015-Dublin-1736147
+341,VOLVO XC60,"€21,900",VOLVO,XC60,2.0,Diesel,"169,003",Automatic,Estate,2016,Dublin,5,Silver,1,Nov-2022,Aug-2024,http://www.cars.ie/used-cars/VOLVO-XC60-2016-Dublin-1736364
+342,BMW 3 SERIES,"€12,900",BMW,3,2.0,Diesel,"112,654",Manual,Saloon,2012,Dublin,4,Black,3,Dec-2022,Jan-2024,http://www.cars.ie/used-cars/BMW-3-SERIES-2012-Dublin-1736192
+343,AUDI A8,"€36,900",AUDI,A8,3.0,Diesel,"138,403",Automatic,Saloon,2017,Dublin,4,Black,2,Nov-2022,Jan-2025,http://www.cars.ie/used-cars/AUDI-A8-2017-Dublin-1736453
+344,VOLKSWAGEN POLO,"€11,750",VOLKSWAGEN,POLO,1.0,Petrol,"96,560",Manual,Hatchback,2015,Cork,5,White,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2015-Cork-1736163
+345,OPEL CORSA,"€8,750",OPEL,CORSA,1.2,Petrol,"80,467",Manual,Hatchback,2014,Dublin,4,Red,2,Feb-2023,Jul-2024,http://www.cars.ie/used-cars/OPEL-CORSA-2014-Dublin-1736191
+346,LEXUS IS 300 H,"€25,950",LEXUS,IS,2.5,Hybrid,"91,176",Automatic,Saloon,2016,Dublin,4,White,3,Jul-2022,Mar-2024,http://www.cars.ie/used-cars/LEXUS-IS-300-H-2016-Dublin-1736333
+347,TOYOTA LANDCRUISER,"€13,900",TOYOTA,LANDCRUISER,3.0,Diesel,"419,009",Manual,Van,2011,Dublin,4,Silver,2,Apr-2023,Apr-2023,http://www.cars.ie/used-cars/TOYOTA-LANDCRUISER-2011-Dublin-1736126
+348,VOLKSWAGEN CC,"€9,995",VOLKSWAGEN,CC,2.0,Diesel,"325,087",Manual,Coupe,2012,Galway,4,Grey,1,-,Feb-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-CC-2012-Galway-1736297
+349,AUDI A4,"€16,900",AUDI,A4,2.0,Diesel,"136,794",Manual,Saloon,2015,Dublin,4,Black,1,Jan-2023,Aug-2023,http://www.cars.ie/used-cars/AUDI-A4-2015-Dublin-1735983
+350,OPEL ASTRA,POA,OPEL,ASTRA,1.0,Petrol,"97,409",Manual,Hatchback,2019,Dublin,5,White,2,Nov-2022,May-2023,http://www.cars.ie/used-cars/OPEL-ASTRA-2019-Dublin-1736052
+351,NISSAN MICRA,POA,NISSAN,MICRA,1.2,Petrol,"87,373",Automatic,Hatchback,2019,Dublin,5,Silver,1,Oct-2022,Feb-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2019-Dublin-1736099
+352,NISSAN SERENA,POA,NISSAN,SERENA,2.0,Petrol,"87,884",Automatic,MPV,2017,Dublin,5,Silver,1,-,-,http://www.cars.ie/used-cars/NISSAN-SERENA-2017-Dublin-1736100
+353,MAXUS DELIVER 9,"€31,405",MAXUS,DELIVER,2.0,Diesel,0,Manual,Van,2023,Dublin,-,White,-,-,-,http://www.cars.ie/used-cars/MAXUS-DELIVER-9-2023-Dublin-1736176
+354,TOYOTA YARIS,"€10,395",TOYOTA,YARIS,1.0,Petrol,"73,000",Manual,Hatchback,2013,Cork,4,Green,2,Dec-2022,Feb-2024,http://www.cars.ie/used-cars/TOYOTA-YARIS-2013-Cork-1736181
+355,TOYOTA YARIS,POA,TOYOTA,YARIS,1.5,Petrol,"68,527",Manual,Hatchback,2018,Donegal,5,Red,1,-,-,http://www.cars.ie/used-cars/TOYOTA-YARIS-2018-Donegal-1736218
+356,MAZDA CX-30,"€36,175",MAZDA,CX-30,2.0,Petrol,0,Manual,SUV,2023,Dublin,5,Red,-,-,-,http://www.cars.ie/used-cars/MAZDA-CX-30-2023-Dublin-1736221
+357,PEUGEOT BOXER,POA,PEUGEOT,BOXER,3.0,Diesel,"109,363",Manual,Van,2015,Tipperary,2,White,1,Jul-2022,-,http://www.cars.ie/used-cars/PEUGEOT-BOXER-2015-Tipperary-1736224
+358,OPEL CORSA,"€10,950",OPEL,CORSA,1.4,Petrol,"42,442",Manual,Hatchback,2015,Cork,5,White,2,Jun-2023,May-2023,http://www.cars.ie/used-cars/OPEL-CORSA-2015-Cork-1736233
+359,VOLKSWAGEN GOLF,"€22,995",VOLKSWAGEN,GOLF,2.0,Diesel,"89,000",Manual,Hatchback,2015,Meath,5,Grey,1,Dec-2022,May-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Meath-1736251
+360,VOLKSWAGEN PASSAT,"€14,950",VOLKSWAGEN,PASSAT,1.6,Diesel,"301,751",Manual,Estate,2017,Kerry,5,Silver,1,Apr-2023,Apr-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2017-Kerry-1736252
+361,SEAT IBIZA,"€10,950",SEAT,IBIZA,1.2,Petrol,"101,702",Manual,Hatchback,2015,Mayo,4,Grey,3,Apr-2023,Jul-2023,http://www.cars.ie/used-cars/SEAT-IBIZA-2015-Mayo-1736258
+362,DACIA SANDERO,POA,DACIA,SANDERO,1.5,Diesel,"86,962",Manual,SUV,2020,Mayo,4,White,1,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/DACIA-SANDERO-2020-Mayo-1736259
+363,RENAULT CLIO,POA,RENAULT,CLIO,1.1,Petrol,"111,498",Manual,Hatchback,2016,Dublin,5,Black,2,Aug-2020,Nov-2020,http://www.cars.ie/used-cars/RENAULT-CLIO-2016-Dublin-1736261
+364,FIAT TIPO,"€11,900",FIAT,TIPO,1.6,Diesel,"181,999",Manual,Estate,2018,Limerick,5,Grey,2,Nov-2022,Jan-2024,http://www.cars.ie/used-cars/FIAT-TIPO-2018-Limerick-1736263
+365,VOLKSWAGEN T-ROC,"€27,495",VOLKSWAGEN,T-ROC,2.0,Diesel,"43,389",Manual,SUV,2021,Dublin,5,Grey,1,Jun-2022,Jun-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2021-Dublin-1736269
+366,MINI HATCH,"€15,995",MINI,HATCH,1.5,Diesel,"180,133",Manual,Hatchback,2018,Westmeath,3,Grey,2,Jan-2022,Feb-2022,http://www.cars.ie/used-cars/MINI-HATCH-2018-Westmeath-1736270
+367,MINI HATCH,"€16,995",MINI,HATCH,1.5,Diesel,"59,734",Manual,Estate,2016,Westmeath,5,Black,3,Aug-2022,Mar-2024,http://www.cars.ie/used-cars/MINI-HATCH-2016-Westmeath-1736271
+368,VOLKSWAGEN GOLF,"€23,975",VOLKSWAGEN,GOLF,1.6,Diesel,"58,858",Manual,Hatchback,2021,Wexford,-,Black,1,Feb-2023,Jan-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2021-Wexford-1736282
+369,VOLKSWAGEN GOLF,"€23,975",VOLKSWAGEN,GOLF,1.6,Diesel,"62,318",Manual,Hatchback,2021,Wexford,-,Grey,1,Feb-2023,Jan-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2021-Wexford-1736283
+370,MERCEDES-BENZ CLS CLASS,"€74,995",MERCEDES-BENZ,CLS,2.0,Diesel,"15,063",Automatic,Coupe,2021,Dublin,4,Silver,1,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLS-CLASS-2021-Dublin-1736335
+371,FORD KUGA,POA,FORD,KUGA,2.5,Petrol,10,Automatic,SUV,2023,Cork,-,Red,-,-,-,http://www.cars.ie/used-cars/FORD-KUGA-2023-Cork-1736338
+372,SKODA ENYAQ IV,"€65,995",SKODA,ENYAQ,0.0,Electric,0,Automatic,SUV,2023,Carlow,5,Black,-,-,-,http://www.cars.ie/used-cars/SKODA-ENYAQ-IV-2023-Carlow-1736339
+373,NISSAN JUKE,"€20,950",NISSAN,JUKE,1.6,Petrol,"39,879",Automatic,SUV,2018,Cork,5,Grey,1,-,Apr-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-2018-Cork-1736341
+374,VOLVO XC60,POA,VOLVO,XC60,2.0,Diesel,"6,869",Automatic,SUV,2022,Mayo,5,Blue,1,May-2023,May-2026,http://www.cars.ie/used-cars/VOLVO-XC60-2022-Mayo-1736347
+375,KIA NIRO,"€42,999",KIA,NIRO,0.0,Electric,"18,668",Automatic,SUV,2021,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/KIA-NIRO-2021-Dublin-1736348
+376,HONDA JAZZ,POA,HONDA,JAZZ,1.5,Petrol,"36,461",Automatic,Hatchback,2018,Dublin,5,Silver,1,-,-,http://www.cars.ie/used-cars/HONDA-JAZZ-2018-Dublin-1736349
+377,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"75,394",Automatic,Estate,2017,Dublin,5,Red,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2017-Dublin-1736350
+378,HONDA HR-V,POA,HONDA,HR-V,1.5,Petrol,"31,150",Automatic,SUV,2020,Dublin,-,Grey,-,-,-,http://www.cars.ie/used-cars/HONDA-HR-V-2020-Dublin-1736351
+379,SEAT IBIZA,"€17,950",SEAT,IBIZA,1.0,Petrol,"34,998",Manual,Hatchback,2020,Limerick,5,Blue,1,Dec-2022,Jan-2024,http://www.cars.ie/used-cars/SEAT-IBIZA-2020-Limerick-1736383
+380,RENAULT CLIO,POA,RENAULT,CLIO,1.1,Petrol,"137,689",Manual,Hatchback,2010,Kildare,3,Grey,3,-,-,http://www.cars.ie/used-cars/RENAULT-CLIO-2010-Kildare-1736497
+381,VAUXHALL INSIGNIA,POA,VAUXHALL,INSIGNIA,2.0,Diesel,"274,011",Manual,Hatchback,2014,Kildare,5,Green,3,-,Feb-2023,http://www.cars.ie/used-cars/VAUXHALL-INSIGNIA-2014-Kildare-1736498
+382,AUDI A5,POA,AUDI,A5,2.0,Diesel,"202,323",Manual,Hatchback,2014,Kildare,4,Black,2,-,Dec-2022,http://www.cars.ie/used-cars/AUDI-A5-2014-Kildare-1736499
+383,RENAULT TRAFIC,POA,RENAULT,TRAFIC,1.6,Diesel,0,Manual,Van,2019,Mayo,3,White,1,May-2023,-,http://www.cars.ie/used-cars/RENAULT-TRAFIC-2019-Mayo-1736515
+384,MINI HATCH,POA,MINI,HATCH,1.6,Diesel,"119,999",Manual,Hatchback,2013,Westmeath,3,Blue,1,Aug-2022,Aug-2023,http://www.cars.ie/used-cars/MINI-HATCH-2013-Westmeath-1736524
+385,NISSAN SERENA,POA,NISSAN,SERENA,2.0,Petrol,"99,755",Automatic,MPV,2013,Limerick,5,White,1,-,-,http://www.cars.ie/used-cars/NISSAN-SERENA-2013-Limerick-1736583
+386,SEAT IBIZA,POA,SEAT,IBIZA,1.6,Diesel,"191,167",Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022,http://www.cars.ie/used-cars/SEAT-IBIZA-2018-Dublin-1736531
+387,SEAT IBIZA,POA,SEAT,IBIZA,1.6,Diesel,"152,767",Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022,http://www.cars.ie/used-cars/SEAT-IBIZA-2018-Dublin-1736533
+388,SEAT IBIZA,POA,SEAT,IBIZA,1.4,Diesel,"144,216",Manual,Hatchback,2010,Dublin,5,Black,1,-,Dec-2022,http://www.cars.ie/used-cars/SEAT-IBIZA-2010-Dublin-1736540
+389,TOYOTA AQUA,POA,TOYOTA,AQUA,1.5,Petrol,"136,211",Automatic,Hatchback,2017,Limerick,5,White,1,-,-,http://www.cars.ie/used-cars/TOYOTA-AQUA-2017-Limerick-1736586
+390,TOYOTA C-HR,POA,TOYOTA,C-HR,1.8,Petrol,"51,446",Automatic,Hatchback,2019,Limerick,5,White,1,-,Feb-2023,http://www.cars.ie/used-cars/TOYOTA-C-HR-2019-Limerick-1736585
+391,BMW 2 SERIES,"€15,890",BMW,2,2.0,Diesel,0,Automatic,Estate,2015,Limerick,4,Silver,2,Aug-2022,Nov-2023,http://www.cars.ie/used-cars/BMW-2-SERIES-2015-Limerick-1736584
+392,NISSAN NOTE,"€11,890",NISSAN,NOTE,1.2,Petrol,0,Automatic,MPV,2017,Limerick,-,White,1,-,-,http://www.cars.ie/used-cars/NISSAN-NOTE-2017-Limerick-1736582
+393,AUDI A6,POA,AUDI,A6,2.0,Diesel,"285,685",Automatic,Saloon,2014,Kildare,4,Grey,3,-,May-2023,http://www.cars.ie/used-cars/AUDI-A6-2014-Kildare-1736553
+394,AUDI A6,POA,AUDI,A6,2.0,Diesel,"116,431",Automatic,Saloon,2016,Kildare,4,Silver,2,-,Nov-2024,http://www.cars.ie/used-cars/AUDI-A6-2016-Kildare-1736554
+395,AUDI A4,POA,AUDI,A4,2.0,Diesel,"141,580",Automatic,Saloon,2017,Kildare,4,Grey,2,-,Mar-2023,http://www.cars.ie/used-cars/AUDI-A4-2017-Kildare-1736556
+396,NISSAN SERENA,POA,NISSAN,SERENA,2.0,Petrol,"105,251",Automatic,MPV,2017,Dublin,5,Blue,1,-,-,http://www.cars.ie/used-cars/NISSAN-SERENA-2017-Dublin-1736576
+397,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"60,069",Automatic,Hatchback,2017,Dublin,3,White,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2017-Dublin-1736575
+398,VOLKSWAGEN UP!,POA,VOLKSWAGEN,UP!,1.0,Petrol,"47,986",Automatic,Hatchback,2013,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-UP!-2013-Dublin-1736574
+399,VOLKSWAGEN TRANSPORTER,"€24,950",VOLKSWAGEN,TRANSPORTER,2.0,Diesel,"144,841",Manual,Van,2020,Galway,-,White,2,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2020-Galway-1736296
+400,NISSAN JUKE,"€8,500",NISSAN,JUKE,1.5,Diesel,"138,960",Manual,Saloon,2013,Galway,5,Brown,3,Dec-2022,Sep-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-0-Galway-1735398
+401,VOLKSWAGEN GOLF,"€21,900",VOLKSWAGEN,GOLF,1.6,Diesel,"127,138",Automatic,Hatchback,2019,Limerick,5,Blue,1,Oct-2022,Mar-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Limerick-1736195
+402,JAGUAR XF,"€12,950",JAGUAR,XF,2.2,Diesel,"128,601",Automatic,Saloon,2012,Dublin,4,Grey,2,Jan-2023,Jun-2023,http://www.cars.ie/used-cars/JAGUAR-XF-2012-Dublin-1736368
+403,LEXUS IS 300 H,POA,LEXUS,IS,2.5,Petrol,"137,644",Automatic,Saloon,2016,Dublin,4,Red,2,Jul-2022,Oct-2024,http://www.cars.ie/used-cars/LEXUS-IS-300-H-2016-Dublin-1736462
+404,TOYOTA YARIS,"€3,250",TOYOTA,YARIS,1.0,Petrol,"157,715",Manual,Hatchback,2007,Dublin,4,Silver,2,Oct-2022,Jan-2022,http://www.cars.ie/used-cars/TOYOTA-YARIS-2007-Dublin-1736120
+405,SKODA ROOMSTER,"€3,450",SKODA,ROOMSTER,1.4,Diesel,"209,090",Manual,MPV,2007,Dublin,5,Beige,3,Aug-2022,Mar-2023,http://www.cars.ie/used-cars/SKODA-ROOMSTER-2007-Dublin-1736119
+406,HYUNDAI I40,POA,HYUNDAI,I40,1.7,Diesel,"223,698",Manual,Estate,2013,Galway,5,Silver,1,Jan-2023,Feb-2024,http://www.cars.ie/used-cars/HYUNDAI-I40-2013-Galway-1736164
+407,SUZUKI SWIFT,"€8,950",SUZUKI,SWIFT,1.2,Petrol,"129,003",Automatic,Hatchback,2014,Dublin,5,Silver,1,Nov-2022,Nov-2024,http://www.cars.ie/used-cars/SUZUKI-SWIFT-2014-Dublin-1736358
+408,VOLKSWAGEN GOLF,"€9,950",VOLKSWAGEN,GOLF,1.2,Petrol,"103,001",Automatic,Hatchback,2011,Dublin,5,Silver,1,Nov-2022,Sep-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2011-Dublin-1736359
+409,HONDA ACCORD,"€7,950",HONDA,ACCORD,2.2,Diesel,"62,442",Manual,Saloon,2011,Dublin,4,Grey,2,Mar-2023,Jun-2023,http://www.cars.ie/used-cars/HONDA-ACCORD-2011-Dublin-1736124
+410,FORD FIESTA,"€9,950",FORD,FIESTA,1.2,Petrol,"81,001",Manual,Hatchback,2014,Dublin,4,Grey,1,Aug-2022,Oct-2024,http://www.cars.ie/used-cars/FORD-FIESTA-2014-Dublin-1736125
+411,AUDI A3 SALOON,"€16,950",AUDI,A3,2.0,Diesel,"183,465",Manual,Saloon,2016,Dublin,4,Red,1,-,Oct-2024,http://www.cars.ie/used-cars/AUDI-A3-SALOON-2016-Dublin-1735889
+412,OPEL CORSA,"€9,995",OPEL,CORSA,1.4,Petrol,"84,001",Manual,Hatchback,2016,Dublin,5,Blue,2,-,Aug-2024,http://www.cars.ie/used-cars/OPEL-CORSA-2016-Dublin-1736129
+413,SKODA KODIAQ,"€34,995",SKODA,KODIAQ,2.0,Diesel,"118,388",Automatic,Estate,2019,Galway,4,Grey,2,Dec-2022,Feb-2023,http://www.cars.ie/used-cars/SKODA-KODIAQ-2019-Galway-1736363
+414,RENAULT TRAFIC,"€12,495",RENAULT,TRAFIC,1.6,Diesel,"148,051",Manual,Van,2018,Dublin,3,White,1,Mar-2022,Aug-2023,http://www.cars.ie/used-cars/RENAULT-TRAFIC-2018-Dublin-1736214
+415,SKODA SUPERB,POA,SKODA,SUPERB,2.0,Diesel,"263,645",Manual,Hatchback,2013,Tipperary,4,Beige,3,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2013-Tipperary-1736134
+416,NISSAN QASHQAI,"€21,875",NISSAN,QASHQAI,1.5,Diesel,"95,477",Manual,SUV,2019,Dublin,5,Black,1,-,Nov-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2019-Dublin-1736167
+417,PEUGEOT 2008,"€10,949",PEUGEOT,2008,1.2,Petrol,"74,364",Manual,Estate,2016,Dublin,4,Red,2,Oct-2022,Aug-2024,http://www.cars.ie/used-cars/PEUGEOT-2008-2016-Dublin-1736166
+418,AUDI A6,"€22,950",AUDI,A6,2.0,Diesel,"162,543",Automatic,Saloon,2015,Wexford,4,Black,1,Apr-2023,Sep-2023,http://www.cars.ie/used-cars/AUDI-A6-2015-Wexford-1736454
+419,AUDI A6,"€23,950",AUDI,A6,2.0,Diesel,"155,913",Automatic,Saloon,2015,Kildare,4,Grey,3,Nov-2022,Jul-2023,http://www.cars.ie/used-cars/AUDI-A6-2015-Kildare-1736461
+420,BMW 5 SERIES,"€19,950",BMW,5,2.0,Diesel,"181,004",Automatic,Saloon,2014,Cork,4,Blue,2,Apr-2022,May-2024,http://www.cars.ie/used-cars/BMW-5-SERIES-2014-Cork-1736150
+421,NISSAN QASHQAI,"€12,950",NISSAN,QASHQAI,1.5,Diesel,"148,059",Manual,MPV,2015,Limerick,4,Silver,3,Jan-2023,Jun-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2015-Limerick-1736194
+422,TOYOTA COROLLA,"€17,500",TOYOTA,COROLLA,1.4,Diesel,"73,001",Manual,Saloon,2017,Cork,4,Grey,2,Nov-2022,Jan-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2017-Cork-1736065
+423,LAND ROVER RANGE ROVER,"€82,949",LAND,ROVER,3.0,Diesel,"99,953",Automatic,SUV,2017,Dublin,5,Grey,2,Mar-2023,Nov-2021,http://www.cars.ie/used-cars/LAND-ROVER-RANGE-ROVER-2017-Dublin-1736107
+424,TOYOTA AURIS,POA,TOYOTA,AURIS,1.3,Petrol,"120,004",Manual,Hatchback,2015,Cork,4,White,2,Jun-2023,May-2023,http://www.cars.ie/used-cars/TOYOTA-AURIS-2015-Cork-1736295
+425,TOYOTA RAV4,"€24,000",TOYOTA,RAV4,2.0,Diesel,"136,004",Manual,SUV,2017,Cork,4,Silver,2,Jul-2023,Jan-2023,http://www.cars.ie/used-cars/TOYOTA-RAV4-2017-Cork-1736294
+426,TOYOTA COROLLA,"€28,500",TOYOTA,COROLLA,1.8,Hybrid,"22,400",Automatic,Hatchback,2021,Cork,4,Blue,1,Mar-2023,Mar-2025,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2021-Cork-1736460
+427,TOYOTA COROLLA,"€17,000",TOYOTA,COROLLA,1.3,Petrol,"95,894",Manual,Saloon,2016,Cork,4,Grey,2,Feb-2023,May-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2016-Cork-1736293
+428,TOYOTA YARIS,"€12,000",TOYOTA,YARIS,1.0,Petrol,"45,760",Manual,Hatchback,2014,Cork,4,Silver,3,Mar-2023,Oct-2024,http://www.cars.ie/used-cars/TOYOTA-YARIS-2014-Cork-1736292
+429,PEUGEOT PARTNER,"€5,950",PEUGEOT,PARTNER,1.6,Diesel,"240,508",Manual,Van,2013,Westmeath,5,White,3,Mar-2023,-,http://www.cars.ie/used-cars/PEUGEOT-PARTNER-2013-Westmeath-1736291
+430,TOYOTA COROLLA,"€25,000",TOYOTA,COROLLA,1.8,Hybrid,"26,878",Automatic,Saloon,2019,Westmeath,4,-,2,Jun-2023,Jul-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Westmeath-1736459
+431,TOYOTA COROLLA,"€23,749",TOYOTA,COROLLA,1.8,Hybrid,"94,953",Automatic,Hatchback,2019,Dublin,5,Silver,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Dublin-1736458
+432,MAZDA MAZDA6,"€6,700",MAZDA,MAZDA6,2.2,Diesel,"198,325",Manual,Hatchback,2012,Roscommon,5,White,2,May-2023,Jun-2023,http://www.cars.ie/used-cars/MAZDA-MAZDA6-2012-Roscommon-1736290
+433,PEUGEOT PARTNER,"€17,030",PEUGEOT,PARTNER,1.5,Diesel,"71,002",Manual,Van,2020,Dublin,3,White,1,Mar-2023,-,http://www.cars.ie/used-cars/PEUGEOT-PARTNER-2020-Dublin-1736289
+434,TOYOTA AYGO X,"€22,450",TOYOTA,AYGO,1.0,Petrol,"1,650",Manual,Hatchback,2022,Dublin,4,Green,1,Jun-2023,Jun-2026,http://www.cars.ie/used-cars/TOYOTA-AYGO-X-2022-Dublin-1736287
+435,TOYOTA COROLLA,"€29,450",TOYOTA,COROLLA,1.8,Hybrid,"21,884",Automatic,Saloon,2020,Cavan,4,-,1,Dec-2022,Sep-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2020-Cavan-1736457
+436,TOYOTA COROLLA,"€23,950",TOYOTA,COROLLA,1.8,Hybrid,"94,224",Automatic,Saloon,2019,Cavan,4,-,1,Nov-2022,Apr-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Cavan-1736456
+437,MAZDA CX-5,"€33,950",MAZDA,CX-5,2.2,Diesel,"36,001",Automatic,SUV,2019,Dublin,4,Blue,1,Feb-2022,Feb-2023,http://www.cars.ie/used-cars/MAZDA-CX-5-2019-Dublin-1736109
+438,VOLVO V40,"€13,950",VOLVO,V40,1.6,Diesel,"87,003",Manual,Hatchback,2014,Dublin,5,Black,1,Jan-2023,Nov-2022,http://www.cars.ie/used-cars/VOLVO-V40-2014-Dublin-1736288
+439,BMW 1 SERIES,"€16,950",BMW,1,1.5,Diesel,"159,004",Automatic,Hatchback,2016,Dublin,5,Black,2,Oct-2022,Jul-2022,http://www.cars.ie/used-cars/BMW-1-SERIES-2016-Dublin-1736384
+440,AUDI ALLROAD,"€42,950",AUDI,ALLROAD,3.0,Diesel,"93,464",Automatic,Estate,2017,Dublin,5,Black,1,May-2022,Mar-2023,http://www.cars.ie/used-cars/AUDI-ALLROAD-2017-Dublin-1736165
+441,MERCEDES-BENZ S CLASS,"€7,995",MERCEDES-BENZ,S,3.0,Diesel,"320,008",Automatic,Saloon,2009,Dublin,4,Silver,3,Nov-2022,Aug-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-S-CLASS-2009-Dublin-1736153
+442,AUDI A8,"€79,950",AUDI,A8,3.0,Petrol,"21,000",Automatic,Saloon,2021,Dublin,4,Grey,-,-,-,http://www.cars.ie/used-cars/AUDI-A8-2021-Dublin-1736202
+443,MERCEDES-BENZ GLA CLASS,"€29,950",MERCEDES-BENZ,GLA,1.6,Petrol,"64,002",Automatic,Estate,2018,Dublin,5,Black,2,Jul-2023,Feb-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLA-CLASS-2018-Dublin-1736455
+444,TOYOTA HILUX,"€3,950",TOYOTA,HILUX,2.5,Diesel,"289,681",Manual,Pickup,2007,Dublin,4,White,2,Dec-2022,Dec-2022,http://www.cars.ie/used-cars/TOYOTA-HILUX-2007-Dublin-1736152
+445,MERCEDES-BENZ CL CLASS,"€24,950",MERCEDES-BENZ,CL,1.5,Diesel,"149,002",Automatic,Saloon,2017,Kerry,4,Grey,2,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-CL-CLASS-2017-Kerry-1736141
+446,HYUNDAI TUCSON,"€19,950",HYUNDAI,TUCSON,1.7,Diesel,"172,003",Manual,SUV,2016,Kerry,5,White,2,Dec-2022,Oct-2024,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2016-Kerry-1736140
+447,BMW 3 SERIES,POA,BMW,3,2.0,Diesel,"175,003",Manual,Saloon,2012,Dublin,4,Blue,3,Mar-2023,Oct-2023,http://www.cars.ie/used-cars/BMW-3-SERIES-2012-Dublin-1736286
+448,AUDI A4,"€12,250",AUDI,A4,2.0,Diesel,"165,762",Manual,Saloon,2013,Limerick,4,Grey,2,Nov-2022,Aug-2023,http://www.cars.ie/used-cars/AUDI-A4-2013-Limerick-1735892
+449,OPEL INSIGNIA,POA,OPEL,INSIGNIA,2.0,Diesel,"259,104",Manual,Hatchback,2014,Laois,4,Blue,2,Oct-2022,Feb-2023,http://www.cars.ie/used-cars/OPEL-INSIGNIA-2014-Laois-1735904
+450,NISSAN MICRA,"€2,222",NISSAN,MICRA,1.2,Petrol,0,Automatic,Hatchback,2006,Louth,5,Blue,2,Jan-2023,Jan-2022,http://www.cars.ie/used-cars/NISSAN-MICRA-2006-Louth-1736133
+451,HYUNDAI IX35,"€11,995",HYUNDAI,IX35,1.7,Diesel,"144,358",Manual,SUV,2014,Galway,5,Black,1,-,Jan-2025,http://www.cars.ie/used-cars/HYUNDAI-IX35-2014-Galway-1736285
+452,TOYOTA DYNA,"€10,500",TOYOTA,DYNA,3.0,Diesel,"232,355",Manual,Other,2008,Cork,2,Silver,5,May-2023,Oct-2023,http://www.cars.ie/used-cars/TOYOTA-DYNA-2008-Cork-1736284
+453,MAZDA MAZDA2,"€2,999",MAZDA,MAZDA2,1.3,Petrol,0,Manual,Hatchback,2008,Louth,5,Green,3,Jan-2023,Apr-2023,http://www.cars.ie/used-cars/MAZDA-MAZDA2-2008-Louth-1736131
+454,NISSAN QASHQAI,"€18,500",NISSAN,QASHQAI,1.5,Diesel,"108,273",Manual,MPV,2016,Mayo,4,Grey,2,Aug-2022,Mar-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2016-Mayo-1735917
+455,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"16,077",Automatic,Hatchback,2011,Louth,5,Black,2,Jan-2023,Mar-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2011-Louth-1736132
+456,VOLKSWAGEN GOLF,"€11,900",VOLKSWAGEN,GOLF,1.6,Diesel,0,Manual,Hatchback,2015,Louth,5,Grey,4,Oct-2022,Jun-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Louth-1736130
+457,FORD TRANSIT,"€4,795",FORD,TRANSIT,2.2,Diesel,"190,004",Manual,Van,2009,Dublin,5,White,5,Nov-2022,Feb-2023,http://www.cars.ie/used-cars/FORD-TRANSIT-2009-Dublin-1736138
+458,FORD MONDEO,"€12,950",FORD,MONDEO,1.5,Diesel,"240,532",Manual,Hatchback,2016,Cork,5,Grey,3,Aug-2022,Feb-2024,http://www.cars.ie/used-cars/FORD-MONDEO-2016-Cork-1736205
+459,AUDI A1,"€18,950",AUDI,A1,1.0,Petrol,"101,699",Manual,Hatchback,2017,Dublin,5,Grey,3,Apr-2023,Jan-2023,http://www.cars.ie/used-cars/AUDI-A1-2017-Dublin-1736139
+460,MERCEDES-BENZ A CLASS,"€24,950",MERCEDES-BENZ,A,1.5,Diesel,"57,960",Manual,Hatchback,2018,Dublin,5,Blue,1,Jun-2023,Jan-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-A-CLASS-2018-Dublin-1736149
+461,CITROEN BERLINGO,"€3,999",CITROEN,BERLINGO,1.6,Diesel,"244,620",Manual,Van,2012,Dublin,-,White,4,Oct-2022,Mar-2023,http://www.cars.ie/used-cars/CITROEN-BERLINGO-2012-Dublin-1736137
+462,NISSAN QASHQAI +2,"€10,995",NISSAN,QASHQAI,1.5,Diesel,"53,284",Manual,MPV,2013,Cork,4,Grey,3,Mar-2023,Jan-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-+2-2013-Cork-1736056
+463,NISSAN QASHQAI,"€28,950",NISSAN,QASHQAI,1.2,Petrol,"207,005",Manual,Estate,2020,Mayo,4,Beige,2,Nov-2022,Dec-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2020-Mayo-1735918
+464,SKODA FABIA,"€7,500",SKODA,FABIA,2.5,Hybrid,"21,715",Automatic,Saloon,2014,Cork,4,Blue,1,Dec-2022,Mar-2025,http://www.cars.ie/used-cars/SKODA-FABIA-2014-Cork-1736135
+465,LEXUS ES 300 H,"€49,950",LEXUS,ES,1.0,Petrol,"28,376",Automatic,Hatchback,2021,Dublin,4,Blue,2,Jan-2023,Mar-2023,http://www.cars.ie/used-cars/LEXUS-ES-300-H-2021-Dublin-1736357
+466,NISSAN MICRA,"€17,750",NISSAN,MICRA,2.0,Diesel,"144,841",Automatic,Saloon,2019,Mayo,4,White,1,-,-,http://www.cars.ie/used-cars/NISSAN-MICRA-2019-Mayo-1735924
+467,AUDI A4,"€21,950",AUDI,A4,2.0,Diesel,"141,622",Automatic,Estate,2018,Galway,4,Black,1,Sep-2022,Jan-2025,http://www.cars.ie/used-cars/AUDI-A4-2018-Galway-1736354
+468,AUDI A4,"€29,950",AUDI,A4,2.0,Diesel,"239,792",Automatic,Saloon,2019,Sligo,4,Black,3,Oct-2022,Mar-2024,http://www.cars.ie/used-cars/AUDI-A4-2019-Sligo-1736355
+469,BMW 3 SERIES,"€15,950",BMW,3,1.5,Diesel,"191,511",Manual,MPV,2016,Wexford,5,Grey,1,-,-,http://www.cars.ie/used-cars/BMW-3-SERIES-2016-Wexford-1735952
+470,PEUGEOT 3008,"€21,950",PEUGEOT,3008,1.6,Petrol,"163,004",Manual,Coupe,2018,Galway,2,Black,4,Nov-2022,Oct-2023,http://www.cars.ie/used-cars/PEUGEOT-3008-2018-Galway-1736260
+471,HYUNDAI COUPE,"€2,995",HYUNDAI,COUPE,0.0,Electric,"47,175",Automatic,Hatchback,2007,Dublin,4,Red,2,Sep-2023,Oct-2023,http://www.cars.ie/used-cars/HYUNDAI-COUPE-2007-Dublin-1736207
+472,NISSAN LEAF,"€27,500",NISSAN,LEAF,1.7,Diesel,"133,199",Manual,SUV,2019,Mayo,5,Beige,1,-,Nov-2024,http://www.cars.ie/used-cars/NISSAN-LEAF-2019-Mayo-1735923
+473,HYUNDAI TUCSON,"€16,950",HYUNDAI,TUCSON,1.0,Petrol,"31,891",Manual,MPV,2016,Dublin,4,White,1,Jul-2022,Feb-2024,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2016-Dublin-1736188
+474,NISSAN JUKE,"€24,500",NISSAN,JUKE,1.5,Diesel,"154,497",Automatic,MPV,2020,Mayo,5,Red,1,Nov-2022,Nov-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-2020-Mayo-1735920
+475,BMW 2 SERIES GRAN TOURER,"€26,950",BMW,2,1.6,Diesel,"203,506",Automatic,Hatchback,2019,Dublin,4,Red,2,Dec-2022,May-2024,http://www.cars.ie/used-cars/BMW-2-SERIES-GRAN-TOURER-2019-Dublin-1736184
+476,SKODA OCTAVIA,"€12,975",SKODA,OCTAVIA,2.0,Diesel,"159,325",Manual,MPV,2016,Wexford,5,Grey,1,Jul-2023,Aug-2024,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2016-Wexford-1736146
+477,FORD KUGA,"€16,750",FORD,KUGA,1.0,Petrol,"26,985",Manual,MPV,2016,Cork,4,White,1,Jun-2023,Jul-2024,http://www.cars.ie/used-cars/FORD-KUGA-2016-Cork-1736227
+478,NISSAN JUKE,"€23,500",NISSAN,JUKE,3.0,Diesel,"140,367",Automatic,Estate,2020,Mayo,4,Black,2,Jan-2022,Feb-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-2020-Mayo-1735921
+479,BMW X5,"€46,950",BMW,X5,1.5,Petrol,"138,003",Automatic,Hatchback,2016,Galway,5,White,-,-,-,http://www.cars.ie/used-cars/BMW-X5-2016-Galway-1736206
+480,TOYOTA AQUA,"€11,950",TOYOTA,AQUA,2.0,Diesel,"174,003",Manual,Estate,2017,Dublin,5,Grey,1,-,Feb-2025,http://www.cars.ie/used-cars/TOYOTA-AQUA-2017-Dublin-1736174
+481,VOLKSWAGEN TIGUAN,"€24,995",VOLKSWAGEN,TIGUAN,2.0,Diesel,"131,924",Automatic,Hatchback,2017,Galway,5,Black,1,Jan-2023,Jan-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2017-Galway-1736225
+482,SKODA SUPERB,"€29,495",SKODA,SUPERB,1.4,Diesel,"230,136",Manual,Saloon,2019,Donegal,4,White,2,Nov-2022,May-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2019-Donegal-1736154
+483,TOYOTA COROLLA,"€12,950",TOYOTA,COROLLA,2.0,Diesel,"142,719",Manual,Saloon,2015,Galway,4,Black,3,Feb-2023,Oct-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2015-Galway-1736123
+484,BMW 3 SERIES,"€9,950",BMW,3,1.6,Diesel,"138,003",Manual,Hatchback,2012,Dublin,4,Grey,1,Sep-2022,Mar-2024,http://www.cars.ie/used-cars/BMW-3-SERIES-2012-Dublin-1735937
+485,SKODA OCTAVIA,"€16,950",SKODA,OCTAVIA,1.0,Petrol,"45,000",Manual,Hatchback,2018,Dublin,4,Blue,1,May-2023,Jan-2025,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2018-Dublin-1736182
+486,SKODA FABIA,"€16,995",SKODA,FABIA,1.0,Petrol,"59,000",Manual,Hatchback,2021,Dublin,5,White,1,Jun-2023,Jun-2025,http://www.cars.ie/used-cars/SKODA-FABIA-2021-Dublin-1736200
+487,VOLKSWAGEN POLO,"€18,450",VOLKSWAGEN,POLO,2.0,Diesel,"52,498",Automatic,Saloon,2021,Dublin,4,White,3,Feb-2023,Mar-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2021-Dublin-1736201
+488,SKODA SUPERB,"€32,950",SKODA,SUPERB,2.0,Diesel,"160,004",Manual,MPV,2019,Dublin,4,Grey,2,Jul-2023,Feb-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2019-Dublin-1736337
+489,FORD KUGA,"€15,900",FORD,KUGA,2.0,Petrol,0,Automatic,Saloon,2016,Cork,4,Grey,1,-,-,http://www.cars.ie/used-cars/FORD-KUGA-2016-Cork-1736199
+490,MERCEDES-BENZ E CLASS,"€67,946",MERCEDES-BENZ,E,2.0,Diesel,6,Automatic,Saloon,2021,Dublin,5,Black,-,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2021-Dublin-1736334
+491,MERCEDES-BENZ CL CLASS,POA,MERCEDES-BENZ,CL,1.5,Petrol,"129,003",Automatic,Hatchback,2023,Cork,5,Silver,2,Jan-2023,Apr-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-CL-CLASS-2023-Cork-1736332
+492,HONDA FIT,"€10,950",HONDA,FIT,2.0,Diesel,"218,935",Manual,MPV,2014,Dublin,5,Black,2,-,-,http://www.cars.ie/used-cars/HONDA-FIT-2014-Dublin-1736183
+493,FORD KUGA,"€15,995",FORD,KUGA,1.6,Diesel,"155,004",Manual,Estate,2015,Donegal,5,Grey,2,May-2023,Mar-2023,http://www.cars.ie/used-cars/FORD-KUGA-2015-Donegal-1736187
+494,VOLKSWAGEN PASSAT,"€16,499",VOLKSWAGEN,PASSAT,1.9,Diesel,"313,425",Automatic,Van,2017,Meath,5,White,2,Jan-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2017-Meath-1736196
+495,VOLKSWAGEN CADDY,"€3,999",VOLKSWAGEN,CADDY,3.0,Diesel,"83,394",Automatic,Saloon,2008,Meath,4,Black,1,-,Dec-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2008-Meath-1736197
+496,BMW 5 SERIES,"€33,450",BMW,5,1.2,Petrol,"78,001",Automatic,Hatchback,2017,Dublin,5,Blue,1,Jan-2023,Nov-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2017-Dublin-1736189
+497,VOLKSWAGEN POLO,"€9,995",VOLKSWAGEN,POLO,1.3,Petrol,"127,286",Automatic,Hatchback,2012,Dublin,5,White,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2012-Dublin-1736213
+498,MAZDA DEMIO,"€11,950",MAZDA,DEMIO,2.0,Diesel,"170,003",Manual,MPV,2017,Dublin,5,Silver,2,Sep-2022,May-2024,http://www.cars.ie/used-cars/MAZDA-DEMIO-2017-Dublin-1736173
+499,SEAT ALHAMBRA,"€17,900",SEAT,ALHAMBRA,1.5,Diesel,"88,514",Automatic,Saloon,2014,Dublin,4,Black,-,Sep-2022,Jun-2022,http://www.cars.ie/used-cars/SEAT-ALHAMBRA-2014-Dublin-1736121
+500,MERCEDES-BENZ CL CLASS,"€23,950",MERCEDES-BENZ,CL,2.0,Petrol,"73,622",Manual,Hatchback,2016,Laois,5,White,2,Sep-2022,Feb-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-CL-CLASS-2016-Laois-1735905
+501,FORD FOCUS,"€20,999",FORD,FOCUS,1.7,Diesel,"122,310",Manual,Estate,2015,Meath,5,Black,2,Oct-2022,Jun-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2015-Meath-1735994
+502,HYUNDAI TUCSON,"€18,450",HYUNDAI,TUCSON,1.6,Diesel,"191,005",Manual,Saloon,2017,Dublin,4,Black,3,Dec-2022,Jan-2024,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2017-Dublin-1736190
+503,VOLKSWAGEN PASSAT,"€8,250",VOLKSWAGEN,PASSAT,1.3,Petrol,"122,965",Automatic,Hatchback,2012,Tipperary,5,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2012-Tipperary-1735976
+504,MAZDA DEMIO,"€11,950",MAZDA,DEMIO,1.5,Diesel,"56,327",Manual,MPV,2017,Dublin,5,Grey,1,-,Nov-2024,http://www.cars.ie/used-cars/MAZDA-DEMIO-2017-Dublin-1736172
+505,PEUGEOT 5008,"€30,895",PEUGEOT,5008,1.3,Hybrid,"101,388",Automatic,Hatchback,2018,Dublin,5,White,1,-,Dec-2024,http://www.cars.ie/used-cars/PEUGEOT-5008-2018-Dublin-1736209
+506,HONDA JAZZ,"€9,450",HONDA,JAZZ,1.6,Petrol,"86,002",Automatic,Hatchback,2013,Dublin,5,Black,-,-,Jan-2025,http://www.cars.ie/used-cars/HONDA-JAZZ-2013-Dublin-1736145
+507,VOLVO V40,"€13,990",VOLVO,V40,1.6,Diesel,"100,001",Automatic,MPV,2013,Dublin,5,Red,1,Oct-2022,Oct-2024,http://www.cars.ie/used-cars/VOLVO-V40-2013-Dublin-1736144
+508,CITROEN GRAND C4 PICASSO,"€14,900",CITROEN,GRAND,2.1,Diesel,"144,841",Automatic,Estate,2014,Dublin,5,Silver,2,Oct-2022,Dec-2023,http://www.cars.ie/used-cars/CITROEN-GRAND-C4-PICASSO-2014-Dublin-1736122
+509,MERCEDES-BENZ CLS CLASS,"€20,900",MERCEDES-BENZ,CLS,2.4,Petrol,"46,671",Automatic,SUV,2013,Dublin,5,Black,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLS-CLASS-2013-Dublin-1736193
+510,MITSUBISHI OUTLANDER,"€33,450",MITSUBISHI,OUTLANDER,1.5,Diesel,"52,308",Manual,Coupe,2019,Galway,3,Black,1,Feb-2023,Nov-2023,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2019-Galway-1736185
+511,RENAULT MEGANE,POA,RENAULT,MEGANE,1.3,Petrol,"75,002",Automatic,Hatchback,2010,Waterford,5,White,1,Jan-2023,Nov-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2010-Waterford-1735970
+512,TOYOTA VITZ,"€9,895",TOYOTA,VITZ,1.5,Diesel,"175,418",Manual,MPV,2013,Dublin,5,Grey,1,Nov-2022,Sep-2023,http://www.cars.ie/used-cars/TOYOTA-VITZ-2013-Dublin-1736212
+513,NISSAN QASHQAI,"€9,250",NISSAN,QASHQAI,1.6,Petrol,"85,765",Automatic,Hatchback,2013,Offaly,5,White,-,-,-,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2013-Offaly-1735951
+514,BMW 1 SERIES,"€15,450",BMW,1,0.0,Electric,"47,315",Automatic,Estate,2014,Dublin,5,Silver,1,Dec-2023,Dec-2023,http://www.cars.ie/used-cars/BMW-1-SERIES-2014-Dublin-1736171
+515,AUDI E-TRON,"€55,900",AUDI,E-TRON,1.6,Petrol,"62,798",Automatic,Hatchback,2020,Kildare,5,White,-,-,-,http://www.cars.ie/used-cars/AUDI-E-TRON-2020-Kildare-1735982
+516,BMW 1 SERIES,"€15,950",BMW,1,2.0,Diesel,"130,002",Manual,Van,2014,Dublin,5,Red,1,-,-,http://www.cars.ie/used-cars/BMW-1-SERIES-2014-Dublin-1736170
+517,VOLKSWAGEN CADDY,"€12,975",VOLKSWAGEN,CADDY,1.0,Petrol,"158,761",Manual,Hatchback,2016,Wexford,5,Red,2,Nov-2022,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2016-Wexford-1735929
+518,OPEL CORSA,"€5,950",OPEL,CORSA,2.0,Petrol,"132,619",Manual,Hatchback,2012,Dublin,3,White,2,Feb-2023,Jan-2024,http://www.cars.ie/used-cars/OPEL-CORSA-2012-Dublin-1735900
+519,VOLKSWAGEN GOLF,"€26,999",VOLKSWAGEN,GOLF,1.6,Petrol,"86,002",Automatic,Hatchback,2014,Meath,5,White,1,-,Jan-2025,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Meath-1735993
+520,VOLVO V40,"€13,950",VOLVO,V40,1.4,Petrol,"68,661",Automatic,Hatchback,2013,Dublin,5,Silver,-,-,-,http://www.cars.ie/used-cars/VOLVO-V40-2013-Dublin-1736143
+521,AUDI A3,"€16,950",AUDI,A3,3.0,Diesel,"387,009",Automatic,Pickup,2014,Dublin,5,Silver,3,Nov-2022,-,http://www.cars.ie/used-cars/AUDI-A3-2014-Dublin-1736169
+522,MERCEDES-BENZ VITO,"€10,950",MERCEDES-BENZ,VITO,2.0,Petrol,"120,701",Automatic,SUV,2008,Dublin,5,Grey,1,-,Jun-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-VITO-2008-Dublin-1736208
+523,MITSUBISHI OUTLANDER,"€26,995",MITSUBISHI,OUTLANDER,1.6,Diesel,"218,870",Manual,MPV,2018,Dublin,5,Grey,2,-,May-2023,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2018-Dublin-1736211
+524,FORD C-MAX,"€5,950",FORD,C-MAX,1.4,Diesel,"138,403",Manual,Hatchback,2011,Wicklow,5,Black,3,Jul-2023,May-2023,http://www.cars.ie/used-cars/FORD-C-MAX-2011-Wicklow-1735958
+525,PEUGEOT 208,"€7,950",PEUGEOT,208,2.0,Diesel,"59,546",Automatic,Estate,2013,Wicklow,5,White,2,Feb-2023,Jul-2024,http://www.cars.ie/used-cars/PEUGEOT-208-2013-Wicklow-1735957
+526,VOLKSWAGEN TIGUAN,"€43,950",VOLKSWAGEN,TIGUAN,2.0,Petrol,"140,013",Automatic,SUV,2020,Louth,5,Grey,1,-,Jun-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2020-Louth-1735963
+527,MITSUBISHI OUTLANDER,"€25,995",MITSUBISHI,OUTLANDER,2.0,Petrol,0,Automatic,SUV,2018,Dublin,5,Red,-,-,-,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2018-Dublin-1736210
+528,MAZDA CX-5,"€52,195",MAZDA,CX-5,2.2,Diesel,0,Automatic,SUV,2023,Dublin,5,Red,-,-,-,http://www.cars.ie/used-cars/MAZDA-CX-5-2023-Dublin-1736087
+529,MAZDA CX-5,"€56,075",MAZDA,CX-5,0.0,Electric,"7,998",Automatic,Estate,2023,Dublin,5,Grey,1,Jan-2023,Mar-2026,http://www.cars.ie/used-cars/MAZDA-CX-5-2023-Dublin-1736088
+530,VOLKSWAGEN ID.4,"€51,950",VOLKSWAGEN,ID.4,0.0,Electric,"9,999",Automatic,Estate,2022,Tipperary,5,Black,1,Jan-2023,May-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-ID.4-2022-Tipperary-1736096
+531,VOLKSWAGEN ID.4,"€61,950",VOLKSWAGEN,ID.4,1.5,Petrol,"66,998",Manual,Estate,2022,Tipperary,4,Red,1,Apr-2022,May-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-ID.4-2022-Tipperary-1736097
+532,MITSUBISHI ECLIPSE CROSS,"€22,950",MITSUBISHI,ECLIPSE,1.6,Diesel,"201,168",Manual,Hatchback,2019,Dublin,-,White,1,Nov-2022,Aug-2023,http://www.cars.ie/used-cars/MITSUBISHI-ECLIPSE-CROSS-2019-Dublin-1735899
+533,FORD FOCUS,POA,FORD,FOCUS,2.5,Diesel,"215,999",Manual,Van,2014,Donegal,4,White,2,Feb-2023,-,http://www.cars.ie/used-cars/FORD-FOCUS-2014-Donegal-1736047
+534,TOYOTA HILUX,"€23,950",TOYOTA,HILUX,1.6,Diesel,"43,488",Manual,SUV,2016,Cork,5,Grey,1,Dec-2022,Jan-2025,http://www.cars.ie/used-cars/TOYOTA-HILUX-2016-Cork-1736049
+535,HYUNDAI TUCSON,"€34,975",HYUNDAI,TUCSON,3.0,Diesel,"260,713",Automatic,Coupe,2021,Wexford,2,Grey,3,Oct-2022,Jan-2024,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2021-Wexford-1736053
+536,BMW 6 SERIES,"€18,999",BMW,6,1.4,Petrol,"77,071",Automatic,Saloon,2011,Limerick,4,White,-,-,-,http://www.cars.ie/used-cars/BMW-6-SERIES-2011-Limerick-1735893
+537,AUDI A3 SALOON,"€17,950",AUDI,A3,2.0,Diesel,"313,453",Manual,Coupe,2014,Dublin,2,Black,3,Sep-2022,Nov-2023,http://www.cars.ie/used-cars/AUDI-A3-SALOON-2014-Dublin-1736168
+538,VOLKSWAGEN PASSAT,€1,VOLKSWAGEN,PASSAT,1.5,Hybrid,"17,318",Automatic,SUV,2011,Dublin,5,White,1,-,Apr-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2011-Dublin-1735965
+539,MG HS PLUG-IN PHEV,"€37,995",MG,HS,2.1,Diesel,"97,365",Manual,Estate,2022,Dublin,5,Grey,1,-,Nov-2024,http://www.cars.ie/used-cars/MG-HS-PLUG-IN-PHEV-2022-Dublin-1735901
+540,MERCEDES-BENZ CLA CLASS,"€24,950",MERCEDES-BENZ,CLA,1.8,Petrol,"83,198",Automatic,Hatchback,2016,Dublin,5,Black,-,Dec-2022,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2016-Dublin-1735981
+541,TOYOTA PRIUS,"€15,950",TOYOTA,PRIUS,2.0,Diesel,"125,503",Manual,Saloon,2014,Dublin,4,Blue,2,Nov-2022,May-2024,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2014-Dublin-1735897
+542,TOYOTA AVENSIS,"€16,950",TOYOTA,AVENSIS,2.0,Petrol,"27,000",Manual,Saloon,2016,Cork,4,Grey,2,Dec-2022,-,http://www.cars.ie/used-cars/TOYOTA-AVENSIS-2016-Cork-1735931
+543,MAZDA MAZDA6,"€25,950",MAZDA,MAZDA6,1.4,Petrol,"59,000",Manual,Hatchback,2019,Dublin,5,Red,2,Jul-2023,May-2023,http://www.cars.ie/used-cars/MAZDA-MAZDA6-2019-Dublin-1735927
+544,OPEL CORSA,"€9,750",OPEL,CORSA,2.0,Diesel,"112,654",Manual,Hatchback,2015,Cork,-,Black,1,Dec-2022,Nov-2023,http://www.cars.ie/used-cars/OPEL-CORSA-2015-Cork-1735934
+545,OPEL ADAM,"€10,950",OPEL,ADAM,2.5,Diesel,"135,003",Manual,Estate,2015,Tipperary,5,Silver,4,Apr-2022,May-2022,http://www.cars.ie/used-cars/OPEL-ADAM-2015-Tipperary-1735973
+546,NISSAN PATHFINDER,"€10,950",NISSAN,PATHFINDER,2.0,Diesel,"37,015",Manual,Hatchback,2007,Galway,4,Silver,2,-,Jan-2024,http://www.cars.ie/used-cars/NISSAN-PATHFINDER-2007-Galway-1736021
+547,SUZUKI SX4,"€7,950",SUZUKI,SX4,2.0,Diesel,0,Manual,Van,2012,Dublin,5,White,-,-,-,http://www.cars.ie/used-cars/SUZUKI-SX4-2012-Dublin-1736118
+548,VOLKSWAGEN TRANSPORTER,"€36,378",VOLKSWAGEN,TRANSPORTER,1.5,Diesel,"69,202",Manual,MPV,2023,Tipperary,5,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2023-Tipperary-1736018
+549,PEUGEOT 5008,"€31,895",PEUGEOT,5008,1.6,Diesel,"111,044",Manual,Hatchback,2018,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-5008-2018-Dublin-1736031
+550,SEAT ATECA,"€21,950",SEAT,ATECA,2.0,Diesel,"77,248",Automatic,Saloon,2018,Galway,4,Black,1,Oct-2023,Sep-2022,http://www.cars.ie/used-cars/SEAT-ATECA-2018-Galway-1735967
+551,BMW 5 SERIES,"€35,950",BMW,5,1.2,Petrol,"31,001",Automatic,Hatchback,2018,Galway,5,Silver,1,Nov-2022,Sep-2024,http://www.cars.ie/used-cars/BMW-5-SERIES-2018-Galway-1735969
+552,VOLKSWAGEN POLO,"€13,395",VOLKSWAGEN,POLO,2.0,Diesel,"220,277",Manual,Saloon,2015,Dublin,4,Blue,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2015-Dublin-1736039
+553,AUDI A6,"€29,900",AUDI,A6,2.0,Petrol,"194,730",Manual,Saloon,2018,Galway,4,Beige,9,-,-,http://www.cars.ie/used-cars/AUDI-A6-2018-Galway-1735979
+554,BMW 5 SERIES,"€5,950",BMW,5,1.5,Diesel,"157,715",Manual,MPV,1987,Donegal,5,Blue,1,-,-,http://www.cars.ie/used-cars/BMW-5-SERIES-1987-Donegal-1735992
+555,PEUGEOT 5008,"€33,995",PEUGEOT,5008,1.7,Diesel,"79,662",Manual,Saloon,2019,Galway,4,Silver,1,Aug-2023,Jul-2023,http://www.cars.ie/used-cars/PEUGEOT-5008-2019-Galway-1736075
+556,HYUNDAI I40,"€17,950",HYUNDAI,I40,3.2,Diesel,"163,004",Manual,Van,2017,Galway,3,Silver,2,Oct-2022,Apr-2023,http://www.cars.ie/used-cars/HYUNDAI-I40-2017-Galway-1735988
+557,MITSUBISHI PAJERO,"€13,995",MITSUBISHI,PAJERO,1.5,Diesel,"74,030",Manual,MPV,2007,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/MITSUBISHI-PAJERO-2007-Dublin-1736030
+558,PEUGEOT 5008,"€44,995",PEUGEOT,5008,2.4,Petrol,"141,622",Automatic,SUV,2021,Galway,5,White,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-5008-2021-Galway-1736074
+559,MITSUBISHI OUTLANDER,"€28,995",MITSUBISHI,OUTLANDER,1.6,Diesel,"238,182",Manual,Saloon,2019,Dublin,4,Silver,1,-,Mar-2024,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2019-Dublin-1736038
+560,VOLKSWAGEN PASSAT,"€11,950",VOLKSWAGEN,PASSAT,2.1,Diesel,"226,917",Automatic,Saloon,2014,Galway,4,Black,4,Aug-2023,Nov-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2014-Galway-1736073
+561,MERCEDES-BENZ E CLASS,"€18,950",MERCEDES-BENZ,E,2.0,Diesel,"188,293",Automatic,Saloon,2015,Tipperary,4,Black,1,May-2023,Feb-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2015-Tipperary-1735975
+562,AUDI A6,"€22,950",AUDI,A6,2.3,Diesel,"222,005",Manual,Van,2016,Sligo,4,Black,1,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/AUDI-A6-2016-Sligo-1736117
+563,MITSUBISHI OUTLANDER,"€9,995",MITSUBISHI,OUTLANDER,1.2,Petrol,"145,584",Manual,Hatchback,2016,Dublin,5,Black,1,Jan-2023,Feb-2023,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2016-Dublin-1736029
+564,NISSAN MICRA,"€9,450",NISSAN,MICRA,2.7,Diesel,"315,007",Automatic,Estate,2017,Westmeath,5,Black,6,Nov-2022,Jul-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2017-Westmeath-1736072
+565,AUDI A6,"€4,950",AUDI,A6,1.2,Petrol,"80,002",Automatic,Hatchback,2006,Kildare,5,Silver,1,Oct-2022,Aug-2024,http://www.cars.ie/used-cars/AUDI-A6-2006-Kildare-1735985
+566,NISSAN NOTE,"€11,995",NISSAN,NOTE,1.0,Petrol,"154,286",Manual,Hatchback,2017,Dublin,5,Blue,1,Apr-2023,Oct-2023,http://www.cars.ie/used-cars/NISSAN-NOTE-2017-Dublin-1736037
+567,FORD FOCUS,POA,FORD,FOCUS,1.2,Petrol,"106,216",Manual,Hatchback,2015,Galway,5,White,2,Sep-2023,Jan-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2015-Galway-1735945
+568,CHEVROLET SPARK,POA,CHEVROLET,SPARK,1.6,Diesel,"185,074",Manual,Van,2010,Laois,4,Red,2,Aug-2023,-,http://www.cars.ie/used-cars/CHEVROLET-SPARK-2010-Laois-1735902
+569,VOLKSWAGEN CADDY,POA,VOLKSWAGEN,CADDY,1.6,Diesel,"173,403",Manual,Saloon,2014,Laois,4,White,2,Dec-2022,May-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2014-Laois-1735903
+570,PEUGEOT 508,"€10,950",PEUGEOT,508,1.5,Diesel,"162,543",Manual,Hatchback,2015,Dublin,5,Blue,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-508-2015-Dublin-1735977
+571,FORD MONDEO,"€18,750",FORD,MONDEO,1.6,Diesel,"168,981",Automatic,MPV,2018,Galway,5,Blue,2,Mar-2023,Mar-2024,http://www.cars.ie/used-cars/FORD-MONDEO-2018-Galway-1736020
+572,NISSAN QASHQAI,"€19,950",NISSAN,QASHQAI,1.4,Diesel,"126,013",Manual,Hatchback,2016,Kerry,4,Black,3,Jul-2022,May-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2016-Kerry-1735913
+573,PEUGEOT 208,"€8,949",PEUGEOT,208,3.0,Diesel,"225,308",Automatic,Saloon,2014,Meath,4,Grey,3,Apr-2023,Jun-2023,http://www.cars.ie/used-cars/PEUGEOT-208-2014-Meath-1735891
+574,AUDI A6,"€14,950",AUDI,A6,1.4,Petrol,"63,001",Automatic,Hatchback,2012,Sligo,5,White,-,-,-,http://www.cars.ie/used-cars/AUDI-A6-2012-Sligo-1736116
+575,AUDI A3,"€17,950",AUDI,A3,1.0,Petrol,"98,110",Automatic,Hatchback,2015,Dublin,4,Black,1,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/AUDI-A3-2015-Dublin-1735962
+576,NISSAN MICRA,"€16,950",NISSAN,MICRA,2.1,Diesel,"65,001",Automatic,Estate,2019,Dublin,5,Blue,2,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2019-Dublin-1736010
+577,MERCEDES-BENZ GLA CLASS,"€27,950",MERCEDES-BENZ,GLA,1.6,Diesel,"210,004",Manual,Hatchback,2017,Dublin,4,Grey,1,Dec-2022,Apr-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLA-CLASS-2017-Dublin-1735926
+578,SKODA OCTAVIA,"€14,995",SKODA,OCTAVIA,1.5,Diesel,"77,474",Manual,Hatchback,2018,Tipperary,4,Red,2,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2018-Tipperary-1735972
+579,DACIA SANDERO,"€10,950",DACIA,SANDERO,1.4,Petrol,"90,802",Automatic,Hatchback,2017,Dublin,5,White,-,-,-,http://www.cars.ie/used-cars/DACIA-SANDERO-2017-Dublin-1735938
+580,AUDI A3,"€16,450",AUDI,A3,1.0,Petrol,"93,023",Automatic,Hatchback,2014,Dublin,4,Grey,1,Jan-2023,Apr-2023,http://www.cars.ie/used-cars/AUDI-A3-2014-Dublin-1735961
+581,NISSAN MICRA,"€16,950",NISSAN,MICRA,1.5,Diesel,"120,002",Manual,MPV,2019,Dublin,4,Silver,2,Jan-2023,Jun-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2019-Dublin-1736009
+582,NISSAN NOTE,"€8,750",NISSAN,NOTE,2.1,Diesel,"218,870",Automatic,Saloon,2013,Cork,4,Silver,1,Aug-2023,Dec-2024,http://www.cars.ie/used-cars/NISSAN-NOTE-2013-Cork-1735933
+583,MERCEDES-BENZ E CLASS,"€16,500",MERCEDES-BENZ,E,2.0,Diesel,"69,221",Manual,Saloon,2014,Kildare,4,Red,1,-,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-E-CLASS-2014-Kildare-1736004
+584,AUDI A6,"€35,900",AUDI,A6,2.0,Electric,0,Automatic,Hatchback,2018,Galway,5,White,-,Apr-2024,Dec-2026,http://www.cars.ie/used-cars/AUDI-A6-2018-Galway-1735978
+585,NISSAN LEAF,"€37,850",NISSAN,LEAF,1.6,Diesel,"250,006",Manual,Hatchback,2023,Cork,5,White,7,Dec-2022,Dec-2022,http://www.cars.ie/used-cars/NISSAN-LEAF-2023-Cork-1735941
+586,SEAT LEON,POA,SEAT,LEON,1.7,Diesel,"157,715",Manual,Estate,2011,Limerick,5,Black,1,May-2022,Sep-2023,http://www.cars.ie/used-cars/SEAT-LEON-2011-Limerick-1735986
+587,HYUNDAI I40,POA,HYUNDAI,I40,3.0,Diesel,"156,106",Automatic,Hatchback,2015,Cork,4,Black,1,Feb-2023,Mar-2024,http://www.cars.ie/used-cars/HYUNDAI-I40-2015-Cork-1736071
+588,INFINITI QX70,"€22,995",INFINITI,QX70,1.2,Petrol,"122,284",Manual,Hatchback,2016,Tipperary,5,Silver,3,Mar-2023,May-2023,http://www.cars.ie/used-cars/INFINITI-QX70-2016-Tipperary-1735974
+589,HYUNDAI I20,"€6,250",HYUNDAI,I20,1.6,Diesel,"182,003",Manual,Saloon,2011,Dublin,4,Silver,1,Jan-2023,May-2024,http://www.cars.ie/used-cars/HYUNDAI-I20-2011-Dublin-1735915
+590,TOYOTA AVENSIS,"€13,850",TOYOTA,AVENSIS,1.3,Petrol,"89,502",Automatic,Hatchback,2016,Kildare,5,Purple,-,-,Nov-2024,http://www.cars.ie/used-cars/TOYOTA-AVENSIS-2016-Kildare-1736003
+591,MAZDA DEMIO,"€7,750",MAZDA,DEMIO,2.0,Diesel,"65,001",Manual,Estate,2013,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/MAZDA-DEMIO-2013-Dublin-1736115
+592,SKODA SUPERB,"€33,950",SKODA,SUPERB,1.5,Petrol,"63,744",Automatic,Saloon,2019,Dublin,4,Silver,1,Nov-2022,Dec-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2019-Dublin-1735912
+593,TOYOTA COROLLA,"€11,950",TOYOTA,COROLLA,0.0,Petrol,"69,202",Manual,Hatchback,2014,Louth,4,Blue,3,Sep-2022,Aug-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2014-Louth-1736112
+594,DACIA SANDERO,"€9,950",DACIA,SANDERO,1.5,Petrol,"63,744",Automatic,Saloon,2016,Cork,4,Silver,1,Nov-2022,Dec-2024,http://www.cars.ie/used-cars/DACIA-SANDERO-2016-Cork-1736070
+595,TOYOTA COROLLA,"€11,950",TOYOTA,COROLLA,2.0,Diesel,"51,000",Automatic,Saloon,2014,Meath,4,Black,1,Feb-2023,Mar-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2014-Meath-1735936
+596,AUDI A6,"€34,750",AUDI,A6,2.0,Diesel,"300,258",Manual,Saloon,2018,Dublin,4,Silver,4,-,Jul-2023,http://www.cars.ie/used-cars/AUDI-A6-2018-Dublin-1735948
+597,TOYOTA AVENSIS,"€5,850",TOYOTA,AVENSIS,1.5,Hybrid,"113,003",Automatic,Hatchback,2011,Sligo,-,White,1,-,-,http://www.cars.ie/used-cars/TOYOTA-AVENSIS-2011-Sligo-1736069
+598,TOYOTA AQUA,"€12,450",TOYOTA,AQUA,2.0,Diesel,0,Manual,Van,2017,Dublin,5,Blue,-,-,-,http://www.cars.ie/used-cars/TOYOTA-AQUA-2017-Dublin-1736082
+599,VOLKSWAGEN TRANSPORTER,"€34,663",VOLKSWAGEN,TRANSPORTER,2.0,Petrol,"28,234",Automatic,SUV,2023,Tipperary,5,Red,1,-,Aug-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2023-Tipperary-1736016
+600,MITSUBISHI OUTLANDER,"€29,950",MITSUBISHI,OUTLANDER,1.0,Petrol,"72,420",Manual,Hatchback,2018,Dublin,5,Silver,2,Jan-2023,Mar-2024,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2018-Dublin-1735939
+601,FORD FIESTA,POA,FORD,FIESTA,1.6,Diesel,"112,607",Manual,Hatchback,2016,Cork,4,Grey,2,Jan-2023,Sep-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2016-Cork-1736068
+602,CITROEN C4 CACTUS,"€11,995",CITROEN,C4,1.2,Petrol,"50,994",Automatic,Hatchback,2015,Wexford,5,Black,-,-,-,http://www.cars.ie/used-cars/CITROEN-C4-CACTUS-2015-Wexford-1736001
+603,VOLKSWAGEN GOLF,"€14,950",VOLKSWAGEN,GOLF,1.5,Diesel,"94,761",Manual,Hatchback,2014,Dublin,5,White,1,Nov-2022,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1736113
+604,RENAULT CAPTUR,"€16,450",RENAULT,CAPTUR,1.2,Petrol,"85,001",Automatic,Hatchback,2019,Dublin,5,Silver,1,Oct-2022,Aug-2024,http://www.cars.ie/used-cars/RENAULT-CAPTUR-2019-Dublin-1736005
+605,NISSAN NOTE,"€11,995",NISSAN,NOTE,1.6,Diesel,"225,308",Manual,Van,2017,Dublin,4,White,2,Oct-2022,-,http://www.cars.ie/used-cars/NISSAN-NOTE-2017-Dublin-1736036
+606,CITROEN BERLINGO,"€8,950",CITROEN,BERLINGO,1.5,Diesel,"92,302",Manual,Estate,2017,Dublin,5,Black,1,Jan-2023,Feb-2024,http://www.cars.ie/used-cars/CITROEN-BERLINGO-2017-Dublin-1736067
+607,FORD FOCUS,"€14,850",FORD,FOCUS,2.0,Diesel,"232,006",Manual,Van,2018,Kildare,3,White,1,Nov-2022,-,http://www.cars.ie/used-cars/FORD-FOCUS-2018-Kildare-1736002
+608,FORD TRANSIT CUSTOM,"€12,950",FORD,TRANSIT,1.0,Petrol,"22,040",Manual,Hatchback,2018,Dublin,5,White,1,Mar-2023,Feb-2024,http://www.cars.ie/used-cars/FORD-TRANSIT-CUSTOM-2018-Dublin-1736066
+609,HYUNDAI I10,"€14,950",HYUNDAI,I10,1.5,Diesel,"156,870",Manual,Hatchback,2020,Dublin,4,White,1,Feb-2023,Nov-2024,http://www.cars.ie/used-cars/HYUNDAI-I10-2020-Dublin-1735895
+610,FORD MONDEO,"€17,995",FORD,MONDEO,2.0,Petrol,"114,762",Automatic,Saloon,2017,Wexford,4,Blue,2,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/FORD-MONDEO-2017-Wexford-1736000
+611,BMW 5 SERIES,"€32,950",BMW,5,1.2,Petrol,"68,308",Automatic,Hatchback,2018,Dublin,5,Black,1,-,Oct-2024,http://www.cars.ie/used-cars/BMW-5-SERIES-2018-Dublin-1735896
+612,SUZUKI SWIFT,"€10,950",SUZUKI,SWIFT,1.2,Petrol,"26,499",Manual,Hatchback,2014,Dublin,5,Silver,1,Jul-2023,Nov-2024,http://www.cars.ie/used-cars/SUZUKI-SWIFT-2014-Dublin-1736111
+613,VOLKSWAGEN GOLF,"€16,450",VOLKSWAGEN,GOLF,1.5,Diesel,"167,600",Manual,Hatchback,2016,Dublin,5,Black,1,Feb-2023,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2016-Dublin-1736059
+614,PEUGEOT 308,"€13,995",PEUGEOT,308,1.2,Petrol,"25,363",Manual,MPV,2018,Wexford,4,White,1,Dec-2022,Jan-2024,http://www.cars.ie/used-cars/PEUGEOT-308-2018-Wexford-1735999
+615,PEUGEOT 5008,"€41,950",PEUGEOT,5008,1.0,Petrol,"154,897",Manual,Hatchback,2020,Louth,5,Blue,3,-,Nov-2024,http://www.cars.ie/used-cars/PEUGEOT-5008-2020-Louth-1735966
+616,FORD FIESTA,"€10,995",FORD,FIESTA,2.4,Petrol,"112,654",Automatic,SUV,2016,Dublin,5,Silver,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2016-Dublin-1736022
+617,MITSUBISHI OUTLANDER,"€30,495",MITSUBISHI,OUTLANDER,1.6,Diesel,"108,651",Manual,Hatchback,2019,Dublin,5,Grey,1,Sep-2023,Jul-2023,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2019-Dublin-1736035
+618,OPEL ASTRA,"€16,995",OPEL,ASTRA,1.4,Petrol,"33,613",Manual,Estate,2019,Waterford,5,Grey,1,Jun-2023,Jul-2023,http://www.cars.ie/used-cars/OPEL-ASTRA-2019-Waterford-1735890
+619,KIA STONIC,"€17,950",KIA,STONIC,1.2,Petrol,"73,001",Automatic,Hatchback,2019,Cork,5,Grey,1,Dec-2022,Mar-2023,http://www.cars.ie/used-cars/KIA-STONIC-2019-Cork-1735930
+620,NISSAN NOTE,"€13,995",NISSAN,NOTE,2.0,Diesel,0,Manual,Van,2019,Dublin,4,White,-,-,-,http://www.cars.ie/used-cars/NISSAN-NOTE-2019-Dublin-1736034
+621,VOLKSWAGEN TRANSPORTER,"€33,939",VOLKSWAGEN,TRANSPORTER,1.2,Petrol,"119,857",Automatic,Hatchback,2023,Tipperary,5,Black,1,Aug-2022,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2023-Tipperary-1736017
+622,NISSAN NOTE,"€14,395",NISSAN,NOTE,1.4,Diesel,"189,958",Manual,Hatchback,2017,Dublin,4,Silver,2,Oct-2022,May-2023,http://www.cars.ie/used-cars/NISSAN-NOTE-2017-Dublin-1736033
+623,TOYOTA AURIS,POA,TOYOTA,AURIS,2.0,Diesel,0,Automatic,Van,2015,Dublin,5,Grey,-,-,-,http://www.cars.ie/used-cars/TOYOTA-AURIS-2015-Dublin-1736027
+624,VOLKSWAGEN TRANSPORTER,"€36,744",VOLKSWAGEN,TRANSPORTER,1.2,Petrol,"85,001",Manual,Hatchback,2023,Tipperary,5,White,1,Dec-2022,Nov-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TRANSPORTER-2023-Tipperary-1736019
+625,NISSAN NOTE,"€16,395",NISSAN,NOTE,1.7,Diesel,"136,767",Manual,Estate,2018,Dublin,5,Bronze,2,Apr-2023,Jan-2024,http://www.cars.ie/used-cars/NISSAN-NOTE-2018-Dublin-1736028
+626,HYUNDAI TUCSON,"€18,995",HYUNDAI,TUCSON,1.0,Petrol,"106,970",Manual,Hatchback,2016,Dublin,4,Red,1,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2016-Dublin-1735862
+627,TOYOTA YARIS,"€15,950",TOYOTA,YARIS,1.8,Hybrid,"105,772",Automatic,Saloon,2019,Dublin,4,Silver,1,Nov-2022,Mar-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2019-Dublin-1736064
+628,TOYOTA COROLLA,"€22,450",TOYOTA,COROLLA,1.4,Petrol,"71,247",Manual,MPV,2019,Dublin,4,Blue,2,Oct-2022,Oct-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Dublin-1736110
+629,NISSAN NOTE,"€7,950",NISSAN,NOTE,1.6,Diesel,"87,033",Manual,Saloon,2013,Dublin,4,Grey,2,Sep-2018,Jan-2020,http://www.cars.ie/used-cars/NISSAN-NOTE-2013-Dublin-1736063
+630,TOYOTA AVENSIS,"€15,950",TOYOTA,AVENSIS,1.4,Diesel,"182,018",Manual,Hatchback,2016,Dublin,4,Blue,3,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/TOYOTA-AVENSIS-2016-Dublin-1736062
+631,TOYOTA AURIS,"€12,000",TOYOTA,AURIS,1.5,Diesel,"74,200",Manual,SUV,2015,Kilkenny,4,Grey,2,Feb-2023,Jul-2022,http://www.cars.ie/used-cars/TOYOTA-AURIS-2015-Kilkenny-1736061
+632,RENAULT KADJAR,"€24,000",RENAULT,KADJAR,1.8,Hybrid,"99,953",Automatic,SUV,2018,Kilkenny,5,Silver,1,Nov-2022,Mar-2023,http://www.cars.ie/used-cars/RENAULT-KADJAR-2018-Kilkenny-1736060
+633,TOYOTA C-HR,"€25,949",TOYOTA,C-HR,1.6,Petrol,"18,800",Automatic,Saloon,2019,Dublin,4,Brown,1,Jan-2023,Jun-2022,http://www.cars.ie/used-cars/TOYOTA-C-HR-2019-Dublin-1736108
+634,TOYOTA COROLLA,"€18,950",TOYOTA,COROLLA,1.6,Diesel,"272,896",Manual,Van,2016,Dublin,5,Grey,2,Jul-2022,Dec-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2016-Dublin-1736106
+635,OPEL VIVARO,POA,OPEL,VIVARO,1.6,Diesel,"178,494",Manual,Van,2016,Dublin,5,White,1,Feb-2023,-,http://www.cars.ie/used-cars/OPEL-VIVARO-2016-Dublin-1736026
+636,OPEL VIVARO,POA,OPEL,VIVARO,1.3,Petrol,0,Manual,SUV,2019,Dublin,5,Wine,-,Dec-2024,Apr-2026,http://www.cars.ie/used-cars/OPEL-VIVARO-2019-Dublin-1736025
+637,NISSAN QASHQAI,"€42,500",NISSAN,QASHQAI,1.6,Diesel,"197,004",Manual,Hatchback,2023,Cork,5,Grey,3,Jan-2023,Aug-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2023-Cork-1735940
+638,VAUXHALL INSIGNIA,"€9,950",VAUXHALL,INSIGNIA,1.0,Petrol,"38,011",Manual,Hatchback,2016,Galway,4,White,1,-,Nov-2024,http://www.cars.ie/used-cars/VAUXHALL-INSIGNIA-2016-Galway-1735947
+639,NISSAN MICRA,"€13,995",NISSAN,MICRA,1.3,Petrol,"70,421",Automatic,Hatchback,2018,Dublin,5,White,-,-,Nov-2024,http://www.cars.ie/used-cars/NISSAN-MICRA-2018-Dublin-1735955
+640,MAZDA DEMIO,"€8,950",MAZDA,DEMIO,1.2,Petrol,"130,014",Manual,Hatchback,2014,Dublin,4,Silver,1,Sep-2022,Nov-2024,http://www.cars.ie/used-cars/MAZDA-DEMIO-2014-Dublin-1736105
+641,FORD FIESTA,"€10,995",FORD,FIESTA,2.0,Diesel,"91,732",Automatic,Saloon,2015,Dublin,4,Black,2,Jan-2023,Oct-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2015-Dublin-1735954
+642,AUDI A6,"€28,900",AUDI,A6,1.0,Petrol,"94,301",Manual,Hatchback,2017,Dublin,5,Black,3,Feb-2023,May-2023,http://www.cars.ie/used-cars/AUDI-A6-2017-Dublin-1735984
+643,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.0,Petrol,"197,967",Manual,Hatchback,2017,Dublin,5,Blue,1,Sep-2022,Sep-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2017-Dublin-1736024
+644,FORD FOCUS,"€10,995",FORD,FOCUS,1.0,Petrol,"52,141",Automatic,Hatchback,2014,Dublin,5,Blue,-,-,Nov-2024,http://www.cars.ie/used-cars/FORD-FOCUS-2014-Dublin-1735953
+645,MITSUBISHI MIRAGE,"€7,450",MITSUBISHI,MIRAGE,1.0,Petrol,"64,374",Automatic,Hatchback,2013,Dublin,5,White,1,-,Dec-2024,http://www.cars.ie/used-cars/MITSUBISHI-MIRAGE-2013-Dublin-1736104
+646,TOYOTA YARIS,"€11,950",TOYOTA,YARIS,1.5,Diesel,"198,004",Manual,Hatchback,2017,Dublin,5,Silver,1,Nov-2022,Oct-2022,http://www.cars.ie/used-cars/TOYOTA-YARIS-2017-Dublin-1735914
+647,RENAULT MEGANE,"€3,500",RENAULT,MEGANE,1.5,Diesel,"199,005",Manual,MPV,2009,Cork,5,White,1,Feb-2023,May-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2009-Cork-1735944
+648,NISSAN QASHQAI,"€11,950",NISSAN,QASHQAI,2.0,Diesel,"183,016",Automatic,Saloon,2015,Dublin,4,Silver,1,Jan-2023,Jul-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2015-Dublin-1736013
+649,VOLVO S80,"€13,950",VOLVO,S80,1.3,Petrol,"20,469",Manual,MPV,2015,Leitrim,4,Grey,1,Jun-2022,Jan-2024,http://www.cars.ie/used-cars/VOLVO-S80-2015-Leitrim-1735910
+650,NISSAN QASHQAI,"€27,950",NISSAN,QASHQAI,1.5,Diesel,10,Manual,Hatchback,2020,Mayo,5,Grey,1,Feb-2023,Mar-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2020-Mayo-1735919
+651,FORD FOCUS,POA,FORD,FOCUS,1.5,Diesel,"144,683",Manual,Saloon,2019,Kerry,4,Blue,3,Dec-2022,Jul-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2019-Kerry-1736058
+652,RENAULT MEGANE,"€14,850",RENAULT,MEGANE,1.5,Hybrid,"139,377",Automatic,Hatchback,2017,Limerick,5,White,1,-,Sep-2024,http://www.cars.ie/used-cars/RENAULT-MEGANE-2017-Limerick-1735956
+653,TOYOTA AQUA,"€9,495",TOYOTA,AQUA,1.5,Petrol,"139,277",Automatic,Hatchback,2015,Dublin,5,White,1,-,Sep-2024,http://www.cars.ie/used-cars/TOYOTA-AQUA-2015-Dublin-1736102
+654,TOYOTA PRIUS,"€9,495",TOYOTA,PRIUS,1.8,Petrol,"111,341",Automatic,Hatchback,2015,Dublin,4,Grey,1,Sep-2023,Jul-2023,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2015-Dublin-1736103
+655,TOYOTA C-HR,"€24,950",TOYOTA,C-HR,1.8,Petrol,"89,001",Automatic,Hatchback,2019,Dublin,5,White,1,Jun-2022,Oct-2024,http://www.cars.ie/used-cars/TOYOTA-C-HR-2019-Dublin-1736008
+656,TOYOTA PRIUS,"€13,995",TOYOTA,PRIUS,1.2,Petrol,"12,350",Automatic,SUV,2014,Dublin,5,White,1,Dec-2022,Jan-2026,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2014-Dublin-1736023
+657,OPEL CROSSLAND X,"€31,500",OPEL,CROSSLAND,2.0,Diesel,"198,520",Manual,Estate,2022,Cork,5,Black,1,Oct-2023,Apr-2023,http://www.cars.ie/used-cars/OPEL-CROSSLAND-X-2022-Cork-1735950
+658,AUDI A4,"€9,949",AUDI,A4,1.6,Diesel,"40,135",Manual,MPV,2010,Dublin,5,Black,1,Nov-2022,Feb-2023,http://www.cars.ie/used-cars/AUDI-A4-2010-Dublin-1735935
+659,KIA SPORTAGE,"€28,800",KIA,SPORTAGE,2.1,Diesel,"128,659",Automatic,Coupe,2019,Cork,4,Grey,2,Oct-2022,Dec-2022,http://www.cars.ie/used-cars/KIA-SPORTAGE-2019-Cork-1735949
+660,MERCEDES-BENZ CLS CLASS,"€25,950",MERCEDES-BENZ,CLS,2.0,Diesel,"115,679",Automatic,MPV,2015,Dublin,5,Blue,1,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLS-CLASS-2015-Dublin-1736101
+661,VOLKSWAGEN CADDY,"€29,950",VOLKSWAGEN,CADDY,2.0,Diesel,"137,059",Automatic,MPV,2019,Dublin,5,Blue,1,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2019-Dublin-1736007
+662,VOLKSWAGEN CADDY,"€28,950",VOLKSWAGEN,CADDY,1.3,Petrol,"38,520",Automatic,SUV,2019,Dublin,5,Blue,1,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2019-Dublin-1736006
+663,NISSAN QASHQAI,"€28,995",NISSAN,QASHQAI,1.1,Diesel,"178,637",Manual,Hatchback,2020,Dublin,3,White,2,-,-,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2020-Dublin-1736032
+664,KIA RIO,"€6,950",KIA,RIO,1.2,Petrol,"114,263",Manual,Hatchback,2012,Dublin,5,Silver,2,-,-,http://www.cars.ie/used-cars/KIA-RIO-2012-Dublin-1735943
+665,SKODA FABIA,"€9,950",SKODA,FABIA,1.2,Diesel,"179,853",Manual,Van,2014,Clare,3,White,2,Jul-2022,-,http://www.cars.ie/used-cars/SKODA-FABIA-2014-Clare-1735996
+666,FIAT FIORINO,POA,FIAT,FIORINO,2.0,Diesel,"129,230",Automatic,Estate,2013,Kerry,5,Gold,1,Dec-2022,Jan-2024,http://www.cars.ie/used-cars/FIAT-FIORINO-2013-Kerry-1735990
+667,VOLVO V70,"€21,950",VOLVO,V70,1.6,Diesel,"122,302",Manual,MPV,2016,Dublin,4,Black,3,Feb-2023,Mar-2024,http://www.cars.ie/used-cars/VOLVO-V70-2016-Dublin-1735997
+668,FORD C-MAX,"€11,450",FORD,C-MAX,1.2,Petrol,"94,951",Manual,Hatchback,2014,Clare,5,Blue,2,-,-,http://www.cars.ie/used-cars/FORD-C-MAX-2014-Clare-1735995
+669,FORD FIESTA,"€10,950",FORD,FIESTA,1.6,Diesel,"159,453",Manual,Hatchback,2015,Dublin,4,Red,4,-,Jul-2024,http://www.cars.ie/used-cars/FORD-FIESTA-2015-Dublin-1735942
+670,FORD FOCUS,"€9,975",FORD,FOCUS,1.2,Petrol,"136,132",Manual,Hatchback,2014,Wicklow,5,Grey,2,Sep-2022,Aug-2022,http://www.cars.ie/used-cars/FORD-FOCUS-2014-Wicklow-1736014
+671,SKODA FABIA,"€4,250",SKODA,FABIA,2.0,Diesel,"162,450",Manual,Estate,2010,Wexford,4,White,2,Apr-2023,Jul-2024,http://www.cars.ie/used-cars/SKODA-FABIA-2010-Wexford-1736057
+672,AUDI A4,"€15,975",AUDI,A4,1.3,Petrol,"67,592",Automatic,Hatchback,2014,Wexford,5,Black,-,-,-,http://www.cars.ie/used-cars/AUDI-A4-2014-Wexford-1735928
+673,TOYOTA YARIS,"€9,500",TOYOTA,YARIS,1.8,Petrol,"29,750",Automatic,Hatchback,2013,Laois,5,Grey,1,Sep-2023,Jul-2024,http://www.cars.ie/used-cars/TOYOTA-YARIS-2013-Laois-1735908
+674,TOYOTA C-HR,"€27,500",TOYOTA,C-HR,1.0,Petrol,"19,750",Automatic,Hatchback,2018,Dublin,5,Silver,3,Nov-2022,-,http://www.cars.ie/used-cars/TOYOTA-C-HR-2018-Dublin-1736012
+675,TOYOTA YARIS,"€12,999",TOYOTA,YARIS,2.3,Diesel,"122,786",Manual,Van,2016,Dublin,5,White,2,Feb-2023,-,http://www.cars.ie/used-cars/TOYOTA-YARIS-2016-Dublin-1736011
+676,FIAT DUCATO,POA,FIAT,DUCATO,2.0,Diesel,"208,875",Automatic,Saloon,2014,Kerry,4,Grey,1,Sep-2022,Mar-2024,http://www.cars.ie/used-cars/FIAT-DUCATO-2014-Kerry-1735989
+677,AUDI A6,"€22,950",AUDI,A6,1.0,Petrol,"3,214",Manual,MPV,2016,Galway,4,Grey,1,May-2023,May-2026,http://www.cars.ie/used-cars/AUDI-A6-2016-Galway-1735968
+678,NISSAN MICRA,"€22,000",NISSAN,MICRA,1.6,Diesel,"195,274",Manual,Hatchback,2022,Mayo,4,Grey,4,Jun-2022,Sep-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2022-Mayo-1735922
+679,SKODA OCTAVIA,"€4,450",SKODA,OCTAVIA,1.6,Diesel,"125,529",Manual,Hatchback,2012,Dublin,5,Brown,1,Nov-2022,Apr-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2012-Dublin-1736055
+680,HYUNDAI I30,"€11,950",HYUNDAI,I30,1.4,Diesel,"96,213",Automatic,Hatchback,2014,Galway,5,Grey,3,Sep-2023,Nov-2024,http://www.cars.ie/used-cars/HYUNDAI-I30-2014-Galway-1735987
+681,VOLKSWAGEN POLO,"€15,950",VOLKSWAGEN,POLO,0.0,Electric,"44,761",Automatic,Hatchback,2016,Leitrim,4,Grey,1,Aug-2022,Mar-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2016-Leitrim-1735909
+682,NISSAN LEAF,"€30,500",NISSAN,LEAF,1.2,Petrol,"69,000",Manual,Hatchback,2020,Mayo,3,Grey,3,Jan-2022,Nov-2024,http://www.cars.ie/used-cars/NISSAN-LEAF-2020-Mayo-1735925
+683,OPEL CORSA,"€7,750",OPEL,CORSA,2.0,Petrol,"110,884",Automatic,Saloon,2013,Dublin,4,Blue,2,-,Jul-2023,http://www.cars.ie/used-cars/OPEL-CORSA-2013-Dublin-1735998
+684,BMW 3 SERIES,POA,BMW,3,2.0,Diesel,"101,388",Automatic,Saloon,2017,Limerick,4,Black,1,-,Sep-2023,http://www.cars.ie/used-cars/BMW-3-SERIES-2017-Limerick-1736076
+685,AUDI A4,POA,AUDI,A4,1.8,Petrol,"38,355",Automatic,Hatchback,2019,Limerick,5,Silver,-,Oct-2022,Feb-2023,http://www.cars.ie/used-cars/AUDI-A4-2019-Limerick-1736077
+686,TOYOTA COROLLA,"€22,999",TOYOTA,COROLLA,1.8,Petrol,"38,355",Automatic,Hatchback,2019,Galway,5,Silver,-,Oct-2022,Feb-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Galway-1736086
+687,TOYOTA COROLLA,"€22,999",TOYOTA,COROLLA,1.5,Diesel,"160,004",Manual,MPV,2019,Galway,4,Silver,3,Dec-2022,Nov-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Galway-1736085
+688,FORD B-MAX,"€8,250",FORD,B-MAX,1.3,Petrol,"19,632",Automatic,Saloon,2014,Dublin,4,White,2,Sep-2023,Feb-2024,http://www.cars.ie/used-cars/FORD-B-MAX-2014-Dublin-1735946
+689,MERCEDES-BENZ CL CLASS,"€38,950",MERCEDES-BENZ,CL,1.5,Diesel,"99,779",Manual,MPV,2020,Louth,4,Silver,2,May-2023,Jun-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-CL-CLASS-2020-Louth-1735959
+690,NISSAN JUKE,POA,NISSAN,JUKE,1.0,Petrol,"134,053",Automatic,Hatchback,2015,Laois,5,Black,1,Nov-2022,Nov-2024,http://www.cars.ie/used-cars/NISSAN-JUKE-2015-Laois-1735906
+691,VOLKSWAGEN GOLF,"€19,950",VOLKSWAGEN,GOLF,2.3,Diesel,"147,671",Automatic,Pickup,2019,Dublin,4,Black,1,Dec-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Dublin-1735861
+692,NISSAN NAVARA,POA,NISSAN,NAVARA,2.0,Diesel,13,Automatic,SUV,2017,Kerry,5,Black,1,-,-,http://www.cars.ie/used-cars/NISSAN-NAVARA-2017-Kerry-1735991
+693,VOLVO XC60,POA,VOLVO,XC60,1.3,Petrol,"70,811",Automatic,Hatchback,2022,Galway,5,Silver,-,-,-,http://www.cars.ie/used-cars/VOLVO-XC60-2022-Galway-1735960
+694,TOYOTA YARIS,"€9,500",TOYOTA,YARIS,1.5,Diesel,"87,973",Manual,Hatchback,2013,Laois,4,Silver,2,Oct-2022,Apr-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2013-Laois-1735907
+695,NISSAN PULSAR,"€9,000",NISSAN,PULSAR,1.8,Hybrid,0,Automatic,Hatchback,2014,Mayo,4,Black,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/NISSAN-PULSAR-2014-Mayo-1735916
+696,TOYOTA COROLLA,"€21,950",TOYOTA,COROLLA,1.8,Hybrid,"96,755",Automatic,Hatchback,2019,Dublin,4,Blue,2,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Dublin-1736084
+697,TOYOTA COROLLA,"€21,950",TOYOTA,COROLLA,2.0,Diesel,"219,879",Automatic,Saloon,2019,Dublin,4,Black,4,Dec-2022,Mar-2024,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Dublin-1736083
+698,AUDI A6,"€15,900",AUDI,A6,1.6,Diesel,"89,001",Manual,MPV,2014,Galway,5,Red,2,Jul-2023,Nov-2022,http://www.cars.ie/used-cars/AUDI-A6-2014-Galway-1735980
+699,CITROEN GRAND C4 PICASSO,"€10,950",CITROEN,GRAND,1.5,Diesel,"26,419",Automatic,SUV,2013,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/CITROEN-GRAND-C4-PICASSO-2013-Dublin-1735911
+700,PEUGEOT 3008,"€39,650",PEUGEOT,3008,1.5,Diesel,"89,930",Automatic,SUV,2021,Dublin,5,Bronze,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-3008-2021-Dublin-1736081
+701,PEUGEOT 3008,"€28,250",PEUGEOT,3008,1.6,Diesel,"78,534",Manual,SUV,2019,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-3008-2019-Dublin-1736080
+702,PEUGEOT 3008,"€24,250",PEUGEOT,3008,1.6,Diesel,"85,161",Manual,SUV,2017,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-3008-2017-Dublin-1736045
+703,PEUGEOT 3008,"€28,250",PEUGEOT,3008,1.5,Diesel,"158,880",Manual,Hatchback,2018,Dublin,5,Grey,1,Aug-2022,Mar-2024,http://www.cars.ie/used-cars/PEUGEOT-3008-2018-Dublin-1736044
+704,FORD FOCUS,"€17,950",FORD,FOCUS,1.5,Diesel,"21,528",Manual,SUV,2018,Limerick,5,White,1,-,-,http://www.cars.ie/used-cars/FORD-FOCUS-2018-Limerick-1736040
+705,PEUGEOT 3008,"€29,450",PEUGEOT,3008,1.5,Diesel,"9,959",Manual,SUV,2019,Dublin,5,Red,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-3008-2019-Dublin-1736043
+706,PEUGEOT 3008,"€29,650",PEUGEOT,3008,1.5,Diesel,"74,998",Manual,SUV,2019,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-3008-2019-Dublin-1736042
+707,PEUGEOT 3008,"€28,950",PEUGEOT,3008,1.6,Diesel,"72,000",Manual,Hatchback,2018,Dublin,5,Grey,3,Oct-2022,Mar-2024,http://www.cars.ie/used-cars/PEUGEOT-3008-2018-Dublin-1736041
+708,HONDA CIVIC,"€20,950",HONDA,CIVIC,1.4,Petrol,"21,000",Manual,Hatchback,2018,Cork,5,Silver,1,-,May-2022,http://www.cars.ie/used-cars/HONDA-CIVIC-2018-Cork-1735875
+709,HYUNDAI I30,"€13,250",HYUNDAI,I30,1.7,Diesel,"278,416",Manual,SUV,2016,Kildare,5,Black,2,Nov-2022,May-2023,http://www.cars.ie/used-cars/HYUNDAI-I30-2016-Kildare-1735874
+710,HYUNDAI IX35,POA,HYUNDAI,IX35,2.0,Diesel,"121,001",Manual,Saloon,2012,Cork,4,Silver,3,Dec-2022,Mar-2024,http://www.cars.ie/used-cars/HYUNDAI-IX35-2012-Cork-1735888
+711,OPEL INSIGNIA,POA,OPEL,INSIGNIA,1.6,Diesel,"160,004",Manual,Hatchback,2014,Cork,5,Silver,2,Jan-2023,Nov-2023,http://www.cars.ie/used-cars/OPEL-INSIGNIA-2014-Cork-1735887
+712,OPEL ASTRA,POA,OPEL,ASTRA,1.6,Diesel,"190,004",Manual,Hatchback,2015,Cork,5,Gold,2,Oct-2022,Jun-2023,http://www.cars.ie/used-cars/OPEL-ASTRA-2015-Cork-1735886
+713,FORD FOCUS,"€5,500",FORD,FOCUS,2.0,Diesel,"150,003",Automatic,Saloon,2010,Cork,4,Black,2,Aug-2022,May-2022,http://www.cars.ie/used-cars/FORD-FOCUS-2010-Cork-1735885
+714,VOLVO S60,POA,VOLVO,S60,1.7,Diesel,"299,007",Manual,SUV,2016,Cork,4,Silver,3,Apr-2023,Jun-2023,http://www.cars.ie/used-cars/VOLVO-S60-2016-Cork-1736079
+715,KIA SPORTAGE,POA,KIA,SPORTAGE,1.6,Diesel,"207,005",Manual,Van,2011,Cork,5,Grey,2,Aug-2022,-,http://www.cars.ie/used-cars/KIA-SPORTAGE-2011-Cork-1735884
+716,CITROEN BERLINGO,"€10,950",CITROEN,BERLINGO,2.0,Diesel,"31,176",Manual,Hatchback,2016,Galway,5,White,1,Sep-2022,Mar-2026,http://www.cars.ie/used-cars/CITROEN-BERLINGO-2016-Galway-1735883
+717,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,2.0,Diesel,"41,001",Manual,SUV,2022,Galway,5,Grey,1,Dec-2022,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2022-Galway-1735873
+718,VOLKSWAGEN TIGUAN,POA,VOLKSWAGEN,TIGUAN,2.0,Diesel,"7,165",Manual,MPV,2019,Galway,5,Grey,1,Sep-2022,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2019-Galway-1735872
+719,VOLKSWAGEN CADDY,POA,VOLKSWAGEN,CADDY,2.0,Diesel,"16,435",Manual,Saloon,2021,Galway,4,White,1,Sep-2022,Oct-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2021-Galway-1735871
+720,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,1.6,Diesel,"211,561",Manual,Hatchback,2019,Galway,5,Blue,3,Jan-2023,Jul-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2019-Galway-1735869
+721,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,2.0,Diesel,"107,589",Manual,Saloon,2015,Galway,4,Grey,2,Jul-2023,Jan-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2015-Galway-1735867
+722,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,1.0,Petrol,"22,922",Manual,Hatchback,2019,Galway,5,White,1,Oct-2022,May-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2019-Galway-1735866
+723,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,2.0,Diesel,"89,864",Manual,Saloon,2022,Galway,4,Grey,1,Aug-2022,Aug-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2022-Galway-1735865
+724,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"39,030",Manual,SUV,2018,Galway,5,Gold,1,Dec-2019,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2018-Galway-1735864
+725,VOLKSWAGEN TIGUAN,"€34,000",VOLKSWAGEN,TIGUAN,1.6,Diesel,"86,734",Manual,SUV,2018,Galway,4,Black,1,Jul-2023,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2018-Galway-1735863
+726,SKODA KAROQ,"€30,950",SKODA,KAROQ,1.6,Diesel,"8,249",Manual,SUV,2020,Clare,4,Grey,1,Sep-2022,Aug-2024,http://www.cars.ie/used-cars/SKODA-KAROQ-2020-Clare-1735881
+727,SKODA KAROQ,"€33,500",SKODA,KAROQ,2.0,Diesel,"30,091",Manual,Saloon,2020,Clare,4,White,1,Sep-2022,Jan-2026,http://www.cars.ie/used-cars/SKODA-KAROQ-2020-Clare-1735880
+728,SKODA OCTAVIA,"€33,000",SKODA,OCTAVIA,2.0,Diesel,"199,737",Manual,Saloon,2022,Clare,4,Black,-,Jan-2023,Jan-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2022-Clare-1735879
+729,VOLKSWAGEN JETTA,"€16,950",VOLKSWAGEN,JETTA,2.0,Diesel,"219,950",Automatic,Estate,2017,Clare,4,Beige,-,Jan-2023,Jun-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-JETTA-2017-Clare-1735878
+730,SKODA SUPERB,"€14,500",SKODA,SUPERB,1.2,Petrol,"65,896",Manual,Hatchback,2015,Clare,4,Silver,-,Jan-2023,May-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2015-Clare-1736078
+731,FORD FIESTA,"€10,950",FORD,FIESTA,1.3,Petrol,"40,542",Manual,Hatchback,2013,Wicklow,4,Silver,-,Mar-2023,Nov-2022,http://www.cars.ie/used-cars/FORD-FIESTA-2013-Wicklow-1735877
+732,FORD FIESTA,"€13,950",FORD,FIESTA,1.6,Diesel,"180,005",Manual,Van,2016,Wicklow,4,Silver,2,Apr-2022,-,http://www.cars.ie/used-cars/FORD-FIESTA-2016-Wicklow-1735876
+733,VOLKSWAGEN CADDY,POA,VOLKSWAGEN,CADDY,1.0,Petrol,200,Manual,Hatchback,2015,Galway,4,-,-,Sep-2022,Mar-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2015-Galway-1735882
+734,NISSAN MICRA,"€21,750",NISSAN,MICRA,2.0,Diesel,"319,028",Manual,Van,2022,Waterford,4,Black,2,Apr-2023,Dec-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2022-Waterford-1735826
+735,HYUNDAI IX35,"€8,949",HYUNDAI,IX35,1.4,Petrol,"230,005",Manual,Hatchback,2013,Meath,5,Black,2,Dec-2022,Jan-2022,http://www.cars.ie/used-cars/HYUNDAI-IX35-2013-Meath-1735797
+736,OPEL ASTRA,€800,OPEL,ASTRA,1.6,Diesel,"177,027",Manual,Hatchback,2005,Meath,5,Silver,2,Oct-2022,May-2023,http://www.cars.ie/used-cars/OPEL-ASTRA-2005-Meath-1735798
+737,FORD FOCUS,"€5,449",FORD,FOCUS,1.6,Diesel,"129,491",Manual,Hatchback,2011,Meath,5,Blue,1,-,Nov-2024,http://www.cars.ie/used-cars/FORD-FOCUS-2011-Meath-1735795
+738,RENAULT KOLEOS,"€24,949",RENAULT,KOLEOS,1.6,Diesel,"146,004",Manual,Hatchback,2017,Meath,5,Black,2,Dec-2022,Jul-2023,http://www.cars.ie/used-cars/RENAULT-KOLEOS-2017-Meath-1735794
+739,FORD FOCUS,"€5,949",FORD,FOCUS,3.0,Diesel,"154,770",Other,Saloon,2011,Meath,4,Grey,1,Feb-2023,Sep-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2011-Meath-1735796
+740,BMW 5 SERIES,"€34,949",BMW,5,1.6,Diesel,"168,121",Manual,Estate,2017,Meath,5,Silver,2,Sep-2022,Jun-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2017-Meath-1735840
+741,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.0,Petrol,"34,229",Manual,Saloon,2013,Cork,4,Grey,1,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2013-Cork-1735814
+742,SKODA OCTAVIA,"€23,950",SKODA,OCTAVIA,2.0,Diesel,"106,018",Manual,Saloon,2020,Cork,4,Grey,1,Sep-2022,Jan-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2020-Cork-1735813
+743,SKODA SUPERB,"€28,950",SKODA,SUPERB,1.6,Diesel,"11,579",Automatic,Saloon,2019,Cork,4,Grey,1,Jun-2022,Jul-2024,http://www.cars.ie/used-cars/SKODA-SUPERB-2019-Cork-1735812
+744,SKODA SUPERB,"€34,500",SKODA,SUPERB,2.0,Diesel,"101,388",Automatic,Saloon,2020,Cork,4,Black,1,-,Nov-2023,http://www.cars.ie/used-cars/SKODA-SUPERB-2020-Cork-1735852
+745,AUDI A4,POA,AUDI,A4,2.0,Diesel,"202,777",Manual,Hatchback,2019,Limerick,5,Silver,1,Feb-2023,Feb-2023,http://www.cars.ie/used-cars/AUDI-A4-2019-Limerick-1735857
+746,SKODA OCTAVIA,"€12,650",SKODA,OCTAVIA,2.0,Petrol,"191,511",Manual,Hatchback,2014,Longford,3,Black,3,-,-,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2014-Longford-1735811
+747,HONDA CIVIC,"€5,750",HONDA,CIVIC,1.2,Diesel,"121,001",Manual,Saloon,2005,Longford,4,Silver,3,Sep-2022,May-2024,http://www.cars.ie/used-cars/HONDA-CIVIC-2005-Longford-1735810
+748,OPEL ASTRA,"€7,950",OPEL,ASTRA,2.0,Diesel,"239,127",Manual,Coupe,2014,Dublin,4,Black,1,Jun-2023,Sep-2023,http://www.cars.ie/used-cars/OPEL-ASTRA-2014-Dublin-1735807
+749,VOLKSWAGEN PASSAT CC,"€8,450",VOLKSWAGEN,PASSAT,1.5,Diesel,"90,604",Manual,Hatchback,2011,Kerry,5,Grey,1,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2011-Kerry-1735829
+750,NISSAN QASHQAI,"€24,950",NISSAN,QASHQAI,2.2,Diesel,"142,589",Manual,Saloon,2019,Kerry,4,Brown,3,Sep-2023,Mar-2024,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2019-Kerry-1735830
+751,MAZDA MAZDA6,"€11,950",MAZDA,MAZDA6,1.4,Petrol,"167,954",Manual,Hatchback,2016,Kerry,5,Grey,5,Apr-2023,Feb-2023,http://www.cars.ie/used-cars/MAZDA-MAZDA6-2016-Kerry-1735831
+752,VOLKSWAGEN GOLF,"€2,450",VOLKSWAGEN,GOLF,1.0,Petrol,"103,255",Manual,Hatchback,2005,Dublin,5,Silver,3,Feb-2023,Jun-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2005-Dublin-1735791
+753,TOYOTA YARIS,"€5,950",TOYOTA,YARIS,1.5,Diesel,"184,261",Manual,Hatchback,2010,Kerry,5,Grey,1,Nov-2022,Jan-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2010-Kerry-1735828
+754,FORD KUGA,"€17,450",FORD,KUGA,1.4,Petrol,"117,564",Automatic,Hatchback,2017,Kerry,5,Grey,1,-,Dec-2024,http://www.cars.ie/used-cars/FORD-KUGA-2017-Kerry-1735827
+755,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"109,541",Automatic,Hatchback,2014,Dublin,5,Blue,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1735849
+756,VOLKSWAGEN GOLF,POA,VOLKSWAGEN,GOLF,1.2,Petrol,"106,826",Automatic,Hatchback,2014,Dublin,2,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2014-Dublin-1735851
+757,VOLKSWAGEN BEETLE,POA,VOLKSWAGEN,BEETLE,1.5,Petrol,"108,478",Automatic,Hatchback,2014,Dublin,5,White,1,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-BEETLE-2014-Dublin-1735847
+758,TOYOTA AQUA,POA,TOYOTA,AQUA,1.0,Petrol,"131,731",Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/TOYOTA-AQUA-2014-Dublin-1735846
+759,FORD FIESTA,POA,FORD,FIESTA,1.4,Petrol,"82,369",Automatic,Saloon,2014,Dublin,4,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/FORD-FIESTA-2014-Dublin-1735850
+760,AUDI A3 SALOON,POA,AUDI,A3,1.4,Petrol,"140,465",Automatic,Hatchback,2014,Dublin,5,Black,1,-,Dec-2024,http://www.cars.ie/used-cars/AUDI-A3-SALOON-2014-Dublin-1735845
+761,AUDI A3,POA,AUDI,A3,2.0,Diesel,0,Manual,Saloon,2014,Dublin,4,Grey,3,Aug-2023,Jul-2023,http://www.cars.ie/used-cars/AUDI-A3-2014-Dublin-1735848
+762,AUDI A6,"€19,950",AUDI,A6,1.6,Petrol,"238,005",Automatic,Hatchback,2015,Kerry,3,Black,3,Mar-2022,Sep-2022,http://www.cars.ie/used-cars/AUDI-A6-2015-Kerry-1735821
+763,AUDI A3,"€4,450",AUDI,A3,2.5,Diesel,"318,649",Manual,Pickup,2008,Dublin,4,Grey,3,Dec-2022,-,http://www.cars.ie/used-cars/AUDI-A3-2008-Dublin-1735853
+764,ISUZU D-MAX,"€15,900",ISUZU,D-MAX,1.6,Diesel,"193,121",Manual,Hatchback,2015,Dublin,4,Black,3,Sep-2022,Feb-2024,http://www.cars.ie/used-cars/ISUZU-D-MAX-2015-Dublin-1735820
+765,FORD MONDEO,"€6,750",FORD,MONDEO,1.2,Petrol,"65,983",Automatic,Hatchback,2012,Cork,5,Blue,-,-,-,http://www.cars.ie/used-cars/FORD-MONDEO-2012-Cork-1735833
+766,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.2,Petrol,"43,452",Automatic,Hatchback,2013,Cork,5,Red,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2013-Cork-1735844
+767,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,1.4,Petrol,"72,420",Automatic,Hatchback,2015,Cork,3,White,-,-,Dec-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2015-Cork-1735843
+768,AUDI A1,POA,AUDI,A1,1.4,Petrol,"127,138",Automatic,Hatchback,2014,Cork,5,White,-,-,Dec-2024,http://www.cars.ie/used-cars/AUDI-A1-2014-Cork-1735842
+769,AUDI A3,POA,AUDI,A3,2.0,Diesel,"169,504",Manual,Estate,2014,Cork,5,Red,2,Dec-2022,Jun-2023,http://www.cars.ie/used-cars/AUDI-A3-2014-Cork-1735841
+770,SKODA YETI,"€8,950",SKODA,YETI,2.0,Diesel,"61,499",Automatic,Estate,2011,Dublin,5,Black,1,Aug-2023,Aug-2023,http://www.cars.ie/used-cars/SKODA-YETI-2011-Dublin-1735818
+771,VOLVO XC60,"€44,950",VOLVO,XC60,2.0,Petrol,"144,680",Manual,Coupe,2019,Dublin,2,Silver,4,Mar-2023,May-2023,http://www.cars.ie/used-cars/VOLVO-XC60-2019-Dublin-1735854
+772,BMW 3 SERIES,"€5,950",BMW,3,2.0,Diesel,"215,652",Manual,MPV,2007,Dublin,5,White,2,Oct-2022,Jan-2024,http://www.cars.ie/used-cars/BMW-3-SERIES-2007-Dublin-1735817
+773,SEAT ALHAMBRA,"€29,950",SEAT,ALHAMBRA,1.2,Petrol,"110,002",Automatic,Hatchback,2018,Dublin,5,Blue,1,-,Nov-2024,http://www.cars.ie/used-cars/SEAT-ALHAMBRA-2018-Dublin-1735819
+774,VOLKSWAGEN POLO,"€10,950",VOLKSWAGEN,POLO,1.4,Diesel,"91,002",Manual,Hatchback,2013,Dublin,4,White,1,Dec-2022,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2013-Dublin-1735856
+775,TOYOTA AURIS,"€13,950",TOYOTA,AURIS,1.5,Diesel,"181,004",Manual,SUV,2016,Dublin,4,Black,3,Nov-2022,Feb-2024,http://www.cars.ie/used-cars/TOYOTA-AURIS-2016-Dublin-1735823
+776,DACIA DUSTER,"€9,950",DACIA,DUSTER,1.2,Petrol,"107,002",Automatic,Hatchback,2016,Dublin,5,Black,1,-,Nov-2024,http://www.cars.ie/used-cars/DACIA-DUSTER-2016-Dublin-1735822
+777,VOLKSWAGEN POLO,"€10,950",VOLKSWAGEN,POLO,1.5,Diesel,"212,005",Manual,Hatchback,2013,Dublin,5,Black,4,Aug-2023,Sep-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2013-Dublin-1735855
+778,NISSAN QASHQAI,"€6,950",NISSAN,QASHQAI,1.4,Petrol,"102,002",Automatic,Hatchback,2011,Limerick,5,White,1,Oct-2022,Nov-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2011-Limerick-1735792
+779,AUDI A3,"€9,950",AUDI,A3,1.6,Diesel,"84,000",Manual,MPV,2010,Dublin,4,Grey,2,Jul-2023,Mar-2023,http://www.cars.ie/used-cars/AUDI-A3-2010-Dublin-1735839
+780,PEUGEOT 3008,"€32,950",PEUGEOT,3008,1.3,Petrol,"128,747",Automatic,Hatchback,2019,Donegal,-,Black,1,Nov-2022,Dec-2024,http://www.cars.ie/used-cars/PEUGEOT-3008-2019-Donegal-1735832
+781,HONDA FIT,"€7,950",HONDA,FIT,1.6,Petrol,"106,216",Automatic,MPV,2013,Louth,5,Black,3,Nov-2022,Oct-2023,http://www.cars.ie/used-cars/HONDA-FIT-2013-Louth-1735835
+782,SKODA ROOMSTER,"€4,490",SKODA,ROOMSTER,2.1,Diesel,"131,966",Automatic,Saloon,2008,Louth,4,Black,-,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/SKODA-ROOMSTER-2008-Louth-1735836
+783,MERCEDES-BENZ C CLASS,"€25,495",MERCEDES-BENZ,C,2.0,Petrol,"206,998",Automatic,Hatchback,2017,Tipperary,5,Black,2,Oct-2022,May-2022,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2017-Tipperary-1735837
+784,NISSAN QASHQAI,"€2,999",NISSAN,QASHQAI,1.5,Diesel,"143,999",Manual,Saloon,2008,Dublin,4,Grey,1,Oct-2022,Nov-2023,http://www.cars.ie/used-cars/NISSAN-QASHQAI-2008-Dublin-1735793
+785,FORD FOCUS,"€12,950",FORD,FOCUS,1.6,Diesel,"186,999",Manual,Hatchback,2015,Cork,4,White,2,Jan-2023,Nov-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2015-Cork-1735803
+786,HONDA CIVIC,"€8,950",HONDA,CIVIC,1.3,Petrol,"145,999",Automatic,Hatchback,2013,Wexford,5,Red,1,Dec-2022,Nov-2023,http://www.cars.ie/used-cars/HONDA-CIVIC-2013-Wexford-1735824
+787,HONDA FIT,"€4,950",HONDA,FIT,2.1,Diesel,"60,001",Automatic,Estate,2009,Wexford,5,Silver,1,Jun-2023,Mar-2024,http://www.cars.ie/used-cars/HONDA-FIT-2009-Wexford-1735825
+788,MERCEDES-BENZ GLC CLASS,POA,MERCEDES-BENZ,GLC,3.0,Diesel,"225,127",Automatic,Van,2018,Wexford,4,Black,3,Dec-2022,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-GLC-CLASS-2018-Wexford-1735816
+789,LAND ROVER DISCOVERY,"€24,995",LAND,ROVER,1.6,Diesel,"135,003",Manual,MPV,2014,Kerry,4,Grey,2,Mar-2022,Jan-2025,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-2014-Kerry-1735809
+790,NISSAN X-TRAIL,"€19,995",NISSAN,X-TRAIL,2.0,Diesel,"102,002",Manual,Van,2017,Wexford,5,White,1,Feb-2023,Jan-2024,http://www.cars.ie/used-cars/NISSAN-X-TRAIL-2017-Wexford-1735815
+791,VOLKSWAGEN CADDY,"€13,375",VOLKSWAGEN,CADDY,2.0,Diesel,"192,004",Automatic,Saloon,2019,Kildare,4,Grey,1,Dec-2022,Jun-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2019-Kildare-1735801
+792,VOLKSWAGEN PASSAT,"€18,450",VOLKSWAGEN,PASSAT,1.7,Diesel,"188,013",Manual,Saloon,2018,Kildare,4,Black,1,Jul-2023,Jul-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2018-Kildare-1735802
+793,HYUNDAI I40,"€13,950",HYUNDAI,I40,2.0,Diesel,"199,503",Manual,Van,2018,Kildare,5,Black,1,Dec-2022,-,http://www.cars.ie/used-cars/HYUNDAI-I40-2018-Kildare-1735800
+794,VOLKSWAGEN CADDY,"€9,715",VOLKSWAGEN,CADDY,0.0,Petrol,"74,030",Manual,Hatchback,2017,Kildare,5,Wine,1,-,Nov-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-CADDY-2017-Kildare-1735799
+795,RENAULT CLIO,"€12,950",RENAULT,CLIO,3.0,Diesel,"49,001",Automatic,Estate,2018,Dublin,5,Blue,1,Jul-2023,Jul-2024,http://www.cars.ie/used-cars/RENAULT-CLIO-2018-Dublin-1735806
+796,LAND ROVER DISCOVERY,POA,LAND,ROVER,2.0,Diesel,"179,004",Manual,Hatchback,2020,Dublin,5,Grey,2,Nov-2022,Jan-2025,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-2020-Dublin-1735838
+797,VOLVO V40,"€14,950",VOLVO,V40,2.4,Diesel,"104,002",Automatic,SUV,2017,Dublin,5,Silver,3,Sep-2022,Nov-2023,http://www.cars.ie/used-cars/VOLVO-V40-2017-Dublin-1735805
+798,VOLVO XC60,"€15,950",VOLVO,XC60,1.6,Petrol,"14,000",Manual,Saloon,2013,Dublin,4,White,2,Apr-2023,Aug-2024,http://www.cars.ie/used-cars/VOLVO-XC60-2013-Dublin-1735808
+799,MERCEDES-BENZ CLA CLASS,"€24,999",MERCEDES-BENZ,CLA,1.6,Diesel,"240,983",Manual,Hatchback,2016,Dublin,4,Blue,-,Sep-2022,May-2023,http://www.cars.ie/used-cars/MERCEDES-BENZ-CLA-CLASS-2016-Dublin-1735804
+800,FORD FOCUS,"€10,995",FORD,FOCUS,1.8,Petrol,"119,011",Automatic,Hatchback,2015,Donegal,5,Silver,1,-,-,http://www.cars.ie/used-cars/FORD-FOCUS-2015-Donegal-1735441
+801,TOYOTA PRIUS,"€19,490",TOYOTA,PRIUS,2.2,Diesel,"55,255",Manual,SUV,2017,Dublin,4,Brown,1,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2017-Dublin-1735677
+802,MITSUBISHI OUTLANDER,"€34,950",MITSUBISHI,OUTLANDER,2.0,Petrol,"85,295",Automatic,SUV,2019,Kildare,5,Black,1,Jun-2023,Jun-2024,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2019-Kildare-1735525
+803,BMW X5,"€52,995",BMW,X5,2.0,Diesel,"77,998",Manual,Van,2018,Mayo,3,White,1,Jul-2023,-,http://www.cars.ie/used-cars/BMW-X5-2018-Mayo-1735440
+804,FORD TRANSIT,"€20,500",FORD,TRANSIT,2.2,Diesel,"209,346",Manual,Van,2018,Dublin,3,White,1,-,Jan-2023,http://www.cars.ie/used-cars/FORD-TRANSIT-2018-Dublin-1735711
+805,FORD TRANSIT,POA,FORD,TRANSIT,2.8,Diesel,"117,079",Automatic,SUV,2015,Dublin,4,Red,1,Feb-2022,Mar-2022,http://www.cars.ie/used-cars/FORD-TRANSIT-2015-Dublin-1735516
+806,TOYOTA LANDCRUISER,"€53,895",TOYOTA,LANDCRUISER,1.8,Petrol,"118,288",Automatic,MPV,2017,Mayo,5,Brown,1,-,-,http://www.cars.ie/used-cars/TOYOTA-LANDCRUISER-2017-Mayo-1735763
+807,TOYOTA PRIUS,POA,TOYOTA,PRIUS,1.8,Petrol,"126,600",Automatic,Hatchback,2016,Dublin,5,Silver,1,-,-,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2016-Dublin-1735771
+808,TOYOTA PRIUS,POA,TOYOTA,PRIUS,1.6,Diesel,"118,995",Manual,MPV,2017,Dublin,4,Grey,2,Feb-2023,Feb-2024,http://www.cars.ie/used-cars/TOYOTA-PRIUS-2017-Dublin-1735769
+809,PEUGEOT 5008,"€11,950",PEUGEOT,5008,2.2,Diesel,"210,999",Manual,Van,2014,Kildare,3,White,1,Dec-2022,-,http://www.cars.ie/used-cars/PEUGEOT-5008-2014-Kildare-1735501
+810,FORD TRANSIT,"€4,877",FORD,TRANSIT,1.5,Petrol,0,Automatic,Saloon,2013,Dublin,4,-,1,Dec-2022,Jan-2026,http://www.cars.ie/used-cars/FORD-TRANSIT-2013-Dublin-1735491
+811,BMW 2 SERIES,"€44,995",BMW,2,2.2,Diesel,"193,291",Manual,Van,2022,Westmeath,3,Yellow,1,-,Mar-2023,http://www.cars.ie/used-cars/BMW-2-SERIES-2022-Westmeath-1735680
+812,FORD TRANSIT,POA,FORD,TRANSIT,2.3,Diesel,"172,199",Manual,Van,2011,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/FORD-TRANSIT-2011-Dublin-1735515
+813,MITSUBISHI OUTLANDER,POA,MITSUBISHI,OUTLANDER,1.5,Diesel,"65,090",Manual,Van,2017,Longford,3,White,2,May-2023,Sep-2022,http://www.cars.ie/used-cars/MITSUBISHI-OUTLANDER-2017-Longford-1735712
+814,FORD TRANSIT,"€12,998",FORD,TRANSIT,1.6,Diesel,"113,124",Automatic,MPV,2018,Laois,4,White,2,Jan-2023,Apr-2024,http://www.cars.ie/used-cars/FORD-TRANSIT-CONNECT-2018-Laois-1735710
+815,PEUGEOT 5008,POA,PEUGEOT,5008,1.6,Petrol,"88,659",Automatic,SUV,2018,Wexford,5,Grey,1,-,-,http://www.cars.ie/used-cars/PEUGEOT-5008-2018-Wexford-1735647
+816,MERCEDES-BENZ GL CLASS,POA,MERCEDES-BENZ,GL,1.6,Diesel,"108,003",Automatic,Hatchback,2015,Dublin,5,Black,1,Oct-2022,Jan-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-GL-CLASS-2015-Dublin-1735675
+817,VOLKSWAGEN GOLF,"€13,995",VOLKSWAGEN,GOLF,1.6,Diesel,"272,873",Automatic,MPV,2015,Galway,5,Blue,6,-,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-SV-2015-Galway-1735754
+818,CITROEN C4,POA,CITROEN,C4,3.0,Diesel,"313,152",Automatic,Estate,2008,Kildare,5,Black,12,Dec-2022,Aug-2023,http://www.cars.ie/used-cars/CITROEN-C4-PICASSO-2008-Kildare-1735784
+819,AUDI Q7,"€11,450",AUDI,Q7,1.0,Petrol,"67,290",Manual,Hatchback,2008,Dublin,5,White,2,Nov-2022,Jun-2023,http://www.cars.ie/used-cars/AUDI-Q7-2008-Dublin-1735557
+820,TOYOTA AYGO,"€9,650",TOYOTA,AYGO,1.5,Petrol,"6,999",Automatic,SUV,2015,Kildare,5,White,1,-,-,http://www.cars.ie/used-cars/TOYOTA-AYGO-2015-Kildare-1735729
+821,LAND ROVER RANGE ROVER EVOQUE,"€65,945",LAND,ROVER,1.5,Petrol,"23,998",Automatic,SUV,2021,Limerick,5,Silver,1,-,-,http://www.cars.ie/used-cars/LAND-ROVER-RANGE-ROVER-EVOQUE-2021-Limerick-1735614
+822,LAND ROVER DISCOVERY SPORT,"€74,950",LAND,ROVER,1.6,Diesel,0,Manual,Hatchback,2021,Limerick,5,White,2,Oct-2022,Apr-2023,http://www.cars.ie/used-cars/LAND-ROVER-DISCOVERY-SPORT-2021-Limerick-1735615
+823,VOLKSWAGEN GOLF,"€26,950",VOLKSWAGEN,GOLF,2.0,Diesel,0,Manual,Coupe,2019,Wicklow,-,Silver,1,Dec-2022,Sep-2022,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Wicklow-1735728
+824,VOLKSWAGEN CC,POA,VOLKSWAGEN,CC,1.0,Petrol,10,Manual,Hatchback,2016,Wicklow,5,Blue,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-CC-2016-Wicklow-1735726
+825,FORD FOCUS,"€31,450",FORD,FOCUS,2.0,Diesel,"90,999",Automatic,SUV,2023,Dublin,4,Black,1,Jun-2023,Jan-2022,http://www.cars.ie/used-cars/FORD-FOCUS-2023-Dublin-1735725
+826,BMW X3,"€49,995",BMW,X3,1.5,Diesel,0,Manual,Hatchback,2018,Galway,2,Grey,2,Nov-2022,Mar-2024,http://www.cars.ie/used-cars/BMW-X3-2018-Galway-1735778
+827,MINI HATCH,"€16,995",MINI,HATCH,2.0,Diesel,"167,970",Automatic,Saloon,2016,Westmeath,4,Silver,3,Aug-2022,Feb-2024,http://www.cars.ie/used-cars/MINI-HATCH-2016-Westmeath-1735724
+828,BMW 5 SERIES,"€24,995",BMW,5,1.6,Diesel,"81,886",Automatic,Saloon,2016,Galway,4,Red,2,Oct-2022,Feb-2023,http://www.cars.ie/used-cars/BMW-5-SERIES-2016-Galway-1735777
+829,AUDI A3,"€21,950",AUDI,A3,0.0,Electric,"27,199",Automatic,Hatchback,2017,Limerick,5,Blue,1,-,-,http://www.cars.ie/used-cars/AUDI-A3-2017-Limerick-1735776
+830,HYUNDAI IONIQ,"€32,895",HYUNDAI,IONIQ,0.0,Electric,"37,860",Automatic,Hatchback,2020,Dublin,5,Grey,1,-,-,http://www.cars.ie/used-cars/HYUNDAI-IONIQ-2020-Dublin-1735774
+831,BMW I3,"€33,895",BMW,I3,1.2,Petrol,"41,999",Automatic,Hatchback,2020,Dublin,5,Red,1,Sep-2023,May-2024,http://www.cars.ie/used-cars/BMW-I3-2020-Dublin-1735775
+832,VOLKSWAGEN POLO,"€11,950",VOLKSWAGEN,POLO,2.0,Diesel,"91,599",Manual,Saloon,2014,Dublin,4,Black,3,Feb-2023,May-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2014-Dublin-1735773
+833,AUDI A4,"€22,875",AUDI,A4,2.2,Diesel,"149,455",Manual,SUV,2016,Dublin,5,Blue,2,Oct-2022,Jan-2024,http://www.cars.ie/used-cars/AUDI-A4-2016-Dublin-1735723
+834,MAZDA CX-5,POA,MAZDA,CX-5,2.0,Diesel,"146,518",Manual,Estate,2015,Wexford,4,Red,5,Mar-2023,Sep-2024,http://www.cars.ie/used-cars/MAZDA-CX-5-2015-Wexford-1735669
+835,BMW 1 SERIES,"€12,950",BMW,1,1.4,Petrol,"61,692",Automatic,Hatchback,2013,Dublin,5,Black,1,-,-,http://www.cars.ie/used-cars/BMW-1-SERIES-2013-Dublin-1735624
+836,AUDI A3,"€17,890",AUDI,A3,1.5,Petrol,"73,061",Automatic,Hatchback,2015,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/AUDI-A3-2015-Dublin-1735772
+837,HONDA JAZZ,"€12,490",HONDA,JAZZ,1.6,Petrol,"62,999",Automatic,Hatchback,2015,Dublin,5,White,1,-,-,http://www.cars.ie/used-cars/HONDA-JAZZ-2015-Dublin-1735770
+838,BMW 1 SERIES,POA,BMW,1,1.2,Petrol,"61,639",Manual,Hatchback,2016,Dublin,5,White,2,Jan-2023,Jun-2024,http://www.cars.ie/used-cars/BMW-1-SERIES-2016-Dublin-1735767
+839,NISSAN NOTE,"€11,995",NISSAN,NOTE,1.6,Diesel,"69,993",Manual,Hatchback,2016,Dublin,5,White,1,Feb-2023,Jan-2025,http://www.cars.ie/used-cars/NISSAN-NOTE-2016-Dublin-1735720
+840,VOLKSWAGEN GOLF,"€22,900",VOLKSWAGEN,GOLF,1.6,Diesel,"95,234",Manual,SUV,2021,Kilkenny,4,Blue,1,Dec-2021,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2021-Kilkenny-1735718
+841,NISSAN X-TRAIL,"€35,900",NISSAN,X-TRAIL,1.7,Diesel,"50,384",Manual,SUV,2019,Cork,-,Grey,1,Dec-2022,Nov-2023,http://www.cars.ie/used-cars/NISSAN-X-TRAIL-2019-Cork-1735717
+842,HYUNDAI TUCSON,"€20,900",HYUNDAI,TUCSON,1.5,Petrol,"60,086",Automatic,Hatchback,2017,Cork,5,Black,1,-,-,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2017-Cork-1735716
+843,TOYOTA AQUA,"€10,990",TOYOTA,AQUA,1.6,Diesel,"144,899",Manual,Hatchback,2015,Cork,3,Red,2,Feb-2023,Aug-2022,http://www.cars.ie/used-cars/TOYOTA-AQUA-2015-Cork-1735765
+844,KIA CEED,"€14,995",KIA,CEED,2.0,Diesel,"90,150",Automatic,Saloon,2016,Wexford,4,Grey,-,Jul-2023,Feb-2022,http://www.cars.ie/used-cars/KIA-CEED-2016-Wexford-1735623
+845,BMW 5 SERIES,"€23,950",BMW,5,1.0,Petrol,0,Manual,Hatchback,2016,Dublin,5,Black,-,-,-,http://www.cars.ie/used-cars/BMW-5-SERIES-2016-Dublin-1735764
+846,SEAT IBIZA,"€28,915",SEAT,IBIZA,1.0,Petrol,"60,196",Manual,Hatchback,2023,Wexford,5,White,2,Jan-2023,Jul-2023,http://www.cars.ie/used-cars/SEAT-IBIZA-2023-Wexford-1735582
+847,SEAT IBIZA,"€13,950",SEAT,IBIZA,1.0,Petrol,"73,027",Manual,Hatchback,2017,Dublin,4,Blue,2,Feb-2023,Mar-2023,http://www.cars.ie/used-cars/SEAT-IBIZA-2017-Dublin-1735621
+848,SKODA FABIA,POA,SKODA,FABIA,2.0,Diesel,"95,999",Automatic,Saloon,2019,Longford,4,Grey,1,Oct-2022,May-2023,http://www.cars.ie/used-cars/SKODA-FABIA-2019-Longford-1735715
+849,AUDI A4,POA,AUDI,A4,1.6,Diesel,"93,849",Manual,Saloon,2019,Longford,4,Red,1,Oct-2022,Jun-2023,http://www.cars.ie/used-cars/AUDI-A4-2019-Longford-1735762
+850,SKODA OCTAVIA,POA,SKODA,OCTAVIA,1.0,Petrol,"73,869",Manual,MPV,2019,Longford,4,Grey,1,Mar-2023,Jun-2023,http://www.cars.ie/used-cars/SKODA-OCTAVIA-2019-Longford-1735714
+851,TOYOTA YARIS,"€15,900",TOYOTA,YARIS,1.6,Diesel,"97,000",Automatic,Hatchback,2019,Longford,5,Black,1,Aug-2022,Jun-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2019-Longford-1735713
+852,VOLKSWAGEN GOLF,"€23,450",VOLKSWAGEN,GOLF,1.2,Petrol,0,Automatic,SUV,2019,Longford,5,White,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-GOLF-2019-Longford-1735761
+853,OPEL GRANDLAND X,POA,OPEL,GRANDLAND,1.0,Petrol,0,Manual,Hatchback,2023,Dublin,5,Red,-,-,-,http://www.cars.ie/used-cars/OPEL-GRANDLAND-X-2023-Dublin-1735552
+854,VOLKSWAGEN POLO,POA,VOLKSWAGEN,POLO,2.0,Diesel,0,Manual,SUV,2023,Longford,5,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2023-Longford-1735646
+855,VOLKSWAGEN TIGUAN ALLSPACE,"€49,215",VOLKSWAGEN,TIGUAN,2.0,Diesel,0,Manual,SUV,2023,Longford,5,Grey,-,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-ALLSPACE-2023-Longford-1735645
+856,VOLKSWAGEN T-ROC,"€37,075",VOLKSWAGEN,T-ROC,1.2,Petrol,"61,321",Manual,SUV,2023,Longford,5,Grey,3,Dec-2022,Feb-2024,http://www.cars.ie/used-cars/VOLKSWAGEN-T-ROC-2023-Longford-1735644
+857,NISSAN JUKE,"€18,495",NISSAN,JUKE,0.0,Electric,"33,197",Automatic,MPV,2018,Dublin,5,White,2,Mar-2023,Jul-2025,http://www.cars.ie/used-cars/NISSAN-JUKE-2018-Dublin-1735648
+858,HYUNDAI KONA,"€38,995",HYUNDAI,KONA,0.0,Electric,"28,004",Automatic,Hatchback,2021,Dublin,4,Grey,2,Feb-2023,Feb-2025,http://www.cars.ie/used-cars/HYUNDAI-KONA-2021-Dublin-1735649
+859,PEUGEOT 208,"€32,995",PEUGEOT,208,1.8,Petrol,"38,750",Automatic,Hatchback,2021,Dublin,5,Black,2,-,-,http://www.cars.ie/used-cars/PEUGEOT-208-2021-Dublin-1735650
+860,TOYOTA C-HR,"€25,495",TOYOTA,C-HR,1.0,Petrol,0,Manual,SUV,2017,Limerick,5,Blue,-,-,-,http://www.cars.ie/used-cars/TOYOTA-C-HR-2017-Limerick-1735570
+861,VOLKSWAGEN TAIGO,POA,VOLKSWAGEN,TAIGO,1.4,Petrol,"30,898",Manual,Hatchback,2023,Westmeath,5,White,3,Aug-2022,Feb-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-TAIGO-2023-Westmeath-1735628
+862,KIA CEED,POA,KIA,CEED,1.0,Petrol,"4,999",Manual,SUV,2019,Kildare,5,Grey,1,Nov-2022,Jan-2026,http://www.cars.ie/used-cars/KIA-CEED-2019-Kildare-1735661
+863,SKODA KAMIQ,"€27,950",SKODA,KAMIQ,1.0,Petrol,"4,999",Manual,Estate,2022,Kerry,5,White,1,Nov-2022,Jan-2026,http://www.cars.ie/used-cars/SKODA-KAMIQ-2022-Kerry-1735709
+864,SKODA FABIA,"€22,950",SKODA,FABIA,1.0,Petrol,"3,000",Manual,SUV,2022,Kerry,5,Grey,1,Nov-2022,Jan-2026,http://www.cars.ie/used-cars/SKODA-FABIA-2022-Kerry-1735708
+865,SKODA KAMIQ,"€27,500",SKODA,KAMIQ,1.0,Petrol,"3,800",Manual,SUV,2022,Kerry,5,Grey,1,Nov-2022,Jan-2026,http://www.cars.ie/used-cars/SKODA-KAMIQ-2022-Kerry-1735707
+866,SKODA KAMIQ,"€26,950",SKODA,KAMIQ,2.0,Diesel,"62,000",Manual,SUV,2022,Kerry,5,Black,1,Oct-2022,Apr-2023,http://www.cars.ie/used-cars/SKODA-KAMIQ-2022-Kerry-1735706
+867,SEAT TARRACO,"€37,950",SEAT,TARRACO,1.0,Petrol,"65,333",Manual,Hatchback,2019,Cork,4,Grey,1,Dec-2022,Apr-2024,http://www.cars.ie/used-cars/SEAT-TARRACO-2019-Cork-1735705
+868,SKODA FABIA,"€14,995",SKODA,FABIA,1.5,Diesel,"59,850",Automatic,SUV,2018,Dublin,5,Black,2,Jun-2023,Jul-2023,http://www.cars.ie/used-cars/SKODA-FABIA-2018-Dublin-1735702
+869,RENAULT KADJAR,"€27,495",RENAULT,KADJAR,1.2,Petrol,"24,200",Manual,Hatchback,2019,Dublin,5,Grey,3,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/RENAULT-KADJAR-2019-Dublin-1735758
+870,NISSAN PULSAR,"€15,995",NISSAN,PULSAR,2.0,Diesel,"67,999",Automatic,SUV,2017,Dublin,5,Silver,1,Mar-2022,Apr-2024,http://www.cars.ie/used-cars/NISSAN-PULSAR-2017-Dublin-1735701
+871,LAND ROVER RANGE ROVER VELAR,"€64,950",LAND,ROVER,2.0,Diesel,0,Manual,SUV,2018,Limerick,-,Beige,4,Nov-2022,Dec-2023,http://www.cars.ie/used-cars/LAND-ROVER-RANGE-ROVER-VELAR-2018-Limerick-1735612
+872,VOLKSWAGEN TIGUAN,POA,VOLKSWAGEN,TIGUAN,2.0,Diesel,0,Automatic,SUV,2013,Wicklow,4,Grey,1,Oct-2022,Mar-2026,http://www.cars.ie/used-cars/VOLKSWAGEN-TIGUAN-2013-Wicklow-1735529
+873,BMW X3,POA,BMW,X3,3.0,Diesel,"41,999",Automatic,Saloon,2022,Westmeath,4,Black,-,Jun-2023,Jun-2025,http://www.cars.ie/used-cars/BMW-X3-2022-Westmeath-1735679
+874,MERCEDES-BENZ S CLASS,"€119,950",MERCEDES-BENZ,S,2.2,Diesel,"85,657",Manual,SUV,2021,Limerick,5,Grey,1,Dec-2022,May-2022,http://www.cars.ie/used-cars/MERCEDES-BENZ-S-CLASS-2021-Limerick-1735678
+875,MAZDA CX-5,"€19,900",MAZDA,CX-5,0.0,Electric,0,Automatic,Saloon,2016,Cork,-,Blue,-,-,-,http://www.cars.ie/used-cars/MAZDA-CX-5-2016-Cork-1735528
+876,MERCEDES-BENZ EQE,"€101,900",MERCEDES-BENZ,EQE,1.7,Diesel,"83,153",Manual,SUV,2023,Galway,-,White,2,Jan-2023,Jan-2024,http://www.cars.ie/used-cars/MERCEDES-BENZ-EQE-2023-Galway-1735674
+877,HYUNDAI TUCSON,"€22,990",HYUNDAI,TUCSON,1.6,Diesel,"44,999",Automatic,Saloon,2018,Cork,4,Black,1,Oct-2023,Jul-2023,http://www.cars.ie/used-cars/HYUNDAI-TUCSON-2018-Cork-1735526
+878,MERCEDES-BENZ C CLASS,"€29,950",MERCEDES-BENZ,C,2.3,Diesel,"127,386",Manual,Van,2017,Dublin,5,White,1,Aug-2022,-,http://www.cars.ie/used-cars/MERCEDES-BENZ-C-CLASS-2017-Dublin-1735553
+879,OPEL MOVANO,POA,OPEL,MOVANO,1.0,Petrol,"62,277",Manual,Hatchback,2018,Wexford,5,Black,3,Dec-2022,Feb-2024,http://www.cars.ie/used-cars/OPEL-MOVANO-2018-Wexford-1735437
+880,NISSAN MICRA,"€15,495",NISSAN,MICRA,2.0,Diesel,"257,494",Manual,Saloon,2018,Dublin,4,Black,3,Sep-2021,Aug-2023,http://www.cars.ie/used-cars/NISSAN-MICRA-2018-Dublin-1735524
+881,VOLKSWAGEN PASSAT,"€6,490",VOLKSWAGEN,PASSAT,1.4,Diesel,"54,718",Manual,Van,2011,Louth,4,White,1,May-2023,-,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2011-Louth-1735512
+882,TOYOTA AURIS,"€17,750",TOYOTA,AURIS,2.0,Diesel,"207,373",Automatic,Saloon,2018,Dublin,4,Black,4,-,-,http://www.cars.ie/used-cars/TOYOTA-AURIS-2018-Dublin-1735750
+883,BMW 5 SERIES,"€11,950",BMW,5,1.6,Diesel,"270,269",Manual,Hatchback,2011,Meath,5,Red,3,Nov-2022,Feb-2024,http://www.cars.ie/used-cars/BMW-5-SERIES-2011-Meath-1735782
+884,VAUXHALL ASTRA,"€9,950",VAUXHALL,ASTRA,1.0,Petrol,"7,545",Manual,Hatchback,2016,Dublin,5,White,2,Dec-2022,Jul-2025,http://www.cars.ie/used-cars/VAUXHALL-ASTRA-2016-Dublin-1735556
+885,VOLKSWAGEN POLO,"€22,500",VOLKSWAGEN,POLO,2.5,Petrol,"151,320",Automatic,Saloon,2021,Limerick,-,Silver,1,Dec-2022,Oct-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-POLO-2021-Limerick-1735613
+886,LEXUS IS 300 H,"€23,995",LEXUS,IS,1.2,Petrol,"80,594",Manual,Hatchback,2015,Westmeath,4,Grey,1,Jan-2023,Jul-2023,http://www.cars.ie/used-cars/LEXUS-IS-300-H-2015-Westmeath-1735786
+887,TOYOTA COROLLA,POA,TOYOTA,COROLLA,1.3,Petrol,"232,297",Manual,Hatchback,2019,Longford,3,Black,2,-,-,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2019-Longford-1735746
+888,TOYOTA YARIS,"€8,450",TOYOTA,YARIS,1.0,Petrol,"69,998",Manual,Hatchback,2012,Longford,4,Grey,1,Dec-2022,Jan-2023,http://www.cars.ie/used-cars/TOYOTA-YARIS-2012-Longford-1735745
+889,FORD FIESTA,"€12,500",FORD,FIESTA,2.2,Diesel,"128,491",Manual,Saloon,2017,Cork,4,Blue,3,-,Jul-2023,http://www.cars.ie/used-cars/FORD-FIESTA-2017-Cork-1735744
+890,MAZDA MAZDA3,POA,MAZDA,MAZDA3,1.6,Diesel,"156,933",Manual,Hatchback,2015,Kildare,3,Black,2,-,-,http://www.cars.ie/used-cars/MAZDA-MAZDA3-2015-Kildare-1735743
+891,AUDI A3,POA,AUDI,A3,1.6,Diesel,"251,107",Manual,Saloon,2014,Kildare,4,Brown,5,-,-,http://www.cars.ie/used-cars/AUDI-A3-2014-Kildare-1735742
+892,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,2.0,Diesel,"135,733",Manual,Saloon,2014,Kildare,4,Grey,3,-,-,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2014-Kildare-1735741
+893,BMW 3 SERIES,POA,BMW,3,1.8,Petrol,"209,633",Manual,MPV,2012,Kildare,5,Red,7,-,Jul-2023,http://www.cars.ie/used-cars/BMW-3-SERIES-2012-Kildare-1735740
+894,TOYOTA COROLLA,POA,TOYOTA,COROLLA,1.4,Petrol,"371,503",Manual,Hatchback,2007,Kildare,5,Grey,2,-,Feb-2023,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2007-Kildare-1735739
+895,TOYOTA COROLLA,POA,TOYOTA,COROLLA,1.0,Petrol,"114,194",Manual,Hatchback,2004,Kildare,5,Grey,2,-,-,http://www.cars.ie/used-cars/TOYOTA-COROLLA-2004-Kildare-1735738
+896,FORD FOCUS,POA,FORD,FOCUS,2.3,Diesel,"286,463",Manual,Van,2017,Kildare,-,White,2,Dec-2022,Apr-2023,http://www.cars.ie/used-cars/FORD-FOCUS-2017-Kildare-1735737
+897,RENAULT MASTER,"€11,450",RENAULT,MASTER,1.6,Diesel,"163,876",Manual,Saloon,2016,Galway,4,Blue,1,-,Nov-2023,http://www.cars.ie/used-cars/RENAULT-MASTER-2016-Galway-1735590
+898,VOLKSWAGEN PASSAT,POA,VOLKSWAGEN,PASSAT,1.7,Diesel,"186,934",Manual,SUV,2015,Kildare,4,Silver,1,-,Oct-2023,http://www.cars.ie/used-cars/VOLKSWAGEN-PASSAT-2015-Kildare-1735736
+899,KIA SPORTAGE,POA,KIA,SPORTAGE,,,,,,2015,Kildare,,,,,,http://www.cars.ie/used-cars/KIA-SPORTAGE-2015-Kildare-1735735
