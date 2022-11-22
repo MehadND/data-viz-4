@@ -1,193 +1,331 @@
+# IMPORTING NECESSARY LIBRARIES
 import time
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 # import plotly.express as px
 
+basic_url = "https://www.cars.ie/used-cars?page="
 
-# Variables
-basic_page_url = "https://www.cars.ie/used-cars?page="
+PAGES_TO_DOWNLOAD = 2
 
-TOTAL_PAGES_TO_DOWNLOAD = 50
-
-# lists that store data from scraping website
-car_url_list = []
-car_name_list = []
-car_price_list = []
-car_make_list = []
-car_model_list = []
-car_info_list = []
-car_fuel_type_list = []
-car_colour_list = []
-car_engine_size_list = []
-car_transmission_list = []
-car_body_type_list = []
-car_prev_owners_list = []
-car_total_doors_list = []
-car_tax_expiry_list = []
-car_nct_expiry_list = []
-car_year_list = []
-car_odometer_list = []
-car_county_list = []
+car_url = []
+car_name = []
+car_price = []
+car_make = []
+car_model = []
+car_year = []
+car_county = []
 
 
-def download_pages():
-    try:
-        for page in range(TOTAL_PAGES_TO_DOWNLOAD + 1):
-            if page == 0:
-                continue
-            else:
-                url = basic_page_url + str(page)
-                print("Page Number = " + str(page))
-                webpage_content = requests.get(url).text
-                soup = BeautifulSoup(webpage_content, "html.parser")
-                tables = soup.find_all("div", class_="car-listing-inner")
-
-                for element in tables:
-                    if element == '\n':
-                        continue
-
-                    a_href_element = element.a
-
-                    href = "http://www.cars.ie" + a_href_element['href']
-
-                    car_url_list.append(href)
-
-                    info_blocks = element.find_all("h3", class_="greenText")
-
-                    info_block = info_blocks[0]
-
-                    car_name_list.append(info_block.text)
-
-                    car_make_list.append(str(info_block.text).split()[0])
-                    car_model_list.append(str(info_block.text).split()[1])
-
-                    info_blocks = element.find_all(
-                        "p", class_="greenText price BP")
-
-                    info_block = info_blocks[0]
-
-                    car_price_list.append(info_block.text)
-
-                    info_blocks = element.find_all("div", class_="col-xs-10")
-
-                    info_block = info_blocks[0]
-
-                    car_year_list.append(str(info_block.text).split()[0])
-
-                    info_blocks = element.find_all("p", class_="text-right")
-
-                    info_block = info_blocks[0]
-
-                    car_county_list.append(str(info_block.text).split()[0])
-    finally:
-        print("Finsihed downloading all pages")
+car_odometer = []
+car_fuel_type = []
+car_color = []
+car_engine_size = []
+car_transmission = []
+car_body_type = []
+car_total_prev_owner = []
+car_total_doors = []
+car_tax_expiry = []
+car_nct_expiry = []
 
 
-def fetch_data_of_car(carURLList):
+car_dealer_name = []
+car_dealer_address = []
+car_dealer_phone_num = []
+car_dealer_franchise = []
+
+index = 1
+
+# SIMPLE INFO RETRIEVAL
+try:
+    for page in range(PAGES_TO_DOWNLOAD + 1):
+        if page == 0:
+            continue
+        else:
+            url = basic_url + str(page)
+            webpage_content = requests.get(url).text
+            print("Requesting page num = " + str(page)+"...")
+            soup = BeautifulSoup(webpage_content, "html.parser")
+            tables = soup.find_all("div", class_="car-listing-inner")
+
+            # retrieves basic info about car e.g. price, make, model, car's page url, year of manufacturing, etc.. 
+            for element in tables:
+                if element == '\n':
+                    continue
+
+                a_href_element = element.a
+                href = "http://www.cars.ie" + a_href_element['href']
+                car_url.append(href)
+
+                info_blocks = element.find_all("h3", class_="greenText")
+                info_block = info_blocks[0]
+                
+                car_name.append(info_block.text)
+
+                car_make.append(str(info_block.text).split()[0])
+                
+                car_model.append(str(info_block.text).split()[1])
+
+                info_blocks = element.find_all("p", class_="greenText price BP")
+                info_block = info_blocks[0]
+
+                car_price.append(info_block.text)
+
+                info_blocks = element.find_all("div", class_="col-xs-10")
+                info_block = info_blocks[0]
+
+                car_year.append(str(info_block.text).split()[0])
+
+                info_blocks = element.find_all("p", class_="text-right")
+                info_block = info_blocks[0]
+
+                car_county.append(str(info_block.text).split()[0])
+                
+finally:
+  print("Finsihed requesting all pages")
+
+
+# FURTHER INFO RETRIEVAL
+
+try:
     # loops through all the car urls and stores information in relevant lists for later use
-    print("Starting to retrieve data from each car using car's url")
-    i = 1
-    try:
-        for url in carURLList:
-            if(url == 'http://www.cars.ie/used-cars/NISSAN-QASHQAI-+2-2013-Clare-1735583'):
-                continue
-            
-            print("Processing...Car #"+str(i))
-            page = requests.get(url)
+    for url in car_url:
 
-            page_content = page.text
+        # The following url have to be skipped, as car info is not available on website but it is still shown in car listing
+        if(url == 'http://www.cars.ie/used-cars/NISSAN-QASHQAI-+2-2013-Clare-1735583'):
+            continue
+        
+        print("Processing...Car #"+str(index))
+        page = requests.get(url)
+        page_content = page.text
+        s = BeautifulSoup(page_content, "html.parser")
 
-            s = BeautifulSoup(page_content, "html.parser")
+        car_tables = s.find_all("div", class_="stripped-table")
 
-            car_tables = s.find_all("div", class_="stripped-table")
+        car_table = car_tables[0]
 
-            car_table = car_tables[0]
+        info_blocks = car_table.find_all("div", class_="row")
 
-            info_blocks = car_table.find_all("div", class_="row")
+        info_block = info_blocks[0]
 
-            info_block = info_blocks[0]
+        car_odometer.append(str(info_block.text).split()[3])
 
-            car_odometer_list.append(str(info_block.text).split()[3])
+        info_block = info_blocks[1]
 
-            info_block = info_blocks[1]
+        car_fuel_type.append(str(info_block.text).split()[2])
 
-            car_fuel_type_list.append(str(info_block.text).split()[2])
+        info_block = info_blocks[2]
 
-            info_block = info_blocks[2]
+        car_color.append(str(info_block.text).split()[1])
 
-            car_colour_list.append(str(info_block.text).split()[1])
+        info_block = info_blocks[3]
 
-            info_block = info_blocks[3]
+        car_engine_size.append(str(info_block.text).split()[2])
 
-            car_engine_size_list.append(str(info_block.text).split()[2])
+        info_block = info_blocks[4]
 
-            info_block = info_blocks[4]
+        car_transmission.append(str(info_block.text).split()[1])
 
-            car_transmission_list.append(str(info_block.text).split()[1])
+        info_block = info_blocks[5]
 
-            info_block = info_blocks[5]
+        car_body_type.append(str(info_block.text).split()[2])
 
-            car_body_type_list.append(str(info_block.text).split()[2])
+        info_block = info_blocks[6]
 
-            info_block = info_blocks[6]
+        car_total_prev_owner.append(str(info_block.text).split()[1])
 
-            car_prev_owners_list.append(str(info_block.text).split()[1])
+        info_block = info_blocks[7]
 
-            info_block = info_blocks[7]
+        car_total_doors.append(str(info_block.text).split()[1])
 
-            car_total_doors_list.append(str(info_block.text).split()[1])
+        info_block = info_blocks[8]
 
-            info_block = info_blocks[8]
+        car_tax_expiry.append(str(info_block.text).split()[2])
 
-            car_tax_expiry_list.append(str(info_block.text).split()[2])
+        info_block = info_blocks[9]
 
-            info_block = info_blocks[9]
+        car_nct_expiry.append(str(info_block.text).split()[2])
 
-            car_nct_expiry_list.append(str(info_block.text).split()[2])
-            
-            i+=1
-    except IndexError:
-        print("Error: Index is out of range!")
+        index += 1
+        
+except IndexError:
+    print("Error: Index is out of range!")   
+    
+
+# SAVING DATA TO CSV FILE
+
+# col_names = ['Name',
+#             'Price',
+#             'Make',
+#             'Model',
+#             'Engine Size',
+#             'Fuel Type',
+#             'Odometer'
+#             'Transmission',
+#             'Body Type',
+#             'Manufacturing Year',
+#             'County',
+#             'Doors',
+#             'Color',
+#             'Owners',
+#             'Tax Expiry',
+#             'NCT Expiry',
+#             'URL'
+#             ]
+
+print("Starting writing to csv file...")
+
+a = {'Name': car_name, 'Price': car_price, 'Make': car_make, 'Model': car_model, 
+     'Engine Size': car_engine_size, 'Fuel Type': car_fuel_type,
+    'Odometer': car_odometer, 'Transmission': car_transmission,
+    'Body Type': car_body_type, 'Manufacturing Year': car_year, 'County': car_county,
+    'Doors': car_total_doors, 'Color': car_color, 'Owners': car_total_prev_owner, 'Tax Expiry': car_tax_expiry,
+    'NCT Expiry': car_nct_expiry, 'URL': car_url}
+
+df = pd.DataFrame.from_dict(a, orient='index')
+df = pd.DataFrame.transpose(df)
+df.to_csv("CarsIE.csv")
+print("Finished writing to csv file")
+print(df)
 
 
-def save_to_csv():
-    col_names = ['Name',
-                 'Price',
-                 'Model',
-                 'Make',
-                 'Fuel Type',
-                 'Odometer'
-                 'Colour',
-                 'Engine Size',
-                 'Transmission',
-                 'Body Type',
-                 'Manufacturing Year',
-                 'County',
-                 'Owners',
-                 'Doors',
-                 'Tax Expiry',
-                 'NCT Expiry',
-                 'Link'
-                 ]
-
-    print("Starting writing to csv file...")
-    a = {'Name': car_name_list, 'Price': car_price_list, 'Make': car_make_list, 'Model': car_model_list, 'Fuel Type': car_fuel_type_list,
-         'Odometer': car_odometer_list, 'Colour': car_colour_list, 'Engine Size ( in Litres)': car_engine_size_list, 'Transmission': car_transmission_list,
-         'Body Type': car_body_type_list, 'Manufacturing Year': car_year_list, 'County': car_county_list,
-         'Owners': car_prev_owners_list, 'Doors': car_total_doors_list, 'Tax Expiry': car_tax_expiry_list,
-         'NCT Expiry': car_nct_expiry_list, 'Link': car_url_list}
-
-    df = pd.DataFrame.from_dict(a, orient='index')
-    df = pd.DataFrame.transpose(df)
-    df.to_csv("CarsIE-Simple_Information_Retrieval.csv")
-    print("Finished writing to csv file")
-    df = pd.read_csv('CarsIE-Simple_Information_Retrieval.csv')
-    print(df)
+# PREPROCESSIG
+def name_preproc(car_name):
+    cName = str(car_name).capitalize()
+    return cName
 
 
-download_pages()
-fetch_data_of_car(car_url_list)
-save_to_csv()
+def price_preproc(car_price):
+    cPrice = str(car_price).replace(",", "")
+    
+    if "€" in cPrice:
+        cPrice = cPrice.replace("€", "")
+        cPrice = int(cPrice)
+        
+    if cPrice == "POA":
+        return 0
+    return cPrice
+
+
+def make_preproc(car_make):
+    cMake = str(car_make).capitalize()
+    return cMake
+
+
+def model_preproc(car_model):
+    cModel = str(car_model).capitalize()
+    return cModel
+
+
+def engine_size_preproc(car_engine_size):
+    cEngSize = float(car_engine_size)
+    return cEngSize
+
+
+def fuel_type_preproc(car_fuel_type):
+    cFuelType = str(car_fuel_type).capitalize()
+    return cFuelType
+
+
+def odometer_preproc(car_odometer):
+    cOdometer = str(car_odometer).replace(",", "")
+    return cOdometer
+
+
+def transmission_preproc(car_transmission):
+    cTransmission = str(car_transmission).capitalize()
+    return cTransmission
+
+
+def body_type_preproc(car_body_type):
+    cBodyType = str(car_body_type).capitalize()
+    return cBodyType
+
+
+def manufacturing_year_preproc(car_manufacturing_year):
+    cYear = int(car_manufacturing_year)
+    
+    if cYear == "NaN":
+        cYear = df['Manufacturing Year'].fillna(0).astype(int)
+    
+    return cYear
+
+
+def county_preproc(car_county):
+    cCounty = str(car_county).capitalize()
+    return cCounty
+
+
+def doors_preproc(car_doors):
+    if type(car_doors) is float:
+        return 0
+    
+    if car_doors == "-":
+        return 0
+    
+    return int(car_doors)
+
+
+def color_preproc(car_color):
+    if car_color == "-":
+        return 'Other'
+    
+    return car_color
+
+
+def owners_preproc(car_owners):
+    if type(car_owners) is float:
+        return 0
+    if car_owners == "-":
+        return 0
+    
+    return int(car_owners)
+
+
+def tax_expiry_preproc(car_tax_expiry):
+    if car_tax_expiry == "-":
+        return '-'
+    
+    return car_tax_expiry
+
+
+def nct_expiry_preproc(car_nct_expiry):
+    if car_nct_expiry == "-":
+        return '-'
+    
+    return car_nct_expiry
+
+
+# applying the preproc to csv file
+df = pd.read_csv("CarsIE.csv")
+
+name = df['Name'].apply(name_preproc)
+price = df['Price'].apply(price_preproc)
+make = df['Make'].apply(make_preproc)
+model = df['Model'].apply(model_preproc)
+engine_size = df['Engine Size'].apply(engine_size_preproc)
+fuel_type = df['Fuel Type'].apply(fuel_type_preproc)
+odometer = df['Odometer'].apply(odometer_preproc)
+transmission = df['Transmission'].apply(transmission_preproc)
+body_type = df['Body Type'].apply(body_type_preproc)
+year = df['Manufacturing Year'].apply(manufacturing_year_preproc)
+county = df['County'].apply(county_preproc)
+doors = df['Doors'].apply(doors_preproc)
+color = df['Color'].apply(color_preproc)
+owners = df['Owners'].apply(owners_preproc)
+tax_expiry = df['Tax Expiry'].apply(tax_expiry_preproc)
+nct_expiry = df['NCT Expiry'].apply(nct_expiry_preproc)
+
+
+df = pd.DataFrame({"Name": name, "Price": price, "Make": make, "Model": model,
+                   "Engine": engine_size, "Fuel": fuel_type, "Odometer": odometer,
+                   "Transmission": transmission, "Body": body_type, "Year": year,
+                   "County": county, "Doors": doors, "Color": color,
+                   "Owners": owners, "Tax-Expiry": tax_expiry, "NCT-Expiry": nct_expiry
+                   })
+
+df.to_csv("preprocData_CarsIE.csv")
+
 
 a = 1
