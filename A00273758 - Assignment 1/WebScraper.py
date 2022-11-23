@@ -4,6 +4,14 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import plotly.express as px
+import numpy as np
+import json
+with open("./IRL_ADM1.json", "r") as fp:
+  ireland_regions_geo = json.load(fp)
+
+# Fix the geojson map
+from geojson_rewind import rewind
+ireland_regions_geo = rewind(ireland_regions_geo,rfc7946=False)
 
 basic_url = "https://www.cars.ie/used-cars?page="
 
@@ -87,109 +95,73 @@ finally:
   print("Finsihed requesting all pages")
 
 
+
 # FURTHER INFO RETRIEVAL
 
-try:
-    # loops through all the car urls and stores information in relevant lists for later use
-    for url in car_url:
-        try:
-            # The following url have to be skipped, as car info is not available on website but it is still shown in car listing            
-            print("Processing...Car #"+str(index))
-            page = requests.get(url)
-            page_content = page.text
-            s = BeautifulSoup(page_content, "html.parser")
 
-            car_tables = s.find_all("div", class_="stripped-table")
+# loops through all the car urls and stores information in relevant lists for later use
+for url in car_url:
+    try:
+        # The following url have to be skipped, as car info is not available on website but it is still shown in car listing            
+        print("Processing...Car #"+str(index))
+        page = requests.get(url)
+        page_content = page.text
+        s = BeautifulSoup(page_content, "html.parser")
 
-            car_table = car_tables[0]
+        car_tables = s.find_all("div", class_="stripped-table")
 
-            info_blocks = car_table.find_all("div", class_="row")
+        car_table = car_tables[0]
 
-            info_block = info_blocks[0]
+        info_blocks = car_table.find_all("div", class_="row")
 
-            car_odometer.append(str(info_block.text).split()[3])
+        info_block = info_blocks[0]
 
-            info_block = info_blocks[1]
+        car_odometer.append(str(info_block.text).split()[3])
 
-            car_fuel_type.append(str(info_block.text).split()[2])
+        info_block = info_blocks[1]
 
-            info_block = info_blocks[2]
+        car_fuel_type.append(str(info_block.text).split()[2])
 
-            car_color.append(str(info_block.text).split()[1])
+        info_block = info_blocks[2]
 
-            info_block = info_blocks[3]
+        car_color.append(str(info_block.text).split()[1])
 
-            car_engine_size.append(str(info_block.text).split()[2])
+        info_block = info_blocks[3]
 
-            info_block = info_blocks[4]
+        car_engine_size.append(str(info_block.text).split()[2])
 
-            car_transmission.append(str(info_block.text).split()[1])
+        info_block = info_blocks[4]
 
-            info_block = info_blocks[5]
+        car_transmission.append(str(info_block.text).split()[1])
 
-            car_body_type.append(str(info_block.text).split()[2])
+        info_block = info_blocks[5]
 
-            info_block = info_blocks[6]
+        car_body_type.append(str(info_block.text).split()[2])
 
-            car_total_prev_owner.append(str(info_block.text).split()[1])
+        info_block = info_blocks[6]
 
-            info_block = info_blocks[7]
+        car_total_prev_owner.append(str(info_block.text).split()[1])
 
-            car_total_doors.append(str(info_block.text).split()[1])
+        info_block = info_blocks[7]
 
-            info_block = info_blocks[8]
+        car_total_doors.append(str(info_block.text).split()[1])
 
-            car_tax_expiry.append(str(info_block.text).split()[2])
+        info_block = info_blocks[8]
 
-            info_block = info_blocks[9]
+        car_tax_expiry.append(str(info_block.text).split()[2])
 
-            car_nct_expiry.append(str(info_block.text).split()[2])
+        info_block = info_blocks[9]
 
-            # tables = s.find_all("div", class_="col-sm-12 col-md-5")
+        car_nct_expiry.append(str(info_block.text).split()[2])
+      
+        index += 1
+    except Exception:
+        print("Could not process the data of following car --> "+str(url))
+        continue
         
-            # for element in tables:
-            #     if element == '\n':
-            #         continue
-
-            #     info_blocks = element.find_all("div", class_="stripped-table")
-            #     info_block = info_blocks[0]
-
-            #     dealer.append(str(info_block.text).split())
-            #     if 'Dealer:' in dealer:
-            #         car_dealer_name.append(dealer.index('Dealer:')+1)
-            #     else:
-            #         print("not exist")            
-                
-
-            index += 1
-        except Exception:
-            print("Could not process the data of following car --> "+str(url))
-            continue
-        
-except IndexError:
-    print("Error: Index is out of range!")   
     
 
 # SAVING DATA TO CSV FILE
-
-# col_names = ['Name',
-#             'Price',
-#             'Make',
-#             'Model',
-#             'Engine Size',
-#             'Fuel Type',
-#             'Odometer'
-#             'Transmission',
-#             'Body Type',
-#             'Manufacturing Year',
-#             'County',
-#             'Doors',
-#             'Color',
-#             'Owners',
-#             'Tax Expiry',
-#             'NCT Expiry',
-#             'URL'
-#             ]
 
 print("Starting writing to csv file...")
 
@@ -202,6 +174,7 @@ a = {'Name': car_name, 'Price': car_price, 'Make': car_make, 'Model': car_model,
 
 df = pd.DataFrame.from_dict(a, orient='index')
 df = pd.DataFrame.transpose(df)
+df.drop(df[df["Odometer"].isna()].index, inplace=True)
 df.to_csv("CarsIE.csv")
 print("Finished writing to csv file")
 print(df)
@@ -235,7 +208,7 @@ def model_preproc(car_model):
     return cModel
 
 
-def engine_size_preproc(car_engine_size):
+def engine_size_preproc(car_engine_size):    
     cEngSize = float(car_engine_size)
     return cEngSize
 
@@ -389,4 +362,19 @@ fig.update_yaxes(range=[-5000, 50000])
 fig.update_layout(width=6000, height=1000)
 fig.show()
 
-a = 1
+# Using plotly.px.choropleth to create a geolocation chart to show the average car price in different counties, versus different years. 
+fig = px.choropleth(
+    newDF,
+    geojson=ireland_regions_geo,
+    locations="County",
+    color="Price",
+    color_continuous_scale="reds",
+    featureidkey="properties.NAME",
+    range_color=(0, df["Price"].max()),
+    scope="europe",
+    animation_frame="Year",
+    fitbounds="geojson",
+    title="Map exhibiting the average car price in different counties, over the years. "
+)
+fig.update_geos(visible=False)
+fig.show()

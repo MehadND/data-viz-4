@@ -384,20 +384,20 @@
 382,Audi a5,0,Audi,A5,2.0,Diesel,202323,Manual,Hatchback,2014,Kildare,4,Black,2,-,Dec-2022
 383,Renault trafic,0,Renault,Trafic,1.6,Diesel,0,Manual,Van,2019,Mayo,3,White,1,May-2023,-
 384,Mini hatch,0,Mini,Hatch,1.6,Diesel,119999,Manual,Hatchback,2013,Westmeath,3,Blue,1,Aug-2022,Aug-2023
-385,Nissan serena,0,Nissan,Serena,2.0,Petrol,99755,Automatic,Mpv,2013,Limerick,5,White,1,-,-
-386,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,191167,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
-387,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,152767,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
-388,Seat ibiza,0,Seat,Ibiza,1.4,Diesel,144216,Manual,Hatchback,2010,Dublin,5,Black,1,-,Dec-2022
+385,Audi a4,0,Audi,A4,2.0,Diesel,141580,Automatic,Saloon,2017,Kildare,4,Grey,2,-,Mar-2023
+386,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,152767,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
+387,Seat ibiza,0,Seat,Ibiza,1.4,Diesel,144216,Manual,Hatchback,2010,Dublin,5,Black,1,-,Dec-2022
+388,Volkswagen up!,0,Volkswagen,Up!,1.0,Petrol,47986,Automatic,Hatchback,2013,Dublin,5,Grey,1,-,-
 389,Toyota aqua,0,Toyota,Aqua,1.5,Petrol,136211,Automatic,Hatchback,2017,Limerick,5,White,1,-,-
 390,Toyota c-hr,0,Toyota,C-hr,1.8,Petrol,51446,Automatic,Hatchback,2019,Limerick,5,White,1,-,Feb-2023
 391,Bmw 2 series,15890,Bmw,2,2.0,Diesel,0,Automatic,Estate,2015,Limerick,4,Silver,2,Aug-2022,Nov-2023
-392,Nissan note,11890,Nissan,Note,1.2,Petrol,0,Automatic,Mpv,2017,Limerick,0,White,1,-,-
-393,Audi a6,0,Audi,A6,2.0,Diesel,285685,Automatic,Saloon,2014,Kildare,4,Grey,3,-,May-2023
-394,Audi a6,0,Audi,A6,2.0,Diesel,116431,Automatic,Saloon,2016,Kildare,4,Silver,2,-,Nov-2024
-395,Audi a4,0,Audi,A4,2.0,Diesel,141580,Automatic,Saloon,2017,Kildare,4,Grey,2,-,Mar-2023
-396,Nissan serena,0,Nissan,Serena,2.0,Petrol,105251,Automatic,Mpv,2017,Dublin,5,Blue,1,-,-
+392,Nissan serena,0,Nissan,Serena,2.0,Petrol,99755,Automatic,Mpv,2013,Limerick,5,White,1,-,-
+393,Nissan note,11890,Nissan,Note,1.2,Petrol,0,Automatic,Mpv,2017,Limerick,0,White,1,-,-
+394,Seat ibiza,0,Seat,Ibiza,1.6,Diesel,191167,Manual,Hatchback,2018,Dublin,5,Grey,1,-,Nov-2022
+395,Audi a6,0,Audi,A6,2.0,Diesel,285685,Automatic,Saloon,2014,Kildare,4,Grey,3,-,May-2023
+396,Audi a6,0,Audi,A6,2.0,Diesel,116431,Automatic,Saloon,2016,Kildare,4,Silver,2,-,Nov-2024
 397,Volkswagen golf,0,Volkswagen,Golf,1.2,Petrol,60069,Automatic,Hatchback,2017,Dublin,3,White,1,-,-
-398,Volkswagen up!,0,Volkswagen,Up!,1.0,Petrol,47986,Automatic,Hatchback,2013,Dublin,5,Grey,1,-,-
+398,Nissan serena,0,Nissan,Serena,2.0,Petrol,105251,Automatic,Mpv,2017,Dublin,5,Blue,1,-,-
 399,Volkswagen transporter,24950,Volkswagen,Transporter,2.0,Diesel,144841,Manual,Van,2020,Galway,0,White,2,-,-
 400,Nissan juke,8500,Nissan,Juke,1.5,Diesel,138960,Manual,Saloon,2013,Galway,5,Brown,3,Dec-2022,Sep-2024
 401,Volkswagen golf,21900,Volkswagen,Golf,1.6,Diesel,127138,Automatic,Hatchback,2019,Limerick,5,Blue,1,Oct-2022,Mar-2023
@@ -898,4 +898,3 @@
 896,Ford focus,0,Ford,Focus,2.3,Diesel,286463,Manual,Van,2017,Kildare,0,White,2,Dec-2022,Apr-2023
 897,Renault master,11450,Renault,Master,1.6,Diesel,163876,Manual,Saloon,2016,Galway,4,Blue,1,-,Nov-2023
 898,Volkswagen passat,0,Volkswagen,Passat,1.7,Diesel,186934,Manual,Suv,2015,Kildare,4,Silver,1,-,Oct-2023
-899,Kia sportage,0,Kia,Sportage,,Nan,nan,Nan,Nan,2015,Kildare,0,,0,,
