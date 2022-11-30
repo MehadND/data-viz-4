@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<h1>Adding Car</h1>
+{% endblock %}
+
+{% block body %}
+<form action="/addcar", method="POST">
+    <label>Name</label><br>
+    <input style="margin-top: 5px;" type="text" name="Name" placeholder="Enter Car Name">
+
+    <br><br>
+    
+    <label>Price</label><br>
+    <input style="margin-top: 5px;" type="text" name="Price" placeholder="Enter Car Price">
+
+    <br><br>
+    
+    <label>Make</label><br>
+    <input style="margin-top: 5px;" type="text" name="Make" placeholder="Enter Car Make">
+
+    <br><br>
+    
+    <label>Model</label><br>
+    <input style="margin-top: 5px;" type="text" name="Model" placeholder="Enter Car Model">
+
+    <br><br><br>
+
+    <input type="submit" value="Add Car">
+</form>
+{% endblock %}
