@@ -95,7 +95,7 @@ def uploadcsv():
         f = request.files['File']
         df = pd.read_csv(f)
         for index, row in df.iterrows():
-            car_dict = {k: row[k] for k in ['Year', 'Price', 'Make']}
+            car_dict = {k: row[k] for k in ['Name', 'Year', 'Price', 'Make', 'Model']}
             car_json = json.dumps(car_dict)
             new_car = Car(content=car_json)
             db_err = foo.db_add_one(new_car, db)
