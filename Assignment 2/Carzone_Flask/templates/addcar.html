@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1 style="text-align: center; font-size: 40px;">Add Car</h1>
+{% endblock %}
+
+{% block body %}
+<!-- <div class="flex flex-col items-center justify-center">
+    <form action="/addcar" , method="post" class="mt-4 space-y-8 w-[200px]">
+        <div>
+            <label class="block font-semibold">Car Name</label>
+            <input type="text" , name="Name" , placeholder="Enter Car Name"
+                class="border-2 border-black rounded-lg p-1">
+        </div>
+
+        <div>
+            <label class="block font-semibold">Car Price (€)</label>
+            <input type="text" , name="Price" , placeholder="Enter Car Price"
+                class="border-2 border-black rounded-lg p-1">
+        </div>
+
+        <div>
+            <label class="block font-semibold">Car Make</label>
+            <input type="text" , name="Make" , placeholder="Enter Car Make"
+                class="border-2 border-black rounded-lg p-1">
+        </div>
+
+        <div>
+            <label class="block font-semibold">Car Model</label>
+            <input type="text" , name="Model" , placeholder="Enter Car Model"
+                class="border-2 border-black rounded-lg p-1">
+        </div>
+
+        <input type="submit" , value="Add Car" class="w-full p-2 rounded-md bg-slate-600 hover:bg-slate-500 text-white">
+
+    </form>
+</div> -->
+<div class="m-2 p-12">
+    <ul class="flex justify-between">
+        <li class="mr-3">
+          <a class="inline-block border border-[#A66978] rounded py-2 px-4 bg-[#A66978] text-white" href="/">Home Page</a>
+        </li>
+      </ul>
+</div>
+
+<div class="flex items-center w-full">
+    <div class="w-full p-8 m-4">
+        <form class="mb-6" action="/addcar" method="post">
+            <div class="flex flex-col mb-8">
+                <label class="block font-semibold">Car Name</label>
+                <input type="text" , name="Name" , placeholder="Enter Car Name" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                    
+            </div>
+            <div class="flex flex-col mb-8">
+                <label class="block font-semibold">Car Price (€)</label>
+                <input type="number", name="Price" , placeholder="Enter Car Price" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+            </div>
+            <div class="flex flex-col mb-8">
+                <label class="block font-semibold">Car Make</label>
+                <input type="text" , name="Make" , placeholder="Enter Car Make" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+            </div>
+            <div class="flex flex-col mb-12">
+                <label class="block font-semibold">Car Model</label>
+                <input type="text" , name="Model" , placeholder="Enter Car Model" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+            </div>
+
+            <input type="submit" , value="Add Car" class="cursor-pointer block scale-100 bg-transparent hover:bg-[#E18A77] text-white font-semibold hover:text-white uppercase text-lg mx-auto py-2 px-16 border border-[#E18A77] hover:border-transparent rounded-lg focus:scale-110 transition-all duration-300">
+
+      
+
+        </form>
+    </div>
+</div>
+{% endblock %}

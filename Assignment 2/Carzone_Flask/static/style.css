@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+#websiteTitle{
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #282a2b;
+    color: #cbcfd2;
+}
+
+a {
+    text-decoration: none;
+    color: #cbcfd2;
+    font-size: larger;
+}
+
+a:hover {
+    color: red;
+}
+
+#list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 40px;
+}
+
+
+div.container {
+    padding: 20px;
+}
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #76c1b5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+tr:nth-child(even) {
+    background-color: #df5944;
+    color: white;
+}
+
+/* .button{
+    background-color: rgb(107, 180, 155);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 6px;
+} */

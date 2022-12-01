@@ -1,0 +1,93 @@
+from flask import Flask, render_template, url_for, request, redirect
+from werkzeug.datastructures import ImmutableMultiDict
+from flask_sqlalchemy import SQLAlchemy
+import json
+from datetime import datetime
+import foo
+import pandas as pd
+import plotly.express as px
+import plotly
+
+app = Flask(__name__)
+app.secret_key = "JabWeMet"  
+
+
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///cars.db"
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = -1
+
+db = SQLAlchemy(app)
+
+@app.before_first_request
+def create_tables():
+    db.create_all()
+    
+class Car(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    content = db.Column(db.String(500), nullable=True)
+    date_created = db.Column(db.DateTime, default=datetime.utcnow)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/addcar', methods=['GET', 'POST'])
+def addcar():
+    if request.method == 'POST':
+        content = json.dumps(request.form)
+    
+        new_car = Car(content=content)
+        db_err = foo.db_add_one(new_car, db)    
+        
+        if db_err is not None:
+            return db_err
+        
+        return redirect('/viewtable')
+    
+    else:
+        return render_template('addcar.html')
+    
+    
+@app.route('/viewtable', methods=['GET', 'POST'])
+def viewtable():
+    try:
+        cars = Car.query.order_by(Car.id).all() 
+        for car in cars:
+            car.content = ImmutableMultiDict(json.loads(car.content))
+    except:
+        pass
+    
+    if request.method == 'POST':
+        pass
+    else:
+        return render_template('viewtable.html', cars = cars)
+
+
+@app.route('/viewgraph', methods=['GET', 'POST'])
+def viewgraph():
+    try:
+        cars = Car.query.order_by(Car.id).all() 
+        for car in cars:
+            car.content = ImmutableMultiDict(json.loads(car.content))
+    except:
+        pass
+    
+    cars_content = []
+    for car in cars:
+        car.content = dict(car.content)
+        cars_content += [car.content]
+    
+    df = pd.DataFrame(cars_content)
+    
+    df.sort_values("Price", inplace=True)
+    
+    fig = px.scatter(df, x='Price', y='Price', color='Make')
+    fig.update_xaxes(range=[-500, 50000])
+    fig['layout']['yaxis'].update(autorange = True)
+    fig.show()
+    graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
+    
+    return render_template('viewgraph.html', graphJSON = graphJSON)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
