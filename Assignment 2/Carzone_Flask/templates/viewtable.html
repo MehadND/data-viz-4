@@ -36,38 +36,100 @@
     </table> -->
 
     <div class="flex flex-col p-4">
-        <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+        <div class="overflow-x-auto sm:-mx-2 lg:-mx-8">
+            <div class="py-2 inline-block w-[100%] 2xl:min-w-full sm:px-6 lg:px-8">
                 <div class="overflow-hidden">
-                    <table class="min-w-full border-2 border-white">
-                        <thead class="bg-[#606B72] border-b">
+                    <table class=" w-[100%] 2xl:min-w-full border-2 border-white">
+                        <thead class="bg-[#007D54] border-b">
                             <tr>
-                                <th scope="col" class="text-sm font-medium text-white px-6 py-4 border-r text-left">
+                                <th scope="col" class="text-sm font-medium text-white p-2  2xl:px-6 2xl:py-4 border-r text-left">
                                     Car Name
                                 </th>
-                                <th scope="col" class="text-sm font-medium text-white px-6 py-4 border-r  text-left">
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
                                     Price (in €)
                                 </th>
-                                <th scope="col" class="text-sm font-medium text-white px-6 py-4 border-r  text-left">
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
                                     Make
                                 </th>
-                                <th scope="col" class="text-sm font-medium text-white px-6 py-4 text-left">
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
                                     Model
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r text-left">
+                                    Engine
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Fuel
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Odometer
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Transmission
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r text-left">
+                                    Body
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Year
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    County
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Doors
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r text-left">
+                                    Color
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Owners
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    Tax-Expiry
+                                </th>
+                                <th scope="col" class="text-sm font-medium text-white p-2 2xl:px-6 2xl:py-4 border-r  text-left">
+                                    NCT-Expiry
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             {% for car in cars %}
 
-                            <tr class="bg-transparent border-b transition duration-300 ease-in-out hover:bg-[#4C4E53]">
-                                <td class="px-6 py-4 whitespace-pre-wrap text-sm font-light text-white border-r ">{{
+                            <tr class="bg-transparent border-b transition duration-300 ease-in-out hover:bg-[#484a68]">
+                                <td class="2xl:px-6 2xl:py-4 whitespace-pre-wrap text-sm font-light text-white p-2 border-r ">{{
                                     car.content['Name']}}</td>
-                                <td class="text-sm text-white font-light px-6 py-4 whitespace-pre-wrap border-r ">{{
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
                                     car.content['Price']}}</td>
-                                <td class="text-sm text-white font-light px-6 py-4 whitespace-pre-wrap border-r ">{{
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
                                     car.content['Make']}}</td>
-                                <td class="text-sm text-white font-light px-6 py-4 whitespace-pre-wrap">{{
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
                                     car.content['Model']}}</td>
+                                <td class="2xl:px-6 2xl:py-4 whitespace-pre-wrap text-sm font-light text-white p-2 border-r ">{{
+                                    car.content['Engine']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['Fuel']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['Odometer']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r  ">{{
+                                    car.content['Transmission']}}</td>
+
+                                <td class="2xl:px-6 2xl:py-4 whitespace-pre-wrap text-sm font-light text-white p-2 border-r ">{{
+                                    car.content['Body']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['Year']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['County']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r  ">{{
+                                    car.content['Doors']}}</td>
+
+                                <td class="2xl:px-6 2xl:py-4 whitespace-pre-wrap text-sm font-light text-white p-2 border-r ">{{
+                                    car.content['Color']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['Owners']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r ">{{
+                                    car.content['Tax-Expiry']}}</td>
+                                <td class="text-sm text-white p-2 font-light 2xl:px-6 2xl:py-4 whitespace-pre-wrap border-r  ">{{
+                                    car.content['NCT-Expiry']}}</td>
                             </tr>
                             {% endfor %}
                         </tbody>
