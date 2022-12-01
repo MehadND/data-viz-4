@@ -80,13 +80,33 @@ def viewgraph():
     
     df.sort_values("Price", inplace=True)
     
-    fig = px.scatter(df, x='Price', y='Price', color='Make')
-    fig.update_xaxes(range=[-500, 50000])
+    fig = px.scatter(df, x='Year', y='Price', color='Make')
+    fig.update_xaxes(range=[1990, 2024])
     fig['layout']['yaxis'].update(autorange = True)
     fig.show()
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     
     return render_template('viewgraph.html', graphJSON = graphJSON)
+
+
+@app.route('/uploadcsv', methods=['GET', 'POST'])
+def uploadcsv():
+    if request.method == 'POST':
+        f = request.files['File']
+        df = pd.read_csv(f)
+        for index, row in df.iterrows():
+            car_dict = {k: row[k] for k in ['Year', 'Price', 'Make']}
+            car_json = json.dumps(car_dict)
+            new_car = Car(content=car_json)
+            db_err = foo.db_add_one(new_car, db)
+            
+            if db_err is not None:
+                return db_err
+            
+        return redirect('/')
+    
+    else:
+        return render_template('uploadcsv.html')
 
 
 if __name__ == "__main__":
