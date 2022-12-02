@@ -38,90 +38,234 @@
 <div class="m-2 p-12">
     <ul class="flex justify-between">
         <li class="mr-3">
-          <a class="inline-block border border-[#A66978] rounded py-2 px-4 bg-[#A66978] text-white" href="/">Home Page</a>
+            <a class="inline-block border border-[#A66978] rounded py-2 px-4 bg-[#A66978] text-white" href="/">Home
+                Page</a>
         </li>
-      </ul>
+    </ul>
 </div>
 
-<div class="flex items-center w-full">
+<!-- <div class="flex items-center w-full">
     <div class="w-full p-8 m-4">
         <form class="mb-6" action="/addcar" method="post">
-            <div class="flex flex-col mb-8">
+            <div class="flex mb-8">
                 <label class="block font-semibold">Car Name</label>
-                <input type="text" , name="Name" , placeholder="Enter Car Name" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Name" , placeholder="Enter Car Name"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-8">
+            <div class="flex mb-8">
                 <label class="block font-semibold">Car Price (€)</label>
-                <input type="number", name="Price" , placeholder="Enter Car Price" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+                <input type="number" , name="Price" , placeholder="Enter Car Price"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
             </div>
-            <div class="flex flex-col mb-8">
+            <div class="flex mb-8">
                 <label class="block font-semibold">Car Make</label>
-                <input type="text" , name="Make" , placeholder="Enter Car Make" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Make" , placeholder="Enter Car Make"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Car Model</label>
-                <input type="text" , name="Model" , placeholder="Enter Car Model" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Model" , placeholder="Enter Car Model"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">Engine</label>
-                <input type="text" , name="Engine" , placeholder="Enter Car Engine" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Engine" , placeholder="Enter Car Engine"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Fuel</label>
-                <input type="text" , name="Fuel" , placeholder="Enter Car Fuel" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Fuel" , placeholder="Enter Car Fuel"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">Odometer</label>
-                <input type="number", name="Odometer" , placeholder="Enter Car Odometer" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+                <input type="number" , name="Odometer" , placeholder="Enter Car Odometer"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Transmission</label>
-                <input type="text" , name="Transmission" , placeholder="Enter Car Transmission" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Transmission" , placeholder="Enter Car Transmission"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">Body</label>
-                <input type="text" , name="Body" , placeholder="Enter Car Body" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Body" , placeholder="Enter Car Body"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Year</label>
-                <input type="number", name="Year" , placeholder="Enter Car Year" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+                <input type="number" , name="Year" , placeholder="Enter Car Year"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">County</label>
-                <input type="text" , name="County" , placeholder="Enter Car County" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="County" , placeholder="Enter Car County"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Doors</label>
-                <input type="number", name="Doors" , placeholder="Enter Car Doors" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+                <input type="number" , name="Doors" , placeholder="Enter Car Doors"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">Color</label>
-                <input type="text" , name="Color" , placeholder="Enter Car Color" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Color" , placeholder="Enter Car Color"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">Owners</label>
-                <input type="number", name="Owners" , placeholder="Enter Car Owners" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none" required>
+                <input type="number" , name="Owners" , placeholder="Enter Car Owners"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
             </div>
-            
-            <div class="flex flex-col mb-8">
+
+            <div class="flex mb-8">
                 <label class="block font-semibold">Tax-Expiry</label>
-                <input type="text" , name="Tax-Expiry" , placeholder="Enter Car Tax-Expiry" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="Tax-Expiry" , placeholder="Enter Car Tax-Expiry"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
-            <div class="flex flex-col mb-12">
+            <div class="flex mb-12">
                 <label class="block font-semibold">NCT-Expiry</label>
-                <input type="text" , name="NCT-Expiry" , placeholder="Enter Car NCT-Expiry" class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1" required>
+                <input type="text" , name="NCT-Expiry" , placeholder="Enter Car NCT-Expiry"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
             </div>
 
-            <input type="submit" , value="Add Car" class="cursor-pointer block scale-100 bg-transparent hover:bg-[#E18A77] text-white font-semibold hover:text-white uppercase text-lg mx-auto py-2 px-16 border border-[#E18A77] hover:border-transparent rounded-lg focus:scale-110 transition-all duration-300">
-
-      
-
+            <input type="submit" , value="Add Car"
+                class="cursor-pointer block scale-100 bg-transparent hover:bg-[#E18A77] text-white font-semibold hover:text-white uppercase text-lg mx-auto py-2 px-16 border border-[#E18A77] hover:border-transparent rounded-lg focus:scale-110 transition-all duration-300">
         </form>
     </div>
+</div> -->
+
+<div class="w-full p-8 m-4">
+    <form action="">
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="block mb-8">
+                <label class="block font-semibold">Car Name</label>
+                <input type="text" , name="Name" , placeholder="Enter Car Name"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Car Price (€)</label>
+                <input type="number" , name="Price" , placeholder="Enter Car Price"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Car Make</label>
+                <input type="text" , name="Make" , placeholder="Enter Car Make"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Car Model</label>
+                <input type="text" , name="Model" , placeholder="Enter Car Model"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Year</label>
+                <input type="number" , name="Year" , placeholder="Enter Car Year"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">Transmission</label>
+                <input type="text" , name="Transmission" , placeholder="Enter Car Transmission"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">Body</label>
+                <input type="text" , name="Body" , placeholder="Enter Car Body"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Engine</label>
+                <input type="text" , name="Engine" , placeholder="Enter Car Engine"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Fuel</label>
+                <input type="text" , name="Fuel" , placeholder="Enter Car Fuel"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">Odometer</label>
+                <input type="number" , name="Odometer" , placeholder="Enter Car Odometer"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">County</label>
+                <input type="text" , name="County" , placeholder="Enter Car County"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Doors</label>
+                <input type="number" , name="Doors" , placeholder="Enter Car Doors"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">Color</label>
+                <input type="text" , name="Color" , placeholder="Enter Car Color"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">Owners</label>
+                <input type="number" , name="Owners" , placeholder="Enter Car Owners"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1 outline-none appearance-none"
+                    required>
+            </div>
+
+            <div class="block mb-8">
+                <label class="block font-semibold">Tax-Expiry</label>
+                <input type="text" , name="Tax-Expiry" , placeholder="Enter Car Tax-Expiry"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+            <div class="block mb-8">
+                <label class="block font-semibold">NCT-Expiry</label>
+                <input type="text" , name="NCT-Expiry" , placeholder="Enter Car NCT-Expiry"
+                    class="block w-full px-3 py-1.5 text-base font-normal text-slate-200 bg-transparent bg-clip-padding border border-solid border-zinc-500 rounded transition ease-in-out duration-500  m-0  focus:text-slate-200  focus:border-blue-600 focus:outline-none mt-1"
+                    required>
+            </div>
+
+            <input type="submit" , value="Add Car"
+                class="cursor-pointer col-span-2 items-center justify-center text-center scale-100 bg-transparent hover:bg-[#E18A77] text-white font-semibold hover:text-white uppercase text-lg mx-auto py-2 px-24 border border-[#E18A77] hover:border-transparent rounded-lg focus:scale-110 transition-all duration-300">
+
+    </form>
 </div>
 {% endblock %}

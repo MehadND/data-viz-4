@@ -9,6 +9,13 @@ import plotly.express as px
 import plotly
 import os
 
+with open("./IRL_ADM1.json", "r") as fp:
+  ireland_regions_geo = json.load(fp)
+
+# Fix the geojson map
+from geojson_rewind import rewind
+ireland_regions_geo = rewind(ireland_regions_geo,rfc7946=False)
+
 app = Flask(__name__)
 app.secret_key = "JabWeMet"  
 
@@ -133,19 +140,24 @@ def graphtwo():
         cars_content += [car.content]
     
     df = pd.DataFrame(cars_content)
-    
-    data = dict(
-        character=["Eve", "Cain", "Seth", "Enos", "Noam", "Abel", "Awan", "Enoch", "Azura"],
-        parent=["", "Eve", "Eve", "Seth", "Seth", "Eve", "Eve", "Awan", "Eve" ],
-        value=[10, 14, 12, 10, 2, 6, 6, 4, 4])
+    df.sort_values(["Year", ], inplace=True)
 
-    fig = px.sunburst(
-        df,
-        names='County',
-        parents='Make',
-        values='Price',
+    fig = px.choropleth(
+    df,
+    geojson=ireland_regions_geo,
+    locations="County",
+    color="Price",
+    color_continuous_scale="reds",
+    featureidkey="properties.NAME",
+    range_color=(0, df["Price"].max()),
+    scope="europe",
+    animation_frame="Year",
+    fitbounds="geojson",
+    title="Map showing car price in each county, over the years. "
     )
+    fig.update_geos(visible=False)
     fig.show()
+
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     
     return render_template('viewgraph.html', graphJSON = graphJSON)
