@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1 style="text-align: center; font-size: 40px;">Graph 2</h1>
+{% endblock %}
+
+{% block body %}
+<div class="m-2 p-12">
+    <ul class="flex justify-between">
+        <li class="mr-3">
+            <a class="inline-block border border-[#A66978] rounded py-2 px-4 bg-[#A66978] text-white" href="/">Home
+                Page</a>
+        </li>
+        <li class="mr-3">
+            <a class="inline-block border border-[#A66978] rounded py-2 px-4 bg-[#A66978] text-white" href="/viewgraph">View Graph</a>
+        </li>
+    </ul>
+</div>
+
+<div class="flex flex-row gap-4">
+
+</div>
+
+
+<script src="https://cdn.plot.ly/plotly-latest-min.js"></script>
+<script type="text/javascript">
+    var graph = {{ graphJSON | safe }};
+    Plotly.plot('chart', graph, {});
+</script>
+
+{% endblock %}

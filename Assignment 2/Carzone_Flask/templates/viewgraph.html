@@ -14,15 +14,21 @@
     </ul>
 </div>
 
-
-<div id="chart" class="chart">
-
+<div class="flex flex-col gap-4 p-2 items-center justify-center text-center">
+    <div>
+        <h1 class="text-2xl font-bold">Choose a graph:</h1>
+    </div>
+    <div class="p-4 flex flex-row gap-6">
+        <a href="/graphone" class="bg-gray-500 border-2 border-white p-1">Graph 1</a>
+        <a href="/graphtwo" class="bg-gray-500 border-2 border-white p-1">Graph 2</a>
+    </div>
 </div>
 
-    <script src="https://cdn.plot.ly/plotly-latest-min.js"></script>
-    <script type="text/javascript">
-        var graph = {{ graphJSON | safe }};
-        Plotly.plot('chart', graph, {});
-    </script>
+
+<!-- <script src="https://cdn.plot.ly/plotly-latest-min.js"></script>
+<script type="text/javascript">
+    var graph = {{ graphJSON | safe }};
+    Plotly.plot('chart', graph, {});
+</script> -->
 
 {% endblock %}
