@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
-
-#websiteTitle{
-    font-family: 'Permanent Marker', cursive;
-}
-
-body {
+/* body {
     margin: 0;
     padding: 0;
     background-color: #282a2b;
