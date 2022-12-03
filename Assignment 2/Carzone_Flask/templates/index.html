@@ -6,11 +6,55 @@
 
 {% block body %}
 
-<div id="list" class="text-xl flex flex-col items-center justify-center text-center mt-12 space-y-8">
+<!-- <div id="list" class="text-xl flex flex-col items-center justify-center text-center mt-12 space-y-8">
     <a href="/addcar" class="hover:text-red-400 hover:text-2xl transition-all duration-300">Add Car</a>
     <a href="/viewtable" class="hover:text-red-400 hover:text-2xl transition-all duration-300">View Car (Table)</a>
     <a href="/viewgraph" class="hover:text-red-400 hover:text-2xl transition-all duration-300">View Car (Graph)</a>
     <a href="/uploadcsv" class="hover:text-red-400 hover:text-2xl transition-all duration-300">Upload CSV</a>
 </div>
+
+<div id="list" class="grid grid-cols-2 gap-4 content-around  items-center justify-center text-center">
+    <div class=" grid grid-cols-2 gap-1 justify-evenly mt-24 items-center text-center ">
+    <a href="/addcar"
+        class="w-[50%] border-2 border-red-400 bg-transparent hover:scale-110 hover:bg-red-400 hover:border-transparent  py-3 text-center transition-all duration-500 scale-100 focus:scale-125 focus:bg-red-400 focus:border-transparent">Add
+        Car</a>
+    <a href="/viewtable"
+        class="w-[50%] border-2 border-red-400 bg-transparent hover:scale-110 hover:bg-red-400 hover:border-transparent  py-3 text-center transition-all duration-500 scale-100 focus:scale-125 focus:bg-red-400 focus:border-transparent">View
+        Car (Table)</a>
+    <a href="/viewgraph"
+        class="w-[50%] border-2 border-red-400 bg-transparent hover:scale-110 hover:bg-red-400 hover:border-transparent  py-3 text-center transition-all duration-500 scale-100 focus:scale-125 focus:bg-red-400 focus:border-transparent">View
+        Car (Graph)</a>
+    <a href="/uploadcsv"
+        class="w-[50%] border-2 border-red-400 bg-transparent hover:scale-110 hover:bg-red-400 hover:border-transparent  py-3 text-center transition-all duration-500 scale-100 focus:scale-125 focus:bg-red-400 focus:border-transparent">Upload
+        CSV</a>
+    </div>
+</div> -->
+
+<div class="flex-grow place-content-center mt-24">
+    <div class="grid  place-items-center justify-center">
+
+        <div class="grid md:gap-12 md:grid-cols-2 content-center">
+            <div class="h-[100px] w-[300px]  flex flex-col items-center">
+                <a href="/addcar"
+                    class="text-xl w-full border-2 border-[#007581] bg-transparent hover:scale-110 hover:bg-[#007581] hover:border-transparent hover:text-2xl py-3 text-center transition-all duration-500 scale-100 focus:scale-110 focus:bg-[#007581] focus:border-transparent rounded-lg">Add
+                    Car</a>
+            </div>
+            <div class="h-[100px] w-[300px]  flex flex-col items-center">
+                <a href="/viewtable"
+                    class="text-xl w-full border-2 border-[#007581] bg-transparent hover:scale-110 hover:bg-[#007581] hover:border-transparent hover:text-2xl py-3 text-center transition-all duration-500 scale-100 focus:scale-110 focus:bg-[#007581] focus:border-transparent rounded-lg">View
+                    Car (Table)</a>
+            </div>
+            <div class="h-[100px] w-[300px]  flex flex-col items-center">
+                <a href="/viewgraph"
+                    class="text-xl w-full border-2 border-[#007581] bg-transparent hover:scale-110 hover:bg-[#007581] hover:border-transparent hover:text-2xl py-3 text-center transition-all duration-500 scale-100 focus:scale-110 focus:bg-[#007581] focus:border-transparent rounded-lg">View
+                    Car (Graph)</a>
+            </div>
+            <div class="h-[100px] w-[300px]  flex flex-col items-center">
+                <a href="/uploadcsv"
+                    class="text-xl w-full border-2 border-[#007581] bg-transparent hover:scale-110 hover:bg-[#007581] hover:border-transparent hover:text-2xl py-3 text-center transition-all duration-500 scale-100 focus:scale-110 focus:bg-[#007581] focus:border-transparent rounded-lg">Upload
+                    CSV</a>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}

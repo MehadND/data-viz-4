@@ -114,7 +114,8 @@ def graphone():
     
     df = pd.DataFrame(cars_content)
     
-    df.sort_values("Price", inplace=True)
+    df['Price'] = pd.to_numeric(df['Price'])
+    df.sort_values(["Price", ], inplace=True)
     
     fig = px.scatter(df, x='Year', y='Price', color='Make')
     fig.update_xaxes(range=[1990, 2024])
@@ -122,7 +123,7 @@ def graphone():
     fig.show()
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     
-    return render_template('viewgraph.html', graphJSON = graphJSON)
+    return render_template('graphone.html', graphJSON = graphJSON)
 
 
 @app.route('/graphtwo', methods=['GET', 'POST'])
@@ -140,6 +141,9 @@ def graphtwo():
         cars_content += [car.content]
     
     df = pd.DataFrame(cars_content)
+    df['Year'] = pd.to_numeric(df['Year'])
+    df['Price'] = pd.to_numeric(df['Price'])
+
     df.sort_values(["Year", ], inplace=True)
 
     fig = px.choropleth(
@@ -160,7 +164,7 @@ def graphtwo():
 
     graphJSON = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
     
-    return render_template('viewgraph.html', graphJSON = graphJSON)
+    return render_template('graphtwo.html', graphJSON = graphJSON)
 
 
 @app.route('/uploadcsv', methods=['GET', 'POST'])
